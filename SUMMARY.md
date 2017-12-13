@@ -1,7 +1,6 @@
 # Summary
 
-* [prestack](README.md)
-* [](.md)
+* [Frontpage](README.md)
 * [ Introduction](introduction.md)
 * [Getting started](getting_started\README.md)
   * [Checking and change status of parallel file system](getting_started\checking_and_change_status_of_parallel_file_system.md)
@@ -89,7 +88,7 @@
     * [Synchronization](viewers\functionalities_common_to_all_viewers\synchronization.md)
   * [3D Viewers ](viewers\3d_viewers\README.2.md)
     * [Load and display data](viewers\3d_viewers\load_and_display_data.md)
-    * [Histogram (Color bar) and Transfer Function](viewers\3d_viewers\histogram_color_bar_and_transfer_function.md)
+    * [Histogram \(Color bar\) and Transfer Function](viewers\3d_viewers\histogram_color_bar_and_transfer_function.md)
     * [Edit display](viewers\3d_viewers\edit_display.md)
     * [Camera positions](viewers\3d_viewers\camera_positions.md)
     * [Horizons](viewers\3d_viewers\horizons.md)
@@ -152,7 +151,7 @@
     * [Gather attributes](algorithm_documentation\attributes\gather_attributes.md)
   * [Processing](algorithm_documentation\processing\README.3.md)
     * [NMO](algorithm_documentation\processing\nmo.md)
-    * [Stack|Mute](algorithm_documentation\processing\stackmute\README.md)
+    * [Stack\|Mute](algorithm_documentation\processing\stackmute\README.md)
       * [Use mutes](algorithm_documentation\processing\stackmute\use_mutes.md)
       * [Project Mute](algorithm_documentation\processing\stackmute\project_mute.md)
     * [Partial Stacking](algorithm_documentation\processing\partial_stacking.md)
@@ -174,7 +173,7 @@
     * [Dip Filter](algorithm_documentation\processing\dip_filter.md)
     * [Adaptive Subtraction](algorithm_documentation\processing\adaptive_subtraction.md)
     * [RMO](algorithm_documentation\processing\rmo.md)
-    * [RMO (Time Shift)](algorithm_documentation\processing\rmo_time_shift.md)
+    * [RMO \(Time Shift\)](algorithm_documentation\processing\rmo_time_shift.md)
     * [Semblance Optimization](algorithm_documentation\processing\semblance_optimization.md)
     * [Align 2](algorithm_documentation\processing\align_2.md)
     * [Continuous Velocity Analysis](algorithm_documentation\processing\continuous_velocity_analysis.md)
@@ -312,3 +311,4 @@
     * [LGP License](appendix\open_source_licenses\lgp_license.md)
     * [CP License](appendix\open_source_licenses\cp_license.md)
     * [Apache License](appendix\open_source_licenses\apache_license.md)
+

@@ -1,8 +1,6 @@
 ### Data Pool {#data-pool}
 
-Memory information
-
-Visualization Windows
+![](/assets/dataPoolOverview.png)
 
 ![C:\Users\Johann\Desktop\Manual-4.0-JK\pics\DataPool1a.png](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopmanual-40-.png)
 
@@ -10,17 +8,17 @@ _Data Pool overview_
 
 The **Data Pool** window gives an overview of all loaded data:
 
-*   seismic volumes are in blue
-*   velocity data in yellow
-*   attenuation in data green
-*   horizons in purple
-*   Eta data in red
-*   SRMS data in orange
-*   Time shifts in light blue.
-*   arbitrary line volumes have a zigzag
-*   wavelets have a wavelet motif
+* seismic volumes are in blue
+* velocity data in yellow
+* attenuation in data green
+* horizons in purple
+* Eta data in red
+* SRMS data in orange
+* Time shifts in light blue.
+* arbitrary line volumes have a zigzag
+* wavelets have a wavelet motif
 
-On the top of this window, the **name** of the project is visible. (Eg ODIN-4.0 in this example).
+On the top of this window, the **name** of the project is visible. \(Eg ODIN-4.0 in this example\).
 
 A separator bar can be inserted, and renamed to suit the subsequent data. This helps organize the data pool. In this example an arbitrary line group follows the initial seismic data.
 
@@ -36,15 +34,17 @@ Data Pool context menu
 
 _Action on data volumes from the Data Pool_
 
-Each data volume type has its own context menu. (The arbitrary line menu is smaller than other volumes as it can’t be displayed in the 3D viewer).
+Each data volume type has its own context menu. \(The arbitrary line menu is smaller than other volumes as it can’t be displayed in the 3D viewer\).
 
-Individual data volumes can be QC’d by reading the volume information and history. They can be displayed in new viewer windows (including the data comparator). They can be renamed or saved to the project.
+Individual data volumes can be QC’d by reading the volume information and history. They can be displayed in new viewer windows \(including the data comparator\). They can be renamed or saved to the project.
 
 In addition, the data can be used to create a new dataset by editing a copy; by cutting a sub volume; or by generating a workflow of the processing sequence applied so far. This workflow can be applied to other volumes.
 
-![C:\Users\Johann\Desktop\Manual-4.0-JK\pics\DataPool4a.png](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopmanual-40-.png)![C:\Users\Johann\Desktop\Manual-4.0-JK\pics\DataPool3a.png](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopmanual-40-.png)
+![C:\Users\Johann\Desktop\Manual-4.0-JK\pics\DataPool4a.png](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopmanual-40-.png)![](/assets/preStackDataContextMenu.png)![C:\Users\Johann\Desktop\Manual-4.0-JK\pics\DataPool3a.png](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopmanual-40-.png)
 
 Pre-stack data context menu
+
+![](/assets/arbitraryLineContextMenu.png)
 
 Arbitrary line context menu
 
@@ -52,12 +52,15 @@ _Action on a volume from the Data Pool_
 
 The data volumes can be sorted by type by using the filter option on the bottom right part of the tab.
 
-![C:\Users\Johann\Desktop\Manual-4.0-JK\pics\DataPool5.png](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopmanual-40-.png)
+![C:\Users\Johann\Desktop\Manual-4.0-JK\pics\DataPool5.png](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopmanual-40-.png)![](/assets/sortOutOptionInTheDataPool.png)
 
 _Sort out option in the Data Pool_
 
 Log window
 
+![](/assets/logWindow.png)
+
 Log window
 
 The **Log Window** gives a report about past and running processes of the current Pre-Stack Pro session. Running processes may also be halted from the log window by pressing the stop option on the right side of the running process.
+
