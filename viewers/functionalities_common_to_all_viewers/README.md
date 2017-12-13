@@ -1,0 +1,1 @@
+## Functionalities common to all viewers {#functionalities-common-to-all-viewers}
