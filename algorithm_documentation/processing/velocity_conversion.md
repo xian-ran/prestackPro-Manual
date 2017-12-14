@@ -4,7 +4,7 @@ In addition to the on-the-fly conversion done during velocity selection ([Veloci
 
 Possible domains are _time interval, time RMS and depth interval_.
 
-![C:\Users\Valentin\AppData\Local\Temp\01_Vel_Conv.png](C:\Temp\Gitbook3\export\assets\cusersvalentinappdatalocaltem.png)
+![](/assets/cusersvalentinappdatalocaltem.png)
 
 Velocity conversion GUI
 

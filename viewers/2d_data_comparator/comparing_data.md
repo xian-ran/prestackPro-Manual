@@ -7,7 +7,7 @@
 
 By default, all viewers displayed in the same Data Comparator are **synchronized**. Axis synchronization is done with respect to the unit types (e.g. offset, angle, time, depth …) and histograms are synchronized with respect to the domain (e.g. seismic, velocities …). If you want to use **independent histograms** for each viewer, un-tick the synchronization option in the Control panel.
 
-![C:\Users\Valentin\Documents\Work\SHARP\PPT\Data_Comparator_4_2\10_Unsync_Hist.png](C:\Temp\Gitbook3\export\assets\cusersvalentindocumentsworksh.png)
+![](/assets/cusersvalentindocumentsworksh.png)
 
 Windows with different axis units and independent histograms
 

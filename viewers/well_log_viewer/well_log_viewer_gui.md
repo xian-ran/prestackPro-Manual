@@ -16,20 +16,20 @@ A log can be added to an existing track by dragging it into the track rather tha
 
 Well Log Viewer - Log Track header, right mouse button, context menus
 
-| **Tops** and **Zones** can be turned on | ![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\LogV-icons.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png) |
+| **Tops** and **Zones** can be turned on | ![](/assets/cusersjohannappdatalocalmicro.png) |
 | --- | --- |
 
 **Create Zones :** **Add new log zone** from the Zones Tab context menu, gives the user the chance to define a log zone using a number of cascaded filters. There are 5 types to choose from the drop down menu shown below.
 
 The last filter, by **Cross plot polygon**, allows the use of a cross plot polygon to define log zones and thereby Pcube facies.
 
-![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\LogV-zones2a.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)
+![](/assets/cusersjohannappdatalocalmicro.png)
 
 Add new log zone - defined by a Vsand log range and 2 tops
 
 **Create facies :** MB3, context menu, on a zone name, allows **Create facies from zone....**.Vp, Vs and density logs can be selected, and the zone is used to filter log depth samples for membership of the new Pcube facies.
 
-| ![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\LogV-facies2a.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png) | ![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\LogV-facies1.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png) |
+| ![](/assets/cusersjohannappdatalocalmicro.png) |
 | --- | --- |
 
 Create Pcube facies menus
@@ -38,7 +38,7 @@ Create Pcube facies menus
 
 Change the amplitude reference value, in the Track configuration window, to a user defined value, if you want to make subtle amplitude comparisons between datasets – the default 3 * Std deviation could hide amplitude differences.
 
-![LogV-GUI-7](C:\Temp\Gitbook3\export\assets\logv-gui-7.png)
+![](/assets/logv-gui-7.png)
 
 Well Log Viewer - Seismic Track header, right mouse button, context menus
 

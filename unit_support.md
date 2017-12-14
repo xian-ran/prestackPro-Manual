@@ -16,7 +16,7 @@ Both the project settings for distance and velocity, and the display settings fo
 
 The read-out of viewer can be changed on the fly.
 
-![C:\Users\Valentin\Documents\Work\SHARP\PPT\Releases\4.6.0\Units\07_Viewer.png](C:\Temp\Gitbook3\export\assets\cusersvalentindocumentsworksh.png)
+![](/assets/cusersvalentindocumentsworksh.png)
 
 Left click inside a readout field will open a menu to change its unit
 

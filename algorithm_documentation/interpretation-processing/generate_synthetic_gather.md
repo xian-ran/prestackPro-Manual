@@ -4,13 +4,13 @@
 
 This application creates a single offset or angle gather at the well, from input Vp, Vs and Density (Rho) logs and a project wavelet. The angle gathers are calculated using just horizontal AVA amplitudes but the offset gathers are ray traced from the surface. Therefore the &lt;Overburden Definition&gt; option is necessary to ensure angles of incidence are correct for some offset gathers.
 
-![Syn-WaveEqn6](C:\Temp\Gitbook3\export\assets\syn-waveeqn6.png)
+![](/assets/syn-waveeqn6.png)
 
 Calculate Synthetic Gather GUI - 1 Gather synthetic + 2 horizons shown
 
 ( Angle gather, Zoeppritz amplitudes )
 
-![Syn-WaveEqn7](C:\Temp\Gitbook3\export\assets\syn-waveeqn7.png)
+![](/assets/syn-waveeqn7.png)
 
 Calculate Synthetic Gather GUI - 1 Gather synthetic + 2 horizons shown
 
@@ -18,7 +18,7 @@ Calculate Synthetic Gather GUI - 1 Gather synthetic + 2 horizons shown
 
 **Output Geometry :**
 
-**![Model-Geom1b](C:\Temp\Gitbook3\export\assets\model-geom1b.png)**
+**![](/assets/model-geom1b.png)**
 
 Output Geometry GUI
 
@@ -28,17 +28,17 @@ Wave equation synthetics can only be offset gathers.
 
 **Modelling Options :**
 
-![Syn-WaveEqn9](C:\Temp\Gitbook3\export\assets\syn-waveeqn9.png)
+![](/assets/syn-waveeqn9.png)
 
 Modelling Options GUI – Zoeppritz default parameters
 
-![Syn-WaveEqn8](C:\Temp\Gitbook3\export\assets\syn-waveeqn8.png)
+![](/assets/syn-waveeqn8.png)
 
 Modelling Options GUI – Wave equation default parameters
 
 Users can make a synthetic using the usual Zoeppritz, Aki-Richards, Shuey amplitude calculation methods. They can select to have no NMO correction for ray traced offset synthetics. There is also a fast wave equation option, which only outputs offset gathers, with NMO. This provides better synthetic gathers for understanding thin bed tuning, interbed multiples and the impact of P-SV converted noise on real prestack data. Primaries have realistic amplitudes at far offsets, and are corrupted by all P to SV energy noise, and if selected, all internal reverberations.
 
-![C:\Users\Johann\AppData\Local\Microsoft\Windows\INetCache\Content.Word\Syn-WaveEqn1.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)
+![](/assets/cusersjohannappdatalocalmicro.png)
 
 Synthetic Gather comparison - 3 Gather synthetics shown
 
@@ -46,7 +46,7 @@ Synthetic Gather comparison - 3 Gather synthetics shown
 
 ( 3rd offset gather is 2nd after NMO correction with adjusted Vrms volume )
 
-![C:\Users\Johann\AppData\Local\Microsoft\Windows\INetCache\Content.Word\Syn-WaveEqn7.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)
+![](/assets/cusersjohannappdatalocalmicro.png)
 
 The user can choose to output a matching RMS velocity volume, for the wave equation synthetic, which will allow this offset gather to be converted to an angle gather using Pre-Stack Pro processing. The 3<sup>rd</sup> right hand gather above was created using this “adjusted RMS velocity volume”
 
@@ -68,7 +68,7 @@ A simple overburden model can be typed in to define what happens above the start
 
 **Log Preconditioning :**
 
-![LDC1a](C:\Temp\Gitbook3\export\assets\ldc1a.png)
+![](/assets/ldc1a.png)
 
 |  |  |
 | --- | --- |
@@ -77,7 +77,7 @@ Log Preconditioning GUI - default parameters
 
 Logs can be de-spiked and blocked to improve synthetic quality and allow focus on main layer boundaries. Blocking will also significantly reduce the number of log samples input to the synthetic calculation which will make wave equation calculations in particular, much faster.
 
-![C:\Users\Johann\AppData\Local\Microsoft\Windows\INetCache\Content.Word\Syn-WaveEqn2.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)
+![](/assets/cusersjohannappdatalocalmicro.png)
 
 1<sup>st</sup> gather is a Zoeppritz synthetic from raw logs, 2<sup>nd</sup> is after de-spike/blocking
 
@@ -87,7 +87,7 @@ Logs can be de-spiked and blocked to improve synthetic quality and allow focus o
 
 The effect of de-spiking becomes larger with decreasing **Min. Spike Amplitude** and increasing **Max. Spike Width**. De-spiking is switched off by setting **Max. Spike Width** to 0.0\.
 
-| ![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\Blocking1a.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\Blocking2a.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png) | **Blocking,** works by replacing values by the average of all values inside a block; a block being defined by a series of log values for which the values do not differ by more than the **Blocking Rel.jump** (a fraction of 1). |
+| ![](/assets/cusersjohannappdatalocalmicro.png) | **Blocking,** works by replacing values by the average of all values inside a block; a block being defined by a series of log values for which the values do not differ by more than the **Blocking Rel.jump** (a fraction of 1). |
 | --- | --- |
 
 **Synthetic gather Q.C. :**
@@ -100,10 +100,10 @@ If log preconditioning is done, the preconditioned logs appear in the Data Pool 
 
 Alternatively, if the user opens up the ‘Calculate Synthetic Gather’ GUI again using the &lt;Edit algorithm parameters&gt; option, they can go to the Log Preconditioning Tab and select to ‘Show in Log Viewer’ the logs used to create the synthetic gather.
 
-![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\Syn2c.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)
+![](/assets/cusersjohannappdatalocalmicro.png)
 
 There is a choice of displaying source and processed logs together or all source and all processed together. The different log displays are shown below.
 
-| ![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\Syn2d.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png) | ![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\Syn3.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png) |
+| ![](/assets/cusersjohannappdatalocalmicro.png) |
 | --- | --- |
 | Source &amp; processed logs in same **Vp, Vs** and **Density** tracks | All logs together in **source** and **processed** tracks |

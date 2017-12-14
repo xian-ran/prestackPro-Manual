@@ -8,7 +8,7 @@ S2N is defined as the ratio between the signal power and the noise power. Two me
 
 **Parameters:** Both methods are stencil based. The user has to specify the size of the stencil in every dimension (Inline, Crossline, Fold(s), time/depth). Additionally a parameter called _Max Time-Shift_ (equivalent to the lead/lag parameter) is available for the correlation based method.
 
-![C:\Users\Valentin\AppData\Local\Temp\01_s2n.png](C:\Temp\Gitbook3\export\assets\cusersvalentinappdatalocaltem.png)
+![](/assets/cusersvalentinappdatalocaltem.png)
 
 S2N Ratio GUI
 
@@ -22,6 +22,6 @@ The original method is performed with non-normalized correlation function. Howev
 
 This method assumes that the seismic wavelet is stable inside the stencil and that the noise is white. Therefore, the energy of the signal is given as the spatial sum of the square of the stacked trace and the energy of the noise is defined as the total energy minus the energy of the signal.
 
-**![C:\Users\Valentin\AppData\Local\Temp\03_s2n.png](C:\Temp\Gitbook3\export\assets\cusersvalentinappdatalocaltem.png)**
+**![](/assets/cusersvalentinappdatalocaltem.png)**
 
 Amplitude map (left) and extracted signal to noise ratio (right) at an horizon

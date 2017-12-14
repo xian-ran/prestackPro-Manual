@@ -25,25 +25,25 @@ _If you add one or more new panels, after doing an attribute extraction on all p
 
 **_Graph window:_ **_Extracted amplitude curves will all appear in the corresponding graph above, of section 5\. You can change the color settings or remove a specific plot from the Data panel. It is possible to disable the read-out curve for better readability with a right mouse click in the viewer._
 
-_![C:\Users\Valentin\Documents\Work\SHARP\PPT\Data_Comparator_4_2\20_Amplitude_Extarction_Params.png](C:\Temp\Gitbook3\export\assets\cusersvalentindocumentsworksh.png)_
+_![](/assets/cusersvalentindocumentsworksh.png)_
 
 Extracted amplitude curves in the Data Comparator
 
 **_Tip_**_: Curves are extracted independently for each viewer, however if you want to plot curves extracted from different viewers in the same graph you can do it by a drag and drop from the Data panel to the desired graph._
 
-_![C:\Users\Valentin\Documents\Work\SHARP\PPT\Data_Comparator_4_2\29_Graph.png](C:\Temp\Gitbook3\export\assets\cusersvalentindocumentsworksh.png)_
+_![](/assets/cusersvalentindocumentsworksh.png)_
 
 Right mouse click on the graph
 
-_From a right mouse click in the graph you can adjust the axis automatically to fit the currently displayed curves, by clicking on Fit to view data. The Autorescale option will automatically fit your axis to the current read-out curve. To normalize your plots, click on ![C:\Users\Valentin\Documents\Work\SHARP\PPT\Data_Comparator_4_2\21_Icone.png](C:\Temp\Gitbook3\export\assets\cusersvalentindocumentsworksh.png) icon on the top left corner of the Data comparator._
+_From a right mouse click in the graph you can adjust the axis automatically to fit the currently displayed curves, by clicking on Fit to view data. The Autorescale option will automatically fit your axis to the current read-out curve. To normalize your plots, click on ![](/assets/cusersvalentindocumentsworksh.png) icon on the top left corner of the Data comparator._
 
-![C:\Users\Valentin\Documents\Work\SHARP\PPT\Data_Comparator_4_2\28_Graph.png](C:\Temp\Gitbook3\export\assets\cusersvalentindocumentsworksh.png)
+![](/assets/cusersvalentindocumentsworksh.png)
 
 Right mouse click on the graph’s axis
 
 _From a right mouse click on the axis you can_ **_Add a marker_** _of constant value into the graph._
 
-_![C:\Users\Valentin\Documents\Work\SHARP\PPT\Data_Comparator_4_2\31_Graph.png](C:\Temp\Gitbook3\export\assets\cusersvalentindocumentsworksh.png)_
+_![](/assets/cusersvalentindocumentsworksh.png)_
 
 Marker of constant value called Reference plotted on a graph
 

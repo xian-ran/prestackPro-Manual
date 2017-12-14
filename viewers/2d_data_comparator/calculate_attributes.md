@@ -19,7 +19,7 @@ Attributes taking two input volumes:
 
 To compute an attribute, first select a volume by simple click in the **Data panel** (a volume is selected when its name is white text in blue). Then choose the wanted attribute in the list. The newly computed volume will be displayed in a panel at the right-hand side of the data comparator. In addition, a window will pop-up, giving you the possibility to dynamically change the parameters for the calculation. This **parameters window** can be accessed at any time by double clicking on the corresponding volume name in the Data section.
 
-![C:\Users\Valentin\AppData\Local\Temp\08_rms_dc.png](C:\Temp\Gitbook3\export\assets\cusersvalentinappdatalocaltem.png)
+![](/assets/cusersvalentinappdatalocaltem.png)
 
 RMS attribute computed on a gather and its corresponding parameters window
 

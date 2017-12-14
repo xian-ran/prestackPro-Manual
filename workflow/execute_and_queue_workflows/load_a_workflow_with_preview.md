@@ -10,9 +10,9 @@ Go to the location where the workflow (.wml) file resides, select it and press *
 
 The Workflow preview is then available in workflow/load workflow with preview. This option shows the processing steps in HTML format.
 
-![workflow1](C:\Temp\Gitbook3\export\assets\workflow1.jpeg)
+![](/assets/workflow1.jpeg)
 
-![workflow2](C:\Temp\Gitbook3\export\assets\workflow2.jpeg)
+![](/assets/workflow2.jpeg)
 
 Workflow preview and user parameters
 

@@ -4,7 +4,7 @@
 
 This utilitie will concatenate any stack volumes into one volume of pseudo-gather. This could be used to make a N-fold gather of N partial stacks, or concatenate P-Cube probability cubes.
 
-![https://lh5.googleusercontent.com/Joht9HYW1Zx46DZbcpnNOPJC0TldMlMjIji_x_MRRQ4Tqd78-bnfHvhQ4adijn84dATZNwpytnAAJ0k2EuHwx2B-ENtQ51OXnRkgIFPLsQMfCQ5dJxLkHIxwBfODYN4wog](C:\Temp\Gitbook3\export\assets\httpslh5googleusercontentcomj.png)
+![](/assets/httpslh5googleusercontentcomj.png)
 
 Create Pseudo Pre-stack dialog
 

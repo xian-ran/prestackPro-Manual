@@ -6,6 +6,6 @@ Go to
 
 **Interpretation-Processing** → **Create Maps**
 
-![createmapsGUI](C:\Temp\Gitbook3\export\assets\createmapsgui.png)
+![](/assets/createmapsgui.png)
 
 Create Attribute Maps, horizon time selection GUI

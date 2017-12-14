@@ -2,7 +2,7 @@
 
 The file Manager allows the deletion and editing of all data stored in the current project. This option can be found in **Project** → **File Manager**
 
-![C:\Users\Valentin\AppData\Local\Temp\04_FM.png](C:\Temp\Gitbook3\export\assets\cusersvalentinappdatalocaltem.png)
+![](/assets/cusersvalentinappdatalocaltem.png)
 
 Properties
 

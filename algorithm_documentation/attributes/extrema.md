@@ -9,7 +9,7 @@ It outputs the position of the peak/trough and the value of the maximum of the p
 *   Extrema peak/trough: mask volume indicating with a value of 1 the position of the peak/trough
 *   Peak/trough: the amplitude value corresponding to the position of the extrema.
 
-| ![C:\Users\Johann\Desktop\Sharp-stuff\Manual42-JK\pics\Extrema-1.png](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopsharp-stuff.jpeg) | ![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\Extrema-2.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png) |
+| ![](/assets/cusersjohannappdatalocalmicro.png) |
 | --- | --- |
 | Original stack seismic | Trough amplitude value |
 

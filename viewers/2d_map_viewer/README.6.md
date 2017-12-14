@@ -4,7 +4,7 @@ The 2D Map Viewer can be used to display stack time slices, horizon time-structu
 
 Several objects can be displayed in the same window. The data with the ‘eye open’ icon are visible (1), and highlighted items are displayed on top of all other visible objects. It is possible to use the up and down arrow key to change the highlighted volume.
 
-![horiz](C:\Temp\Gitbook3\export\assets\horiz.jpeg)
+![](/assets/horiz.jpeg)
 
 11
 

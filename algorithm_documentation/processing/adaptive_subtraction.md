@@ -12,6 +12,6 @@ The **overlap** should be as large as possible to achieve the best results.
 
 The **operator length** (in samples) and **white noise** parameters can be tuned to get the desired result.
 
-![001_AdaptiveSub.png](C:\Temp\Gitbook3\export\assets\001adaptivesub.png)
+![](/assets/001adaptivesub.png)
 
 Adaptive Subtraction Parameters

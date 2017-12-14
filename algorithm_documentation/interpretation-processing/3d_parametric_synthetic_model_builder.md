@@ -2,7 +2,7 @@
 
 **Introduction :**
 
-| **![D:\Work\Sharp-stuff\Manual48-JK\3D-paraM-4.8-1.png](C:\Temp\Gitbook3\export\assets\dworksharp-stuffmanual48-jk3d-.png)** |  |
+| **![](/assets/dworksharp-stuffmanual48-jk3d-.png)** |  |
 | --- | --- |
 
 _3D synthetic gather volume, created from a single initial 1D reference model, showing amplitudes varying with porosity &amp; angle (crossline) and reservoir layer thickness (inline)._
@@ -15,7 +15,7 @@ These synthetic gather datasets give the user quick and effective insights into 
 
 **Model examples :**
 
-| ![C:\Users\Johann\Desktop\Sharp-stuff\Manual46-JK\3D-paraM-Manual\3Dparametric-model-introv1\Slide1.PNG](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopsharp-stuff.png) |
+| ![](/assets/cusersjohanndesktopsharp-stuff.png) |
 | --- |
 
 _1D single gather example : Vp 3100 synthetic shown in Data Comparator, with an amplitude extraction from top reservoir_
@@ -24,7 +24,7 @@ The user in the first example has taken 2 well log crossplots which show the var
 
 Instead of running the application 5 times and creating 5 separate individual gathers the user could have made a 2D line of 9 gathers as shown in the 2<sup>nd</sup> example. Vp is set as the inline axis ( 2500 –&gt; 3300 inc 100 ) and the Vs and Rho modelled using curves defined by custom coefficients and the Castagna and Gardner equations. The grey points on the crossplots are the equivalent 5 modelled points used in this 2D line and indicate a pretty good fit to the red and green original curves from example 1\. The reservoir layer thickness is still a constant 70m however.
 
-| ![C:\Users\Johann\Desktop\Sharp-stuff\Manual46-JK\3D-paraM-Manual\3Dparametric-model-introv1\Slide2.PNG](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopsharp-stuff.png) |
+| ![](/assets/cusersjohanndesktopsharp-stuff.png) |
 | --- |
 
 _2D line example : Vp 2500 → 3300 synthetics shown in 2D gather viewer_
@@ -37,21 +37,21 @@ To study the influence of density on amplitude in detail the 4<sup>th</sup> exam
 
 Every possible combination of these Rho values with the 9 Vp values are included in the gather volume and so most of the Vp, Vs and Rho combinations are now no long following the curves in the original well log crossplots – they will be representing a variety of lithology and fluid content and not just the reservoir ‘brine’ sand we started with. ( 5 of the 101 Rho points are shown in the crossplots to indicate the range of values w.r.t Vp and the grid of input density points used in the model ).
 
-| ![C:\Users\Johann\Desktop\Sharp-stuff\Manual46-JK\3D-paraM-Manual\3Dparametric-model-introv1\Slide4.PNG](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopsharp-stuff.png) |
+| ![](/assets/cusersjohanndesktopsharp-stuff.png) |
 | --- |
 
 _3D volume example : Vp 2500 → 3300 synthetics shown in 3D viewer_
 
 _( inline = Vp, xline = thickness, Vs &amp; Rho from Vp by equations )_
 
-| ![C:\Users\Johann\Desktop\Sharp-stuff\Manual46-JK\3D-paraM-Manual\3Dparametric-model-introv1\Slide3.PNG](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopsharp-stuff.png) |
+| ![](/assets/cusersjohanndesktopsharp-stuff.png) |
 | --- |
 
 _3D volume example : Vp 2500 → 3300 synthetics shown in 3D viewer_
 
 _( inline = Vp, xline = Rho, Vs from Vp, by custom equation )_
 
-| ![C:\Users\Johann\Desktop\Sharp-stuff\Manual46-JK\3D-paraM-Manual\3Dparametric-model-introv1\Slide5.PNG](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopsharp-stuff.png) |
+| ![](/assets/cusersjohanndesktopsharp-stuff.png) |
 | --- |
 
 _3D volume example : Vp 2900 synthetics shown in 3D viewer_
@@ -122,14 +122,14 @@ The model inline &amp; crossline numbers, range and inc are set by the axes inpu
 
 In this example, the amplitude changes from a peak to a trough ( yellow to blue ) when brine is replaced with gas.
 
-| ![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\Getting_Started_46-slide9.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png) | The polarity reversal location, shown by the zero amplitude white band, occurs with less % gas as porosity decreases, and the rock becomes weaker and more unconsolidated. |
+| ![](/assets/cusersjohannappdatalocalmicro.png) | The polarity reversal location, shown by the zero amplitude white band, occurs with less % gas as porosity decreases, and the rock becomes weaker and more unconsolidated. |
 | --- | --- |
 
-![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\Getting_Started_46-slide9.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)
+![](/assets/cusersjohannappdatalocalmicro.png)
 
 Looking at the Vp, Vs and density volumes used for the model, we can see how the Gassmann fluid substitution, from brine to gas, has altered the Vp much more than the Vs or the Density. Vs is only slightly affected by the change in density – decreasing density = increasing Vs. The gas changes Vp very quickly with low porosity, because the constant in situ Vp → a softer rock.
 
-![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\Getting_Started_46-slide10.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)
+![](/assets/cusersjohannappdatalocalmicro.png)
 
 _Top View - Vp, Vs and density timeslices, for top reservoir_
 
@@ -141,7 +141,7 @@ To open up the 3D Parametric Synthetic Model Builder dialog go to:
 
 **Interpretation-Processing** → **3D Parametric Synthetic Model…**
 
-![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\Copy of 3D-pmetric-man-41.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)
+![](/assets/cusersjohannappdatalocalmicro.png)
 
 and select the 1<sup>st</sup> Tab.
 
@@ -149,7 +149,7 @@ If any models have been created before in Pre-Stack Pro, it will use the last mo
 
 Target, Top and Bottom layers can’t be deleted but are the same as ordinary layers otherwise.
 
-![3D-paraM-4](C:\Temp\Gitbook3\export\assets\3d-param-4.png)
+![](/assets/3d-param-4.png)
 
 _Ordinary layer GUI_
 
@@ -157,7 +157,7 @@ _( The black flag indicates this layer is a shale for Vs calc by equation )_
 
 First go to the target layer and set it’s top depth (MD) and corresponding time (TWT). This becomes a fixed depth/time value for the model reference datum.
 
-![3D-paraM-4](C:\Temp\Gitbook3\export\assets\3d-param-4.png)
+![](/assets/3d-param-4.png)
 
 |  |
 | --- |
@@ -169,19 +169,19 @@ First go to the target layer and set it’s top depth (MD) and corresponding tim
 
 **Reservoir** layers have the extra option to calculate Vp/Vs/Rho by **fluid substitution:** Gassmann equation or Castagna coefficients methods; or by **porosity change** curves
 
-![3D-paraM-4](C:\Temp\Gitbook3\export\assets\3d-param-4.png)
+![](/assets/3d-param-4.png)
 
 _A Target layer with in situ Vs calculated using Castagna equation_
 
 _( This equation uses custom coeffs. so a grey lithology flag is shown )_
 
-![C:\Users\Johann\AppData\Local\Microsoft\Windows\INetCache\Content.Word\3D-paraM-4.8-6.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)
+![](/assets/cusersjohannappdatalocalmicro.png)
 
 _A Target layer with in situ Vs and Rho calculated using sand equations_
 
 In the example above, the greyed out Vs and Rho values (1557 &amp; 2.194) are those calculated by the Castagna and Gardner equations, from the input Vp of 3000m/s. These equations use the coefficients set for the layer, which can be changed using the &lt;Calc, Vs/Rho&gt; box. The user has the choice of selecting Preset default coefficients by lithology (Sandstone, Shale, Limestone or Dolomite), or manually inputting their own field/rock specific coefficients, for Vs and Rho calculations.
 
-![C:\Users\Johann\AppData\Local\Microsoft\Windows\INetCache\Content.Word\Equns1.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)
+![](/assets/cusersjohannappdatalocalmicro.png)
 
 _Selecting Castagna and Gardner coefficients_
 
@@ -189,7 +189,7 @@ Vp/Vs/Rho values can also be defined by PCube facies or by well log zone, using 
 
 In the example below, the Top layer in the 1D model has Vp/Vs/Rho values defined by the parent well’s ‘Shale’ zone. Averages are calculated from each of the 3 input logs.
 
-![C:\Users\Johann\AppData\Local\Microsoft\Windows\INetCache\Content.Word\Zones1.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)
+![](/assets/cusersjohannappdatalocalmicro.png)
 
 _Vp/Vs/Rho values from well log ‘Zone’ averages_
 
@@ -197,21 +197,21 @@ _Vp/Vs/Rho values from well log ‘Zone’ averages_
 
 **Reservoir** layers can have their Vp/Vs/Rho calculated by **fluid substitution**. In situ values are input into the middle column, and substituted results are automatically output into the right column.
 
-![3D-paraM-4](C:\Temp\Gitbook3\export\assets\3d-param-4.png)
+![](/assets/3d-param-4.png)
 
-![3D-paraM-4](C:\Temp\Gitbook3\export\assets\3d-param-4.png)
+![](/assets/3d-param-4.png)
 
 _Fluid substitution, Gassmann input parameters_
 
-![3D-paraM-4](C:\Temp\Gitbook3\export\assets\3d-param-4.png)
+![](/assets/3d-param-4.png)
 
-![3D-paraM-4](C:\Temp\Gitbook3\export\assets\3d-param-4.png)
+![](/assets/3d-param-4.png)
 
 _Fluid substitution, Castagna input parameters_
 
 **Gassmann** equation fluid substitution of an in situ rock, of a known in situ porosity, or the simpler **Castagna** ‘rule of thumb’ fluid substitution equation, relating the Vp of gas and brine sandstone; are the choices available from a drop-down menu. For both methods, the user can substitute hydrocarbons to brine, or brine to hydrocarbons.
 
-![3D-pmetric-man-23](C:\Temp\Gitbook3\export\assets\3d-pmetric-man-23.png)
+![](/assets/3d-pmetric-man-23.png)
 
 _Fluid substitution, selection of Brine to HydroC or HydroC to Brine_
 
@@ -238,7 +238,7 @@ The **Castagna method** (gas &amp; brine only)
 
 The Castagna method can be used to replace gas with brine, or brine with gas, using the quadratic equation relating **Vp<sub>(gas)</sub>** to **Vp<sub>(brine)</sub>** and the coefficients shown below.
 
-![C:\Users\Johann\Desktop\Sharp-stuff\Manual44-JK\1D-Manual\ID-pics\Castagna-VpVs2.bmp](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopsharp-stuff.png)
+![](/assets/cusersjohanndesktopsharp-stuff.png)
 
 _The Castagna ‘rule of thumb’ fluid substitution equation_
 
@@ -275,7 +275,7 @@ Castagna fluid substitution is much simpler, but is useful for just giving a fee
 
 Well log crossplots, with useful rock physics curve overlays, can help with in situ porosity selection. In the example below, log points fall below the polygon pure sand minimum because they come from a mix of sand and shale/clay.
 
-![Vp-v-Porosity-Sst-limits2a](C:\Temp\Gitbook3\export\assets\vp-v-porosity-sst-limits2a.png)
+![](/assets/vp-v-porosity-sst-limits2a.png)
 
 _Cross plot of (porosity) v_ **_Vp_** _, showing a brine sand (blue) and a gas sand (red) in relation to a polygon defining the_ **_min_** _and_ **_max Vp_** _for a pure sand. (The minimum Vp is where the rock breaks up and becomes a suspension; the maximum is where the rock is fully cemented and as stiff as it can be)._
 
@@ -283,11 +283,11 @@ _Cross plot of (porosity) v_ **_Vp_** _, showing a brine sand (blue) and a gas s
 
 **Reservoir** layers can also have their Vp/Vs/Rho calculated by **porosity change**. In situ values are input into the middle column, and changed results are automatically output into the right column.
 
-![C:\Users\Johann\AppData\Local\Microsoft\Windows\INetCache\Content.Word\3D-paraM-por1a.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)
+![](/assets/cusersjohannappdatalocalmicro.png)
 
 _Porosity change, 20% to 25%_
 
-![3D-paraM-por1b](C:\Temp\Gitbook3\export\assets\3d-param-por1b.png)
+![](/assets/3d-param-por1b.png)
 
 _Porosity change, input parameters_
 
@@ -298,7 +298,7 @@ _Porosity change, input parameters_
 1.  Hashin-Shtrikman  critical porosity upper bound ( yellow curve below = cementing trend )
 2.  Hashin-Shtrikman, lower bound  ( blue curve below = sorting trend ) 
 
-| ![3D-paraM-por2](C:\Temp\Gitbook3\export\assets\3d-param-por2.png) |
+| ![](/assets/3d-param-por2.png) |
 | --- |
 
 _Vp v Porosity, upper &amp; lower bound curves_
@@ -331,13 +331,13 @@ An in situ layer of pure sand, with a starting **porosity** of **20**%, filled w
 
 **3D Model/gather definition :**
 
-![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\Copy of 3D-pmetric-man-41.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)
+![](/assets/cusersjohannappdatalocalmicro.png)
 
 Select the 2<sup>nd</sup> Tab
 
 In the example below, the inline axis is set to be the target layer hydrocarbon % and crossline, the target layer in situ porosity.
 
-| **![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\3D-pmetric-man-40.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)** | The Parametric Axes box, on the left hand side, allows the user to choose a property to assign to an axis – the list of properties above includes in situ porosity, Kmin &amp; Hydrocarbon %, only if the layer selected is a reservoir layer. |
+| **![](/assets/cusersjohannappdatalocalmicro.png)** | The Parametric Axes box, on the left hand side, allows the user to choose a property to assign to an axis – the list of properties above includes in situ porosity, Kmin &amp; Hydrocarbon %, only if the layer selected is a reservoir layer. |
 | --- | --- |
 
 The Output gather box on the right, gives the offset/angle gather dimensions that will be output into the synthetic model volume.
@@ -346,11 +346,11 @@ The user can choose whether to output the Vp, Vs and density 3D stack volumes fo
 
 **Synthetic options :**
 
-![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\Copy of 3D-pmetric-man-41.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)
+![](/assets/cusersjohannappdatalocalmicro.png)
 
 Select the 3<sup>rd</sup> Tab
 
-| ![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\3D-pmetric-man-4.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png) | This Tab can be used to select a wavelet for all the synthetic gathers; a method for calculating AVO amplitudes and any runtime parameters. |
+| ![](/assets/cusersjohannappdatalocalmicro.png) | This Tab can be used to select a wavelet for all the synthetic gathers; a method for calculating AVO amplitudes and any runtime parameters. |
 | --- | --- |
 
 **Model save &amp; rerun:**
@@ -359,12 +359,12 @@ The last model definition is automatically saved by the application, but as soon
 
 So that it can be restored using the (blue) inverted ‘V’ icon later:
 
-![1D_11c](C:\Temp\Gitbook3\export\assets\1d11c.png)
+![](/assets/1d11c.png)
 
 Any Vp,Vs, Rho model logs themselves, can be saved to a project well, once they are displayed in the Model Log Viewer, by &lt;Save logs to project&gt;.
 
-![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\3D-pmetric-man-44.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)
+![](/assets/cusersjohannappdatalocalmicro.png)
 
 Also entire Vp, Vs and Rho input 3D volumes can be saved to the project, from the data pool, once the model has been calculated – so long as they have been selected for output as shown below.
 
-![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\3D-pmetric-man-40.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)
+![](/assets/cusersjohannappdatalocalmicro.png)

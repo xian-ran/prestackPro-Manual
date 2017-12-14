@@ -2,7 +2,7 @@
 
 ![](/assets/dataPoolOverview.png)
 
-![C:\Users\Johann\Desktop\Manual-4.0-JK\pics\DataPool1a.png](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopmanual-40-.png)
+![](/assets/cusersjohanndesktopmanual-40-.png)
 
 _Data Pool overview_
 
@@ -28,7 +28,7 @@ Data volumes can be dragged into one of the six right hand side icons for visual
 
 Using the data pool context menu, volumes can be selected as a group and displayed in an appropriate viewer. They can be input into Volume Calculator or into crossplot. They can also be used to create a workflow and exported to SEGY.
 
-![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\DataPool2.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)
+![](/assets/cusersjohannappdatalocalmicro.png)
 
 Data Pool context menu
 
@@ -40,7 +40,7 @@ Individual data volumes can be QC’d by reading the volume information and hist
 
 In addition, the data can be used to create a new dataset by editing a copy; by cutting a sub volume; or by generating a workflow of the processing sequence applied so far. This workflow can be applied to other volumes.
 
-![C:\Users\Johann\Desktop\Manual-4.0-JK\pics\DataPool4a.png](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopmanual-40-.png)![](/assets/preStackDataContextMenu.png)![C:\Users\Johann\Desktop\Manual-4.0-JK\pics\DataPool3a.png](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopmanual-40-.png)
+![](/assets/cusersjohanndesktopmanual-40-.png)
 
 Pre-stack data context menu
 
@@ -52,7 +52,7 @@ _Action on a volume from the Data Pool_
 
 The data volumes can be sorted by type by using the filter option on the bottom right part of the tab.
 
-![C:\Users\Johann\Desktop\Manual-4.0-JK\pics\DataPool5.png](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopmanual-40-.png)![](/assets/sortOutOptionInTheDataPool.png)
+![](/assets/cusersjohanndesktopmanual-40-.png)![](/assets/sortOutOptionInTheDataPool.png)
 
 _Sort out option in the Data Pool_
 

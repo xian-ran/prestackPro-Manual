@@ -8,7 +8,7 @@ To open up the dip filter dialog go to:
 
 **Processing** → **Dip Filter**
 
-![C:\Users\Valentin\AppData\Local\Temp\06_Dip-filter.png](C:\Temp\Gitbook3\export\assets\cusersvalentinappdatalocaltem.png)
+![](/assets/cusersvalentinappdatalocaltem.png)
 
 Dip Filter
 
@@ -18,7 +18,7 @@ The user can choose to output the dipping noise model or the filtered data.
 
 The dip range parameters define the minimum and maximum dips that will be removed from the input. The units are in ms/m. So, for example, on a 12.5 x 12.5 m² grid, a 0.4 ms/m dip will represent 1 second for every 200 inlines or crosslines.
 
-![C:\Users\Valentin\AppData\Local\Temp\07_Dip-filter_zoom.png](C:\Temp\Gitbook3\export\assets\cusersvalentinappdatalocaltem.png)
+![](/assets/cusersvalentinappdatalocaltem.png)
 
 Dip Filter Parameters
 
@@ -28,7 +28,7 @@ The taper can be switched on between the minimum and maximum dips. This is a squ
 
 A graphical widget in the previews can be used to define the dips to remove, which are within the blue zone between the two axis.
 
-![C:\Users\Valentin\AppData\Local\Temp\07_Dip-filter_zoom.png](C:\Temp\Gitbook3\export\assets\cusersvalentinappdatalocaltem.png)
+![](/assets/cusersvalentinappdatalocaltem.png)
 
 Graphical widget to define the dip parameters.
 

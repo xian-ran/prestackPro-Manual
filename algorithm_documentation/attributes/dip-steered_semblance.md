@@ -4,7 +4,7 @@ Go to **Attributes** → **Dip-steered Semblance**
 
 This algorithm is an extension of the semblance attribute found in [Moving Window Statistics](moving_window_statistics.md).
 
-![C:\Users\Valentin\AppData\Local\Temp\02_Dip-steered_Semb.png](C:\Temp\Gitbook3\export\assets\cusersvalentinappdatalocaltem.png)
+![](/assets/cusersvalentinappdatalocaltem.png)
 
 Dip-steered Semblance GUI
 

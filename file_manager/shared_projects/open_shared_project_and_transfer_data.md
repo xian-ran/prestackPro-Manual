@@ -1,8 +1,8 @@
 ### Open shared project and transfer data {#open-shared-project-and-transfer-data}
 
-Go to **Project** → **File Manager** and click on the icon ![C:\Users\Valentin\AppData\Local\Temp\02_FM.png](C:\Temp\Gitbook3\export\assets\cusersvalentinappdatalocaltem.png) “open shared project”. The file manager will be spilt into two sections, one for the original project and one for the newly created one.
+Go to **Project** → **File Manager** and click on the icon ![](/assets/cusersvalentinappdatalocaltem.png) “open shared project”. The file manager will be spilt into two sections, one for the original project and one for the newly created one.
 
-![C:\Users\Valentin\AppData\Local\Temp\03_FM.png](C:\Temp\Gitbook3\export\assets\cusersvalentinappdatalocaltem.png)
+![](/assets/cusersvalentinappdatalocaltem.png)
 
 File Manager for Shared Projects
 

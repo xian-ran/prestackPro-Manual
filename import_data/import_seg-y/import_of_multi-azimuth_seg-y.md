@@ -10,7 +10,7 @@ It is possible to import three types of wide azimuth gathers into Pre-Stack Pro.
 
 Import is identical to other files with the exception that a **second fold position** has to be specified. This second fold (either azimuth or offset Y) can be selected by right clicking on the corresponding byte location and selecting “Set second Fold Position (a)” or alternatively by left click on the field and using the keyboard shortcut “a”. A lightblue color will then highlight the corresponding key.
 
-![C:\Users\Valentin\AppData\Local\Temp\01_Set_key.png](C:\Temp\Gitbook3\export\assets\cusersvalentinappdatalocaltem.png)
+![](/assets/cusersvalentinappdatalocaltem.png)
 
 Set the second fold position for 5D SEG-Ys
 
@@ -26,7 +26,7 @@ There is an option to mirror existing azimuth if necessary.
 
 The **Geometrical plot** button will update the preview displaying Offset X/Y based on the parameters entered, thus controlling their validity.
 
-![C:\Users\Valentin\Documents\Work\SHARP\PSPazi\ppts\5D_Getting_Sarted_460\5D_import_446\02_SEGY.png](C:\Temp\Gitbook3\export\assets\cusersvalentindocumentsworksh.png)
+![](/assets/cusersvalentindocumentsworksh.png)
 
 Advanced parameters for wide azimuth data SEG-Y import
 

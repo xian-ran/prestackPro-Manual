@@ -8,7 +8,7 @@ A group of logs can be selected from the tree and deleted all together.
 
 Logs can be Q.C.d by **Utilities** → **Edit Well Logs,** which can also be opened for a specific log, by selecting Log Manager from the File Manager, log name, MB3 context menu.
 
-![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\LogMan4.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)
+![](/assets/cusersjohannappdatalocalmicro.png)
 
 Opening **Well Log Editor** from the File manager tree
 

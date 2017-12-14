@@ -2,15 +2,15 @@
 
 Wavelets should be exported from other software packages as ASCII files.
 
-![Wavelet_003.png](C:\Temp\Gitbook3\export\assets\wavelet003.png)
+![](/assets/wavelet003.png)
 
 In the Data Selection tab, the only required Content column is for Data Values.
 
-![Wavelet_004.png](C:\Temp\Gitbook3\export\assets\wavelet004.png)
+![](/assets/wavelet004.png)
 
 The Additional Parameters tab must be selected to define the sample rate and start time of the wavelet.
 
-![Wavelet_005.png](C:\Temp\Gitbook3\export\assets\wavelet005.png)
+![](/assets/wavelet005.png)
 
 Note that the sample interval is given in milliseconds. Either set the start time, which is the time of the first sample (this would be negative for a zero phase wavelet), or set the T0 Sample Number in the file of the sample at time zero. Typically this is half the wavelet length in samples. The remaining fields are filled in automatically
 

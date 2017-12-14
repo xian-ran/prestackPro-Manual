@@ -40,19 +40,19 @@ Step 2) Save the spectrum to the project as a wavelet:
 
 Step 3) Load this wavelet into the wavelet tool and select the ‘Load zero-phased’ option.
 
-![New Picture](C:\Temp\Gitbook3\export\assets\new_picture.png)
+![](/assets/new_picture.png)
 
 Step 4) Design the target spectrum. Here we are using a Butterworth filter, to broaden the input spectrum within a reasonable frequency band. Because the seismic amplitudes are up to about 50000, the Butterworth is scaled by 100000 so that the amplitudes match the input seismic data.
 
-![Fig_14.png](C:\Temp\Gitbook3\export\assets\fig14.png) ![Fig_15.png](C:\Temp\Gitbook3\export\assets\fig15.png)
+![](/assets/fig15.png)
 
 Step 5) The matching operator length of 200 ms seems to give reasonable results. Testing the white noise parameter is important as it influences the extent to which noise is amplified at higher frequencies.
 
-![Fig_16.png](C:\Temp\Gitbook3\export\assets\fig16.png)
+![](/assets/fig16.png)
 
 Step 6). It can be seen that the operator has high amplitudes at its ends. To avoid ends effects in the final result, we taper the operator. In the spectrum the effect of the tapering is to push down the high frequency part of the spectrum.
 
-![Fig_17.png](C:\Temp\Gitbook3\export\assets\fig17.png)
+![](/assets/fig17.png)
 
 Step 7) The result of tapering is saved to the project as the operator to be applied to the seismic data.
 
@@ -64,7 +64,7 @@ EEI Inversion
 
 **An EEI inversion workflow is built-in to the wavelet tool. This uses coloured inversion to estimate any target well log property. It guides you through the necessary steps:**
 
-**![EEI-scan-man-7](C:\Temp\Gitbook3\export\assets\eei-scan-man-7.png)**
+**![](/assets/eei-scan-man-7.png)**
 
 EEI Inversion Workflow
 
@@ -74,7 +74,7 @@ Step 1) Load a zero-phase EEI log wavelet from the project, or create one
 
 from Vp, Vs and Density well log data.
 
-![C:\Users\Johann\Desktop\Sharp-stuff\Manual46-JK\EEI-scan-Manual\EEI-scan-man-1a.png](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopsharp-stuff.png)
+![](/assets/cusersjohanndesktopsharp-stuff.png)
 
 **_EEI scan well log GUI_**
 
@@ -95,7 +95,7 @@ from Vp, Vs and Density well log data.
 
 **‘Logs’ averages over the selected depth range, ‘Facies’ uses PCube facies averages. (The default method is to use Logs and these Vp, Vs averages for k)**
 
-**![C:\Users\Johann\Desktop\Sharp-stuff\Manual46-JK\EEI-scan-Manual\EEI-scan-man-6a.png](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopsharp-stuff.png)**
+**![](/assets/cusersjohanndesktopsharp-stuff.png)**
 
 **_EEI Parameters GUI_**
 
@@ -103,13 +103,13 @@ Step 2) Fit a Synthetic Well log Spectrum, or apply a butterworth filter to
 
 the EEI log spectrum.
 
-![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\EEI-scan-man-10.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)
+![](/assets/cusersjohannappdatalocalmicro.png)
 
 _Fit Synth. Well log spectrum GUI_
 
 Step 3) Create an equivalent EEI reflectivity wavelet from I &amp; G volumes
 
-![EEI-scan-man-9](C:\Temp\Gitbook3\export\assets\eei-scan-man-9.png)
+![](/assets/eei-scan-man-9.png)
 
 _Create EEI Wavelet from I/G volumes GUI_
 
@@ -117,16 +117,16 @@ The application creates an EEI reflectivity volume, using the chi angle from the
 
 Step 4) Calculate an EEI Operator, and apply to the data
 
-![EEI-scan-man-8](C:\Temp\Gitbook3\export\assets\eei-scan-man-8.png)
+![](/assets/eei-scan-man-8.png)
 
 _Calc. EEI Inv. Operator GUI_
 
 The preview windows show, the chi reflectivity volume, a -90 phase rotated version and the result of EEI inversion; from left to right. This allows the user to see what effect the phase and the frequency rotation have. In the example above it is easy to see the boosting of the lower frequencies that has occurred between the middle and right hand window.
 
-The preview windows can be fixed open by use of this icon → ![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\EEI-scan-man-8.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)
+The preview windows can be fixed open by use of this icon → ![](/assets/cusersjohannappdatalocalmicro.png)
 
 Then any changes to the input wavelets (eg: to log spectrum fit parameters; to polygon X,Y location; to low and high cuts) will update the EEI inversion result, on the fly.
 
-![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\EEI-scan-man-8.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png)
+![](/assets/cusersjohannappdatalocalmicro.png)
 
 **When the preview of the final inversion looks OK, for a number of test inline/crossline locations; the EEI inversion can be ‘applied to the whole volume’ by selecting this option from the GUI, shown above. (The EEI operator will need saving to the project first however).**

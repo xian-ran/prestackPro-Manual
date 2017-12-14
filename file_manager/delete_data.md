@@ -1,8 +1,8 @@
 ## Delete data {#delete-data}
 
-To delete a volume from the project, go to the file manager. On the data tree, toggle on the data to delete. Then click on the delete ![C:\Users\Valentin\AppData\Local\Temp\05_FM.png](C:\Temp\Gitbook3\export\assets\cusersvalentinappdatalocaltem.png) button at the top of this window. Multiple datasets can also be selected for deletion.
+To delete a volume from the project, go to the file manager. On the data tree, toggle on the data to delete. Then click on the delete ![](/assets/cusersvalentinappdatalocaltem.png) button at the top of this window. Multiple datasets can also be selected for deletion.
 
-![C:\Users\Valentin\AppData\Local\Temp\07_FM.png](C:\Temp\Gitbook3\export\assets\cusersvalentinappdatalocaltem.png)
+![](/assets/cusersvalentinappdatalocaltem.png)
 
 Delete option
 

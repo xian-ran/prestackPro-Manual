@@ -27,7 +27,7 @@ A **Time shift** from the input horizon can be applied in this window. The time 
 
 Snapping and tracking may produce significantly different results, depending on data quality and the complexity of the reflectivity sequence within the specified window
 
-![snaptrack](C:\Temp\Gitbook3\export\assets\snaptrack.png)
+![](/assets/snaptrack.png)
 
 2D Gather Viewer showing adjusted horizon positions, calculated for two gathers, using the “snap” and “track” options.
 

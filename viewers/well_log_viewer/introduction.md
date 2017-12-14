@@ -16,8 +16,8 @@ Well Log Viewer allows the Q.C. and analysis of gather synthetics -
 
 - eg: brine, oil, gas
 
-![C:\Users\Johann\Desktop\Sharp-stuff\Manual42-JK\pics\WLV-syn1.png](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopsharp-stuff.png)
+![](/assets/cusersjohanndesktopsharp-stuff.png)
 
 Also facies zone creation (Vp/Vs/rho classes) is enabled within the application, ready for input to Pcube inversion &amp; crossplots.
 
-![C:\Users\Johann\Desktop\Sharp-stuff\Manual42-JK\pics\WLV-Xplot1.png](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopsharp-stuff.png)
+![](/assets/cusersjohanndesktopsharp-stuff.png)

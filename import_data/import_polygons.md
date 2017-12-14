@@ -4,7 +4,7 @@ Go to **Utilities** → **Manage Polygon Selections** and follow instructions as
 
 Go to **Utilities** → **Manage Polygon Selections** and you have a choice of 1 of 2 Tabs allowing the management of either Map polygons or Gather polygons.
 
-| ![C:\Users\Johann\Desktop\Manual-4.0-JK\pics\Poly-man2.png](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopmanual-40-.png) | ![C:\Users\Johann\Desktop\Manual-4.0-JK\pics\Poly-man1.png](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopmanual-40-.png) |
+| ![](/assets/cusersjohanndesktopmanual-40-.png) |
 | --- | --- |
 | Map polygon | Gather polygon |
 
@@ -14,17 +14,17 @@ These Tabs allow the user to select and **edit** any existing project polygons, 
 
 Polygons can be saved as inlines/crosslines or as X/Y UTM coordinates (M or Ft)
 
-| **![C:\Users\Johann\Desktop\Manual-4.0-JK\pics\Poly-man3.png](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopmanual-40-.png)** |
+| **![](/assets/cusersjohanndesktopmanual-40-.png)** |
 | --- |
 | Map Polygon : save to ascii text file |
 
-| ![C:\Users\Johann\Desktop\Manual-4.0-JK\pics\Poly-man4.png](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopmanual-40-.png) | Polygons can also be read and imported from an ascii text file as inlines/crosslines or as X/Y UTM coordinates (M or Ft) |
+| ![](/assets/cusersjohanndesktopmanual-40-.png) | Polygons can also be read and imported from an ascii text file as inlines/crosslines or as X/Y UTM coordinates (M or Ft) |
 | --- | --- |
 
 To import 3 polygons into a single Pre-Stack Pro polygon below; the user uses the green **+** add button to make 3 “sub-polygons” – Polygon0, Polygon1, Polygon2 which are shown in vertical Tabs.
 
 These can then be imported into or edited in Manage Polygons or in Map View as if they were individual polygons; but are selected for display in the viewers as one combined Pre-Stack Pro polygon.
 
-| ![C:\Users\Johann\Desktop\Manual-4.0-JK\pics\Poly-man5.png](C:\Temp\Gitbook3\export\assets\cusersjohanndesktopmanual-40-.png) |
+| ![](/assets/cusersjohanndesktopmanual-40-.png) |
 | --- |
 | Map Polygon : import 3 ascii text files to one polygon – Hi-Frigg2 |

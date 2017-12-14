@@ -58,7 +58,7 @@ For the X axis (in the gather direction), the number of gathers can be locked.
 
 **Cursor Read-Out:**
 
-![C:\Users\Valentin\Documents\Work\SHARP\Manuals\User Manual 4.4\04_Read-out-paint.png](C:\Temp\Gitbook3\export\assets\cusersvalentindocumentsworksh.png)
+![](/assets/cusersvalentindocumentsworksh.png)
 
 Cursor Read out of the Map Viewer
 

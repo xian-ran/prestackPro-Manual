@@ -16,7 +16,7 @@ When creating wavelets, it is important to ensure that they have the correct sam
 
 The default sample interval can be set at the top of the wavelet tool:
 
-![Wavelet_sampint.png](C:\Temp\Gitbook3\export\assets\waveletsampint.png)
+![](/assets/waveletsampint.png)
 
 Setting the Default Sample Interval
 

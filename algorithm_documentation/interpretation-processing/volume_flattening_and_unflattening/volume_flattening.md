@@ -4,7 +4,7 @@ The volume flattening algorithm uses a given horizon to flatten the data with re
 
 **Interpretation-Processing** → **Volume flattening**.
 
-![flatten](C:\Temp\Gitbook3\export\assets\flatten.jpeg)
+![](/assets/flatten.jpeg)
 
 Volume flattening option
 

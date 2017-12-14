@@ -16,11 +16,11 @@ Computation is performed vertically, slice by slice. Each attribute will output 
 
 In a multi-azimuth survey, we input a gradient map computed by azimuth sectors along a horizon. We use the gather attributes to find the maximum and minimum gradient values, as well as their corresponding azimuth.
 
-![C:\Users\Valentin\Documents\Work\SHARP\PSPazi\ppts\5D_Getting_Sarted_460\21_Min_Max_Gradient.png](C:\Temp\Gitbook3\export\assets\cusersvalentindocumentsworksh.png)
+![](/assets/cusersvalentindocumentsworksh.png)
 
 Gather attributes for an azimuthally dependent gradient map
 
-![C:\Users\Valentin\AppData\Local\Temp\26_Min_Grad.png](C:\Temp\Gitbook3\export\assets\cusersvalentinappdatalocaltem.png)![C:\Users\Valentin\AppData\Local\Temp\19_azimuth_Gmin.png](C:\Temp\Gitbook3\export\assets\cusersvalentinappdatalocaltem.png)
+![](/assets/cusersvalentinappdatalocaltem.png)
 
 Output of the minimum over azimuth gradient: Left is the minimum gradient map and right is the map containing the corresponding azimuth of this minimum gradient.
 
@@ -28,12 +28,12 @@ Output of the minimum over azimuth gradient: Left is the minimum gradient map an
 
 _We create a ‘minimum average instantaneous frequency’ offset map, along a horizon, to study gather character._
 
-| ![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\Gather-att6.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png) | First we create an average instantaneous frequency map volume, around the top reservoir yellow peak event. |
+| ![](/assets/cusersjohannappdatalocalmicro.png) | First we create an average instantaneous frequency map volume, around the top reservoir yellow peak event. |
 | --- | --- |
 
-| ![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\Gather-att4.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png) |
+| ![](/assets/cusersjohannappdatalocalmicro.png) |
 | --- |
-| ![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\Gather-att3.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png) |
+| ![](/assets/cusersjohannappdatalocalmicro.png) |
 
 Minimum instantaneous frequency, Offset map
 

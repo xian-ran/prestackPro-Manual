@@ -2,7 +2,7 @@
 
 Logs can be imported using **Project** → **Import Data** → **Import Well logs** from ASCII ( .las ) files; with a user definable number of wrapped lines between 1 and 50\. Any combination of MD and log data values is allowed.
 
-| ![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\import-logs1.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png) |
+| ![](/assets/cusersjohannappdatalocalmicro.png) |
 | --- |
 | Example of a .las file import with no wrapped lines. ( # =1 ) |
 
@@ -18,6 +18,6 @@ If just P &amp; S wave sonics and a density curve are imported; Pre-Stack Pro wi
 
 If all these curves are in the ASCII ( .las ) file, they can be allocated a type and imported directly instead.
 
-| ![C:\Users\Johann\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Word\import-logs3.png](C:\Temp\Gitbook3\export\assets\cusersjohannappdatalocalmicro.png) |
+| ![](/assets/cusersjohannappdatalocalmicro.png) |
 | --- |
 | Defining default and user log types – ASCII well log importer |

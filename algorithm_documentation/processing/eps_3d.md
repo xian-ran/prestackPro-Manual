@@ -29,16 +29,16 @@ The lower the correlation threshold, the more impact the smoothing will have. If
 
 Example on a stack:
 
-![raw_stack](C:\Temp\Gitbook3\export\assets\rawstack.jpeg)![stack_dip_stack](C:\Temp\Gitbook3\export\assets\stackdip_stack.jpeg)![stack_linear_res](C:\Temp\Gitbook3\export\assets\stacklinear_res.jpeg)
+![](/assets/stacklinear_res.jpeg)
 
 Raw stack EPS3D dip EPS3D horizontal
 
-![001_EPSdip](C:\Temp\Gitbook3\export\assets\001epsdip.png) ![002_EPSedge](C:\Temp\Gitbook3\export\assets\002epsedge.png)
+![](/assets/002epsedge.png)
 
-![H_stack_raw](C:\Temp\Gitbook3\export\assets\hstack_raw.jpeg)
+![](/assets/hstack_raw.jpeg)
 
 Raw stack
 
-![H_stack_horiz](C:\Temp\Gitbook3\export\assets\hstack_horiz.jpeg) ![H_stack_dip](C:\Temp\Gitbook3\export\assets\hstack_dip.jpeg)
+![](/assets/hstack_dip.jpeg)
 
 EPS3D horizontal EPS3D dip

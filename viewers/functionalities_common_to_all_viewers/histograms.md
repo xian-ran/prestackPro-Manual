@@ -56,7 +56,7 @@ It is possible to create a discrete histogram with discrete colors. This might b
 
 Saving is done via the (right click) context menu using the entries **Save color table** and **Save histogram**.
 
-![changecolorbar](C:\Temp\Gitbook3\export\assets\changecolorbar.jpeg)
+![](/assets/changecolorbar.jpeg)
 
 blue
 
@@ -68,6 +68,6 @@ A global default color table is used, unless otherwise specified using the **Man
 
 In the example below, all the velocity data types will have the same rainbow color table and distribution of markers by default. The color table can of course be edited within the viewers to fit your specific visualization requirements.
 
-![colortable_default](C:\Temp\Gitbook3\export\assets\colortabledefault.jpeg)
+![](/assets/colortabledefault.jpeg)
 
 Manage histogram tab
