@@ -2,7 +2,7 @@
 
 For each synthetic gather with well log information, a separate scalar gather can be calculated.
 
-If there&#039;s only one synthetic gather, the resulting scalars should be saved with the project after generation in the [MultiWell Scalar algorithm](multi-well_scalar.md) and can then be used directly in the AVO Scaling.
+If there's only one synthetic gather, the resulting scalars should be saved with the project after generation in the [MultiWell Scalar algorithm](/algorithm_documentation/interpretation-processing/multi-well_scalar.md) and can then be used directly in the AVO Scaling.
 
 For more than one synthetic gather, the resulting scalar gathers have to be exported as SEG-Y.
 
@@ -10,24 +10,27 @@ After all gathers have been created and exported, they can be brought back using
 
 Go to: **Interpretation Processing** → **AVO Scaling**
 
-AVO scaling process overview
+![](/assets/098_Interpretation.png)
+
+_AVO scaling process overview_
 
 **Left part of the window:**
 
-The top of the parameter section in the middle of the dialog window holds the **Data Selection** and shows the inline-crossline pair numbers of the gather displayed in the **Input** and **Output Gather** fields.
+The top of the parameter section in the middle of the dialog window holds the **Data Selection** and shows the inline-crossline pair numbers of the gather displayed in the **Input** and **Output Gather** fields. 
 
-The scalars are given as a Seismic RMS volume with the same dimensions as the input seismic. This volume can be loaded in the correct size, using the special loading button. This scalar cube can be created in the MultiWell Scalar process.
+The scalars are given as a Seismic RMS volume with the same dimensions as the input seismic. This volume can be loaded in the correct size, using the special loading button. This scalar cube can be created in the [MultiWell Scalar process](/algorithm_documentation/interpretation-processing/multi-well_scalar.md).
 
-In the **additional parameters**, there is two ways to scale the given input volume:
 
--**RMS Scalar** will calculate the RMS of the input seismic within the given window and scale the seismic using the given RMS and the calculated RMS.
+In the **additional parameters**, there is two ways to scale the given input volume: 
 
--**Multiplication** is used to multiply given scalars (created using the Multi-Well Scalar tool) with the input seismic for scaling.
+* **-RMS Scalar** will calculate the RMS of the input seismic within the given window and scale the seismic using the given RMS and the calculated RMS.
+* **-Multiplication** is used to multiply given scalars (created using the Multi-Well Scalar tool) with the input seismic for scaling.
+
 
 **Right part of the window:**
 
-The **Input Gather** displaying the gather corresponding to the inline- crossline pair noted in the **Data Selection** at the top-center of the dialog
+The Input Gather displaying the gather corresponding to the inline- crossline pair noted in the Data Selection at the top-center of the dialog
 
-[Overview of the process window](..\processing\nmo.md)
 
-The **Output Gather** field is used to map what part of the distance offset range will be present in the angle offset bins. Mapping can be adjusted using the **Select Preview Output** options.
+The Output Gather field is used to map what part of the distance offset range will be present in the angle offset bins. Mapping can be adjusted using the Select Preview Output options.
+

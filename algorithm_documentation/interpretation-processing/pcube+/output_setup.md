@@ -6,4 +6,7 @@ The figure below shows the Output Setup interface. The default parameters for th
 
 The inversion is started by clicking on the **Start PCube** button.
 
+![](/assets/091_Interpretation.png)
+
 _The Output Setup user interface_
+

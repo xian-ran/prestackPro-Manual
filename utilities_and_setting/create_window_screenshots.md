@@ -4,16 +4,17 @@ It is possible to take screenshots of all Pre-Stack Pro display windows:
 
 **Windows** → **Create window screenshots**.
 
-_Windows menu and screenshot gui_
+![](/assets/011_Utilities and Setting.png)
 
 If no windows are active, then a warning message will be given. Otherwise, all open windows will be selected by default. Deselect any item that you do not wish to copy, and then click OK.
 
 Select the directory for the screenshots, and a prefix to be added to the screenshot file names.
 
-_Specifying directory and prefix_
+![](/assets/012_Utilities and Setting.png)
 
-The filenames of the screenshots will start with the prefix followed by the window name (for example “StackView-1”) and a volume name related to an active volume in the window (for example Partial_Stack_0_40deg). In this example the name of the screenshot file will be
+**Specifying directory and prefix**
 
-screen_StackView-1_Partial_Stack_0_40deg.png.
+The filenames of the screenshots will start with the prefix followed by the window name \(for example “StackView-1”\) and a volume name related to an active volume in the window \(for example Partial\_Stack\_0\_40deg\). In this example the name of the screenshot file will be screen\_StackView-1\_Partial\_Stack\_0\_40deg.png.
 
-File format for the screenshot files is Portable Network Graphics (PNG).
+File format for the screenshot files is Portable Network Graphics \(PNG\).
+

@@ -4,7 +4,9 @@ Spectral properties of seismic often are extracted from time-frequency spectra t
 
 Go to **Attributes** → **Spectral Attribute Calculator**
 
-Spectral Attributes QC options
+![](/assets/010_Attributes.png)
+
+_Spectral Attributes QC options_
 
 **Compute Amplitude and phase spectrum:** two output volumes will be created for the complex spectrum, one containing the amplitude spectrum and the other one containing the phase spectrum.
 
@@ -16,6 +18,9 @@ The **result Scaling Mode** selects with which factor the resulting spectrum wil
 
 Reasonable combinations are:
 
-*   FFT: 1/N, Inverse FFT: No scaling
-*   FFT: No scaling, Inverse FFT: 1/N
-*   FFT: sqrt(1/N), Inverse FFT: sqrt(1/N)
+* FFT: 1/N, Inverse FFT: No scaling
+* FFT: No scaling, Inverse FFT: 1/N
+* FFT: sqrt\(1/N\), Inverse FFT: sqrt\(1/N\)
+
+
+

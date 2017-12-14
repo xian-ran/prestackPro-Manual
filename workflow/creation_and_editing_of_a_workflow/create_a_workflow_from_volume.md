@@ -6,10 +6,14 @@ Once the full processing sequence is determined and suitable parameters are set,
 
 **Right click** on the final result volume and select **Create workflow from this volume**.
 
-Create workflow from this volume
+![](/assets/013_Workflow.png)  
+_Create workflow from this volume_
 
-Result workflow created from a volume in the data pool
+![](/assets/014_Workflow.png)  
+_Result workflow created from a volume in the data pool_
 
 It is also possible to highlight **several volumes**, right click away from them and create a workflow from the selected datasets.
 
-Create workflow from selected volumes
+![](/assets/015_Workflow.png)
+_Create workflow from selected volumes_
+

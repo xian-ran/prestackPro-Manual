@@ -1,8 +1,8 @@
-# prestackPro {#prestack}
+# Pre-Stack Pro {#prestack}
 
 
 
-User Manual for Pre-Stack Pro version 4.10
+User Manual for Pre-Stack Pro version 5.0
 
 
 

@@ -1,51 +1,43 @@
 ### Sculpt {#sculpt}
 
-The sculpt option allows the creation of probe around an horizon of interest. To create a sculpt volume, got to
-
-**Interpretation-Processing** → **Sculpt**
+The sculpt option allows the creation of probe around a horizon of interest. To create a sculpt volume, go to **Interpretation-Processing** → **Sculpt**.
 
 Volumes can be sculpted in a zone of interest. The data will be retained within the window, and set to zero everywhere else.
 
-**Interpretation-Processing** → **Sculpt**
+The input volume needs to be present in the data pool. It can be pre- or post-stack; offset or angle; time or depth. Horizon domains will need to correspond to the seismic. Three options are available:
 
-The input volume needs to be present in the data pool. It can be pre or post stack; offset or angle; time or depth. Horizon domains will need to correspond to the seismic. Three options are available:
+**Window around Horizon:**
 
-**Window around Horizon**:
+Upper and lower window lengths set the size of the window about a single pre- or post-stack horizon.
 
-Upper and lower window lengths set the size of the window about a single pre or post stack horizon.
-
-**Between 2 Horizons**:
+**Between 2 Horizons:**
 
 Top and bottom horizons define the window size.
 
-**Between Horizon and Fixed Value**:
+**Between Horizon and Fixed Value:**
 
 One horizon is combined with a fixed time or depth. This option has a check box to specify whether the fixed value is at the top or the bottom.
 
-For all options, reference horizon(s) can be shifted relative to the seismic. Positive values move them downwards, whilst negative values shift them up.
+For all options, reference horizon\(s\) can be shifted relative to the seismic. Positive values move them downwards, whilst negative values shift them up.
 
 The output can be restricted to the maximum limits of the horizons by clicking on the **set from horizon** option.
 
-Sculpt data : Window around horizon is selected
+![](/assets/100_Interpretation.png)
 
-**Time window**:
+_Sculpt data: Window around horizon is selected_
 
-**Upper Window Length**: refer to the time/depth shift up from the horizon. Data within this interval are kept.
+**Time window:**
 
-**Lower Window Length**: refer to the time/depth shift down from the horizon. Data within this interval are kept.
+**Upper Window Length:** refer to the time/depth shift up from the horizon. Data within this interval are kept.
 
-Sculpted result: horizon in green
+**Lower Window Length:** refer to the time/depth shift down from the horizon. Data within this interval are kept.
+
+![](/assets/101_Interpretation.png)
+
+_Sculpted result: horizon in green_
 
 **Time shift:** This parameter refers to a global shift of the sculpted data compare to the original horizon. If time shift value is positive, the shift is done downward if the value is negative, the shift is down upward.
 
-**Time shift of 1s**
+![](/assets/102_Interpretation.png)  
+_Positive Time shift_
 
-**Tl=0.1s**
-
-**Tg=0.1s**
-
-Sculpted data: Tless:0.5s
-
-T greater:0.2s
-
-Positive Time shift

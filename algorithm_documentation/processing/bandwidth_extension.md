@@ -6,23 +6,18 @@ This trace by trace algorithm uses a continuous Gabor wavelet transform to compu
 
 Note: The algorithm will not differentiate between signal and noise energy. Therefore, it may be necessary to apply additional random noise attenuation processes to prevent over-boosting of high frequency noise.
 
-To open up the bandwidth extension dialog go to:
+To open up the bandwidth extension dialog go to: **Processing** → **Bandwidth Extension**
 
-**Processing** → **Bandwidth Extension**
-
-Parameters for the Gabor transform
-
-Parameters for the adjustment of the amplitude decay with frequency
-
-Bandwidth Extension GUI
+![](/assets/084_Processing.png)
+_Bandwidth Extension GUI_
 
 **Parameters:**
 
 **Wavelet Transform:**
 
-The Gabor transform is carried out between the user defined **minimum and maximum wavelet frequencies**. The data is split up into the **number of subbands** per octave; or by linear increments.
+The Gabor transform is carried out between the user defined **minimum and maximum wavelet frequencies**. The data is split up into the **number of sub bands** per octave; or by linear increments.
 
-**Octave frequency** **spacing** will sub-divide the frequency range into subbands increasing exponentially. The range between minimum and maximum frequency is filled by doubling the frequency at each step (e.g. 2, 4, 8, 16, 32, 64 and 128Hz). Gaps will be filled by a logarithmically distributed number of subbands.
+**Octave frequency spacing** will sub-divide the frequency range into sub bands increasing exponentially. The range between minimum and maximum frequency is filled by doubling the frequency at each step (e.g. 2, 4, 8, 16, 32, 64 and 128Hz). Gaps will be filled by a logarithmically distributed number of sub bands.
 
 **Linear frequency spacing** simply splits the frequency range into constant increments.
 
@@ -32,4 +27,5 @@ The **bandwidth extension factor** determines the slope of the correction. A val
 
 The user supplies a **maximum frequency** which is less than wavelet transform maximum frequency. The bandwidth extension operator is ramped down in the transition zone between these two frequencies.
 
-The **tapering half-length** defines the amount of smoothing of the adjustment coefficents. The original and adjusted coefficients, and the reconstructed volume can be output as QC volumes.
+The **tapering half-length** defines the amount of smoothing of the adjustment coefficients. The original and adjusted coefficients, and the reconstructed volume can be output as QC volumes.
+

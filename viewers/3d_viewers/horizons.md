@@ -8,4 +8,7 @@ To see any horizon projected onto the seismic, go to ‘**Sync with**’ under t
 
 You can also make a vertical shift of the horizon under the ‘**Shift in z-direction’**.
 
-Horizon display
+![](/assets/013_old3dviewer.png)
+
+_Horizon display_
+

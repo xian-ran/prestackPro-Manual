@@ -8,9 +8,15 @@ Another option is to use the shortcut option available on the top of the window.
 
 To create a project, the window requires information about the seismic grid geometry. This information can be extracted from the SEG-Y file.
 
+![](/assets/015_create_new_project.png)
+
 Select **Extract from SEG-Y files**, and a SEG-Y scanning window will open. Go to **Select File** and choose the SEG-Y you want to use to define the geometry. You need to click at the **Read File Header** to get the tab selections active in the upper part of the window.
 
+![](/assets/016_create_new_project.png)
+
 Click on the **Set Keys** tab. In this window you need to locate inline position (i), crossline position (c), world-x position (x) and world-y position (y) to the correct byte locations. This is done by right click on the value fields and select from the pop-up menu or by using the short cuts (in brackets above). Finally, press **Extract** to create the project geometry settings.
+
+![](/assets/017_create_new_project.png)
 
 The project geometry parameters are described as:
 
@@ -36,22 +42,28 @@ The parameters set the orientation of the survey’s grid by 2 additional points
 
 We recommend using option two (via corner point) because the orientation of the coordinate system (left-handed or right-handed) is not always stated in the EBCDIC header.
 
-EBCDIC header with coordinate info highlighted
+![](/assets/018_create_new_project.png)
+
+_EBCDIC header_
 
 If your project will contain only 2D lines, tick on the 2D Lines project box.
 
-2D Lines Project tick box
+![](/assets/019_create_new_project.png)
 
-**_Project CRS_**
-
-_A Coordinate Reference System (CRS) or Spatial Reference System is necessary to locate geographical entities. It combines a_ **_map projection_** _and the transform equations between different systems. The map projection defines the transform between the_ acquisition coordinates _(latitude and longitude measured on a reference ellipsoid or_ **_datum_**_) and the project or map coordinates (World X/ World Y)._
+_2D Lines Project tick box_
 
 Project CRS
 
-_Information about the CRS is usually found in the SEGY EBCDIC header. Users can use the_ filter _field to search for specific keywords and narrow down the list of existing CRSs. The current project CRS is displayed in green in the list and can be set by double clicking on the chosen one, the blue shows the cursor marked one._
+A Coordinate Reference System (CRS) or Spatial Reference System is necessary to locate geographical entities. It combines a **map projection** and the transform equations between different systems. The map projection defines the transform between the acquisition coordinates (latitude and longitude measured on a reference ellipsoid or **datum**) and the project or map coordinates (World X/ World Y).
 
-*   _EPSG Number: Geodetic parameter dataset from the European Petroleum Survey Group._
-*   _Description: Official name of the CRS._
-*   _CRS definition: Complete definition of the CRS in Well-Known Text (WKT) format. If the desired CRS isn’t present in the list, the user can copy/paste the WKT definition into the field to use a user defined CRS._
+![](/assets/020_create_new_project.png)
 
-_The CRS is currently used only when importing cultural data, and will not affect the relative position of any other imported files._
+_Project CRS_
+
+Information about the CRS is usually found in the SEGY EBCDIC header. Users can use the_ filter field to search for specific keywords and narrow down the list of existing CRSs. The current project CRS is displayed in green in the list and can be set by double clicking on the chosen one, the blue shows the cursor marked one.
+
+*   EPSG Number: Geodetic parameter dataset from the European Petroleum Survey Group.
+*   Description: Official name of the CRS.
+*   CRS definition: Complete definition of the CRS in Well-Known Text (WKT) format. If the desired CRS isn’t present in the list, the user can copy/paste the WKT definition into the field to use a user defined CRS.
+
+The CRS is currently used only when importing cultural data, and will not affect the relative position of any other imported files.

@@ -6,7 +6,9 @@ The user can select the default length and velocity display units when creating 
 
 Go to **Project** → **Create Project / Edit Project Geometry**
 
-Display unit default are available as part of the project geometry
+![](/assets/001_Unit_Support.png)
+
+_Display unit default are available as part of the project geometry_
 
 The time axis setup can be changed from seconds to milliseconds:
 
@@ -16,10 +18,13 @@ Both the project settings for distance and velocity, and the display settings fo
 
 The read-out of viewer can be changed on the fly.
 
-![](/assets/cusersvalentindocumentsworksh.png)
+![](/assets/002_Unit_Support.png)
 
-Left click inside a readout field will open a menu to change its unit
+_Left click inside a readout field will open a menu to change its unit_
 
 The well log viewer has separate length and time unit settings, which can be accessed by right clicking on the vertical axes.
 
-well log viewer unit settings
+![](/assets/003_Unit_Support.png)
+
+W_ell log viewer unit settings_
+

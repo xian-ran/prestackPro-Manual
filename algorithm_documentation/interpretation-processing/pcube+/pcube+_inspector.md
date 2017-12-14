@@ -6,4 +6,7 @@ Go to **Interpretation-Processing** → **Pcube+ Inspector**
 
 The figure below shows the Pcube+ Inspector when loaded with output data from an inversion.
 
+![](/assets/096_Interpretation.png)
+
 _Pcube+ Inspector window with inversion results_
+

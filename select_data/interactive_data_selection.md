@@ -6,7 +6,9 @@ To specify an area of interest from the entire imported seismic dataset:
 
 Go to **Project** → **Select Data** → **Select Data**.
 
-Select data
+![](/assets/001_Select_Data.png)
+
+_Select data_
 
 In the opening window you can:
 
@@ -30,8 +32,8 @@ To select specific lines manually tick or untick in the list of lines
 Select a range of inlines (crosslines) by changing the **From** - **To** parameter, then click on **Select**.
 
 To make a selection of only every n<sup>th</sup> (for example n = 2 for every second) inline, use n as value in the **Step** field: Press **Step** = 2 → press **Select**
-
-Data selection every 2 inlines
+![](/assets/002_Select_Data.png)
+_Data selection every 2 inlines_
 
 The **Use all inlines/crosslines** tick boxes let you select the full range in one go by ticking them until the tick is black. When the box is unticked, a click on the **Select** button will make a new selection. When the box is ticked grey, it will append the current selection.
 
@@ -41,29 +43,34 @@ The **Invert Selection** button will select the inverse of the current selection
 
 To isolate a time window smaller than the original time range, go to **Time** and change the values in the **From** and **To** fields to your specific time window
 
-Time selection going from 1.5s to 3.5s
+![](/assets/003_Select_Data.png)
+_Time selection going from 1.5s to 3.5s_
 
 The **Offsets/Angles** tab displays the total range of offset/angle planes in a pre-stack dataset. You can select the Min and Max offset/angle range to load, as well as the Step in between each offset/angle trace.
 
-Offset selection
+![](/assets/004_Select_Data.png)
+_Offset selection_
 
 **Select along an arbitrary path**
 
 You can select an arbitrary volume with gathers selected along an arbitrary path. Tick on the appropriate checkbox to enter that mode.
 
-Selection along an arbitrary path
+![](/assets/005_Select_Data.png)
+_Selection along an arbitrary path_
 
 Neighbors’ gathers are used by all stencil algorithms (ECED3D, Spatial Filtering, etc …). Those neighbors are invisible when displaying the selected volume in any viewer. You should choose enough neighbors so that 3D algorithms could run without edge effect while keeping the memory requirement balanced.
 
-Another way to load arbitrary volume is to use the Arbitrary Path Volume Creation icon in the Gather and Stack Viewer. This icon become active when the viewer shows data selected along an arbitrary path (see 12.6 and 12.7 ).
+Another way to load arbitrary volume is to use the Arbitrary Path Volume Creation icon in the Gather and Stack Viewer. This icon become active when the viewer shows data selected along an arbitrary path.
 
-Arbitrary Volume Creation icon
+![](/assets/006_Select_Data.png)
+_Arbitrary Volume Creation icon_
 
 Once an arbitrary volume is selected, it is in the Data Pool and can be used as any other volumes (display and input to processing algorithms – with the exception of the Create Maps algorithm).
 
 A copy of the input Arbitrary Path including the neighboring gathers is made. This copy is locked and can not be modified, leaving the user the possibility to modify the input Arbitrary Path.
 
-File manager showing a locked arbitrary path
+![](/assets/007_Select_Data.png)
+_File manager showing a locked arbitrary path_
 
 **Properties and comment tab**
 
@@ -71,10 +78,12 @@ The last two tabs of the **Select Data** window are for information. The **Prope
 
 To apply the selection press **Select** and your data will appear in blue in the **Data** **Pool** window.
 
-Data pool with selected data
+![](/assets/009_Select_Data.png)
+_Data pool with selected data_
 
 The size of the volume is available at the bottom of the data box in the data pool.
 
 The name of the selected data can be renamed by right clicking on it and selecting the rename option.
 
-Rename option
+![](/assets/008_Select_Data.png)
+_Rename option_

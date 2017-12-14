@@ -10,8 +10,9 @@ The **design window** parameters are used to control the strength of the filter.
 
 The **overlap** should be as large as possible to achieve the best results.
 
-The **operator length** (in samples) and **white noise** parameters can be tuned to get the desired result.
+The **operator length** \(in samples\) and **white noise** parameters can be tuned to get the desired result.
 
-![](/assets/001adaptivesub.png)
+![](/assets/052_Processing.png)
 
-Adaptive Subtraction Parameters
+_Adaptive Subtraction Parameters_
+

@@ -2,6 +2,12 @@
 
 This parameter defines the relative amount of noise that is added to the given input volume.
 
-Add noise option
+![](/assets/004_Attributes.png)
 
-Raw gathers Gathers with 5% noise
+_Add noise option_
+
+
+
+
+
+![](/assets/005_Attributes.PNG)

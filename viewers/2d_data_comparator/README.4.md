@@ -4,19 +4,9 @@ This tool allows the visual comparison of your data in an interactive manner and
 
 This tool can be found in: **Viewer** → **Data Comparator...** It is possible to open several volumes at once by selecting them in the Data Pool, holding the _Ctrl_ tab, and using the Right Mouse button to click on _Show selected volumes in a Data Comparator._
 
-1
+![](/assets/001_data_comparator.png)
 
-2
-
-6
-
-5
-
-3
-
-4
-
-Several Data displayed in the Data Comparator
+_Several Data displayed in the Data Comparator_
 
 When opening a volume in the Data Comparator we can see 3 tabs, swapping between Data/Control/Display Mode panels and 5 sections:
 
@@ -24,18 +14,13 @@ Section 1, 2 and 3 are visible in the **Data panel**. You will find there the **
 
 **Tool Bar**
 
-5
+![](/assets/002_data_comparator.png)
 
-4
+1. Normalize all plot
+2. Set the width of all panels
+3. Turn on/off the read out plot for all panels
+4. Turn on/off the marker values for all panels
+5. Open/close the plot panel
 
-3
 
-2
 
-1
-
-*   *   *   1.  Normalize all plots
-            2.  Set the width of all panels
-            3.  Turn on/off the read out plot for all panels
-            4.  Turn on/off the marker values for all panels
-            5.  Open/close the plot panel

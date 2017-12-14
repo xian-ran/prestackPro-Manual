@@ -4,9 +4,9 @@ In this section we assume that you have a running RedHat Linux installation (or 
 
 The steps that are covered are:
 
-*   Configure network connection
-*   Make the Infiniband connection work
-*   Test the Infiniband connection
-*   Installation of the BeeGFS Parallel File System
-*   Installation of OLicense Server
-*   Installation of Pre-Stack Pro
+* Configure network connection
+* Make the Infiniband connection work 
+* Test the Infiniband connection 
+* Installation of the BeeGFS Parallel File System 
+* Installation of OLicense Server
+* Installation of Pre-Stack Pro
