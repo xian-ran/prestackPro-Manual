@@ -2,9 +2,7 @@
 
 Take a minute to familiarize yourself with the general appearance of Pre-Stack Pro.
 
-Shortcuts
-
-![](/assets/appearance.png)
+Shortcuts![](/assets/001_Getting_Started.png)
 
 Common appearance of Pre-Stack Pro
 

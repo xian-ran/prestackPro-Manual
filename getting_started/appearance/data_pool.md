@@ -1,8 +1,8 @@
 ### Data Pool {#data-pool}
 
-![](/assets/dataPoolOverview.png)
+![](/assets/002_Getting_Started.png)
 
-![](/assets/cusersjohanndesktopmanual-40-.png)
+
 
 _Data Pool overview_
 
