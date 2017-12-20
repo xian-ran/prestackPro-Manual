@@ -2,6 +2,7 @@
 
 * [Frontpage](README.md)
 * [ Introduction](introduction.md)
+  * [Important: Project update to version 5.0](introduction/important-project-update-to-version-50.md)
 * [Getting started](getting_started\README.md)
   * [Checking and change status of parallel file system](getting_started\checking_and_change_status_of_parallel_file_system.md)
   * [Start of Pre-Stack Pro](getting_started\start_of_pre-stack_pro.md)
