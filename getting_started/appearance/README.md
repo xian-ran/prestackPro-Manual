@@ -1,10 +1,8 @@
 ## Appearance {#appearance}
 
-Take a minute to familiarize yourself with the general appearance of Pre-Stack Pro.
+Take a minute to familiarize yourself with the general appearance of Pre-Stack Pro.![](/assets/001_Getting_Started.png)
 
-Shortcuts![](/assets/001_Getting_Started.png)
-
-Common appearance of Pre-Stack Pro
+_Common appearance of Pre-Stack Pro_
 
 Numbers mark specific windows which are introduced briefly in this chapter.
 

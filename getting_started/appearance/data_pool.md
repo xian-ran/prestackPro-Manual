@@ -2,8 +2,6 @@
 
 ![](/assets/002_Getting_Started.png)
 
-
-
 _Data Pool overview_
 
 The **Data Pool** window gives an overview of all loaded data:
@@ -28,9 +26,7 @@ Data volumes can be dragged into one of the six right hand side icons for visual
 
 Using the data pool context menu, volumes can be selected as a group and displayed in an appropriate viewer. They can be input into Volume Calculator or into crossplot. They can also be used to create a workflow and exported to SEGY.
 
-![](/assets/cusersjohannappdatalocalmicro.png)
-
-Data Pool context menu
+![](/assets/003_Getting_Started.png)
 
 _Action on data volumes from the Data Pool_
 
@@ -40,27 +36,13 @@ Individual data volumes can be QC’d by reading the volume information and hist
 
 In addition, the data can be used to create a new dataset by editing a copy; by cutting a sub volume; or by generating a workflow of the processing sequence applied so far. This workflow can be applied to other volumes.
 
-![](/assets/cusersjohanndesktopmanual-40-.png)
-
-Pre-stack data context menu
-
-![](/assets/arbitraryLineContextMenu.png)
-
-Arbitrary line context menu
+![](/assets/004_Getting_Started.png)
 
 _Action on a volume from the Data Pool_
 
 The data volumes can be sorted by type by using the filter option on the bottom right part of the tab.
 
-![](/assets/cusersjohanndesktopmanual-40-.png)![](/assets/sortOutOptionInTheDataPool.png)
+![](/assets/sortOutOptionInTheDataPool.png)
 
 _Sort out option in the Data Pool_
-
-Log window
-
-![](/assets/logWindow.png)
-
-Log window
-
-The **Log Window** gives a report about past and running processes of the current Pre-Stack Pro session. Running processes may also be halted from the log window by pressing the stop option on the right side of the running process.
 

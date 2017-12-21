@@ -8,6 +8,7 @@
   * [Start of Pre-Stack Pro](getting_started\start_of_pre-stack_pro.md)
   * [Appearance](getting_started\appearance\README.md)
     * [Data Pool](getting_started\appearance\data_pool.md)
+    * [Log Window](getting_started/appearance/log-window.md)
     * [Workflow ](getting_started\appearance\workflow.md)
     * [Processing tab](getting_started\appearance\processing_tab.md)
     * [Viewer windows](getting_started\appearance\viewer_windows.md)
