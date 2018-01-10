@@ -10,5 +10,5 @@ If you have closed one window by mistake, you can retrieve it from here.
 
 ![](/assets/Windows.png)
 
-Windows
+_Windows menu_
 
