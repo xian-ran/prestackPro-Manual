@@ -1,4 +1,4 @@
-## Import SEG-Y {#import-seg-y}
+### Import SEG-Y {#import-seg-y}
 
 Pre-Stack Pro works on regular grids, it will load and display SEGY file(s) that have a rectangular or cuboid shape, with a constant number of inlines, crosslines and offset distances.
 

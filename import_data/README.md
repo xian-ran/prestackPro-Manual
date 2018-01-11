@@ -1,13 +1,10 @@
-# Import data {#import-data}
+## Import data {#import-data}
 
 The following data types may be imported to Pre-Stack Pro:
 
 *   Seismic data in SEGY format (regular or irregular)
 *   Velocity data in common ASCII format and SEGY
 *   Interpreted horizon and surface grid loaded as xyz point sets (ASCII)
-
-and in TS
-
 *   ETA fields in ASCII or SEG-Y
 *   Attenuation data (Q data) in column based ASCII format or SEG-Y
 *   SRMS data (Seismic RMS amplitude for AVO scaling), synthetic scalar.
@@ -17,5 +14,3 @@ and in TS
 To import any type of data go to:
 
 **Project** _→_ **_Import_**
-
-Data import
