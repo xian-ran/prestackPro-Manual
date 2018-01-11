@@ -13,4 +13,4 @@ The following data types may be imported to Pre-Stack Pro:
 
 To import any type of data go to:
 
-**Project** _→_ **_Import_**
+**Project** _→_ **Import**
