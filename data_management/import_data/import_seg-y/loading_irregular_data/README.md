@@ -6,13 +6,15 @@ To avoid the need to scan the trace headers every time these SEGY file(s) are re
 
 Enter a name for this lookup table. This will be stored into the project. For large files, scanning can take several hours. A scan-time estimate is provided in a log window.
 
-Dialog used to name the lookup table for the automatic regularization
+![](/assets/001_Import_Irreg_Data.png)
+
+_Dialog used to name the lookup table for the automatic regularization_
 
 Once scanning is complete a window opens that contains information about the content of the data file(s)
 
-Regularization dialog
+![](/assets/002_Import_Irreg_Data.png)
 
-Map of the data and options to choose for the regularization process
+_Regularization dialog: map of the data and options to choose for the regularization process_
 
 **For large files** enlarge this window to increase the level of details displayed. This window contains a map of all inline and crossline traces within data file(s). By default, live traces are shown in yellow and missing traces are in blue. The color is based on a color palette, visible from the **Histogram** on the lower right side of the window, and the chosen sorting parameter (**CDP** by default). The current sorting parameter is displayed in the **Statistic** drop-down menu on the upper right corner of the window.
 

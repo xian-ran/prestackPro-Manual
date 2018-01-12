@@ -12,4 +12,7 @@ The domain properties must be set.
 
 A default file name is suggested for the imported velocity file, typically “Line-&lt;linenumber&gt;”. If this filename already exists, the user must either edit the file name or add a file name prefix. It is also possible to add the imported velocity file to a file group.
 
+![](/assets/009_import_velocity.png)
+
 _Setting the domain properties for the imported velocity file._
+

@@ -1,6 +1,8 @@
 #### Volume properties tab {#volume-properties-tab}
 
-Volume properties tab
+![](/assets/002_import_javaseis.png)
+
+_Volume properties tab_
 
 In the volume properties tab the user can define the properties of the resulting output volume
 
@@ -12,4 +14,5 @@ This tab is particularly useful when the properties need modification after impo
 
 **Properties:**
 
-This tab is similar to the properties tab in the [SEGY import](..\README.md).
+This tab is similar to the properties tab in the [SEGY import user interface](/data_management\import_data\import_seg-y\README.md).
+

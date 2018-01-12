@@ -4,6 +4,5 @@ Seismic data gets attenuated as the energy is transmitted through the earth. One
 
 The supported formats are either SEG-Y or an ASCII based column format like for velocity or Eta field.
 
-Import of velocity
-
 These ﬁles have to consist of at least one column for the inline information, one column for the crossline information, one column for the time/depth information and one column with the Q data.
+
