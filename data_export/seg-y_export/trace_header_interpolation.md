@@ -4,6 +4,9 @@ When you interpolate a stack volume to double the spatial density, you will need
 
 To interpolate headers, go to **Utilities** → **Trace header interpolation**
 
-Trace header interpolation user interface
+![](/assets/011_data_export.png)
 
-Specify the grid to be the same as the interpolated volume. You have a choice of overwriting the existing header or to create a new one (recommended).
+_Trace header interpolation user interface_
+
+Specify the grid to be the same as the interpolated volume. You have a choice of overwriting the existing header or to create a new one \(recommended\).
+

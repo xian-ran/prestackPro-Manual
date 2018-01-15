@@ -1,15 +1,16 @@
 ## Select from file {#select-from-file}
 
-It is possible to select data directly from the File manager. Right click on the data on the data tree (left part) and click on “select from file”
+It is possible to select data directly from the File manager. Right click on the data on the data tree \(left part\) and click on “select from file”
 
-![](/assets/cusersvalentinappdatalocaltem.png)
+![](/assets/008_file_manager.png)
 
-Select from file
+_Select from file_
 
-The data selection window pops up. The selection is done as described on the [data selection](..\select_data\README.md) section: selection of the Inline, crossline time…
+The data selection window pops up. The selection is done as described on the [data selection](/select_data/README.md) section: selection of the Inline, crossline time…
 
-![](/assets/cusersvalentinappdatalocaltem.png)
+![](/assets/009_file_manager.png)
 
-Data selection
+_Data selection_
 
 The new dataset is then available in the Data Pool.
+
