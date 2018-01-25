@@ -95,6 +95,7 @@
     * [Edit display](viewers\3d_viewers\edit_display.md)
     * [Camera positions](viewers\3d_viewers\camera_positions.md)
     * [Horizons](viewers\3d_viewers\horizons.md)
+    * [Basic Scene Controls](viewers/3d_viewers/basic-scene-controls.md)
   * [Spectral Analysis](viewers\spectral_analysis.md)
   * [2D Data Comparator](viewers\2d_data_comparator\README.4.md)
     * [Data selection ](viewers\2d_data_comparator\data_selection.md)
@@ -127,6 +128,7 @@
       * [Linked log viewer](viewers\well_log_viewer\log_data_qc_&_management\linked_log_viewer.md)
     * [Well Log Viewer GUI](viewers\well_log_viewer\well_log_viewer_gui.md)
     * [Well Log Viewer icons](viewers\well_log_viewer\well_log_viewer_icons.md)
+  * Old 3D Viewer
 * [Algorithm documentation](algorithm_documentation\README.md)
   * [Overview of the process window](algorithm_documentation\overview_of_the_process_window\README.md)
     * [Overview ](algorithm_documentation\overview_of_the_process_window\overview.md)
