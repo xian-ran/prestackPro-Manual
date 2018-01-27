@@ -2,16 +2,14 @@
 
 This module creates scatter **cross plots** if the number of points is below a certain threshold (default: 5000).
 
-For performance reasons, if there too many data points in a point cloud, Pre-Stack Pro will create a density plot instead.Pre-Stack Pro will The threshold, scatter point size and a default swap to scatter plots, can be set using the Settings Menu. 10000 points is the maximum number allowed.
+For performance reasons, if there too many data points in a point cloud, Pre-Stack Pro will create a density plot instead. Pre-Stack Pro will The threshold, scatter point size and a default swap to scatter plots, can be set using the Settings Menu. 10000 points is the maximum number allowed.
 
 ![](/assets/xplots-36-6.png)
 
-|  |  |
-| --- | --- |
-|  |  |
-| ![](/assets/cusersjohannappdatalocalmicro.png) | Interactive swapping between density and scatter plots can be done using the **scatter plot** icon; |
-| ![](/assets/cusersjohannappdatalocalmicro.png) | and between single and histogram colour display using the **single colour / dataset** icon. |
-| ![](/assets/cusersjohannappdatalocalmicro.png) | Focusing the plot for the visible data range, is possible using the **Recalculate plot** icon. It is also possible to select the option to auto-recalculate the plots for visible range. |
+- ![](/assets/001_crossplot.png): Interactive swapping between density and scatter plots can be done using the **scatter plot** icon
+- ![](/assets/002_crossplot.png): and between single and histogram colour display using the **single colour / dataset** icon.
+- ![](/assets/003_crossplot.png): Focusing the plot for the visible data range, is possible using the **Recalculate plot** icon. It is also possible to select the option to auto-recalculate the plots for visible range.
+
 
 Any two volumes of the same dimension can now be used to create a cross plot. Eg: prestack gather volumes from different processing steps, intercept and gradient stacks, Map attribute volumes, 2 timeshift volumes, 2 PCube inversion output volumes.
 
@@ -37,17 +35,13 @@ Attribute values for individual points may be displayed by hovering the mouse ov
 
 ![](/assets/jk36manual_-v3.png)
 
-LFC, density plot : cursor readout LFC, scatter plot : cursor readout
+_LFC, density plot : cursor readout LFC, scatter plot : cursor readout
+_
+![](/assets/004_crossplot.png)
+_
+PCube LFC facies classes &amp; volumes shown together in a scatter cross plot, of Vp v Vp/Vs with point colours from the 3<sup>rd</sup> density attribute. (Imported ASCII file LFC values are shown instead of simulated clouds)._
 
-![](/assets/cusersjohanndesktopsharp-stuff.png)
-
-PCube LFC facies classes &amp; volumes shown together in a scatter cross plot,
-
-*   of Vp v Vp/Vs with point colours from the 3<sup>rd</sup> density attribute.
-
-( Imported ASCII file LFC values are shown instead of simulated clouds ).
-
-**Creation &amp; Display of cross plot datasets :**
+### Creation &amp; Display of cross plot datasets :
 
 Cross plots will work with every point or sample in the input datasets, unless a polygon is selected when importing, to define a subset.
 
