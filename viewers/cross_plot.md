@@ -45,18 +45,16 @@ PCube LFC facies classes &amp; volumes shown together in a scatter cross plot, o
 
 Cross plots will work with every point or sample in the input datasets, unless a polygon is selected when importing, to define a subset.
 
-| ![](/assets/crossplt7.png) |
-| --- | --- |
-
-&lt;Add dataset&gt; – polygon select Map Viewer, create polygon
+![](/assets/005_crossplot.PNG)
+_Add plot - Select a polygon_
 
 These can be drawn on a structure map or an attribute in Map Viewer, to restrict the “area of interest” of any cross plot dataset. They can also be drawn on a single gather, in the Gather Viewer, to restrict the time/depth and offset ranges of a prestack gather cross plot dataset.
 
 Selecting ‘Show details’ adds graphs showing advanced parameters’ shows data distributions for the two dataset volumes, and permits customized bin size selection.
 
-![](/assets/cusersjohanndesktopsharp-stuff.png)
+![](/assets/006_crossplot.png)
 
-&lt;Add dataset&gt; – Show details graphsAdvanced Parameters Menu
+_Add plot – Show details graphs - Advanced Parameters Menu_
 
 This details display allows the user to change X and Y axis ranges using one of the following options:
 
@@ -68,134 +66,101 @@ Multiple cross-plots from other volume pairs can be added to a single plot view,
 
 Two options are available to control cross plot colour:
 
-1.  Each plot may be displayed with a **single user-specified colour**.
+1.  Each plot may be displayed with a **single user-specified colour**. Where data to be cross plotted have been subsampled inside a polygon, the polygon colour is used by default on the cross plot. Density highs and lows are highlighted by artificial illumination, using sun shading (from the NW corner).
 
-Where data to be cross plotted have been subsampled inside a polygon, the polygon colour is used by default on the cross plot.
+2.  Cross plots may also be coloured using the **histogram**. One freely configurable transfer function, may be assigned per plot. Transparency is fully supported with this option.
 
-Density highs and lows are highlighted by artificial illumination, using sun shading (from the NW corner).
+![](/assets/007_crossplot.PNG)
 
-1.  Cross plots may also be coloured using the **histogram**. One freely configurable transfer function, may be assigned per plot. Transparency is fully supported with this option.
-
-![](/assets/cusersjohanndesktopmanual34-pi.png)
-
-Gathers before and after AGC scaling and corresponding crossplot
-
-![](/assets/cusersjohanndesktopmanual34-pi.png)Single colour V Full colour density display
-
-( Cross plot of 6 gigs of prestack gather data = 564 million points )
+_Gathers before and after AGC scaling and corresponding crossplot
+_
+![](/assets/008_crossplot.PNG)
+_Single colour V Full colour density display_
 
 Cross plot displays default to show the density of points within **3 standard deviations** of the dataset mean. To see more of the data, use the mouse wheel to zoom out and click on the “recalculate all cross plots to the visible data range” icon, accepting the manual defaults. This will redraw the cross plot.
 
-|  | From drop down menu either select “Recalculate all cross plots for the currently visible data range” icon, accepting the manual defaults, to redraw the cross plot, or select “Auto-recalculate plots for visible range”. |
-| --- | --- |
+![](/assets/009_crossplot.png)
 
-If you want to see all the data points, set the X and Y axis ranges to **min/max** using &lt;Edit all&gt; in the cross plot menu, and redraw the cross plot points as described above.
+From drop down menu either select “Recalculate all cross plots for the currently visible data range” icon, accepting the manual defaults, to redraw the cross plot, or select “Auto-recalculate plots for visible range”. 
 
-( if requested, increase the **bin size** for the density calculation to reduce the number of bins to &lt; 4000 ).
+If you want to see all the data points, set the X and Y axis ranges to **min/max** using **Edit all**; in the cross plot menu, and redraw the cross plot points as described above.
 
-![](/assets/cusersjohanndesktopmanual34-pi.png)
+If requested, increase the **bin size** for the density calculation to reduce the number of bins to &lt; 4000.
 
-&lt;Edit all&gt; with bin size message
+![](/assets/010_crossplot.png)
+_Edit all with bin size message_
 
-When cross-plotting **very small datasets**, the display may need larger X and Y **bin sizes**, to enable point density highs and lows to be seen, especially when colouring by histogram.
+When cross-plotting very small datasets, the display may need larger X and Y **bin sizes**, to enable point density highs and lows to be seen, especially when colouring by histogram.
 
 With the single colour display, you may need to set the “Hide densities below” setting to its lowest value of **0.10** to see all the data and set **20%** transparency to see overlaps.
 
-![](/assets/cusersjohannappdatalocalmicro.png)
+![](/assets/011_crossplot.PNG)
+_Single colour V Full colour density plot display_
 
-Single colour V Full colour density plot display
+Alternatively swap to scatter plot display, using the “scatter plot” and recalculate visible data icons, accepting the manual defaults, to redraw the cross plot. 
 
-( Cross plot of Map I &amp; G data, inside blue &amp; red polygons = 757 points )
+![](/assets/012_crossplot.PNG)
+_Single colour - scatter plot display_
 
-Alternatively swap to scatter plot display, using the
-
-| ![](/assets/cusersjohannappdatalocalmicro.png) | “scatter plot” and recalculate visible data icons, accepting the manual defaults, to redraw the cross plot. |
-| --- | --- |
-
-![](/assets/cusersjohanndesktopsharp-stuff.png)
-
-Single colour - scatter plot display
-
-( Cross plot of Map I &amp; G data, inside blue &amp; red polygons = 757 points )
-
-**Creation &amp; Display of PCube LFC cross plot datasets :**
+### Creation &amp; Display of PCube LFC cross plot datasets :
 
 Cross plot will allow PCube LFC classes to be cross-plotted; on their own or with PCube output volumes.
 
-| ![](/assets/cusersjohannappdatalocalmicro.png) | LFC datasets can be added to the crossplot using the &lt;Add/Edit Facies&gt; option in the Cross Plot window. |
-| --- | --- |
+![](/assets/013_crossplot.png)
+LFC datasets can be added to the crossplot using the **Add/Edit Facies** option in the Cross Plot window.
+The user has a choice of running simulations to prod uce point clouds for each selected LFC or replacing these simulation with imported real Vp/Vs/Rho values if available.
 
-![](/assets/cusersjohanndesktopsharp-stuff.png)
-
-&lt;Add/Edit Facies&gt; – Select Facies Input GUI
+![](/assets/014_crossplot.png)
+_Add/Edit Facies – Select Facies Input GUI_
 
 LFC classes may also be cross-plotted with seismic amplitude datasets, if AVA attributes such as reflection coefficients or Intercept and Gradient are chosen. There are 15 properties/attributes to choose from.
 
-| ![](/assets/cusersjohanndesktopsharp-stuff.png) |
-| --- | --- |
+![](/assets/015_crossplot.PNG)
+_Add/Edit Facies – Axis select,  15 properties available _
 
-&lt;Add/Edit Facies&gt; – Axis select, 15 properties available
+![](/assets/016_crossplot.PNG)
+_PCube  LFC classes  –  simulated clouds  V  imported ASCII points (red cloud/points are from PCube inversion output volumes)_
 
-| ![](/assets/cusersjohannappdatalocalmicro.png) |
-| --- | --- |
-
-PCube LFC classes – simulated clouds V imported ASCII points
-
-( red cloud/points are from PCube inversion output volumes )
-
-**Cross Plot window - basics and icons**
+#### Cross Plot window - basics and icons
 
 ![](/assets/slide1.png)
 
-**Swap between density and scatter plot display** – if number of points &lt; 5000
+![](/assets/017_crossplot.PNG)
 
-**Swap between 1 colour and histogram point density display** mode
+### Cross Plot window - context menus &amp; polygons
 
-**Set or Edit Axis labels**
+![](/assets/018_crossplot.png)
 
-**Create a mask volume for ‘visible’ data range** ( and alternative to using polygons)
-
-**Synchronize Scatterplot Readout**
-
-**Reset data aspect ratio to 1:1**
-
-**Recalculate all crossplots for the currently visible data range**
-
-_Cross Plot Window basics and icons_
-
-**Cross Plot window - context menus &amp; polygons**
-
-Cross Plot context menu, create polygons for masks option
+_Cross Plot context menu, create polygons for masks option_
 
 When you select the option to Create a new polygon a help box pops up to guide the process. You can change the setting in the General tab, to prevent this pop up, once you have learned how to edit polygons.
 
 ![](/assets/xplots-36-13.png)
 
-**Cross Plot window - context menus &amp; overlays**
+### Cross Plot window - context menus &amp; overlays
 
-**![](/assets/xplots-36-14.png)**
-
-Cross Plot context menu, add overlay functions option
+![](/assets/xplots-36-14.png)
+_Cross Plot context menu, add overlay functions option_
 
 4 linear functions can be displayed over the top of any cross plot to aid interpretation:
 
-1.  **Chi angle/rotation : line slope = 1 / tan( )**
+**Chi angle/rotation : line slope = $$1/tan(\theta)$$**
 
-where is either the angle of rotation clockwise from vertical or the Chi angle. In other words at 0 degrees rotation, Chi angle = 90 degrees and at 90 degrees rotation, Chi angle = 0 degrees.
+where $$\theta$$ is either the angle of rotation clockwise from vertical or the Chi angle. In other words at 0 degrees rotation, Chi angle = 90 degrees and at 90 degrees rotation, Chi angle = 0 degrees.
 
-1.  **Predicted Noise Gradient : line slope = -1 / (sin<sup>2</sup>( <sub>effective</sub> ))**
+**Predicted Noise Gradient : line slope = $$-1 / (sin^2</sup>( \theta_{effective}))$$**
 
-Where <sub>effective</sub> = angle from an average of angle gather sin<sup>2</sup>(θ).
+Where $$\theta_{effective}$$ = angle from an average of angle gather $$sin^2(\theta)$$.
 
-If the angle gathers used for the I and G calculations had angles from 4 to 40 degrees increment of 4 degrees, then the θ<sub>effective</sub> angle would be  Inv    Σ sin<sup>2</sup> () / 10  = 24.24 degrees.
+If the angle gathers used for the I and G calculations had angles from 4 to 40 degrees increment of 4 degrees, then the $$\theta_{effective}$$ angle would be =24.24 degrees.
 
 This is a Random Noise line prediction from AVO papers (“Stacked” paper by Hendrickson, Geophysics 1999 and AVO course, chapter 11 by Rob Simms.)
 
-1.  **Constant Vp/Vs, Gardner density : line slope = 0.8 (1 – 9( Vs/Vp )<sup>2</sup>)**
+**Constant Vp/Vs, Gardner density : line slope = $$0.8 * (1 – 9*(Vs/Vp)^2)$$**
 
 This line comes from the Castagna et al 1998 AVO paper and assumes the geology has constant Vp/Vs ratio and Gardner equation densities.
 
-1.  **Caprock V Reservoir Vp/Vs, constant density :**
+**Caprock V Reservoir Vp/Vs, constant density :**
 
 **Line slope = 1 – 8 [ ( Vs<sub>1</sub>+Vs<sub>2</sub>) ∆Vs / ( Vp<sub>1</sub>+Vp<sub>2</sub>) ∆Vp ]**
 
