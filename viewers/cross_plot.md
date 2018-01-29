@@ -164,49 +164,43 @@ This line comes from the Castagna et al 1998 AVO paper and assumes the geology h
 
 **Line slope = $$1 – 8*\frac{(Vs_1+Vs_2)*\Delta Vs}{(Vp_1+Vp_2)*\Delta Vp} $$**
 
-Where Vs<sub>1 ,</sub> Vs<sub>2</sub> are the shear velocities in the Caprockand Reservoir respectively and Vp<sub>1</sub>, Vp<sub>2</sub> the compressional velocities. ∆Vs, ∆Vp the differences between these velocities.
+Where $$Vs_1, Vs_2$$ are the shear velocities in the Caprock and Reservoir respectively and $$Vp_1, Vp_2$$ the compressional velocities. $$\Delta Vs, \Delta Vp$$ the differences between these velocities.
 
 This line comes from the book “Quantitative Seismic Interpretation”, by Per Avseth (see p. 205). Vp/Vs ratios can vary between the Caprock and the Reservoir but the density remains constant.
 
-To adjust the angle of the overlay properly, make sure that the ratio between each axis is 1:1\. You can use the button in the tool bar to ensure that the ratio is properly set.
+To adjust the angle of the overlay properly, make sure that the ratio between each axis is 1:1. You can use the ![](/assets/019_crossplot.png) button in the tool bar to ensure that the ratio is properly set.
 
-**Mask volumes :**
+### Mask volumes :
 
 Mask volumes can be created from ‘visible points’, using the main Cross Plot window icon ![](/assets/crossplt13a.png) or from polygons created in the cross-plot window.
 
 ![](/assets/xplots-36-15.png)
-
-Inside a Cross Plot polygon, context menu
+_Inside a Cross Plot polygon, context menu_
 
 Mask volumes have values of 1.0 where points/samples lie inside the polygon and 0.0 for outside. These can be QC’d using mask display and transparency in Gather, Stack and PreStack Map Viewers. The red overlay shows points outside the polygon in the first example below. ( The range to overlay is defaulted to -0.5 to 0.5 and therefore shows 0.0 mask volume values )
 
-![](/assets/crossplt25.png)
-
-Seismic input to Cross Plot 1 Mask volume overlain (normal)
+![](/assets/020_crossplot.png)
+_Left: input seismic volume - Right: volume overlaid on top_
 
 The red, yellow and blue colours show the points inside three different polygons in the next example. This option is selected using the inverse range box in the Transparency Tab, under Masks in the Stack Viewer.
 
 ![](/assets/crossplt19a.png)
+_Masks – display points inside polygons as colours_
 
-Masks – display points inside polygons as colours
-
-![](/assets/crossplt19.png)
-
-Seismic input to Cross Plot 3 Mask volumes overlain (inverse)
+![](/assets/021_crossplot.PNG)
+_Left: Seismic input to Cross Plot - Right: 3 Mask volumes overlain (inverse)_
 
 **QC, Volume Calculator** can be used to multiply the original seismic by the mask volume. This remove amplitudes that aren’t inside the polygon (multiplied by zero) and leave just those inside. A kind of ‘cookie cut’ of the original volume by the mask volume results.
 
 Also **Volume Calculator**, **Custom equation**, can be used to create an AVO class volume, combining several mask volumes. Each Volume is multiplied by a different scalar so that they can have a unique colour from the histogram.
 
-![](/assets/cusersjohannappdatalocalmicro.png)
+![](/assets/022_crossplot.png)
+_Custom mathematical equation for a 3 class volume_
 
-Custom mathematical equation for a 3 class volume
+![](/assets/023_crossplot.PNG)
+_Left: 3 Mask volumes overlain on original stack - Right:combined into a class volume_
 
-![](/assets/crossplt20.png)
-
-3 Mask volumes overlain on original stack &amp; combined into a class volume
-
-**Masks in Viewers :**
+### Masks in Viewers :
 
 Any volume can be shown as a mask instead of a volume in Stack, Gather and PreStack Map Viewers. Display the volume first, and select an amplitude range to apply as a mask, from the volume histogram.
 
