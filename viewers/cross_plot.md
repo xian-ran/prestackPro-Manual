@@ -152,7 +152,7 @@ where $$\theta$$ is either the angle of rotation clockwise from vertical or the 
 
 Where $$\theta_{effective}$$ = angle from an average of angle gather $$sin^2(\theta)$$.
 
-If the angle gathers used for the I and G calculations had angles from 4 to 40 degrees increment of 4 degrees, then the $$\theta_{effective}$$ angle would be =24.24 degrees.
+If the angle gathers used for the I and G calculations had angles from 4 to 40 degrees increment of 4 degrees, then the $$\theta_{effective}$$ angle would be $$ sin^2(\theta_{effective}) = \sqrt{\frac{\sum sin^2(\theta)}{N}}$$ so $$\theta$$ equals 24.24 degrees as the fold N equals 10 in this example. 
 
 This is a Random Noise line prediction from AVO papers (“Stacked” paper by Hendrickson, Geophysics 1999 and AVO course, chapter 11 by Rob Simms.)
 
@@ -162,7 +162,7 @@ This line comes from the Castagna et al 1998 AVO paper and assumes the geology h
 
 **Caprock V Reservoir Vp/Vs, constant density :**
 
-**Line slope = 1 – 8 [ ( Vs<sub>1</sub>+Vs<sub>2</sub>) ∆Vs / ( Vp<sub>1</sub>+Vp<sub>2</sub>) ∆Vp ]**
+**Line slope = $$1 – 8*\frac{(Vs_1+Vs_2)*\Delta Vs}{(Vp_1+Vp_2)*\Delta Vp} $$**
 
 Where Vs<sub>1 ,</sub> Vs<sub>2</sub> are the shear velocities in the Caprockand Reservoir respectively and Vp<sub>1</sub>, Vp<sub>2</sub> the compressional velocities. ∆Vs, ∆Vp the differences between these velocities.
 
