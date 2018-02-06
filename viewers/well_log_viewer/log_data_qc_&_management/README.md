@@ -29,6 +29,8 @@ In edit mode, log samples can be selected and modified, and logs can be combined
  
   ![](/assets/007_Well_Log_Viewer.png) 
   
+
+  
 Select **Combine Logs** to merge and mask other logs with the current log. For **Mask with 2<sup>nd</sup> log** and **Simple merge** select a second log. 
 
   ![](/assets/008_Well_Log_Viewer.png) 
