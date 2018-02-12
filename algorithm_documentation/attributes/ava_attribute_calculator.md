@@ -101,26 +101,27 @@ QC measure for AVA curve fitting. This provides a statistical measure of whether
 
 This QC is used to identify zones where the seismic data does not fit with the AVO model.
 
-**Coherency, semblance**:
+**Coherency, semblance:**
 
 The semblance is the measure of multichannel coherence, the energy of a sum trace divided by the mean energy of the component of the sum.it is basically the energy of the stack normalized by the mean energy of the components of the stack. This is equivalent to the zero-lag value of the autocorrelation of the sum trace divided by the mean of the zero-lag values of the autocorrelations of the component traces.
 
-**Angle range**: These parameters allow to specify in more detail the desired attributes. For all attributes, a minimum and maximum angle can be set: angles smaller than α<sub>min</sub> or larger than α<sub>max</sub> are cut (sort of a mute function).
+**Angle range:** 
+These parameters allow to specify in more detail the desired attributes. For all attributes, a minimum and maximum angle can be set: angles smaller than α<sub>min</sub> or larger than αmax are cut (sort of a mute function).
 
 For Intercept and Gradient calculation, a robust version is available. It uses a weighting scheme on the far angles amplitude values.
 
-The other parameters (vs/vp-Ratio, Mudrock Line Intercept and Noise Percentage) are used for the P-Wave Reflectivity, Fluid Factor and Coherency calculation. All of the parameters are set to a sensible default value.
+The other parameters ($$vs/vp$$-Ratio, Mudrock Line Intercept and Noise Percentage) are used for the P-Wave Reflectivity, Fluid Factor and Coherency calculation. All of the parameters are set to a sensible default value.
 
-**The Filter Half-length** will be used for Intercept and Gradient if Using Lateral Smoothing is checked.
+**The Filter Half-length** will be used for Intercept and Gradient if Using Lateral Smoothing is checked. 
+<br />
+![](/assets/011_Attributes.PNG)
 
-Angle gathers Intercept (stack) gradient (stack)
+<pre class="tab">Angle gathers           Intercept (stack)          gradient (stack)</pre>
 
-Those cubes can be [sculpted](..\interpretation-processing\sculpt.md) along a horizon of interest. Thanks to the
+Those cubes can be [sculpted](/algorithm_documentation/interpretation-processing/sculpt.md) along a horizon of interest. Thanks to the transparency option, the AVA effect can be analyzed.
+<br />
+![](/assets/012_Attributes.PNG)
+<pre class="tab">Angle gathers           Intercept (stack)      gradient (stack)
+Cropped along an horizon, transparency applied</pre>
 
-transparency
 
-option, the AVA effect can be analyzed.
-
-Angle gathers Intercept (stack) gradient (stack)
-
-Cropped along an horizon, transparency applied

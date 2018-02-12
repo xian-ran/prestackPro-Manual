@@ -2,16 +2,16 @@
 
 The **Complex trace Attribute Calculator** calculates some of the classic trace attributes used for interpretation and characterization directly in Pre-Stack Pro.
 
-Go to:
+Go to: **Attributes** → **Complex Trace Attribute Calculator**
+<br />
+![](/assets/013_Attributes.PNG)
 
-**Attributes** → **Complex Trace Attribute Calculator**
+_Complex trace attribute window_
 
-Complex trace attribute window
+$$t$$ denotes time, $$x(t)$$ trace, and $$y(t)$$ Hilbert transform of $$x(t)$$ 
+instantaneous frequency $$f(t) \approx \frac{1}{2\Pi T}atan [\frac{x(t)y(t+T)-x(t+T)y(t)}{x(t)x(t+T)+y(t+T)y(t)}]$$
 
-t denotes time, x(t) trace, and y(t) Hilbert transform of x(t)
 
-instantaneous frequency
+instantaneous phase $$\theta (t) = atan [\frac{y(t)}{x(t)}]$$
 
-instantaneous phase
-
-trace envelope
+trace envelope $$a(t) = \sqrt{x^2(t)+y^2(t)} $$

@@ -18,5 +18,5 @@ By checking 'Use same min/max value', a symmetric limit around zero is used. Fur
 
 ![](/assets/006_Attributes.PNG)
 
-<pre class="tab">Original data		    		Limited data to 300 </pre>
+<pre class="tab">_Original data		    		Limited data to 300 _</pre>
 
