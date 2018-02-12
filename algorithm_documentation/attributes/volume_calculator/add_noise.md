@@ -10,5 +10,5 @@ _Add noise option_
 
 ![](/assets/005_Attributes.png)
 
-<pre class="tab">Raw gathers		            	Gathers with 5% noise</pre>
+<pre class="tab">Raw gathers		                	Gathers with 5% noise</pre>
 

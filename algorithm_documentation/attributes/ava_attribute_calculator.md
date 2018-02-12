@@ -4,69 +4,96 @@ The AVA Attribute Calculator can help you to do your AVA analysis by calculating
 
 Go to: **Attributes** → **AVA Attribute Calculator**
 
-The algorithm uses prestack seismic volumes in the angle/time domain only.
+The algorithm uses pre-stack seismic volumes in the angle/time domain only. 
 
-To convert data from the offset to the angle domain please go to: Offset to angle
+To convert data from the offset to the angle domain please go to:  [Offset to angle](/algorithm_documentation/interpretation-processing/offset_to_angle.md)
 
 For the calculation of the Fluid Factor, an interval velocity with the same dimensions as the input seismic is required. For easy use, this can be selected using the drop down list from the GUI.
 
-AVA Attribute Calculator
 
 **Attribute selection:** This selection defines the output of the algorithm. Choose any Attribute by clicking the relevant check box. It will automatically add a preview panel with a preview of the attribute at the location selected in the inline/crossline boxes.
 
 For some attributes, additional parameters are required. The corresponding GUI elements will be displayed. All attributes require a minimum and a maximum angle.
+<br />
+![](/assets/010_Attributes.PNG)
+_AVA Attribute Calculator_
+<br />
 
 **Intercept and Gradient:**
 
-_R_() _RP_ _G_ sin<sup>2</sup>
 
-The intercept R_P_ and gradient _G_ are the two coefficients from the 2-term
+$$
 
-Shuey AVA equation above, with incidence angle, on the horizontal axis.
+R(\theta) = R_P+GSin^2\theta
 
+
+$$
+
+
+The intercept $$R_P$$ and gradient $$G$$ are the two coefficients from the 2-term Shuey AVA equation above, with $$\theta$$ incidence angle, on the horizontal axis.
 The intercept or P-wave reflectivity includes both, the relative change of
-
 P-wave velocity and the relative change of density.
 
-_R p_ 1/ 2 ( _v p_ / _v p_ /
 
-Having calculated R_P_ and gradient _G_ from the angle gathers we can now derive other AVA attribute poststack volumes, using various assumptions about the reservoir rocks, and the equations shown below. See Oz Yilmaz’s SEG book for more details.
+$$
+R_P = 1/2(\Delta V_P / V_P+\Delta P/P)
+$$
 
-( Oz Yilmaz, Seismic Data Analysis, Vol 2, SEG investigations in geophysics No 10, pages 1816 – 1839 )
+Having calculated $$R_P$$ and gradient $$G$$ from the angle gathers we can now derive other AVA attribute poststack volumes, using various assumptions about the reservoir rocks, and the equations shown below. See Oz Yilmaz’s SEG book for more details.
 
-Difference and sum of and will be available through the volume calculator. [Volume calculator](volume_calculator\README.md)
+( Oz Yilmaz,  Seismic Data Analysis, Vol 2, SEG investigations in geophysics No 10, pages 1816 – 1839 )
 
-**Poisson’s ratio change**:
+Difference and sum of  and   will be available through the volume calculator. [Volume calculator](/algorithm_documentation/attributes/volume_calculator/README.md) 
 
-which is derived from with the assumption of and .
+**Poisson’s ratio change:**
+$$
+\Delta \sigma = 4/9(R_P+G)
+$$
 
-**S wave reflectivity**:
 
-under the assumption of .
+which is derived from $$G = R_P H_0 + \frac{\Delta \sigma}{(1-\sigma)^2} $$ with the assumption of $$\sigma = 1/3$$ and $$H_0 = -1$$.
+
+**S wave reflectivity:**
+$$R_S = 1/2(R_P-G)$$
+
+under the assumption of $$\nu_s/\nu_p = 0.5$$.
 
 **P and S wave reflectivity (Gardner equation):**
 
-R() = a (∆Vp/Vp) + b (∆Vs/Vs)
+$$
+R(\theta) = a(\Delta V_P/V_P)+b(\Delta V_S/V_S)
+$$
 
-and are calculated from the Aki – Richards equation above, which has densities replaced by velocities, assuming the Gardner equation can be applied.
+$$\Delta V_P/V_P$$ and $$\Delta V_S/V_S$$ are calculated from the Aki – Richards equation above, which has densities replaced by velocities, assuming the Gardner equation $$P = KV_P^1/4$$ can be applied.
 
-Differentiating the Gardner equation leads to and inserting this term into the original Aki-Richards equation provides the relative changes of P-wave and S-wave velocity as a solution of a simple least-mean square problem.
+Differentiating the Gardner equation leads to $$\Delta P/P = 1/4\Delta V_P/V_P $$ and inserting this term into the original Aki-Richards equation provides the relative changes of P-wave and S-wave velocity as a solution of a simple least-mean square problem.
 
-In addition, a sensible value for needs to be chosen. This is the Smith and Gidlow approach.
+In addition, a sensible value for $$V_P/V_S$$ needs to be chosen.  This is the Smith and Gidlow approach.
 
-**Pseudo Poisson reflectivity**
+**Pseudo Poisson reflectivity:**
 
-with the relative changes of velocities as in the previous step
+$$\Delta \sigma\prime/\sigma\prime = \Delta V_P/V_P-\Delta V_S/V_S$$ with the relative changes of velocities as in the previous step.
 
-**Fluid factor**:
+**Fluid factor:**
 
-Based on Mudrock line
+Based on Mudrock line $$V_P = C_0+C_1V_S$$
 
-co an c1 are empirically determined for various rocks, e.g. co=1360m/s for water saturated clastics.
+$$C_0$$ an $$C_1$$ are empirically determined for various rocks, e.g. $$C_0=1360 m/s$$ for water saturated clastics.
+$$
+\frac{\Delta V_P}{V_P} = C_1\frac{V_S}{V_P}\frac{\Delta V_S}{V_S}
+$$
+
+$$
+\Delta F = \frac{\Delta V_P}{V_P}-C_1\frac{V_S}{V_P}\frac{\Delta V_S}{V_S}
+$$
+
+$$
+\Delta F = \frac{\Delta V_P}{V_P}+C_0\frac{1}{V_P}\frac{\Delta V_S}{V_S}
+$$
 
 **Run test:**
 
-QC measure for AVA curve fitting. This provides a statistical measure of whether a straight-line fit with sin<sup>2</sup>(θ) is justified for the AVA data.
+QC measure for AVA curve fitting. This provides a statistical measure of whether a straight-line fit with $$sin^2(\theta)$$ is justified for the AVA data.
 
 ( Appendix D, from A.T. Waldens’s paper, “Making AVO sections more robust “ , Geophysical Prospecting, 39, 1991 )
 

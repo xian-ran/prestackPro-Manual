@@ -2,10 +2,21 @@
 
 The limit amplitude option allows to define the minimum and maximum amplitude the input volume should be.
 
-Limit amplitude option
 
-**Min. and Max Limit** define
 
-By checking &#039;Use same min/max value&#039;, a symmetric limit around zero is used. Furthermore, it is possible to set values outside of the limits to zero or to the minimum/maximum amplitude.
+![](/assets/006_Attributes.png)
 
-Original data Limited data to 300
+_Limit amplitude option_ <br /><br />
+
+
+**Min. and Max Limit**
+
+By checking 'Use same min/max value', a symmetric limit around zero is used. Furthermore, it is possible to set values outside of the limits to zero or to the minimum/maximum amplitude.
+
+
+<br />
+
+![](/assets/006_Attributes.PNG)
+
+<pre class="tab">Original data		    		Limited data to 300 </pre>
+
