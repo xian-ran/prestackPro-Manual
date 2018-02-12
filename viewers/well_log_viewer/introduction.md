@@ -16,11 +16,11 @@ brine, oil, gas
 
 ![](/assets/001_Well_Log_Viewer.png)
 
-_**Well Log Viewer - showing Vp,Vs,Rho logs used for synthetic angle gather creation along with a GR log, tops, real angle gather at the well and both a zoeppritz.**_
+_Well Log Viewer - showing Vp,Vs,Rho logs used for synthetic angle gather creation along with a GR log, tops, real angle gather at the well and both a zoeppritz._
 
 Facies zone creation \(Vp/Vs/rho classes\) is enabled within the application ready for input to Pcube inversion & crossplots.
 
 ![](/assets/002_Well_Log_Viewer.png)
 
-**_Crossplot & Well Log Viewer - showing 3 zones defined by time range and GR value (sand = 0 -75, shale =75-150)_**
+_Crossplot & Well Log Viewer - showing 3 zones defined by time range and GR value (sand = 0 -75, shale =75-150)_
 _(AI & Vp/Vs logs created on log import, sand and shale zones converted into Vp,Vs,rho,facies in Well Log Viewer, for display in  PSPRO crossplot)_
