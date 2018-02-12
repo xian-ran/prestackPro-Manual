@@ -10,4 +10,9 @@ You can select a location to display in the preview by a double-click in any vie
 
 Click on the pipette icon right of the inline/crossline field and double-click in any viewer to link it to the previews. The icon turns yellow to notify it is linked to a viewer. A single click in that viewer will send the location of the click to the preview. The corresponding inline-crossline gather will be displayed immediately in the **Input Gather** field of the process window.
 
-Gather catching mechanism
+
+
+![](/assets/010_Overview_of_the_Process_Window.png)
+
+_Gather catching mechanism_
+
