@@ -10,7 +10,7 @@ This tool is extremely useful to determine the impact of a process on the data, 
 
 
 
-![](/assets/011_Overview_of_the_Process_Window.png)
+![](/assets/001_Attributes.png)
 
 _Volume calculator_
 
