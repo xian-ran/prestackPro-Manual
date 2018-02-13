@@ -3,10 +3,10 @@
 Normal Moveout correction (NMO) is applied to CMP gathers to compensate for the delay in reflection arrival times with offset. The aim is to replicate the zero offset behaviour by applying a spatially varying RMS velocity function. 
 
 Pre-Stack Pro can apply and remove NMO corrections:  **Processing** → **NMO**
-<br />
+
 ![](/assets/001_Processing.PNG)
 _NMO process tab_
-<br />
+
 
 **Input data:**
 
@@ -50,11 +50,11 @@ Model parameter $$\eta$$ may be due to fine layering or due to anisotropy. As ve
 **Maximum stretch:** Due to the $$t_0$$-dependence of the NMO formulas, wavelets stretch in time upon NMO correction has an increasing effect with smaller $$t_0$$ time and larger offset. For each $$t_0$$ time, the offset for which the stretch exceeds the given value is determined and all amplitudes are removed for larger offsets.
 
 The **Velocity and Eta Field perturbation** can be used to over- or under-correct the gathers (e.g. for Radon based multiple removal). These parameters are applicable to forward and inverse NMO.
-<br />
+
 ![](/assets/002_Processing.PNG)
 
 _Original data _
-<br />
+
 
 ![](/assets/003_Processing.PNG)
 _Result of the reverse NMO_

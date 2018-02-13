@@ -5,11 +5,11 @@ Pre-Stack Pro’s tool to perform the transition from pre-stack to post-stack is
 Go to: **Processing** → **Stack | Mute function**
 
 The **Stack | Mute** window will open. It is composed of two parts:
-<br />
+
 
 ![](/assets/004_Processing.PNG)
 _Default Stack|Mute dialog_
-<br />
+
 
 
 **Part1, algorithm specific parameters:**

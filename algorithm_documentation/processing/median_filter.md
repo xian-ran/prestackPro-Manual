@@ -2,13 +2,13 @@
 
 Median filtering can be used to reduce noise in Inline, crossline, time and offset direction or any combination of these. It is often used to reduce noise in the offset direction.
 
-Go to:
+Go to: **Processing** → **Median Filter**
 
-**Processing** → **Median Filter**
+![](/assets/024_Processing.png)
 
-Median filter dialog
+_Median filter dialog_
 
-This process computes the median of the values in a moving window. It is possible to filter in horizontal (offset) direction and in the vertical (time) direction.
+This process computes the median of the values in a moving window. It is possible to filter in horizontal (offset) direction and in the vertical (time) direction. 
 
 The values of the spinboxes in every direction define the half-length of the filter. The full length of the filter is then 2xhalf-length+1
 

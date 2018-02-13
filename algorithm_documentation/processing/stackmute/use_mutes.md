@@ -3,7 +3,7 @@
 A stack is calculated by averaging several common depth point offset traces into a single trace.
 
 Inner and outer mutes are applied to restrict the stacking to a limited offset range. In Pre-Stack Pro it is possible to set time variant and spatially variant inner and outer mutes.
-<br />
+
 ![](/assets/005_Processing.PNG)
 _Customized stack with left and right mute_
 
