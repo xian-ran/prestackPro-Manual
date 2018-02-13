@@ -28,6 +28,12 @@ The short-spread formula kinematically corrects offset-domain gathers up to smal
 
 
 
+$$
+t
+$$
+
+
+
 Here, _t_ denotes _t_-zero time and _x_ offset.
 
 Moderate and large offsets are better corrected by a higher order formula. Pre-Stack Pro uses the formula derived by Alkhalifah (1997)
