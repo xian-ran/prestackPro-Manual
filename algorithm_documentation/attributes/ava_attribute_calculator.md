@@ -36,7 +36,7 @@ P-wave velocity and the relative change of density.
 
 
 $$
-R_P = 1/2(\Delta V_P / V_P+\Delta P/P)
+R_P = 1/2(\Delta V_P / V_P+\Delta \rho/\rho)
 $$
 
 Having calculated $$R_P$$ and gradient $$G$$ from the angle gathers we can now derive other AVA attribute poststack volumes, using various assumptions about the reservoir rocks, and the equations shown below. See Oz Yilmaz’s SEG book for more details.
@@ -56,7 +56,7 @@ which is derived from $$G = R_P H_0 + \frac{\Delta \sigma}{(1-\sigma)^2} $$ with
 **S wave reflectivity:**
 $$R_S = 1/2(R_P-G)$$
 
-under the assumption of $$\nu_s/\nu_p = 0.5$$.
+under the assumption of $$V_S/V_P = 0.5$$.
 
 **P and S wave reflectivity (Gardner equation):**
 
@@ -64,9 +64,9 @@ $$
 R(\theta) = a(\Delta V_P/V_P)+b(\Delta V_S/V_S)
 $$
 
-$$\Delta V_P/V_P$$ and $$\Delta V_S/V_S$$ are calculated from the Aki – Richards equation above, which has densities replaced by velocities, assuming the Gardner equation $$P = KV_P^1/4$$ can be applied.
+$$\Delta V_P/V_P$$ and $$\Delta V_S/V_S$$ are calculated from the Aki – Richards equation above, which has densities replaced by velocities, assuming the Gardner equation $$\rho = KV_P^{1/4}$$ can be applied.
 
-Differentiating the Gardner equation leads to $$\Delta P/P = 1/4\Delta V_P/V_P $$ and inserting this term into the original Aki-Richards equation provides the relative changes of P-wave and S-wave velocity as a solution of a simple least-mean square problem.
+Differentiating the Gardner equation leads to $$\Delta \rho/\rho = 1/4\Delta V_P/V_P $$ and inserting this term into the original Aki-Richards equation provides the relative changes of P-wave and S-wave velocity as a solution of a simple least-mean square problem.
 
 In addition, a sensible value for $$V_P/V_S$$ needs to be chosen.  This is the Smith and Gidlow approach.
 
@@ -106,11 +106,11 @@ This QC is used to identify zones where the seismic data does not fit with the A
 The semblance is the measure of multichannel coherence, the energy of a sum trace divided by the mean energy of the component of the sum.it is basically the energy of the stack normalized by the mean energy of the components of the stack. This is equivalent to the zero-lag value of the autocorrelation of the sum trace divided by the mean of the zero-lag values of the autocorrelations of the component traces.
 
 **Angle range:** 
-These parameters allow to specify in more detail the desired attributes. For all attributes, a minimum and maximum angle can be set: angles smaller than α$$_{min}$$ or larger than αmax are cut (sort of a mute function).
+These parameters allow to specify in more detail the desired attributes. For all attributes, a minimum and maximum angle can be set: angles smaller than α$$_{min}$$ or larger than α$$_{max}$$ are cut (sort of a mute function).
 
 For Intercept and Gradient calculation, a robust version is available. It uses a weighting scheme on the far angles amplitude values.
 
-The other parameters ($$vs/vp$$-Ratio, Mudrock Line Intercept and Noise Percentage) are used for the P-Wave Reflectivity, Fluid Factor and Coherency calculation. All of the parameters are set to a sensible default value.
+The other parameters ($$V_S/V_P$$-Ratio, Mudrock Line Intercept and Noise Percentage) are used for the P-Wave Reflectivity, Fluid Factor and Coherency calculation. All of the parameters are set to a sensible default value.
 
 **The Filter Half-length** will be used for Intercept and Gradient if Using Lateral Smoothing is checked. 
 

@@ -29,18 +29,18 @@ The short-spread formula kinematically corrects offset-domain gathers up to smal
 
 
 $$
-t = \sqrt{t_0^2+\frac{x^2}{v_RMS^2}}
+t = \sqrt{t_0^2+\frac{x^2}{V_{RMS}^2}}
 $$
 
 
 
-Here, t denotes t-zero time and x offset. 
+Here, $$t$$ denotes $$t$$-zero time and $$x$$ offset. 
 
 Moderate and large offsets are better corrected by a higher order formula. Pre-Stack Pro uses the formula derived by Alkhalifah (1997)
 
 
 $$
-t = \sqrt{t_0^2+\frac{x^2}{v_RMS^2}-\frac{2\eta x^4}{v_RMS^2(v_RMS^2t_0^2+(1+2\eta)x^2)}} 
+t = \sqrt{t_0^2+\frac{x^2}{V_{RMS}^2}-\frac{2\eta x^4}{V_{RMS}^2(V_{RMS}^2t_0^2+(1+2\eta)x^2)}} 
 $$
 
 

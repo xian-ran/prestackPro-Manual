@@ -21,11 +21,11 @@ For each trace, the window is moved sample by sample in the vertical direction \
 
 
 $$
-S_j = \frac{\sum  _t(\sum  _i\in N(j) x(i),t(i))^2}{\sum _t\sharp N(j)\sum _i\in N(j)x_i,t(i)^2}
+S_j = \frac{\sum  _t(\sum  _{i\in N(j)} x(i),t(i))^2}{\sum _t\# N(j)\sum _{i\in N(j)}x_{i,t(i)}^2}
 $$
 
 
-Where **t** are the time samples within the window, **N\(j\)** is the spatial stencil around trace j and **\#N** is the number of trace in N.
+Where $$t$$ are the time samples within the window, $$N(j)$$ is the spatial stencil around trace j and $$\#N$$ is the number of trace in $$N$$.
 
 * **Spectral Bandwidth:** It is an estimate on how broad the main lobe of the power spectrum is. Thus it is related to time resolution, as a high bandwidth implies a short wavelet in time. The output attribute is a bandwidth volume in Hz.
 

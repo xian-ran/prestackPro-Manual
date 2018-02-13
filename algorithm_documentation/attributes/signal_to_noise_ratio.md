@@ -26,11 +26,11 @@ $$
 The original method is performed with non-normalized correlation function. However, the user has the possibility to use the normalized correlation to compute the signal to noise **relation **as it will generally give much less spikes in the output. Assumptions behind the method are that the form and phase of the signal is consistent inside the stencil and that the noise is spatially incoherent and uncorrelated to the signal.
 
 **Stack:**  
-We denote by $$i$$ the spatial sampling index inside the stencil \($$M$$ traces\) and $$j$$ the temporal index \($$N$$ samples\). For a seismic record $$x_i,j$$ the signal to noise ratio is given with the following logarithmic relation:
+We denote by $$i$$ the spatial sampling index inside the stencil \($$M$$ traces\) and $$j$$ the temporal index \($$N$$ samples\). For a seismic record $$x_{i,j}$$ the signal to noise ratio is given with the following logarithmic relation:
 
 
 $$
-SNR = 10\log_10(\frac{\sum _j=1^N(\sum _i=1^Mx_i,j)^2}{M\sum_j=1^N\sum_i=1^Mx_i,j^2-\sum _j=1^N(\sum _i=1^Mx_i,j)^2})
+SNR = 10\log_{10}(\frac{\sum _{j=1}^N(\sum _{i=1}^Mx_{i,j})^2}{M\sum_{j=1}^N\sum_{i=1}^Mx_{i,j}^2-\sum _{j=1}^N(\sum _{i=1}^Mx_{i,j})^2})
 $$
 
 
