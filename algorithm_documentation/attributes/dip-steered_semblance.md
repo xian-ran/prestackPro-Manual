@@ -4,7 +4,7 @@ Go to **Attributes** → **Dip-steered Semblance**
 
 This algorithm is an extension of the semblance attribute found in [Moving Window Statistics](/algorithm_documentation/attributes/moving_window_statistics.md).
 
-![](/assets/015_Attributes.png)
+![](/assets/017_Attributes.png)
 
 _Dip-steered Semblance GUI_
 

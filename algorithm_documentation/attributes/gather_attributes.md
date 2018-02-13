@@ -14,16 +14,14 @@ Computation is performed vertically, slice by slice. Each attribute will output 
 
 **Example 1**  
 In a multi-azimuth survey, we input a gradient map computed by azimuth sectors along a horizon. We use the gather attributes to find the maximum and minimum gradient values, as well as their corresponding azimuth.
-<br />
-![](/assets/020_Attributes.png)
 
+![](/assets/022_Attributes.PNG)
 _Gather attributes for an azimuthally dependent gradient map_
 
-<br />
-![](/assets/021_Attributes.PNG)
 
+![](/assets/023_Attributes.PNG)
 _Output of the minimum over azimuth gradient: Left is the minimum gradient map and right is the map containing the corresponding azimuth of this minimum gradient._
-<br />
+
 
 
 
@@ -31,17 +29,15 @@ _Output of the minimum over azimuth gradient: Left is the minimum gradient map a
 
 We create a ‘minimum average instantaneous frequency’ offset map, along a horizon, to study gather character.  
 
-<br />
-![](/assets/022_Attributes.png)
-<br />
+
 
 First, we create an average instantaneous frequency map volume, around the top reservoir yellow peak event.
-Then we use the <pre><Gather Attributes></pre> option to find the lowest frequency value, and the offset at which this occurs.
+Then we use the Gather Attributes option to find the lowest frequency value, and the offset at which this occurs.
 The map below shows the offsets at which the lowest frequency was found: white=far offset; red=near offset.
 In most gathers, far offsets have a lower frequency content, so we would expect to see white on the map. Red locations indicate unusual gather frequency character at the top reservoir.
 The left hand gather is from a red map location (POI) and clearly has increasing frequency content with offset around the red event.
 The right hand gather is from a white ‘normal’ gather character location and has decreasing frequency with offset.
-<br />
-![](/assets/023_Attributes.PNG)
+
+
 _Minimum instantaneous frequency, Offset map
  (The 2 yellow POI gathers are shown above)_

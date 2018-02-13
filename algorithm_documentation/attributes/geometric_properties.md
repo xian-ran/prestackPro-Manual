@@ -15,8 +15,8 @@ Curvature attributes are computed inside a 3x3 stencil traveling in the inline a
 * **Dip angle:** Angle, with respect to the horizontal, of the maximum dip.
 * **Azimuth:** Angle giving the orientation, with respect to Inline direction, of the maximum dip.
 
-<br />
 
-![](/assets/019_Attributes.PNG)
+![](/assets/021_Attributes.PNG)
+
 
 _A horizon and its superposition of most positive and negative curvatures_

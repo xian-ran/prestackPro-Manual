@@ -14,10 +14,10 @@ For the calculation of the Fluid Factor, an interval velocity with the same dime
 **Attribute selection:** This selection defines the output of the algorithm. Choose any Attribute by clicking the relevant check box. It will automatically add a preview panel with a preview of the attribute at the location selected in the inline/crossline boxes.
 
 For some attributes, additional parameters are required. The corresponding GUI elements will be displayed. All attributes require a minimum and a maximum angle.
-<br />
-![](/assets/010_Attributes.PNG)
+
+![](/assets/011_Attributes.PNG)
 _AVA Attribute Calculator_
-<br />
+
 
 **Intercept and Gradient:**
 
@@ -106,22 +106,19 @@ This QC is used to identify zones where the seismic data does not fit with the A
 The semblance is the measure of multichannel coherence, the energy of a sum trace divided by the mean energy of the component of the sum.it is basically the energy of the stack normalized by the mean energy of the components of the stack. This is equivalent to the zero-lag value of the autocorrelation of the sum trace divided by the mean of the zero-lag values of the autocorrelations of the component traces.
 
 **Angle range:** 
-These parameters allow to specify in more detail the desired attributes. For all attributes, a minimum and maximum angle can be set: angles smaller than α<sub>min</sub> or larger than αmax are cut (sort of a mute function).
+These parameters allow to specify in more detail the desired attributes. For all attributes, a minimum and maximum angle can be set: angles smaller than α$$_{min}$$ or larger than αmax are cut (sort of a mute function).
 
 For Intercept and Gradient calculation, a robust version is available. It uses a weighting scheme on the far angles amplitude values.
 
 The other parameters ($$vs/vp$$-Ratio, Mudrock Line Intercept and Noise Percentage) are used for the P-Wave Reflectivity, Fluid Factor and Coherency calculation. All of the parameters are set to a sensible default value.
 
 **The Filter Half-length** will be used for Intercept and Gradient if Using Lateral Smoothing is checked. 
-<br />
-![](/assets/011_Attributes.PNG)
 
-<pre class="tab">Angle gathers           Intercept (stack)          gradient (stack)</pre>
+![](/assets/012_Attributes.PNG)
 
 Those cubes can be [sculpted](/algorithm_documentation/interpretation-processing/sculpt.md) along a horizon of interest. Thanks to the transparency option, the AVA effect can be analyzed.
-<br />
-![](/assets/012_Attributes.PNG)
-<pre class="tab">Angle gathers           Intercept (stack)      gradient (stack)
-Cropped along an horizon, transparency applied</pre>
+
+![](/assets/013_Attributes.PNG)
+
 
 

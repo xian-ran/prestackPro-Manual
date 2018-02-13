@@ -3,8 +3,8 @@
 The **Complex trace Attribute Calculator** calculates some of the classic trace attributes used for interpretation and characterization directly in Pre-Stack Pro.
 
 Go to: **Attributes** → **Complex Trace Attribute Calculator**
-<br />
-![](/assets/013_Attributes.PNG)
+
+![](/assets/014_Attributes.PNG)
 
 _Complex trace attribute window_
 

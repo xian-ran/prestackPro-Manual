@@ -59,9 +59,9 @@ _Display mode tab to change display to wiggle plot_
 
 The **Input Gather** field displays the gather corresponding to the inline - crossline pair shown in the **Volume Parameter** box. 
 
-A color histogram is shown on the lower left. The adjustments of the color setting are like the ones in the viewer tab -> Histogram.
+A color histogram is shown on the lower left. The adjustments of the color setting are like the ones in the viewer tab -> [Histogram](/viewers/functionalities_common_to_all_viewers/histograms.md).
 
-This input tab is very interactive thanks to an option that allows the user to access several functionalities such as gather catching or other algorithm specific functionalities -> Functionalities.
+This input tab is very interactive thanks to an option that allows the user to access several functionalities such as gather catching or other algorithm specific functionalities -> [Functionalities](/viewers/functionalities_common_to_all_viewers/README.md)
 
 
 **Part 3, the output:**

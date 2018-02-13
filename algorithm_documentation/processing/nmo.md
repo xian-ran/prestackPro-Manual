@@ -29,19 +29,32 @@ The short-spread formula kinematically corrects offset-domain gathers up to smal
 
 
 $$
-t
+t = \sqrt{t_0^2+\frac{x^2}{v_RMS^2}}
 $$
 
 
 
-Here, _t_ denotes _t_-zero time and _x_ offset.
+Here, t denotes t-zero time and x offset. 
 
 Moderate and large offsets are better corrected by a higher order formula. Pre-Stack Pro uses the formula derived by Alkhalifah (1997)
 
-Model parameter  may be due to fine layering or due to anisotropy. As velocity v<sub>RMS</sub>,  is an effective parameter that involves averaging of the overburden.
 
-**Maximum stretch:** Due to the t<sub>0</sub>-dependence of the NMO formulas, wavelets stretch in time upon NMO correction has an increasing effect with smaller t<sub>0</sub> time and larger offset. For each t<sub>0</sub> time, the offset for which the stretch exceeds the given value is determined and all amplitudes are removed for larger offsets.
+$$
+t = \sqrt{t_0^2+\frac{x^2}{v_RMS^2}-\frac{2\eta x^4}{v_RMS^2(v_RMS^2t_0^2+(1+2\eta)x^2)}} 
+$$
+
+
+
+Model parameter $$\eta$$ may be due to fine layering or due to anisotropy. As velocity  $$v_RMS,\eta$$ is an effective parameter that involves averaging of the overburden.
+
+**Maximum stretch:** Due to the $$t_0$$-dependence of the NMO formulas, wavelets stretch in time upon NMO correction has an increasing effect with smaller $$t_0$$ time and larger offset. For each $$t_0$$ time, the offset for which the stretch exceeds the given value is determined and all amplitudes are removed for larger offsets.
 
 The **Velocity and Eta Field perturbation** can be used to over- or under-correct the gathers (e.g. for Radon based multiple removal). These parameters are applicable to forward and inverse NMO.
+<br />
+![](/assets/002_Processing.PNG)
 
-Original data Result of the reverse NMO
+_Original data _
+<br />
+
+![](/assets/003_Processing.PNG)
+_Result of the reverse NMO_
