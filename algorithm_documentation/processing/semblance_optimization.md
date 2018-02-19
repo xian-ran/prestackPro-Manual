@@ -1,18 +1,16 @@
 ### Semblance Optimization {#semblance-optimization}
 
-The aim of this algorithm is to flatten events in gathers. In the neighboring trace option each trace is cross-correlated with its neighbor to define a relative time shift, while in stacked trace option all traces in the gather are cross-correlated with the reference trace which is usually a near or mid offset stack. The data are only shifted if the correlation values exceed a user-defined threshold (**Min. Correlation**). All of this is performed in a moving time window.
+The aim of this algorithm is to flatten events in gathers. In the neighboring trace option each trace is cross-correlated with its neighbor to define a relative time shift, while in stacked trace option all traces in the gather are cross-correlated with the reference trace which is usually a near or mid offset stack. The data are only shifted if the correlation values exceed a user-defined threshold \(**Min. Correlation**\). All of this is performed in a moving time window.
 
-To open the Semblance Optimization go to:
+To open the Semblance Optimization, go to: **Processing** → **Semblance Optimization**
 
-**Processing** → **Semblance Optimization**
+![](/assets/055_Processing.png)
 
-Semblance optimization
+_Semblance optimization_
 
 **Left part of the window:**
 
-Preview on the currently selected input gather. This selection can be done in the data selection area or by gather catching (right click on the gather)
-
-[Overview of the process window](nmo.md)
+Preview on the currently selected input gather. This selection can be done in the data selection area or by gather catching \(right click on the gather\)
 
 **Mid part of the window:**
 
@@ -22,21 +20,19 @@ The data selection is used to select the seismic input volume and, if needed, th
 
 **Select output to display**
 
-The type of data to be displayed on the right side of the window can be selected here. By default the selection is set to output gather, but other output can be display such as timeshifts, or Correlation Values. They can be very useful QC tools.
+The type of data to be displayed on the right side of the window can be selected here. By default, the selection is set to output gather, but other output can be display such as time shifts, or Correlation Values. They can be very useful QC tools.
 
-**Basic:**
+![](/assets/056_Processing.png)  
+_Basic tab_
 
-Basic tab
+The **Time Shift increment** should be set to the smallest possible value \(0.0001 seconds\).
 
-The **TimeShift increment** should be set to the smallest possible value (0.0001 seconds).
+When using **neighboring trace**, the maximum **Time Shift** value would typically be a small value, for example 0.002 seconds.
 
-When using **neighboring trace**, the maximum **TimeShift** value would typically be a small value, for example 0.002 seconds.
+When using the **stacked trace** option, the maximum **Time Shift** should not exceed a quarter of the length of the wavelet.
 
-When using the **stacked trace** option the maximum **TimeShift** should not exceed a quarter of the length of the wavelet.
-
-**Expert:**
-
-Expert tab
+![](/assets/057_Processing.png)  
+_Expert tab_
 
 **Preprocessing** enable will evaluate the signal to noise ratio and will select events where the ratio exceeds the threshold to calculate statics correction. **Postprocessing** with **Desmoothing** will interpolate time shifts without additional processing.
 
@@ -44,17 +40,16 @@ Expert tab
 
 **Smoothing** will smooth time shifts in the time direction before they are applied.
 
+![](/assets/058_Processing.png)
+
 **Filter Type:**
 
-The parameters of the filter type can be set on the Filter Half Lenghts sub part of the tab.
+The parameters of the filter type can be set on the Filter Half Lengths sub part of the tab.
 
-**-Gauss:** will do a gauss smoothing. The values of the filter coefficients follow a Gauss curve in all directions, symmetrically from the center.
-
--**linear ramp:** will apply a weighted averaged filter with the coefficients decreasing linearly proportionally to the distance to the center.
-
--**unweighted average**: will do an unweighted average over the full filter, all the filter coefficients have the same value.
-
-**-unweighted average (cross):** will apply an unweighted average filter over the selected main directions.
+* **-Gauss:** will do a gauss smoothing. The values of the filter coefficients follow a Gauss curve in all directions, symmetrically from the center.
+* **-linear ramp:** will apply a weighted averaged filter with the coefficients decreasing linearly proportionally to the distance to the center.
+* **-unweighted average:** will do an unweighted average over the full  filter, all the filter coefficients have the same value.
+* **-unweighted average \(cross\):** will apply an unweighted average filter over the selected main directions.  
 
 **Filter Half Lengths:**
 
@@ -68,8 +63,11 @@ This tab indicates the size of the current filter in all direction. The runtime 
 
 Preview of the output gather of the algorithm with the current parameters. The traces can also be visualized:
 
-Trace visualization as output
+![](/assets/059_Processing.png)
 
-Before After
+_Trace visualization as output_
 
-Gather flattening effect of the semblance optimization algorithm
+![](/assets/060_Processing.png)
+
+
+
