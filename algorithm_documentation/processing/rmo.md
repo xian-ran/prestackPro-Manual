@@ -1,6 +1,6 @@
 ### RMO {#rmo}
 
-The RMO algorithm allows you to work with time but also with depth gathers.
+The RMO algorithm allows you to work with time but also with depth gathers. 
 
 Overview
 
