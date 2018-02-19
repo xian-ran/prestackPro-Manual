@@ -1,6 +1,6 @@
 ### RMO (Time Shift) {#rmo-time-shift}
 
-This algorithm converts time shift fields computed by trim statics methods like "Align" or "Semblance Optimization" into updates for vrms and eta.
+This algorithm converts timeshift fields computed by trim statics methods like "Align" or "Semblance Optimization" into updates for vrms and eta.
 
 The process is based on the Alkhalifah moveout equation,
 
@@ -31,8 +31,8 @@ $$
 
 
 
-$$\delta V$$ and $$\delta \eta$$ are then computed by minimizing the misfit between the imported and the calculated time shifts $$\delta t$$. An iterative linear solver is used for which the user can specify the number of internal iterations and the number of external iterations which are the iterations for which new time shifts are computed.
+$$\delta V$$ and $$\delta \eta$$ are then computed by minimizing the misfit between the imported and the calculated timeshifts $$\delta t$$. An iterative linear solver is used for which the user can specify the number of internal iterations and the number of external iterations which are the iterations for which new time shifts are computed.
 
 Further, the user can limit the maximum acceptable velocity and eta perturbation.
 
-For **Stencil mode** (stencil lengths larger than 0) time shifts of the central gather and its neighbouring gathers (according to lengths) are used in the previous equation with indexed $$\delta t_i$$, again for the purpose of getting smaller lateral fluctuations of the results. 
+For **Stencil mode** (stencil lengths larger than 0) timeshifts of the central gather and its neighbouring gathers (according to lengths) are used in the previous equation with indexed $$\delta t_i$$, again for the purpose of getting smaller lateral fluctuations of the results. 

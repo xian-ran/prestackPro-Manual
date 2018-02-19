@@ -1,6 +1,6 @@
 ### Semblance Optimization {#semblance-optimization}
 
-The aim of this algorithm is to flatten events in gathers. In the neighboring trace option each trace is cross-correlated with its neighbor to define a relative time shift, while in stacked trace option all traces in the gather are cross-correlated with the reference trace which is usually a near or mid offset stack. The data are only shifted if the correlation values exceed a user-defined threshold \(**Min. Correlation**\). All of this is performed in a moving time window.
+The aim of this algorithm is to flatten events in gathers. In the neighboring trace option each trace is cross-correlated with its neighbor to define a relative timeshift, while in stacked trace option all traces in the gather are cross-correlated with the reference trace which is usually a near or mid offset stack. The data are only shifted if the correlation values exceed a user-defined threshold \(**Min. Correlation**\). All of this is performed in a moving time window.
 
 To open the Semblance Optimization, go to: **Processing** → **Semblance Optimization**
 
@@ -25,20 +25,20 @@ The type of data to be displayed on the right side of the window can be selected
 ![](/assets/056_Processing.png)  
 _Basic tab_
 
-The **Time Shift increment** should be set to the smallest possible value \(0.0001 seconds\).
+The **TimeShift increment** should be set to the smallest possible value \(0.0001 seconds\).
 
-When using **neighboring trace**, the maximum **Time Shift** value would typically be a small value, for example 0.002 seconds.
+When using **neighboring trace**, the maximum **TimeShift** value would typically be a small value, for example 0.002 seconds.
 
-When using the **stacked trace** option, the maximum **Time Shift** should not exceed a quarter of the length of the wavelet.
+When using the **stacked trace** option, the maximum **TimeShift** should not exceed a quarter of the length of the wavelet.
 
 ![](/assets/057_Processing.png)  
 _Expert tab_
 
-**Preprocessing** enable will evaluate the signal to noise ratio and will select events where the ratio exceeds the threshold to calculate statics correction. **Postprocessing** with **Desmoothing** will interpolate time shifts without additional processing.
+**Preprocessing** enable will evaluate the signal to noise ratio and will select events where the ratio exceeds the threshold to calculate statics correction. **Postprocessing** with **Desmoothing** will interpolate timeshifts without additional processing.
 
 **Smoothing:**
 
-**Smoothing** will smooth time shifts in the time direction before they are applied.
+**Smoothing** will smooth timeshifts in the time direction before they are applied.
 
 ![](/assets/058_Processing.png)
 
