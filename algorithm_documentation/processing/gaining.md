@@ -63,6 +63,16 @@ The approximation by Ursin (1990) is used as an approximation to the exact geome
 
 
 $$
-L \approx  \sqrt{\lgroup \frac{V_{RMS}^2t_0}{V_0} \rgroup ^2 + \lgroup \frac{V_{RMS}{V_0} \rgroup }  
+L \approx  \sqrt{\lgroup \frac{V_{RMS}^2t_0}{V_0} \rgroup^2+\lgroup \frac{V_{RMS}}{V_0} \rgroup ^2 x^2} 
 $$
+
+Each amplitude $$S$$ of the NMO-corrected gather $$S(t_0,x)$$ is multiplied by $$L(t_0,x)$$, where $$t_0$$ denotes $$t$$-zero time and $$x$$ offset.
+If the gather is kinematically uncorrected the multiplication is applied with 
+
+
+$$
+L \approx \frac{V_{RMS}^2 t_0}{V_0}
+$$
+
+
 
