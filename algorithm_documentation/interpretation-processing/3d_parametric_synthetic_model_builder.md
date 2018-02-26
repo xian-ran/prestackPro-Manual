@@ -223,64 +223,60 @@ for Brine/Gas, and a pure Sandstone reservoir:
 
 **Input parameter usage:** 
 
-The **K-min** default is for a pure sandstone case. If the user wants to model a sandstone/shale mix then a lower value of K-min could be used. This value could come from some kind of mixing of  K(sandstone) &  K(shale)  such as the Voight-Reuss-Hill averaging.    
+The **K-min** default is for a pure sandstone case. If the user wants to model a sandstone/shale mix then a lower value of **K-min** could be used. This value could come from some kind of mixing of ** K(sandstone)** &  **K(shale)**  such as the **Voight-Reuss-Hill** averaging.    
 
-**InSitu Porosity ()** must be a reasonable value for the rock Vp, Vs and Rho or the calculation will return suspect fluid substituted Vp/Vs/Rho values, because the rock has to be too stiff or too unconsolidated, given the in situ porosity selected. There is no lower limit cut off applied nor an upper limit of critical porosity (40% for sand) inside this release of the 3D Parametric Synthetic model Builder.
+**InSitu Porosity ($$\Phi$$)** must be a reasonable value for the rock $$V_p$$, $$V_s$$ and Rho or the calculation will return suspect fluid substituted $$V_p$$/$$V_s$$/Rho values, because the rock has to be too stiff or too unconsolidated, given the in situ porosity selected. There is no lower limit cut off applied nor an upper limit of critical porosity (40% for sand) inside this release of the 3D Parametric Synthetic model Builder.
 
-The **Castagna method** (gas &amp; brine only)
+**The Castagna method (gas & brine only)**
 
-The Castagna method can be used to replace gas with brine, or brine with gas, using the quadratic equation relating **Vp<sub>(gas)</sub>** to **Vp<sub>(brine)</sub>** and the coefficients shown below.
+The Castagna method can be used to replace gas with brine, or brine with gas, using the quadratic equation relating **$$V_p$$(gas)** to **$$V_p$$(brine)**  and the coefficients shown below.
 
-![](/assets/cusersjohanndesktopsharp-stuff.png)
+![](/assets/136_Processing.PNG)
 
-_The Castagna ‘rule of thumb’ fluid substitution equation_
+**The Castagna ‘rule of thumb’ fluid substitution equation**
 
-_(Petrophysical imaging using AVO – The Leading Edge, 3/1993, JP Castagna)_
+(Petrophysical imaging using AVO – The Leading Edge, 3/1993, JP Castagna)
 
-*   This **Castagna equation** method only requires input of an **in situ Vp** value from which an equivalent gas or brine Vp is calculated.
-*   If a different quadratic equation has been found to work for gas/brine fluid substitution, or allows oil/brine or gas/oil fluid substitution, in your reservoir, the coefficients can be changed to use this instead.
+* This **Castagna equation** method only requires input of an **in situ $$V_p$$** value from which an equivalent gas or brine $$V_p$$ is calculated.
+* If a different quadratic equation has been found to work for gas/brine fluid substitution, or allows oil/brine or gas/oil fluid substitution, in your reservoir, the coefficients can be changed to use this instead.
 
-**Example -** sandstone Brine-to-Gas:
 
-**Gassmann -** all 3 properties change
+**Example** - sandstone  Brine-to-Gas:
 
-An in situ layer of pure sand (default case), with a **porosity** of **20**%, filled with brine, which has the properties :
+**Gassmann** - all 3 properties change 
+An in situ layer of pure sand (default case), with a **porosity** of **20**%, filled with brine, which has the properties: 
+**$$V_p$$ =3000**m/s, **$$V_s$$ = 1500**m/s, **Rho = 2.2** g/cm^3, after gas injection, changes to a layer filled with **20**% gas, **80**% Brine which has the properties:
+$$V_p$$ =2648m/s, $$V_s$$ = 1513m/s, Rho = 2.162 g/cm^3
 
-**Vp =3000**m/s**, Vs = 1500**m/s**, Rho = 2.2** g/cm^3, after gas injection, changes to a layer filled with **20**% gas, **80**% Brine which has the properties :
-
-**Vp =2648**m/s**, Vs = 1513**m/s**, Rho = 2.162** g/cm^3
 
 **Castagna** - only Vp changes
+An in situ layer of pure sand, porosity filled with brine, which has the property : 
+**$$V_p$$ =3000**m/s,  changes to a layer filled with gas, which has the property :
+$$V_p$$ =2640m/s,
 
-An in situ layer of pure sand, porosity filled with brine, which has the property :
-
-**Vp =3000**m/s, changes to a layer filled with gas, which has the property :
-
-**Vp =2640**m/s,
 
 ( The other layer properties sent back to the main table are :
+Rho = **2.124** g/cm^3 calculated by the Gardner equation, from $$V_p$$ 2640m/s ) and 
+$$V_s$$ = **1525**m/s, calculated using the Rho above from Gardner and a mu from the original in situ  $$V_s$$. 
 
-Rho = **2.124** g/cm^3 calculated by the Gardner equation, from Vp 2640m/s ) and
-
-Vs = **1525**m/s, calculated using the Rho above from Gardner and a mu from the original in situ Vs.
 
 Castagna fluid substitution is much simpler, but is useful for just giving a feel for what happens when you put in a lighter fluid.
 
 Well log crossplots, with useful rock physics curve overlays, can help with in situ porosity selection. In the example below, log points fall below the polygon pure sand minimum because they come from a mix of sand and shale/clay.
 
-![](/assets/vp-v-porosity-sst-limits2a.png)
+![](/assets/137_Processing.PNG)
 
-_Cross plot of (porosity) v_ **_Vp_** _, showing a brine sand (blue) and a gas sand (red) in relation to a polygon defining the_ **_min_** _and_ **_max Vp_** _for a pure sand. (The minimum Vp is where the rock breaks up and becomes a suspension; the maximum is where the rock is fully cemented and as stiff as it can be)._
+Cross plot of $$\Phi$$ (porosity) v  $$V_p$$ , showing a brine sand (blue) and a gas sand (red) in relation to a polygon defining the **min** and **max** **$$V_p$$** for a pure sand. (The minimum $$V_p$$ is where the rock breaks up and becomes a suspension; the maximum is where the rock is fully cemented and as stiff as it can be).
 
-**1D layer properties – porosity change :**
+**1D layer properties – porosity change **
 
-**Reservoir** layers can also have their Vp/Vs/Rho calculated by **porosity change**. In situ values are input into the middle column, and changed results are automatically output into the right column.
+**Reservoir** layers can also have their $$V_p$$/$$V_s$$/Rho calculated by **porosity change**. In situ values are input into the middle column, and changed results are automatically output into the right column. 
 
-![](/assets/cusersjohannappdatalocalmicro.png)
+![](/assets/138_Processing.PNG)
 
 _Porosity change, 20% to 25%_
 
-![](/assets/3d-param-por1b.png)
+![](/assets/139_Processing.PNG)
 
 _Porosity change, input parameters_
 
