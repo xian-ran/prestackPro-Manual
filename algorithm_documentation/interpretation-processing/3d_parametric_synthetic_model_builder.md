@@ -139,96 +139,91 @@ To open up the 3D Parametric Synthetic Model Builder dialog go to:
 
 **Interpretation-Processing** → **3D Parametric Synthetic Model…**
 
-![](/assets/cusersjohannappdatalocalmicro.png)
+![](/assets/124_Processing.PNG)
 
-and select the 1<sup>st</sup> Tab.
+and select the $$1^{st}$$ Tab.
 
-If any models have been created before in Pre-Stack Pro, it will use the last model’s parameters to open the GUI. So you may need to delete some layers using the blue **–** icon rather than adding layers using the green **+** icon; or start a new model. Gradual / sloping layer changes can be modelled using the green **+** &lt;Add intermediate layers&gt; option also.
+If any models have been created before in Pre-Stack Pro, it will use the last model’s parameters to open the GUI. So, you may need to delete some layers using the blue – icon rather than adding layers using the green + icon; or start a new model. Gradual / sloping layer changes can be modelled using the green + <Add intermediate layers> option also.
 
 Target, Top and Bottom layers can’t be deleted but are the same as ordinary layers otherwise.
 
-![](/assets/3d-param-4.png)
+![](/assets/125_Processing.PNG)
 
-_Ordinary layer GUI_
+**Ordinary layer GUI**
 
-_( The black flag indicates this layer is a shale for Vs calc by equation )_
+( The black flag indicates this layer is a shale for Vs calc by equation )
+First go to the target layer and set its top depth (MD) and corresponding time (TWT). This becomes a fixed depth/time value for the model reference datum. 
 
-First go to the target layer and set it’s top depth (MD) and corresponding time (TWT). This becomes a fixed depth/time value for the model reference datum.
+![](/assets/126_Processing.PNG)
+_Target layer GUI – model reference datum = 1000m/1.0sec
+( This layer is selected for fluid substitution )_
 
-![](/assets/3d-param-4.png)
-
-|  |
-| --- |
-| _Target layer GUI – model reference datum = 1000m/1.0sec_ |
+Set thicknesses for all the layers, and then decide which layers are reservoir rocks and will need fluid substitution. The target layer above, has fluid substitution enabled by selection of the ‘Reservoir’ option - the right hand ‘Fluid substituted’ $$V_p$$, $$V_s$$ and Rho values are now set as the layer properties
 
 **1D layer properties definition :**
 
-**Ordinary** layers can have their Vp/Vs/Rho values entered manually, input from well log zone or PCube facies averages, or calculated by equation.
+**Ordinary** layers can have their $$V_p$$/$$V_s$$/Rho values entered manually, input from well log zone or PCube facies averages, or calculated by equation.
 
-**Reservoir** layers have the extra option to calculate Vp/Vs/Rho by **fluid substitution:** Gassmann equation or Castagna coefficients methods; or by **porosity change** curves
+**Reservoir** layers have the extra option to calculate $$V_p$$/$$V_s$$/Rho by **fluid substitution**: Gassmann equation or Castagna coefficients methods; or by **porosity change** curves
 
-![](/assets/3d-param-4.png)
+![](/assets/127_Processing.PNG)
 
-_A Target layer with in situ Vs calculated using Castagna equation_
+_A Target layer with in situ Vs calculated using Castagna equation
+( This equation uses custom coeffs. so a grey lithology flag is shown )_
 
-_( This equation uses custom coeffs. so a grey lithology flag is shown )_
 
-![](/assets/cusersjohannappdatalocalmicro.png)
+![](/assets/128_Processing.PNG)
 
 _A Target layer with in situ Vs and Rho calculated using sand equations_
 
-In the example above, the greyed out Vs and Rho values (1557 &amp; 2.194) are those calculated by the Castagna and Gardner equations, from the input Vp of 3000m/s. These equations use the coefficients set for the layer, which can be changed using the &lt;Calc, Vs/Rho&gt; box. The user has the choice of selecting Preset default coefficients by lithology (Sandstone, Shale, Limestone or Dolomite), or manually inputting their own field/rock specific coefficients, for Vs and Rho calculations.
+In the example above, the greyed out $$V_s$$ and Rho values (1557 & 2.194) are those calculated by the Castagna and Gardner equations, from the input $$V_p$$ of 3000m/s. These equations use the coefficients set for the layer, which can be changed using the <Calc, $$V_s$$/Rho> box. The user has the choice of selecting Preset default coefficients by lithology (Sandstone, Shale, Limestone or Dolomite), or manually inputting their own field/rock specific coefficients, for $$V_s$$ and Rho calculations.
 
-![](/assets/cusersjohannappdatalocalmicro.png)
+![](/assets/129_Processing.PNG)
 
-_Selecting Castagna and Gardner coefficients_
+**Selecting Castagna and Gardner coefficients**
 
-Vp/Vs/Rho values can also be defined by PCube facies or by well log zone, using the ‘Fill Properties’ option. Select a PCube facies, which already has averages calculated, or a log zone and calculate averages from well logs. (Log zones can be defined by a cascade of filters in the Well Log Viewer).
+$$V_p$$/$$V_s$$/Rho values can also be defined by PCube facies or by well log zone, using the ‘Fill Properties’ option. Select a PCube facies, which already has averages calculated, or a log zone and calculate averages from well logs. (Log zones can be defined by a cascade of filters in the Well Log Viewer).
 
-In the example below, the Top layer in the 1D model has Vp/Vs/Rho values defined by the parent well’s ‘Shale’ zone. Averages are calculated from each of the 3 input logs.
+In the example below, the Top layer in the 1D model has $$V_p$$/$$V_s$$/Rho values defined by the parent well’s ‘Shale’ zone. Averages are calculated from each of the 3 input logs.
 
-![](/assets/cusersjohannappdatalocalmicro.png)
+![](/assets/130_Processing.PNG)
 
-_Vp/Vs/Rho values from well log ‘Zone’ averages_
+_$$V_p$$/$$V_s$$/Rho values from well log ‘Zone’ averages_
 
-**1D layer properties – fluid substitution :**
+**1D layer properties – fluid substitution **
 
-**Reservoir** layers can have their Vp/Vs/Rho calculated by **fluid substitution**. In situ values are input into the middle column, and substituted results are automatically output into the right column.
+**Reservoir** layers can have their $$V_p$$/$$V_s$$/Rho calculated by **fluid substitution**. In situ values are input into the middle column, and substituted results are automatically output into the right column. 
 
-![](/assets/3d-param-4.png)
+![](/assets/131_Processing.PNG)
+![](/assets/132_Processing.PNG)
 
-![](/assets/3d-param-4.png)
+**Fluid substitution, Gassmann input parameters**
 
-_Fluid substitution, Gassmann input parameters_
+![](/assets/133_Processing.PNG)
+![](/assets/134_Processing.PNG)
 
-![](/assets/3d-param-4.png)
+**Fluid substitution, Castagna input parameters**
 
-![](/assets/3d-param-4.png)
+**Gassmann** equation fluid substitution of an in situ rock, of a known in situ porosity, or the simpler **Castagna** ‘rule of thumb’ fluid substitution equation, relating the $$V_p$$ of gas and brine sandstone; are the choices available from a drop-down menu. For both methods, the user can substitute hydrocarbons to brine, or brine to hydrocarbons. 
 
-_Fluid substitution, Castagna input parameters_
-
-**Gassmann** equation fluid substitution of an in situ rock, of a known in situ porosity, or the simpler **Castagna** ‘rule of thumb’ fluid substitution equation, relating the Vp of gas and brine sandstone; are the choices available from a drop-down menu. For both methods, the user can substitute hydrocarbons to brine, or brine to hydrocarbons.
-
-![](/assets/3d-pmetric-man-23.png)
+![](/assets/135_Processing.PNG)
 
 _Fluid substitution, selection of Brine to HydroC or HydroC to Brine_
 
 The **Gassmann method**
 
-The Gassmann method can be used to replace one fluid by another, usually hydrocarbons with brine, or brine with hydrocarbons. Defaults were chosen to model the biggest change in Vp/Vs/Rho; the gas/brine case, but with appropriate before/after fluid parameter choices the effect of oil/brine or gas/oil substitution can also be estimated. This method requires a knowledge of both bulk modulii and densities for the two fluid phases, so that the appropriate delta/change input values can be calculated.
+The Gassmann method can be used to replace one fluid by another, usually hydrocarbons with brine, or brine with hydrocarbons. Defaults were chosen to model the biggest change in $$V_p$$/$$V_s$$/Rho; the gas/brine case, but with appropriate before/after fluid parameter choices the effect of oil/brine or gas/oil substitution can also be estimated. This method requires a knowledge of both bulk modulii and densities for the two fluid phases, so that the appropriate delta/change input values can be calculated.
 
-*   Requires inputs of rock **InSitu** **Porosity**, **HydroC-Percentage** (Hydrocarbon percentage) and **K-min** (mineral bulk modulus).
-*   Requires inputs of fluid K: **K-Brine &amp; K-HydroC** (giving a change of fluid bulk modulus) and fluid Density: **Rho-Brine &amp; Rho-HydroC** (giving a change of fluiddensity).
-*   Requires an **in situ Vp, Vs** and **Rho**.
-*   Input defaults:
+* Requires inputs of rock **InSitu Porosity**, **HydroC-Percentage** (Hydrocarbon percentage) and  **K-min** (mineral bulk modulus).
+* Requires inputs of fluid K: **K-Brine & K-HydroC** (giving a change of fluid bulk modulus) and fluid Density: **Rho-Brine & Rho-HydroC** (giving a change of fluid density). 
+* Requires an **in situ Vp**, **Vs** and **Rho**. 
+* Input defaults: 
+for Brine/Gas, and a pure Sandstone reservoir:
+**K-min** (quartz) = 38 Gpa, **K-Brine** = 2.60 Gpa and **K-HydroC** = 0.20 Gpa; **Rho-Brine** = 1.05 g/cm^3 and **Rho-HydroC** = 0.10 g/cm^3
 
-for Brine/Gas, and a pure Sandstone reservoir :
+**Input parameter usage:** 
 
-**K-min** (quartz) = 38 Gpa, **K-Brine**= 2.60 Gpa and **K-HydroC**= 0.20 Gpa; **Rho-Brine** = 1.05 g/cm^3 and **Rho-HydroC** = 0.10 g/cm^3
-
-*   Input parameter usage:
-
-The **K-min** default is for a pure sandstone case. If the user wants to model a sandstone/shale mix then a lower value of **K-min** could be used. This value could come from some kind of mixing of **K(sandstone)** &amp; **K(shale)** such as the **Voight-Reuss-Hill** averaging.
+The **K-min** default is for a pure sandstone case. If the user wants to model a sandstone/shale mix then a lower value of K-min could be used. This value could come from some kind of mixing of  K(sandstone) &  K(shale)  such as the Voight-Reuss-Hill averaging.    
 
 **InSitu Porosity ()** must be a reasonable value for the rock Vp, Vs and Rho or the calculation will return suspect fluid substituted Vp/Vs/Rho values, because the rock has to be too stiff or too unconsolidated, given the in situ porosity selected. There is no lower limit cut off applied nor an upper limit of critical porosity (40% for sand) inside this release of the 3D Parametric Synthetic model Builder.
 
