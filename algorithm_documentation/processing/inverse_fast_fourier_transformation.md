@@ -1,8 +1,10 @@
 ### Inverse Fast Fourier Transformation {#inverse-fast-fourier-transformation}
 
-Inverse Fast Fourier Transformation
+![](/assets/086_Processing.png)
 
-Use real and imaginary spectrum option selected
+_Inverse Fast Fourier Transformation,
+Use real and imaginary spectrum option selected_
+
 
 2 options are available depending on which volume available you have available:
 
@@ -14,14 +16,16 @@ The **result Scaling Mode** selects with which factor the resulting spectrum wil
 
 Reasonable combinations are:
 
-*   FFT: 1/N, Inverse FFT: No scaling
-*   FFT: No scaling, Inverse FFT: 1/N
-*   FFT: sqrt(1/N), Inverse FFT: sqrt(1/N)
+* FFT: 1/N, Inverse FFT: No scaling
+* FFT: No scaling, Inverse FFT: 1/N
+* FFT: sqrt(1/N), Inverse FFT: sqrt(1/N)
 
-If the input spectrum volumes consist only of the positive frequency part of the spectrum, the **“_Input is missing negative frequencies use complex conjugate instead”_** must be enabled. The complex conjugate of the input spectrum will be used for the negative frequency part of the spectrum, otherwise the result will be wrong for spectrum volumes used as input. The option to discard the negative frequencies exists in the [FFT](fast_fourier_transformation.md) GUI.
+
+If the input spectrum volumes consist only of the positive frequency part of the spectrum, the **“Input is missing negative frequencies use complex conjugate instead”** must be enabled. The complex conjugate of the input spectrum will be used for the negative frequency part of the spectrum, otherwise the result will be wrong for spectrum volumes used as input. The option to discard the negative frequencies exists in the [FFT](/algorithm_documentation/processing/fast_fourier_transformation.md) GUI.
 
 By using an **oversampling factor** greater than 1.0, an output volume with a finely grained sampling can be created. The sampling will be higher than the actual maximum frequency of the input spectrum.
 
 This sampling is done internally by extending the input spectrum accordingly to a higher maximum frequency. This extended part of the input spectrum is filled with zeros.
 
-The dimensions of the resulting output volume are available at the bottom of this dialog box in the **Result dimensions** part. The sampling distance can be modified via the &quot;Oversampling&quot; and &quot;Use Complex Conjugate&quot; options.
+The dimensions of the resulting output volume are available at the bottom of this dialog box in the **Result dimensions** part. The sampling distance can be modified via the "Oversampling" and "Use Complex Conjugate" options.
+
