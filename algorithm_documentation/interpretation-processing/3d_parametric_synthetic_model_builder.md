@@ -114,24 +114,26 @@ Horizontal axis = 0% to 100% gas
 Vertical axis = 15% to 25% $$\Phi$$, in situ porosity
 
 
-**3D Model/gather analysis :**
+**3D Model/gather analysis **
 
 In this example, the amplitude changes from a peak to a trough ( yellow to blue ) when brine is replaced with gas.
 
-| ![](/assets/cusersjohannappdatalocalmicro.png) | The polarity reversal location, shown by the zero amplitude white band, occurs with less % gas as porosity decreases, and the rock becomes weaker and more unconsolidated. |
-| --- | --- |
+![](/assets/120_Processing.PNG)
+The polarity reversal location, shown by the zero amplitude white band, occurs with less % gas as porosity decreases, and the rock becomes weaker and more unconsolidated.
+Synthetic gathers from the 3D parametric volume are shown in the Data Comparator, below
+( Points of interest (POI) 1 – 4 )
+![](/assets/121_Processing.PNG)
 
-![](/assets/cusersjohannappdatalocalmicro.png)
+Looking at the $$V_p$$, $$V_s$$ and density volumes used for the model, we can see how the Gassmann fluid substitution, from brine to gas, has altered the $$V_p$$ much more than the $$V_s$$ or the Density. $$V_s$$ is only slightly affected by the change in density – decreasing density = increasing $$V_s$$.  The gas changes $$V_p$$ very quickly with low porosity, because the constant in situ $$V_p$$ → a softer rock.
 
-Looking at the Vp, Vs and density volumes used for the model, we can see how the Gassmann fluid substitution, from brine to gas, has altered the Vp much more than the Vs or the Density. Vs is only slightly affected by the change in density – decreasing density = increasing Vs. The gas changes Vp very quickly with low porosity, because the constant in situ Vp → a softer rock.
+![](/assets/122_Processing.PNG)
 
-![](/assets/cusersjohannappdatalocalmicro.png)
+_Top View  -   $$V_p$$, $$V_s$$ and density timeslices, for top reservoir_
 
-_Top View - Vp, Vs and density timeslices, for top reservoir_
+![](/assets/123_Processing.PNG)
+$$V_p$$, $$V_s$$ and Density volumes, were output from the modeling, using the create volumes option above.
 
-Vp, Vs and Density volumes, were output from the modeling, using the create volumes option above.
-
-**1D initial model setup :**
+**1D initial model setup **
 
 To open up the 3D Parametric Synthetic Model Builder dialog go to:
 
