@@ -6,9 +6,11 @@ The input must be a stack volume. The algorithm is used to perform a regular int
 
 The algorithm is supported in workflows.
 
-GUI for Trace Interpolation
+![](/assets/091_Processing.png)
 
-**Interpolation method:** Sinc and Fx interpolation are the two possible choices. Note that Fx method does not allow interpolation, in both inline and crossline direction, in one run. If you wish to do so, please run two passes of interpolation sequentially in each direction or use the Sinc method.
+_GUI for Trace Interpolation_
+
+**Interpolation method:**  Linear, Sinc and Fx interpolation are the possible choices. Note that Fx method does not allow interpolation, in both inline and crossline direction, in one run. If you wish to do so, please run two passes of interpolation sequentially in each direction or use the Sinc method.
 
 **Output/Input w.r.t project grid:** this parameter is the final increment for both axes. If the data has an inline spacing of 25 meters and an inline increment of 2, entering 1 in the inline direction will interpolate to a 12.5 meters inline spacing.
 
@@ -22,6 +24,7 @@ Expert parameters are used only if the interpolation method chosen is Fx.
 
 **Adaptive number of dip reduction:** in case of matrix inversion issues, the algorithm can automatically reduce the number of dips used. This may significantly increase the run time.
 
-**Time Window size:** split the traces into vertical windows of this size, given in samples.
+**Time Window size:** split the traces into vertical windows of this size, given in samples. 
 
 **Time window overlap size:** overlap in samples of the time window. A value of 25% to 50% of the window size is recommended.
+
