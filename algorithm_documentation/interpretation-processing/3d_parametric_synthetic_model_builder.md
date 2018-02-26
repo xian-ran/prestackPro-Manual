@@ -280,80 +280,76 @@ _Porosity change, 20% to 25%_
 
 _Porosity change, input parameters_
 
-**Inputs** : in situ and target porosity, % of cementation &amp; sorting
+**Inputs:**  in situ and target  porosity,  % of cementation & sorting
+$$V_p$$ and $$V_s$$ V porosity, upper and lower bound, RPM curves
+1.	Hashin-Shtrikman  critical porosity upper bound 				( yellow curve  below  =  cementing trend )
+2.	Hashin-Shtrikman, lower bound 						( blue curve  below  = sorting trend )  
 
-: Vp and Vs V porosity, upper and lower bound, RPM curves
 
-1.  Hashin-Shtrikman  critical porosity upper bound ( yellow curve below = cementing trend )
-2.  Hashin-Shtrikman, lower bound  ( blue curve below = sorting trend ) 
+![](/assets/140_Processing.PNG)
 
-| ![](/assets/3d-param-por2.png) |
-| --- |
+**$$V_p$$ v Porosity, upper & lower bound curves**
 
-_Vp v Porosity, upper &amp; lower bound curves_
+These are the curves for pure sand. They can’t be changed in this first version of the software. 
 
-These are the curves for pure sand. They can’t be changed in this first version of the software.
+Predicted porosity change, $$\Delta V_p$$ , $$\Delta V_s$$ , comes from a mix of these curves. Eg: the red dashed line = 40% cementation and 60% sorting.
 
-Predicted porosity change, ∆Vp , ∆Vs , comes from a mix of these curves. Eg: the red dashed line = 40% cementation and 60% sorting.
+Both curves start from a sand with a little bit of cementation, $$V_p$$, $$V_s$$ initial values calculated using the contact cement model equations.
 
-Both curves start from a sand with a little bit of cementation, Vp, Vs initial values calculated using the contact cement model equations.
+**Outputs**
+* New $$V_p$$ & $$V_s$$  -  calculated from In situ $$V_p$$ & $$V_s$$  +  $$\Delta V_p$$ , $$\Delta V_s$$  from mixed RPM curves,e.g. (0.4 * cement + 0.6 * sorting curves )
+* New Rho - calculated from In situ Rho + $$\Delta Rho$$ - from a mix of Quartz (2.65) and fluid density (1.07)eg: (0.05 * Fluid - 0.05 * Quartz )  for a change 20% -> 25%
 
-**Outputs**: New Vp &amp; Vs - calculated from In situ Vp &amp; Vs + ∆Vp , ∆Vs
 
-- from mixed RPM curves
+**Example -** sandstone  20%-to-25% porosity change:
 
-eg: (0.4 * cement + 0.6 * sorting curves )
+An in situ layer of pure sand, with a starting **porosity** of **20**%, filled with brine, which has the properties : 
+**$$V_p$$ =3000**m/s, **$$V_s$$ = 1800**m/s, **Rho = 2.13** g/cm^3, after a porosity change to **25**%, changes to a layer which has the properties :
+$$V_p$$ =2733m/s, $$V_s$$ = 1566m/s, Rho = 2.051 g/cm^3
+( see red triangles inside the $$V_p$$ v Porosity crossplot )
 
-: New Rho - calculated from In situ Rho + ∆Rho - from a mix of Quartz (2.65) and fluid density (1.07)
 
-eg: (0.05 * Fluid - 0.05 * Quartz ) for a change 20% -&gt; 25%
+**3D Model/gather definition **
 
-**Example -** sandstone 20%-to-25% porosity change:
+![](/assets/141_Processing.PNG)
 
-An in situ layer of pure sand, with a starting **porosity** of **20**%, filled with brine, which has the properties :
-
-**Vp =3000**m/s**, Vs = 1800**m/s**, Rho = 2.13** g/cm^3, after a porosity change to **25**%, changes to a layer which has the properties :
-
-**Vp =2733**m/s**, Vs = 1566**m/s**, Rho = 2.051** g/cm^3
-
-( see red triangles inside the Vp v Porosity crossplot )
-
-**3D Model/gather definition :**
-
-![](/assets/cusersjohannappdatalocalmicro.png)
-
-Select the 2<sup>nd</sup> Tab
+Select the $$2^{nd}$$ Tab
 
 In the example below, the inline axis is set to be the target layer hydrocarbon % and crossline, the target layer in situ porosity.
 
-| **![](/assets/cusersjohannappdatalocalmicro.png)** | The Parametric Axes box, on the left hand side, allows the user to choose a property to assign to an axis – the list of properties above includes in situ porosity, Kmin &amp; Hydrocarbon %, only if the layer selected is a reservoir layer. |
-| --- | --- |
+![](/assets/142_Processing.PNG)
+![](/assets/143_Processing.PNG)
+
+The Parametric Axes box, on the left hand side, allows the user to choose a property to assign to an axis – the list of properties above includes in situ porosity, Kmin & Hydrocarbon %, only if the layer selected is a reservoir layer.
 
 The Output gather box on the right, gives the offset/angle gather dimensions that will be output into the synthetic model volume.
 
-The user can choose whether to output the Vp, Vs and density 3D stack volumes for Q.C. and also to review the model output size and reduce it’s dimensions if needed. ( 9 x 76 x 1 x 8 x 1001 )
+The user can choose whether to output the $$V_p$$, $$V_s$$ and density 3D stack volumes for Q.C. and also to review the model output size and reduce it’s dimensions if needed.   ( 9 x 76 x 1 x 8 x 1001 )
 
-**Synthetic options :**
+**Synthetic options:**
 
-![](/assets/cusersjohannappdatalocalmicro.png)
+![](/assets/144_Processing.PNG)
 
-Select the 3<sup>rd</sup> Tab
+Select the $$3^{rd}$$ Tab
 
-| ![](/assets/cusersjohannappdatalocalmicro.png) | This Tab can be used to select a wavelet for all the synthetic gathers; a method for calculating AVO amplitudes and any runtime parameters. |
-| --- | --- |
+![](/assets/145_Processing.PNG)
+This Tab can be used to select a wavelet for all the synthetic gathers; a method for calculating AVO amplitudes and any runtime parameters.
+It also has a wavelet scaling option and an overburden definition table if required.
 
-**Model save &amp; rerun:**
 
-The last model definition is automatically saved by the application, but as soon as a new model is defined or this ‘active model’ updated it will be overwritten and lost. Therefore it is really important to save the output model to the project disk as a **.m3d** file using the save (red) ‘V’ icon.
+
+**Model save & rerun:**
+
+The last model definition is automatically saved by the application, but as soon as a new model is defined or this ‘active model’ updated it will be overwritten and lost. Therefore, it is really important to save the output model to the project disk as a .m3d file using the save (red) ‘V’ icon. 
 
 So that it can be restored using the (blue) inverted ‘V’ icon later:
 
-![](/assets/1d11c.png)
+![](/assets/146_Processing.PNG)
 
-Any Vp,Vs, Rho model logs themselves, can be saved to a project well, once they are displayed in the Model Log Viewer, by &lt;Save logs to project&gt;.
+Any $$V_p$$,$$V_s$$, Rho model logs themselves, can be saved to a project well, once they are displayed in the Model Log Viewer, by Save logs to project. 
 
-![](/assets/cusersjohannappdatalocalmicro.png)
+![](/assets/147_Processing.PNG)
 
-Also entire Vp, Vs and Rho input 3D volumes can be saved to the project, from the data pool, once the model has been calculated – so long as they have been selected for output as shown below.
+Also, entire $$V_p$$, $$V_s$$ and Rho input 3D volumes can be saved to the project, from the data pool, once the model has been calculated – so long as they have been selected for output as shown below.
 
-![](/assets/cusersjohannappdatalocalmicro.png)
+![](/assets/148_Processing.PNG)
