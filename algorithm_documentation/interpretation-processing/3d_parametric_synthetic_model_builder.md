@@ -2,121 +2,117 @@
 
 **Introduction :**
 
-| **![](/assets/dworksharp-stuffmanual48-jk3d-.png)** |  |
-| --- | --- |
+![](/assets/113_Processing.PNG)
 
-_3D synthetic gather volume, created from a single initial 1D reference model, showing amplitudes varying with porosity &amp; angle (crossline) and reservoir layer thickness (inline)._
+_3D synthetic gather volume, created from a single initial 1D reference model, showing amplitudes varying with porosity & angle (crossline) and reservoir layer thickness (inline)._
 
-This application allows the user to input anything from a simple 1D Vp,Vs and Rho log model to a complex, multi-axes, multi-layer, property change, “parametric”, Vp,Vs and Rho 3D volume model; from which a single synthetic gather to a whole prestack volume can be calculated. It allows 1D single gather, 2D line cross section, 3D and 4D volume synthetic models to be created. ( 4D = 3D + a 2<sup>nd</sup> offset/azimuth axis )
+This application allows the user to input anything from a simple 1D $$Vp_,V_s$$ and Rho log model to a complex, multi-axes, multi-layer, property change, “parametric”, $$Vp_,V_s$$ and Rho 3D volume model; from which a single synthetic gather to a whole pre-stack volume can be calculated. It allows 1D single gather, 2D line cross section, 3D and 4D volume synthetic models to be created.  ( 4D = 3D + a $$2^{nd}$$ offset/azimuth axis )
 
-These extra dimensions are used to show “parametric changes” only and cannot be used to model 3D geological structure. They allow the user to make 100’s of synthetic gather models in one execution of the application and store them all together in one prestack dataset.
+These extra dimensions are used to show “parametric changes” only and cannot be used to model 3D geological structure. They allow the user to make 100’s of synthetic gather models in one execution of the application and store them all together in one pre-stack dataset. 
 
-These synthetic gather datasets give the user quick and effective insights into their reservoir gather character and AVA expression. For example they can be used to investigate how AVO amplitude changes with the Vp, Vs and density of the reservoir and caprock; with fluid substitution and with bed thickness.
+These synthetic gather datasets give the user quick and effective insights into their reservoir gather character and AVA expression. For example, they can be used to investigate how AVO amplitude changes with the $$Vp_,V_s$$ and density of the reservoir and caprock; with fluid substitution and with bed thickness.
 
-**Model examples :**
+**Model examples **
 
-| ![](/assets/cusersjohanndesktopsharp-stuff.png) |
-| --- |
+![](/assets/114_Processing.PNG)
 
-_1D single gather example : Vp 3100 synthetic shown in Data Comparator, with an amplitude extraction from top reservoir_
+_1D single gather example : $$V_p$$ 3100 synthetic shown in Data Comparator, with an amplitude extraction from top reservoir_
 
-The user in the first example has taken 2 well log crossplots which show the variability of the reservoir ‘brine’ sand: Vp v Vs and Vp v Density and has decided to make 5 separate 1D single gather synthetics to show how the AVA amplitude varies with Vp. The 5 Vp, Vs and Rho points are shown as red &amp; green circles on the crossplots. The gather display shows the AVA expected with Vp = 3100, Vs = 1650, Rho = 2.16\. and with a reservoir layer thickness of 70m.
+The user in the first example has taken 2 well log crossplots which show the variability of the reservoir ‘brine’ sand:  $$V_p$$ v $$V_s$$  and $$V_p$$ v Density and has decided to make 5 separate 1D single gather synthetics to show how the AVA amplitude varies with $$V_p$$. The 5 $$V_p$$, $$V_s$$ and $$\rho$$ points are shown as red & green circles on the crossplots. The gather display shows the AVA expected with $$V_p$$ = 3100, $$V_s$$ = 1650, $$\rho$$ = 2.16. and with a reservoir layer thickness of 70m.
 
-Instead of running the application 5 times and creating 5 separate individual gathers the user could have made a 2D line of 9 gathers as shown in the 2<sup>nd</sup> example. Vp is set as the inline axis ( 2500 –&gt; 3300 inc 100 ) and the Vs and Rho modelled using curves defined by custom coefficients and the Castagna and Gardner equations. The grey points on the crossplots are the equivalent 5 modelled points used in this 2D line and indicate a pretty good fit to the red and green original curves from example 1\. The reservoir layer thickness is still a constant 70m however.
+Instead of running the application 5 times and creating 5 separate individual gathers the user could have made a 2D line of 9 gathers as shown in the 2nd example. $$V_p$$ is set as the inline axis ( 2500 –> 3300 inc 100 ) and the $$V_s$$ and $$\rho$$ modelled using curves defined by custom coefficients and the Castagna and Gardner equations. The grey points on the crossplots are the equivalent 5 modelled points used in this 2D line and indicate a pretty good fit to the red and green original curves from example 1. The reservoir layer thickness is still a constant 70m however.
 
-| ![](/assets/cusersjohanndesktopsharp-stuff.png) |
-| --- |
+![](/assets/115_Processing.PNG)
 
-_2D line example : Vp 2500 → 3300 synthetics shown in 2D gather viewer_
+_2D line example : Vp 2500 → 3300 synthetics shown in 2D gather viewer 
+( inline = Vp,  Vs and Rho from Vp by custom equations )_
 
-_( inline = Vp, Vs and Rho from Vp by custom equations )_
 
-Since layer thickness and tuning is often a major influence on amplitude, example 3 shows how the 2D model from example 2 can be turned into a 3D ‘classic’ wedge model by setting reservoir layer thickness to the crossline axis instead of density. This is done by adding a crossline axis representing thickness from 1 -&gt; 100m with an increment of 1m to the Vp inline axis – thereby making a 3D volume of 9 x 100 = 900 gathers!
+Since layer thickness and tuning is often a major influence on amplitude, example 3 shows how the 2D model from example 2 can be turned into a 3D ‘classic’ wedge model by setting reservoir layer thickness to the crossline axis instead of density. This is done by adding a crossline axis representing thickness from 1 -> 100m with an increment of 1m to the $$V_p$$ inline axis – thereby making a 3D volume of 9 x 100 = 900 gathers!
 
-To study the influence of density on amplitude in detail the 4<sup>th</sup> example shows how a user has made a 3D volume of gather synthetics by adding a crossline axis representing Rho from 2.0 -&gt; 2.2 with an increment of 0.002 to the Vp inline axis – creating a 3D volume of 9 x 101 = 909 gathers! Vs is still calculated using a curve defined by custom coefficients and the Castagna equation.
+To study the influence of density on amplitude in detail the $$4^{th}$$ example shows how a user has made a 3D volume of gather synthetics by adding a crossline axis representing Rho from 2.0 -> 2.2 with an increment of 0.002 to the $$V_p$$ inline axis – creating a 3D volume of 9 x 101 = 909 gathers! $$V_s$$ is still calculated using a curve defined by custom coefficients and the Castagna equation. 
 
-Every possible combination of these Rho values with the 9 Vp values are included in the gather volume and so most of the Vp, Vs and Rho combinations are now no long following the curves in the original well log crossplots – they will be representing a variety of lithology and fluid content and not just the reservoir ‘brine’ sand we started with. ( 5 of the 101 Rho points are shown in the crossplots to indicate the range of values w.r.t Vp and the grid of input density points used in the model ).
+Every possible combination of these Rho values with the 9 $$V_p$$ values are included in the gather volume and so most of the $$V_p$$, $$V_s$$ and Rho combinations are now no long following the curves in the original well log crossplots – they will be representing a variety of lithology and fluid content and not just the reservoir ‘brine’ sand we started with. ( 5 of the 101 Rho points are shown in the crossplots to indicate the range of values w.r.t $$V_p$$ and the grid of input density points used in the model ).  
 
-| ![](/assets/cusersjohanndesktopsharp-stuff.png) |
-| --- |
+![](/assets/116_Processing.PNG)
 
-_3D volume example : Vp 2500 → 3300 synthetics shown in 3D viewer_
+_3D volume example : $$V_p$$ 2500 → 3300 synthetics shown in 3D viewer
+( inline = $$V_p$$,  xline = thickness, $$V_s$$ & Rho from $$V_p$$ by equations )_
 
-_( inline = Vp, xline = thickness, Vs &amp; Rho from Vp by equations )_
 
-| ![](/assets/cusersjohanndesktopsharp-stuff.png) |
-| --- |
+![](/assets/117_Processing.PNG)
 
-_3D volume example : Vp 2500 → 3300 synthetics shown in 3D viewer_
+_3D volume example : $$V_p$$ 2500 → 3300 synthetics shown in 3D viewer
+( inline = $$V_p$$,  xline = Rho, $$V_s$$ from $$V_p$$, by custom equation )_
 
-_( inline = Vp, xline = Rho, Vs from Vp, by custom equation )_
 
-| ![](/assets/cusersjohanndesktopsharp-stuff.png) |
-| --- |
+![](/assets/118_Processing.PNG)
 
-_3D volume example : Vp 2900 synthetics shown in 3D viewer_
+_3D volume example : $$V_p$$ 2900 synthetics shown in 3D viewer
+( inline = % gas,  xline = $$\Phi$$,  $$V_p$$, $$V_s$$, Rho from fluid substitution )_
 
-_( inline = % gas, xline = , Vp, Vs, Rho from fluid substitution )_
 
-In the final example, a 3D gather volume has been created to explore the effect of fluid substitution on an average or midpoint representing the reservoir. The Vp 2900 point is used here and by varying % gas from 0 to 40 inline and in situ porosity from 15 to 30, crossline, a 3D prestack model of 9 x 76 = 684 gathers is output.
+In the final example, a 3D gather volume has been created to explore the effect of fluid substitution on an average or midpoint representing the reservoir. The $$V_p$$ 2900 point is used here and by varying % gas from 0 to 40 inline and in situ porosity from 15 to 30, crossline, a 3D pre-stack model of  9 x 76 = 684 gathers is output. 
 
-All Vp, Vs and density values come from the fluid substitution and the same gassmann parameters are used for all calculations except for % gas and in situ porosity, set by axes.
+All $$V_p$$, $$V_s$$ and density values come from the fluid substitution and the same gassmann parameters are used for all calculations except for % gas and in situ porosity, set by axes.
 
-**Initial 1D Model :**
+**Initial 1D Model **
 
-Creates an initial or reference model, a Vp, Vs and density log, from which a 2D line or 3D gather volumes can be created.
+Creates an initial or reference model, a $$V_p$$, $$V_s$$ and density log, from which a 2D line or 3D gather volumes can be created. 
 
-These logs are made from at least 3 user defined layers - Top, Target and Bottom layers, plus any added in-between.
+These logs are made from at least 3 user defined layers - Top, Target and Bottom layers, plus any added in-between. 
 
-The **Target layer** has a fixed top depth (MD) and associated time (TWT), which acts as a model reference datum, from which the model is built. All the layers have a thickness to define their top and base relative to this
+The **Target layer** has a fixed top depth (MD) and associated time (TWT), which acts as a model reference datum, from which the model is built. All the layers have a thickness to define their top and base relative to this 
 
-Layer properties can be defined as follows:
+Layer properties can be defined as follows:  
 
-*   Vp, Vs, Rho by manual entry of values,
-*   Vp by manual entry, Vs, Rho by Castagna and Gardner equations
-*   Vp, Vs, Rho by well facies or zone, averages
-*   Vp, Vs, Rho by **«Reservoir»** Gassmann fluid substitution
-*   Vp, Vs, Rho by **«Reservoir»** Castagna fluid substitution
-*   Vp, Vs, Rho by **«Reservoir»** Porosity change
+* $$V_p$$, $$V_s$$, Rho by manual entry of values, 
+* $$V_p$$ by manual entry, $$V_s$$, Rho by Castagna and Gardner equations
+* $$V_p$$, $$V_s$$, Rho by well facies or zone, averages
+* $$V_p$$, $$V_s$$, Rho by **«Reservoir»** Gassmann fluid substitution
+* $$V_p$$, $$V_s$$, Rho by **«Reservoir»** Castagna fluid substitution
+* $$V_p$$, $$V_s$$, Rho by **«Reservoir»** Porosity change
+
 
 Gradual / sloping layer changes can be modelled using the Add intermediate layers option.
 
 This initial or reference model, gives to 2D/3D models :
 
-- all layer thicknesses; all layer properties; and
+* -all layer thicknesses; all layer properties; and 
+* -all reservoir layer,  fluid substitution parameters, 
+(which aren’t replaced later by an axis )
+* -all layer ‘In situ’ Vp, Vs and Density.
 
-all reservoir layer, fluid substitution parameters,
-
-**_(which aren’t replaced later by an axis )_**
-
-- all layer ‘In situ’ Vp, Vs and Density.
 
 **3D Model/gather definition :**
 
-All synthetic gathers have an angle or offset ‘X’ dimension to which the user can add an inline and a crossline dimension to create 2D and 3D gather volumes. A 2<sup>nd</sup> gather ‘Y’ offset can also be added to make a final model with 3 parametric axes.
+All synthetic gathers have an angle or offset ‘X’ dimension to which the user can add an inline and a crossline dimension to create 2D and 3D gather volumes. A $$2_{nd}$$ gather ‘Y’ offset can also be added to make a final model with 3 parametric axes. 
 
-Layer parameters which can be assigned to inline, crossline or 2<sup>nd</sup> offset include : All Layers : thickness, Vp, Vs, Rho, Vp/Vs, AI
+Layer parameters which can be assigned to inline, crossline or $$2_{nd}$$ offset include :  All Layers : thickness,  $$V_p$$, $$V_s$$, Rho, $$V_p$$/$$V_s$$, AI
 
-Reservoir Layers : In situ Porosity, % hydrocarbon &amp; Kmin.
+* Reservoir Layers : In situ Porosity, % hydrocarbon & Kmin.
+* Reservoir Layers : Target Porosity.
 
-Reservoir Layers : Target Porosity.
 
-Only 1 layer &amp; 1 of its parameters can be assigned to any axis. However, any layer can be assigned to any axis. So valid layer and parameter combinations include :
+Only 1 layer & 1 of its parameters can be assigned to any axis. However, any layer can be assigned to any axis. So valid layer and parameter combinations include :
 
-2D model : Inline = Target &amp; Thickness;
+* 2D model :  Inline = Target &  Thickness; 
+* 3D model :  Inline = Target &  AI;  Xline = Caprock &  AI;
+* 3D model :  Inline = Target &  $$V_p$$;  Xline = Caprock &  $$V_p$$/$$V_s$$;
+* 3D model :  Inline = Target &  In situ Porosity; Xline = Target &  % gas;
 
-3D model : Inline = Target &amp; AI; Xline = Caprock &amp; AI;
-
-3D model : Inline = Target &amp; Vp; Xline = Caprock &amp; Vp/Vs;
-
-3D model : Inline = Target &amp; In situ Porosity; Xline = Target &amp; % gas;
 
 The model time range is set by adding 300 msec to model Tmin and Tmax and the sample rate is 1 msec; unless changed by the user.
 
-The model inline &amp; crossline numbers, range and inc are set by the axes input parameter ranges. These will not have any project X/Y map coordinates and so any timeslice or map extracted from these models
+The model inline & crossline numbers, range and inc are set by the axes input parameter ranges. These will not have any project X/Y map coordinates and so any timeslice or map 	extracted from these models 
 
-|  | will need to be displayed in a Top View. |
-| --- | --- |
+![](/assets/119_Processing.PNG)
+
+will need to be displayed in a Top View.
+This image shows a Top View  -   $$0^o$$ angle of incidence, amplitude time slice, for top reservoir.
+Horizontal axis = 0% to 100% gas
+Vertical axis = 15% to 25% $$\Phi$$, in situ porosity
+
 
 **3D Model/gather analysis :**
 
