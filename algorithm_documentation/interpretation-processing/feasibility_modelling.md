@@ -6,11 +6,11 @@ The litho-facies must be defined \(see section 6.6.3 before running the feasibil
 
 To run the feasibility modelling, click on the Feasibility tab in PCube. The Seismic data table and the Prior probabilities table must be filled.
 
-![](/assets/105_Processing.png)
+![](/assets/011_Interpretation.png)
 
 To do this, right click in the white area of the Seismic data table, and select “Add row”. One row must be added for each angle stack to be used in the inversion.
 
-![](/assets/106_Processing.png)
+![](/assets/012_Interpretation.png)
 
 The table can then be filled in with the necessary information, just as it is when loading the data in the “Seismic data and wavelets” tab.
 
@@ -18,31 +18,31 @@ As an alternative, if the information has already been supplied in the “Seismi
 
 The “Sampling distance” should be set to the seismic sample interval. The “Angle correlation” is described in the PCube description \(section 6.6.8\)
 
-![](/assets/107_Processing.png)
+![](/assets/013_Interpretation.png)
 
 To fill in the Prior probabilities table, right click in the white space. This brings up a selection box listing all facies defined in the project. Select all of the desired facies and click Ok.
 
-![](/assets/108_Processing.png)
+![](/assets/014_Interpretation.png)
 
 The prior probabilities table is then populated.
 
-![](/assets/109_Processing.png)
+![](/assets/015_Interpretation.png)
 
 Prior probabilities are set for each facies. The “Model time correlation” is described in the Pcube description \(see section 6.6.8\)
 
 If the litho-facies have already been loaded in the “Facies prior probabilities” tab, instead of creating the table manually it can simply be copied from the other tab using the “Get from facies tab” button. In this case, the prior model is displayed in the right hand panel.
 
-![](/assets/110_Processing.png)
+![](/assets/016_Interpretation.png)
 
 If this option is used, the prior probabilities can be set for a particular layer by right clicking in the display at the correct depth. The context menu has an option to transfer the prior probabilities into the table.
 
-![](/assets/111_Processing.png)
+![](/assets/017_Interpretation.png)
 
 This makes it easy to investigate individual layers.
 
 Once all of the parameters are set, press the “Calculate prediction tables” button. The modelling runs simulations to estimate the posterior conditional probabilities shown in the tables. The result is two tables.
 
-![](/assets/112_Processing.png)
+![](/assets/018_Interpretation.png)
 
 Each row in the tables is labelled by its litho-class. The probability that this litho-class is classified as any of the classes is given across the row. For example, in the first table above, the first row shows that if the litho-class is really New3_HardSand then the probability of correct classification is 0.953 (first column) and there is a 0.047 probability of incorrect classification as class New3_Shale. The first table only uses the rock physics information, and thus quantifies the overlaps between classes which can be seen by crossplotting the litho-facies. The second table incorporates the seismic information. In the first row of the example, it can be seen that the probability of correct classification of New3_HardSand has decreased considerably to 0.263, while the probability of mis-classification as NEW3_Shale has gone up to 0.268. Unfortunately, the noise and resolution limitations of seismic data always result in poorer results than those obtained from the rock physics alone. In fact, looking at this table shows a high degree of misclassification with many of the table entries in the range 0.1 to 0.3. This suggests that the litho-classes need to be redefined to have more discrimination, given the seismic limitations.
 

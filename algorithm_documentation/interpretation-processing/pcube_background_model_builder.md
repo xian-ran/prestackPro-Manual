@@ -8,21 +8,21 @@ It is generally recommended that 3-5 horizons are used to build the prior model 
 
 The first step in creating a prior model is defining the geometry. Typically, this is the same as the inversion area, although it may be bigger. Select a data set with the desired geometry from the drop-down list, and click the Copy button. The parameters may be edited if a subset is required. Then click the Apply button. This sets the geometry for the prior model, and the Manage Probabilities and Time Sections tab becomes visible.
 
-![](/assets/098_Processing.png)
+![](/assets/005_Interpretation.png)
 
 The facies and horizons must be loaded into the GUI to create the model. To load facies into the project, click the Manage Facies button. This brings up the Facies Manager. See section 13.1 for details.
 
-![](/assets/099_Processing.png)
+![](/assets/006_Interpretation.png)
 
 If the facies are already loaded in the project, Select Facies brings up a list of available litho-classes. Tick on the desired selection and press OK.
 
-![](/assets/100_Processing.png)
+![](/assets/007_Interpretation.png)
 
-![](/assets/101_Processing.png)
+![](/assets/008_Interpretation.png)
 
 The required horizons for the model must be loaded in the volume pool. For each one, select it from the drop down list and click Add.
 
-![](/assets/102_Processing.png)
+![](/assets/009_Interpretation.png)
 
 The Priority parameter sets which horizon is used if two horizons cross. The numbers are rankings, so the horizon with a lower priority value \(higher rank\) is used.
 
@@ -30,11 +30,11 @@ The Uncertainty parameter is supplied to allow for uncertainty in horizon pickin
 
 Once horizons are loaded, prior probabilities may be assigned to each interval between horizons. Highlight a horizon by clicking on it, then set the prior probability for each facies in the upper box for the interval between the highlighted horizon and the next one down. The probabilities may be obtained by taking volume averages for each class over the intervals in your rock physics software. It is normal that all the probabilities in the interval should sum to one, but if this is not the case the software will rescale them.
 
-![](/assets/103_Processing.png)
+![](/assets/010_Interpretation.png)
 
 Once all of the layer probabilities are defined, press the Update Preview button. This will show the original and the smoothed models at the given inline, crossline location. The uncertainties may be adjusted to give the desired amount of vertical smoothing.
 
-![](/assets/104_Processing.png)
+![](/assets/011_Interpretation.png)
 
 Finally press the Calculate button. A prior probability volume for each facies class will appear in the volume pool, and these can be visualized like any stack volume. The volumes are not saved to the project and it is recommended to right-click on one of them in the volume pool and select the Save Volume to Project option. All of them can then be saved by selecting Yes to the “Save All Siblings” pop-up box.
 
