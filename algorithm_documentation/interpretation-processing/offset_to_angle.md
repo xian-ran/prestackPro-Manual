@@ -5,7 +5,7 @@ Pre-Stack Pro allows to change the gather offset sorting from distance bins to a
 Go to: **Interpretation Processing** → **Offset to Angle**
 
 The dialog window is divided into two parts:  
-![](/assets/094_Processing.PNG)
+![](/assets/001_Interpretation.PNG)
 
 _Offset to angle module dialog_
 
@@ -15,15 +15,15 @@ This algorithm needs a seismic input volume in the **offset domain**. To apply p
 
 If the RMS-Velocity base mapping method is selected, also a **RMS velocity** is required.
 
-![](/assets/095_Processing.png)  
+![](/assets/002_Interpretation.png)  
 _Velocity loading buttons_
 
 Once this button pressed, the following windows open. The velocity selection can be done on the top part of this window. The velocity data properties are available here.
 
-![](/assets/096_Processing.png)  
+![](/assets/003_Interpretation.png)  
 _Velocity selection_
 
-![](/assets/097_Processing.png)
+![](/assets/004_Interpretation.png)
 _Conversion_
 
 Pre-Stack Pro supports conversion from RMS to interval velocity and vice versa. These options are available from the **"Conversion" Tab** in the parameter selection. If the selected velocity does not fit the selected algorithm, the algorithm will complain and give feedback, what kind of velocity is needed (e.g. Offset to Angle needs an interval velocity with sampling starting at zero). For more information, please refer to the velocity section of this manual
