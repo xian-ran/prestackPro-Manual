@@ -23,14 +23,14 @@ Once this button pressed, the following windows open. The velocity selection can
 ![](/assets/003_Interpretation.png)  
 _Velocity selection_
 
-![](/assets/004_Interpretation.png)
+![](/assets/004_Interpretation.png)  
 _Conversion_
 
-Pre-Stack Pro supports conversion from RMS to interval velocity and vice versa. These options are available from the **"Conversion" Tab** in the parameter selection. If the selected velocity does not fit the selected algorithm, the algorithm will complain and give feedback, what kind of velocity is needed (e.g. Offset to Angle needs an interval velocity with sampling starting at zero). For more information, please refer to the velocity section of this manual
+Pre-Stack Pro supports conversion from RMS to interval velocity and vice versa. These options are available from the **"Conversion" Tab** in the parameter selection. If the selected velocity does not fit the selected algorithm, the algorithm will complain and give feedback, what kind of velocity is needed \(e.g. Offset to Angle needs an interval velocity with sampling starting at zero\). For more information, please refer to the velocity section of this manual
 
 All information concerning the size, the range of the velocity and seismic data are available in the tabs in the central part of this window. In addition, the velocity processing history can be found in the last tab.
 
-By choosing a **Minimum** and **Maximum** angle limit and an **Angle Step** the range and the sampling density of the output angle gathers are set. The angle gathers have ((maximum angle-minimum angle)/angle step)+1 traces.  
+By choosing a **Minimum** and **Maximum** angle limit and an **Angle Step** the range and the sampling density of the output angle gathers are set. The angle gathers have \(\(maximum angle-minimum angle\)/angle step\)+1 traces.
 
 The possible **Output **volumes are:
 
@@ -38,10 +38,9 @@ The possible **Output **volumes are:
 * **Angle Gather:** angle gather in the defined range from min to max angle.
 * **Angle map:** offset gather, where every sample shows the corresponding angle it was will transform into.
 
+**The method** defines the mapping method between recorded offset at the surface and incidence angle on the target reflector. This can be done either with **plane layer ray tracing** or by applying a closed form expression \(**Walden's equation**\).
 
-**The method** defines the mapping method between recorded offset at the surface and incidence angle on the target reflector. This can be done either with **plane layer ray tracing** or by applying a closed form expression (**Walden's equation**). 
-
-The mapping between recorded offset h at the surface and incidence angle q on the target reflector can be established by performing plane layer ray tracing (method 1) or by applying a closed form expression (method 2). Instead of working directly with the angle q, both methods are mapping offset to ray parameter $$P = \frac{Sin\theta _i}{V_i}$$ with conversion from p to angle with known local interval velocity $$V_i$$. 
+The mapping between recorded offset h at the surface and incidence angle q on the target reflector can be established by performing plane layer ray tracing \(method 1\) or by applying a closed form expression \(method 2\). Instead of working directly with the angle q, both methods are mapping offset to ray parameter $$P = \frac{Sin\theta _i}{V_i}$$ with conversion from p to angle with known local interval velocity $$V_i$$.
 
 **Method 1:**
 
@@ -53,8 +52,7 @@ h(Z_N,P) = \sum_{i=1}^N\frac{2V_iP}{\sqrt{1-P^2V_i^2}  }\Delta Z_i
 $$
 
 
-
-or expressed in terms of vertical interval travel time 
+or expressed in terms of vertical interval travel time
 
 
 $$
@@ -68,10 +66,9 @@ h(t_N,P) = \sum_{i=1}^N\frac{V_i^2P}{\sqrt{1-P^2V_i^2}}\Delta t_i
 $$
 
 
+where the index $$i$$ of $$\Delta t_i$$ can be dropped if one uses the constant sampling interval $$\Delta t$$ . $$P$$ is constant for the type of \(laterally constant\) medium under consideration. These equations can not be inverted for $$P$$. However, it is possible to perform ray tracing for given $$P$$ values and to interpolate in offset direction.
 
-where the index $$i$$ of $$\Delta t_i$$ can be dropped if one uses the constant sampling interval $$\Delta t$$ . $$P$$ is constant for the type of (laterally constant) medium under consideration. These equations can not be inverted for $$P$$. However, it is possible to perform ray tracing for given $$P$$ values and to interpolate in offset direction. 
-
-The routine works locally on CDPs. Input is a flag whether the vertical direction is time or depth, the 1D-velocity function for the current CDP (with the vertical unit as chosen by the flag), $$\theta_{min}$$  , $$\theta_{max}$$ , and  $$\Delta \theta$$ and $$t_{min}$$ , $$t_{max}$$  or $$Z_{min}$$ , $$Z_{max}$$ , respectively. Output is a map $$h(t_i,\theta_j)$$.
+The routine works locally on CDPs. Input is a flag whether the vertical direction is time or depth, the 1D-velocity function for the current CDP \(with the vertical unit as chosen by the flag\), $$\theta_{min}$$  , $$\theta_{max}$$ , and  $$\Delta \theta$$ and $$t_{min}$$ , $$t_{max}$$  or $$Z_{min}$$ , $$Z_{max}$$ , respectively. Output is a map $$h(t_i,\theta_j)$$.
 
 **Method 2:**
 
@@ -79,14 +76,13 @@ Walden’s equation
 
 
 $$
-P = \frac{x}{\sqrt{t_0^2+\frac{h^2}{V_{rms,i}^2}} }\frac{1}{V_{rms,i}^2}
+P = \frac{h}{\sqrt{t_0^2+\frac{h^2}{V_{rms,i}^2}} }\frac{1}{V_{rms,i}^2}
 $$
 
 
+provides a closed form expression between offset and ray parameter using rms effective velocities. No ray tracing with interval velocity models needs to be performed. However, interval velocity model is still needed for the final conversion from p to angle.
 
-provides a closed form expression between offset and ray parameter using rms effective velocities. No ray tracing with interval velocity models needs to be performed. However, interval velocity model is still needed for the final conversion from p to angle. 
-
-An option to **taper** velocity changes is also present.  The preferred value for this parameter should be 0 since it reduces the artifacts from angles outside the extreme offset available. 
+An option to **taper** velocity changes is also present.  The preferred value for this parameter should be 0 since it reduces the artifacts from angles outside the extreme offset available.
 
 **Right part of the window:**
 
