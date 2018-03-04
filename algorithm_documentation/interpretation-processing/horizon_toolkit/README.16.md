@@ -12,12 +12,15 @@ To open up the horizon toolkit go to:
 
 **Interpretation-Processing** → **Horizon Tool**
 
-Horizon Toolkit
+![](/assets/107_Interpretation.png)
 
-Many of the processes available in the horizon toolkit will exploit pre-defined horizons. To make these accessible go to the **Add Horizon** drop down menu, select, and then **Add** the relevant horizon. The horizon will in the dialog box above, with a list of properties associated with the horizon.
+_Horizon Toolkit_
 
-By default up to 5 horizons to be available in the toolkit at any one time. This can be increased by changing the **Keep Last** value.
+Many of the processes available in the horizon toolkit will exploit pre-defined horizons. To make these accessible, go to the **Add Horizon** drop down menu, select, and then **Add** the relevant horizon. The horizon will in the dialog box above, with a list of properties associated with the horizon.
 
-Left click on the icon to synchronize it to a chosen map, stack or gather viewer. The viewer will update when new horizons are created.
+By default, up to 5 horizons to be available in the toolkit at any one time. This can be increased by changing the **Keep Last** value.
 
-The user has the option to save these new horizons to the project by right clicking on the horizon name. Other options include “show the used parameters”, and “set to New/Overwrite mode”.
+Left click on the  ![](/assets/108_Interpretation.png)   icon to synchronize it to a chosen map, stack or gather viewer. The viewer will update when new horizons are created.
+
+The user has the option to save these new horizons to the project by right clicking on the horizon name. Other options include “show the used parameters”, and “set to New/Overwrite mode”. 
+

@@ -33,12 +33,11 @@ _Sculpt data: Window around horizon is selected_
 **Lower Window Length:** refer to the time/depth shift down from the horizon. Data within this interval are kept.
 
 ![](/assets/101_Interpretation.png)
+
 _Sculpted result: horizon in green_
 
 **Time shift:** This parameter refers to a global shift of the sculpted data compare to the original horizon. If time shift value is positive, the shift is done downward if the value is negative, the shift is down upward.
 
-![](/assets/102_Interpretation.png)
+![](/assets/102_Interpretation.png)  
 _Positive Time shift_
-
-
 
