@@ -1,6 +1,6 @@
 #### Description of Functions {#description-of-functions}
 
-Time Domain
+**Time Domain**
 
 **Resample**
 
@@ -22,7 +22,7 @@ A linear ramp is applied to the ends of the wavelet. Different lengths may be ap
 
 The wavelet can be modified using the equation editor. The input wavelet is called $Vol1, and the time axis is called $t. See section 2.7 for details of the equation editor.
 
-Frequency Domain
+**Frequency Domain**
 
 **Zero phase**
 
@@ -38,9 +38,9 @@ Applies an Ormsby (trapezoidal) filter to the input.
 
 **Modify spectrum**
 
-Uses the equation editor to modify the wavelet spectrum. There are separate equations for the amplitude and the phase spectrum. The input wavelet is called $Vol1, and frequency is called $f.
+Uses the equation editor to modify the wavelet spectrum. There are separate equations for the amplitude and the phase spectrum. The input wavelet is called $Vol1, and frequency is called $f. 
 
-Other
+**Other**
 
 **Stack**
 
@@ -60,11 +60,11 @@ This function designs a matching operator from the input wavelet to another targ
 
 Once it has been created, the operator can be applied to another wavelet using the Convolve Wavelets function. The operator is designed using a time-domain least-squares algorithm. It has user defined parameters for operator length and the white noise.
 
-There is an option to perform spectral shaping only. This is recommended for offset or angle dependent balancing if the goal is to perform a conditioning for AVO. The spectrum of each matching operator is divided by the mean amplitude within the defined frequency range. A fairly narrow range should be selected where there is strong signal, so that on average the amplitude are untouched within this band.
+There is an option to perform spectral shaping only. This is recommended for offset or angle dependent balancing if the goal is to perform a conditioning for AVO. The spectrum of each matching operator is divided by the mean amplitude within the defined frequency range. A fairly narrow range should be selected where there is strong signal, so that on average the amplitude is untouched within this band. 
 
 **Colored inversion operator**
 
-Colored inversion is a special case of matching. The input is usually a zero-phase seismic spectrum, and the target wavelet is a well-log spectrum created using Well Log Spectrum. The operator has a 90 phase rotation built into it.
+Colored inversion is a special case of matching. The input is usually a zero-phase seismic spectrum, and the target wavelet is a well-log spectrum created using Well Log Spectrum. The operator has a $$90^o$$ phase rotation built into it.
 
 **Convolve wavelets**
 
@@ -72,4 +72,4 @@ The input wavelet is convolved with a wavelet selected from the list. Only wavel
 
 **Convolve**
 
-The Convolve function permits convolution of a wavelet with a volume from the memory pool. The desired wavelet must first be saved to the project. The drop down list is used to select a volume from the volume pool. The desired wavelet should also be highlighted in the wavelet list. Then clicking the Convolve button opens the User-Defined Filter tool with the correct inputs defined.
+The Convolve function permits convolution of a wavelet with a volume from the memory pool. The desired wavelet must first be saved to the project. The drop-down list is used to select a volume from the volume pool. The desired wavelet should also be highlighted in the wavelet list. Then clicking the Convolve button opens the User-Defined Filter tool with the correct inputs defined.
