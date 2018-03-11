@@ -1,1 +1,1 @@
-# Utilities and Setting {#utilities-and-setting}
+# Utilities and Settings {#utilities-and-settings}
