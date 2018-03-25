@@ -1,6 +1,10 @@
 #### Start of the backend server {#start-of-the-backend-server}
 
-If this window doesn’t get displayed automatically, go to **Startup-&gt; Start Backend server.**
+
+
+![](/assets/042_Pre-Stack Pro Installation.png)
+
+If this window doesn’t get displayed automatically, go to **Startup-> Start Backend server**.
 
 The **Host name** is the name or IP address of the machine you want to use for the backend application. If the connection to a host was successful, all the settings for this host are stored and available from the menu at the next start. Each Host can only be stored one time and up to 5 connections are stored.
 
@@ -14,6 +18,7 @@ The **I/O Buffer size** is a tuning parameter for the I/O in Pre-Stack Pro. This
 
 The **TCP Port** is the one used to communicate between the client and the backend. It must be unused by the system.
 
-The **SSH Port** is the SSH port of the system.
+The **SSH Port** is the SSH port of the system. 
 
 The **timeout value** specifies the communication timeout in minutes used during the application startup. If the backend doesn’t start in the given time, the startup is considered as a fail. If you experience timeouts on large cluster systems with many backend nodes, it may be necessary to increase this timeout. The more backend nodes are used, the longer the timeout needs to be.
+

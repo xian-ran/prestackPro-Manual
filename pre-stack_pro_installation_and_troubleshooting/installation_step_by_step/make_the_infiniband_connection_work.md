@@ -29,3 +29,4 @@ Example configuration for two nodes, for more nodes please adjusts the parameter
 ![](/assets/006_Pre-Stack Pro Installation.png)
 
 Verify that the infiniband cable is connected directly between the two nodes or in a switch if you are configuring more than two nodes.
+

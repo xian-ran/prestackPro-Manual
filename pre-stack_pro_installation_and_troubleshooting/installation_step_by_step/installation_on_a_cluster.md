@@ -18,4 +18,5 @@ If your cluster is installed using an imaging mechanism or some kind of cluster 
 
 The Pre-Stack Pro user used to start the Pre-Stack Pro backend server must exist on all compute nodes. In addition to that the passwords must be identical.
 
-The project path must be a parallel file system. You can use the BeeGFS Parallel File System ([http://www.beegfs.com](http://www.beegfs.com)), as well as any parallel file system of your choice.
+The project path must be a parallel file system. You can use the BeeGFS Parallel File System \([http://www.beegfs.com](http://www.beegfs.com)\), as well as any parallel file system of your choice.
+
