@@ -2,32 +2,32 @@
 
 The configuration options for the Pre-Stack Pro backend are located in the file PreStackProBackendrc, in the etc/ directory of your Pre-Stack Pro installation.
 
-Port used by the TCP connections between all backend nodes. Also the 12 ports following this port are used. With enabled NUMA there are additional 12 ports needed starting from this port +100 (default 50100)
+Port used by the TCP connections between all backend nodes. Also, the 12 ports following this port are used. With enabled NUMA there are additional 12 ports needed starting from this port +100 \(default 50100\)
 
-BackendStartingPort = 50000
+![](/assets/033_Pre-Stack Pro Installation.png)
 
-Umask used for files saved within the application. We recommend to set it up to 007, see section 18.2.9
+Umask used for files saved within the application. We recommend to set it up to 007, see section 9.3.8
 
-Umask = 027
+![](/assets/034_Pre-Stack Pro Installation.png)
 
 Enable or disable NUMA support.
 
-Numa = false
+![](/assets/035_Pre-Stack Pro Installation.png)
 
 Enable or disable the core pinning of the worker threads
 
-ThreadPinning = false
+![](/assets/036_Pre-Stack Pro Installation.png)
 
 Enable the use of ethernet instead of Infiniband for the backend communication
 
-UseEthernet = true
+![](/assets/037_Pre-Stack Pro Installation.png)
 
-License server settings, see section 18.2.8.4
+License server settings, see section 9.3.7.4
 
-OLicenseServerName = localhost
+![](/assets/038_Pre-Stack Pro Installation.png)
 
-OLicenseServerPort = 80
+Full path of the machine file, see **Error! Reference source not found.**
 
-Full path of the machine file, see 18.2.7.3
+![](/assets/039_Pre-Stack Pro Installation.png)  
 
-NodeFile = THIS_HAS_TO_BE_SET
+
