@@ -2,7 +2,7 @@
 
 Available in **Utilities** → **Units Converter** this small tool is for converting a given physical quantity between possible units of measurements.
 
-![](/assets/064_Workflow.png)
+![](/assets/010_Utilities and Setting.png)  
 _Units Converter_
 
 The user choses in the list of available physical quantities and can convert any floating point number between two units measuring this same quantity.

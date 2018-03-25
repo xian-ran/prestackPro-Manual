@@ -2,7 +2,7 @@
 
 Available in **Utilities** → **Coordinate Converter**, this small tool is for coordinate conversion between UTM-X/Y and Inline/Crossline. Conversion can be done in both directions and saved into an ASCII file.
 
-![](/assets/063_Workflow.png)
+![](/assets/009_Utilities and Setting.png)  
 _Coordinate Converter_
 
 The user types the coordinates of one coordinate pair, either in the Inline Position and Crossline Position fields, or in the World X and World Y fields. The results will automatically be computed in the corresponding other fields.
