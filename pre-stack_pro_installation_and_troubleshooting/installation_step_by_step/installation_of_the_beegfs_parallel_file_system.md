@@ -4,8 +4,7 @@ If you did not choose BeeGFS, but already have a parallel filesystem you can ski
 
 Please note that the BeeGFS client requires development tools and header files to be able to build the required module, if not already done you can do this by executing the following commands as root user:
 
-| yum groupinstall &quot;Development Tools&quot; |
-| --- |
+![](/assets/014_Pre-Stack Pro Installation.png)
 
 BeeGFS is a separate product from Fraunhofer and you should install it according to the official installation manual available on:
 
@@ -13,15 +12,13 @@ BeeGFS is a separate product from Fraunhofer and you should install it according
 
 Depending on your expertise you can choose between a graphical or manual installation of BeeGFS
 
-*   Recommended setup for a two node system.
+* Recommended setup for a two-node system.
+  You should install the management system and meta server on only one host.
+  The storage server and client on both hosts.
+* Recommended setup for a 4-node system:
+  You should install the management on 1 host, metadata server on two hosts, the storage server and client on all 4 hosts.
 
-You should install the management system and meta server on only one host.The storage server and client on both hosts.
+**Remember to give the users and group read/write access to the parallel file system – we recommend using /data\_parallel as a mount point for the beegfs-client.**
 
-*   Recommended setup for a 4 node system:
+![](/assets/015_Pre-Stack Pro Installation.png)
 
-You should install the management on 1 host, metadata server on two hosts, the storage server and client on all 4 hosts.
-
-**Remember to give the users and group read/write access to the parallel file system – we recommend using /data_parallel as a mount point for the beegfs-client.**
-
-| chown pspro.psprousers –R /data_parallel/ |
-| --- |
