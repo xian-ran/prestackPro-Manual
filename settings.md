@@ -1,4 +1,4 @@
-# 8.11 	General Settings {#settings}
+# 8.11 	General Settings {#General-settings}
 
 General program settings are set via **Settings** → **Settings**. 
 Here is a list of all options:
