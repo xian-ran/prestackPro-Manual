@@ -2,7 +2,7 @@
 
 Go to **Project** → **File Manager** and click on the icon ![](/assets/011_file_manager.png) “open shared project”. The file manager will be spilt into two sections, one for the original project and one for the newly created one.
 
-![](/assets/012_file_manage.png)
+![](/assets/012_file_manager.png)
 
 _File Manager for Shared Projects_
 

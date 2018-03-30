@@ -43,7 +43,7 @@ All headers options are set in this tab. You could choose to have **Auto generat
 
 There is a checkbox for you to choose whether you want to have UTM-X/Y written as integer or float.
 
-![](/assets/0005_data_export.png)
+![](/assets/005_data_export.png)
 
 _Header Key Map GUI_
 

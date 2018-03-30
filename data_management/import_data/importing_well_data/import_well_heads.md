@@ -20,7 +20,6 @@ _Defining the columns_
 
 Go to the **Data Selection** tab and the live data in the file will appear in the ‘File Preview’ area. Choose the first line with data by clicking with the right mouse-button. A context menu opens that allows you to **Start data import from here.** See the section about [picking live data](/data_management/import_data/common_ascii_import_features/picking_the_live_data.md) for the details.
 
-![](/assets/00import.png)
 
 **Separating the columns:**
 
