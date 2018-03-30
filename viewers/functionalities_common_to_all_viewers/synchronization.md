@@ -28,13 +28,19 @@ To synchronize a viewer to another one, click the synchronize icon ![](/assets/0
 
 1. Synchronize a Gather or Stack viewer to a Map viewer
 2. Tick on “Read-out position”
-3. Make crosshair visible in both viewers![](/assets/002_sync.png)_Cursor tracking between a Gather and a Map viewer_
+3. Make crosshair visible in both viewers
+
+![](/assets/002_sync.png)
+_Cursor tracking between a Gather and a Map viewer_
 
 **How to have a cursor read-out between a Gather and a Stack viewer:**
 
 1. Synchronize a Gather to Stack viewer
 2. Tick on “Read-out position” and “Vertical View”
-3. Make crosshair visible in both viewers![](/assets/004_sync'.png)_Vertical zoom and cursor tracking synchronized between stack and gathers_
+3. Make crosshair visible in both viewers
+
+![](/assets/004_sync.png)
+_Vertical zoom and cursor tracking synchronized between stack and gathers_
 
 
 
