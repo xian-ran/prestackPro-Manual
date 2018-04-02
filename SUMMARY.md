@@ -210,7 +210,6 @@
     * [Generate Synthetic Gather](algorithm_documentation\interpretation-processing\generate_synthetic_gather.md)
     * [PCube Inversion](algorithm_documentation\interpretation-processing\pcube_inversion.md)
     * [Pcube+](algorithm_documentation\interpretation-processing\pcube+\README.md)
-      * [Introduction](algorithm_documentation\interpretation-processing\pcube+\introduction.md)
       * [Input Setup](algorithm_documentation\interpretation-processing\pcube+\input_setup.md)
       * [Background Model](algorithm_documentation\interpretation-processing\pcube+\background_model.md)
       * [Transition Probabilities](algorithm_documentation\interpretation-processing\pcube+\transition_probabilities.md)

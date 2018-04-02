@@ -18,9 +18,9 @@ The wavelet scaling factors may be used to apply angle-dependent scaling to the 
 
 **Facies**
 
-A set of litho-facies must be selected for the given Pcube+ model. Each litho-facies is intended to correspond to a distinct litho-class in a $$V_p$$-$$V_s$$-rho cross plot. Typically, they come from wells in the inversion area.
+A set of litho-facies must be selected for the given Pcube+ model. Each litho-facies is intended to correspond to a distinct litho-class in a $$V_p$$-$$V_s$$-$$\rho$$ cross plot. Typically, they come from wells in the inversion area.
 
-The well logs should be QC’d and preconditioned carefully. The elastic properties in the zones of interest should be cross-plotted. This allows identification of distinct classes. The litho-facies can be defined from well log data in PreStack-Pro by using the well log and cross-plotting tools, or by external import. For external import each litho-facies must be defined separately in an ASCII file by three columns, $$V_p$$ \(m/s\), $$V_s$$ \(m/s\) and density \(g/cm^3\) and no file header.
+The well logs should be QC’d and preconditioned carefully. The elastic properties in the zones of interest should be cross-plotted. This allows identification of distinct classes. The litho-facies can be defined from well log data in PreStack-Pro by using the well log and cross-plotting tools, or by external import. For external import each litho-facies must be defined separately in an ASCII file by three columns, $$V_p$$ \(m/s\), $$V_s$$ \(m/s\) and density \($$g/cm^3$$\) and no file header.
 
 ![](/assets/079_Interpretation.png)
 

@@ -1,8 +1,8 @@
 ### Generate Synthetic Gather {#generate-synthetic-gather}
 
-**Introduction :**
+#### Introduction
 
-This application creates a single offset or angle gather at the well, from input $$V_p$$, $$V_s$$ and Density (Rho) logs and a project wavelet. The angle gathers are calculated using just horizontal AVA amplitudes but the offset gathers are ray traced from the surface. Therefore the Overburden Definition option is necessary to ensure angles of incidence are correct for some offset gathers.
+This application creates a single offset or angle gather at the well, from input $$V_p$$, $$V_s$$ and $$\rho$$ logs and a project wavelet. The angle gathers are calculated using just horizontal AVA amplitudes but the offset gathers are ray traced from the surface. Therefore the Overburden Definition option is necessary to ensure angles of incidence are correct for some offset gathers.
 
 ![](/assets/055_Interpretation.PNG)
 
@@ -12,15 +12,15 @@ _Calculate Synthetic Gather GUI -  1 Gather synthetic + 2 horizons shown ( Angle
 
 _Calculate Synthetic Gather GUI -  1 Gather synthetic + 2 horizons shown ( Offset gather with NMO,  Wave equation amplitudes )_
 
-**Output Geometry:**
+#### Output Geometry:
 
 ![](/assets/057_Interpretation.PNG)
 
-**Output Geometry GUI**
+_Output Geometry GUI_
 
 The gather “geometry” for output, can be defined manually or copied from an existing dataset in the volume pool, using ‘Set gather size from’. However, Wave equation synthetics can only be offset gathers.
 
-**Modelling Options:**
+#### Modelling Options
 
 ![](/assets/058_Interpretation.PNG)
 
@@ -59,7 +59,7 @@ For 1D model synthetics, Don’t use the Time-Depth table option as the ‘Fit A
 A simple overburden model can be typed in to define what happens above the start of the logs. ( TVDss/Vint or TWT/Vint or TWT/$$V_{rms}$$ pairs ).  This is important when creating offset synthetics, as it affects the angle-to-offset ( AVO ) relationship considerably.
 
 
-**Log Preconditioning:**
+#### Log Preconditioning
 
 ![](/assets/063_Interpretation.PNG)
 _Log Preconditioning GUI -  default parameters_
@@ -87,7 +87,7 @@ The first density log is blocked by a rel. jump of 0.03 and a max distance of 1m
 The $$2^{nd}$$ density log by a rel. jump of 0.1 and a max distance of 40m.
 Both logs have default de-spiking.
 
-**Synthetic gather Q.C.:**
+#### Synthetic gather Q.C.
 
 Once a synthetic gather has been calculated and appears in the Data Pool it can be viewed either in the **Data Comparator** or in the **Well Log Viewer** for display with its input $$V_p$$/$$V_s$$/Rho well logs.
 
