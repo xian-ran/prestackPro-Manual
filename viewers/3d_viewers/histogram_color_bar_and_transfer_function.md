@@ -2,7 +2,7 @@
 
 The 3D viewer has the same histogram as you find in the 2D viewers.
 
-![](/assets/006_old2dviewer.png)
+![](/assets/006_old3dviewer.png)
 
 _Histogram & colorbar_
 

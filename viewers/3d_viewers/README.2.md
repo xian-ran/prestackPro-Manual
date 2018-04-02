@@ -8,7 +8,7 @@ This 3D viewer provides a comprehensive set of seismic display options for 3D st
 
 ![](/assets/001_3dviewer.png)
 
-_A_ _pre-stack seismic gather volume, displaying 11 angle plane in a 3D box.One red horizon is displayed on the box sides – An XYZ location is marked by the 3D cursor – time and inline ranges have been modified using slider bars._
+_A_ _pre-stack seismic gather volume, displaying 11 degrees angle plane in a 3D box.One red horizon is displayed on the box sides – An XYZ location is marked by the 3D cursor – time and inline ranges have been modified using slider bars._
 
 When any seismic volume is dragged and dropped into the three panesl will open. The rotation centre is set to the middle of the volume, where the inline, crossline and timeslice all meet.
 
@@ -16,8 +16,8 @@ When any seismic volume is dragged and dropped into the three panesl will open. 
 
 _Initial display of seismic volume, after rotation to show timeslice._
 
-| ![](/assets/004_3dviewer.png) | The inline plane is the selected scene object by default and therefore the object properties tab will display the inline properties, which the user can change using slider bars – inline location , time min/max range, angle/offset plane and any viewed gather properties if &lt;view gather&gt; is ticked on.Gathers can be viewed at right angles to any inline or crossline panel, but not coming out from the sides of box displays. |
-| :--- | :--- |
+![](/assets/004_3dviewer.png)
+The inline plane is the selected scene object by default and therefore the object properties tab will display the inline properties, which the user can change using slider bars – inline location , time min/max range, angle/offset plane and any viewed gather properties if &lt;view gather&gt; is ticked on.Gathers can be viewed at right angles to any inline or crossline panel, but not coming out from the sides of box displays.
 
 
 ![](/assets/005_3dviewer.png)
