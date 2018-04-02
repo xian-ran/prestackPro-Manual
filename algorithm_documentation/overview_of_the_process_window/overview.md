@@ -10,7 +10,7 @@ These processes have a similar user interface, composed of three parts described
 
 _Overview of the Radon process window_
 
-#### **Part 1, algorithm specific parameters:**
+#### **Part 1: algorithm specific parameters:**
 
 The top section is the **Input Selection**. This is used to define the displayed inline-crossline pair gathers, as well as to define the input volumes. You can select any volume loaded in memory by clicking on the ![](/assets/002_Overview_of_the_Process_Window.png) icon or alternatively, you can ![](/assets/003_Overview_of_the_Process_Window.png) click on this icon: at the right of the volume name, to select a volume displayed in any 2D viewer or directly in the Data Pool.
 
@@ -44,7 +44,7 @@ The **Display mode tab** gives you the option to use **wiggle plots**. Select th
 
 _Display mode tab to change display to wiggle plot_
 
-#### **Part 2, the input:**
+#### **Part 2: the input:**
 
 The **Input Gather** field displays the gather corresponding to the inline - crossline pair shown in the **Volume Parameter** box.
 
@@ -52,7 +52,7 @@ A color histogram is shown on the lower left. The adjustments of the color setti
 
 This input tab is very interactive thanks to an option that allows the user to access several functionalities such as gather catching or other algorithm specific functionalities -&gt; [Functionalities](/viewers/functionalities_common_to_all_viewers/README.md)
 
-#### **Part 3, the output:**
+#### **Part 3: the output:**
 
 In this section, the result of the algorithm is displayed at the current inline – crossline location.
 

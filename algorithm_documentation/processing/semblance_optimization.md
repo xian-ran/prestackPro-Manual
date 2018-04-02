@@ -1,5 +1,7 @@
 ### Semblance Optimization {#semblance-optimization}
 
+Semblance Optimization is the first version of a trim static algorithm. [Align 2](/algorithm_documentation/processing/align_2.md) is superior and should be used. 
+
 The aim of this algorithm is to flatten events in gathers. In the neighboring trace option each trace is cross-correlated with its neighbor to define a relative timeshift, while in stacked trace option all traces in the gather are cross-correlated with the reference trace which is usually a near or mid offset stack. The data are only shifted if the correlation values exceed a user-defined threshold \(**Min. Correlation**\). All of this is performed in a moving time window.
 
 To open the Semblance Optimization, go to: **Processing** → **Semblance Optimization**

@@ -31,7 +31,7 @@ $$
 $$
 
 
-Where velocities vi are interval velocities in time.
+Where velocities $$V_i$$ are interval velocities in time.
 
 For conversion from time to depth, the output sampling "from depth", "step", and alternatively either "to depth" or "number of steps" needs to be specified via the GUI. Sinc-interpolation is used to pick amplitudes from the time domain data for a given output depth sample.
 
