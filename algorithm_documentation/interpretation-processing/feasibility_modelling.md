@@ -2,7 +2,7 @@
 
 The feasibility modelling tab in PCube is used to analyze the facies classes and seismic data quality and it produces information about ambiguities and uncertainties in the inversion results. It can be used before running an inversion to find out whether it will supply the required information, and also after the inversion to help understand the results. There are two main types of input, one being the parameters associated with seismic quality such as signal-to-noise levels and frequency content for each angle stack, while the other is the information about the litho-facies classes. The output consists of two tables. Both contain probabilities for each litho-facies, given that one litho-facies is correct, for the classification to come out as any of the litho-facies. One table shows results based purely on the rock physics information, while the second also incorporates the seismic information.
 
-The litho-facies must be defined \(see section 6.6.3 before running the feasibility modelling. The seismic data are not required.
+The litho-facies must be defined. The seismic data are not required.
 
 To run the feasibility modelling, click on the Feasibility tab in PCube. The Seismic data table and the Prior probabilities table must be filled.
 
