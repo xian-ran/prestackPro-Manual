@@ -35,7 +35,7 @@ The updated horizon time values can be calculated to the nearest sample time \(c
 
 **Attributes:**
 
-![](/assets/184_Interpretation.png)
+![](/assets/Create_maps.png)
 
 _Create Attribute Map - attribute GUI_
 

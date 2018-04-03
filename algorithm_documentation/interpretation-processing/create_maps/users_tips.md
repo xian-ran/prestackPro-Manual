@@ -1,6 +1,6 @@
 #### Users tips {#users-tips}
 
-**QC tips:**
+##### QC tips:
 
 Two optional QC attributes may be calculated when the snap or track option is used. **“Snapped horizon”** creates a new output horizon at the snapped or tracked position.  **“Distance to snapped horizon”** outputs the difference between input and snapped time at every trace.
 
@@ -11,7 +11,7 @@ Input and snapped outputs can be displayed together in the 2D Gather Viewer, and
 ![](/assets/188_Interpretation.png)  
 _2D gather viewer, with original & snapped horizons displayed_
 
-**Parameter Selection Tips:**
+##### Parameter Selection Tips:
 
 If gather events are reasonably aligned, and only have “jitter” around the stack time, then **Snap** with subsample accuracy should work fine. Use the Edit algorithm parameter option \(MB3 menu\) to recalculate any attribute horizon with a different reference time or window time range. If type 2 AVO reversals occur on your gathers try **Snap** to **max absolute**, with a small snap window, to keep the reference time close to the initial time position of the input horizon.
 

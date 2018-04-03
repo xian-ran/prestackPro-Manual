@@ -7,8 +7,7 @@ _Colored Inversion Workflow_
 
 The workflow steps are as follows:
 
-Step 1\) Load a zero-phase wavelet from the project, or create one from the seismic data. This is described above in section6.6.18.1 .
-
+Step 1\) Load a zero-phase wavelet from the project, or create one from the seismic data. 
 Step 2\) Create a Spectrum from the Acoustic Impedance Well Log
 
 ![](/assets/158_Interpretation.png)
@@ -87,7 +86,7 @@ _EEI Inversion Workflow_
 The workflow steps are as follows:
 
 **Step 1**  
- Load a zero-phase EEI log wavelet from the project, or create one from $$V_p$$, $$V_s$$ and Density well log data.  
+ Load a zero-phase EEI log wavelet from the project, or create one from $$V_p$$, $$V_s$$ and $$\rho$$ well log data.  
 from Vp, Vs and Density well log data.
 
 ![](/assets/172_Interpretation.png)  

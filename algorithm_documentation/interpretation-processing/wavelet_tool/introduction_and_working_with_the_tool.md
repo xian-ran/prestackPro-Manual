@@ -1,14 +1,5 @@
 #### Introduction {#introduction}
 
-The wavelet tool is designed to perform interactive design and manipulation of wavelets, spectra, and filters. In particular, common geophysical tasks such as spectral shaping, whitening, and colored inversion can be carried out using the wavelet tool to design the operators. It has a variety of signal processing functions which can be used in a flexible way to achieve the desired result. In Pre-Stack Pro we use the word “wavelet” in a very general sense to include seismic wavelets, spectra, and filters or operators.
-
-The wavelet tool is designed to be used in conjunction with the spectral analysis tool and the user-defined filter tool. A typical workflow to shape a seismic spectrum to some desired filter would be:
-
-Estimate the actual seismic spectrum in the spectral analysis tool, and save it to the project.  
-Load the spectrum into the wavelet tool and design a shaping operator, saving that to the project.  
-Apply the shaping operator to the seismic volume using the user-defined filter module.
-
-Some example workflows are described in more detail in section **Error! Reference source not found.**
 
 **GUI Layout**
 
@@ -29,19 +20,19 @@ The Properties tab shows the time range, sample interval, number of samples, min
 
 The function group drop-down menu lets you select from a list of categories: Load/Create Wavelets, Filtering, Utility, and Equations. These are combined in the All option. There are also Colored & EEI Inversion functions to provide wizards to compute Inversion operators.
 
-When you select one of these groups it will show a list of available functions under that heading. Load/Create Wavelets is described in section 6.6.18.2 . Color and EEI Inversion appear in section Error! Reference source not found.. All of the other options are detailed in section 6.6.18.12 
+When you select one of these groups it will show a list of available functions under that heading. 
 
 **Menu Bar**
 
-This contains several icons giving control of display options. They are described in section 6.6.18.2 
+This contains several icons giving control of display options. 
 
 **Management Bar**
 
-This contains icons to edit algorithm parameters, rename a wavelet, save to project, freeze a copy of a wavelet, and delete a wavelet from the list. The functions are described in section 6.6.18.2 
+This contains icons to edit algorithm parameters, rename a wavelet, save to project, freeze a copy of a wavelet, and delete a wavelet from the list. 
 
 **Time, Amplitude and Spectrum Displays**
 
-These display options are described in section 6.6.18.2 
+These display options are described in [the next section](/algorithm_documentation\interpretation-processing\wavelet_tool\wavelet_management_and_display.md)
 
 **Wavelet table**
 

@@ -8,7 +8,7 @@ _Function Group - Load/Create Wavelets_
 Wavelets can be created in the project from:
 
 * Ascii import via Project → Import data → Import Wavelets
-* Saving them to project from the spectral analysis tool (section5.4 ) 
+* Saving them to project from the spectral analysis tool
 * Saving them to project from a previous run of the wavelet tool.
 
 
