@@ -24,6 +24,28 @@ where  $$*$$ denotes convolution, $$K_p$$  is a Gaussian with standard deviation
 
 The structure tensor is a well-established tool for describing local image structure: Let $$\mu_1\geq\mu_2\geq\mu_3$$ denote the eigenvalues of this positive semidefinite 3x3 matrix, and $$\nu_1,\nu_2,\nu_3$$ be the corresponding eigenvalues. Then the orthogonal eigenvectors $$\nu_1,\nu_2,\nu_3$$ specify the preferred local orientations, and the eigenvalues $$\mu_1,\mu_2,\mu_3$$ characterize the contrast in these directions.
 
-In order to adapt the diffusion process to the local image structure, the diffusion tensor uses the same eigenvectors as the structure tensor , and its eigenvalues are given by
+In order to adapt the diffusion process to the local image structure, the diffusion tensor $$D$$ uses the same eigenvectors $$\nu_1,\nu_2,\nu_3$$  as the structure tensor $$J_\rho(\nabla u_\sigma)$$ , and its eigenvalues are given by
+
+
+$$
+\lambda_1 = \{1-exp\lgroup \frac{-3.31488}{\mu_1^4/\lambda^8} \rgroup  ( \mu_1> 0)
+$$
+
+
+$$
+\lambda_2 = 1
+$$
+
+
+$$
+\lambda_3 = 1
+
+$$
+
+
+
+
+
+
 
 with a so-called contrast parameter . This strategy allows to reduce diffusion across the dominant structure (in the direction of ), while diffusing with full strength along these structures (the local plane spanned by and ). The contrast parameter is automatically determined, given the amplitude scale of the seismic data, in order to obtain very low values for for relevant seismic amplitudes.
