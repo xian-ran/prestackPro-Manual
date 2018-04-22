@@ -9,9 +9,16 @@ $$
 
 
 
-with homogeneous Neumann boundary conditions. Here denotes the spatial nabla operator, and is the diffusion time.
+with homogeneous Neumann boundary conditions. Here $$\nabla:=(\partial_x, \partial_y, \partial_z)^T$$ denotes the spatial nabla operator, and   is the diffusion time.
 
-The diffusion tensor is a positive semidefinite 3x3 matrix that is chosen as a function of the so-called structure tensor
+The diffusion tensor $$D$$ is a positive semidefinite 3x3 matrix that is chosen as a function of the so-called structure tensor
+
+
+$$
+J_\rho(\nabla u_\sigma) = K_\rho *(\nabla u_\sigma \nabla u_\sigma^T)
+$$
+
+
 
 where denotes convolution, is a Gaussian with standard deviation , and . The parameter is called noise scale, and is the integration scale.
 
