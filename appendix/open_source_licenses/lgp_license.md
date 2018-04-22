@@ -55,10 +55,10 @@ The "Library", below, refers to any such software library or work which has been
 
 Activities other than copying, distribution and modification are not covered by this License; they are outside its scope. The act of running a program using the Library is not restricted, and output from such a program is covered only if its contents constitute a work based on the Library (independent of the use of the Library in a tool for writing it). Whether that is true depends on what the Library does and what the program that uses the Library does.
 
-1. You may copy and distribute verbatim copies of the Library's complete source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this License and to the absence of any warranty; and distribute a copy of this License along with the Library.
+1\. You may copy and distribute verbatim copies of the Library's complete source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this License and to the absence of any warranty; and distribute a copy of this License along with the Library.
 You may charge a fee for the physical act of transferring a copy, and you may at your option offer warranty protection in exchange for a fee.
 
-2. You may modify your copy or copies of the Library or any portion of it, thus forming a work based on the Library, and copy and distribute such modifications or work under the terms of Section 1 above, provided that you also meet all of these conditions:
+2\. You may modify your copy or copies of the Library or any portion of it, thus forming a work based on the Library, and copy and distribute such modifications or work under the terms of Section 1 above, provided that you also meet all of these conditions:
 
 a) The modified work must itself be a software library.
 
@@ -70,189 +70,35 @@ d) If a facility in the modified Library refers to a function or a table of data
 
 (For example, a function in a library to compute square roots has a purpose that is entirely well-defined independent of the application. Therefore, Subsection 2d requires that any application-supplied function or table used by this function must be optional: if the application does not supply it, the square root function must still compute square roots.)
 
-These requirements apply to the modified work as a whole. If
+These requirements apply to the modified work as a whole. If identifiable sections of that work are not derived from the Library and can be reasonably considered independent and separate works in themselves, then this License, and its terms, do not apply to those sections when you distribute them as separate works. But when you distribute the same sections as part of a whole which is a work based on the Library, the distribution of the whole must be on the terms of this License, whose permissions for other licensees extend to the entire whole, and thus to each and every part regardless of who wrote it.
 
-identifiable sections of that work are not derived from the Library,
+Thus, it is not the intent of this section to claim rights or contest your rights to work written entirely by you; rather, the intent is to exercise the right to control the distribution of derivative or collective works based on the Library.
 
-and can be reasonably considered independent and separate works in
+In addition, mere aggregation of another work not based on the Library with the Library (or with a work based on the Library) on a volume of a storage or distribution medium does not bring the other work under the scope of this License.
 
-themselves, then this License, and its terms, do not apply to those
+3\. You may opt to apply the terms of the ordinary GNU General Public License instead of this License to a given copy of the Library. To do this, you must alter all the notices that refer to this License, so that they refer to the ordinary GNU General Public License, version 2, instead of to this License. (If a newer version than version 2 of the ordinary GNU General Public License has appeared, then you can specify that version instead if you wish.) Do not make any other change in these notices.
 
-sections when you distribute them as separate works. But when you
+Once this change is made in a given copy, it is irreversible for that copy, so the ordinary GNU General Public License applies to all subsequent copies and derivative works made from that copy. This option is useful when you wish to copy part of the code of the Library into a program that is not a library.
 
-distribute the same sections as part of a whole which is a work based
+4\. You may copy and distribute the Library (or a portion or derivative of it, under Section 2) in object code or executable form under the terms of Sections 1 and 2 above provided that you accompany it with the complete corresponding machine-readable source code, which must be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange.
+If distribution of object code is made by offering access to copy from a designated place, then offering equivalent access to copy the source code from the same place satisfies the requirement to distribute the source code, even though third parties are not compelled to copy the source along with the object code.
 
-on the Library, the distribution of the whole must be on the terms of
+5\. A program that contains no derivative of any portion of the Library but is designed to work with the Library by being compiled or linked with it, is called a "work that uses the Library". Such a work, in isolation, is not a derivative work of the Library, and therefore falls outside the scope of this License.
 
-this License, whose permissions for other licensees extend to the
-
-entire whole, and thus to each and every part regardless of who wrote
-
-it.
-
-Thus, it is not the intent of this section to claim rights or contest
-
-your rights to work written entirely by you; rather, the intent is to
-
-exercise the right to control the distribution of derivative or
-
-collective works based on the Library.
-
-In addition, mere aggregation of another work not based on the Library
-
-with the Library (or with a work based on the Library) on a volume of
-
-a storage or distribution medium does not bring the other work under
-
-the scope of this License.
-
-3\. You may opt to apply the terms of the ordinary GNU General Public
-
-License instead of this License to a given copy of the Library. To do
-
-this, you must alter all the notices that refer to this License, so
-
-that they refer to the ordinary GNU General Public License, version 2,
-
-instead of to this License. (If a newer version than version 2 of the
-
-ordinary GNU General Public License has appeared, then you can specify
-
-that version instead if you wish.) Do not make any other change in
-
-these notices.
-
-Once this change is made in a given copy, it is irreversible for
-
-that copy, so the ordinary GNU General Public License applies to all
-
-subsequent copies and derivative works made from that copy.
-
-This option is useful when you wish to copy part of the code of
-
-the Library into a program that is not a library.
-
-4\. You may copy and distribute the Library (or a portion or
-
-derivative of it, under Section 2) in object code or executable form
-
-under the terms of Sections 1 and 2 above provided that you accompany
-
-it with the complete corresponding machine-readable source code, which
-
-must be distributed under the terms of Sections 1 and 2 above on a
-
-medium customarily used for software interchange.
-
-If distribution of object code is made by offering access to copy
-
-from a designated place, then offering equivalent access to copy the
-
-source code from the same place satisfies the requirement to
-
-distribute the source code, even though third parties are not
-
-compelled to copy the source along with the object code.
-
-5\. A program that contains no derivative of any portion of the
-
-Library, but is designed to work with the Library by being compiled or
-
-linked with it, is called a &quot;work that uses the Library&quot;. Such a
-
-work, in isolation, is not a derivative work of the Library, and
-
-therefore falls outside the scope of this License.
-
-However, linking a &quot;work that uses the Library&quot; with the Library
-
-creates an executable that is a derivative of the Library (because it
-
-contains portions of the Library), rather than a &quot;work that uses the
-
-library&quot;. The executable is therefore covered by this License.
+However, linking a "work that uses the Library" with the Library creates an executable that is a derivative of the Library (because it contains portions of the Library), rather than a "work that uses the library". The executable is therefore covered by this License.
 
 Section 6 states terms for distribution of such executables.
 
-When a &quot;work that uses the Library&quot; uses material from a header file
+When a "work that uses the Library" uses material from a header file that is part of the Library, the object code for the work may be a derivative work of the Library even though the source code is not. Whether this is true is especially significant if the work can be linked without the Library, or if the work is itself a library. The threshold for this to be true is not precisely defined by law.
 
-that is part of the Library, the object code for the work may be a
+If such an object file uses only numerical parameters, data structure layouts and accessors, and small macros and small inline functions (ten lines or less in length), then the use of the object file is unrestricted, regardless of whether it is legally a derivative work. (Executables containing this object code plus portions of the Library will still fall under Section 6.) Otherwise, if the work is a derivative of the Library, you may distribute the object code for the work under the terms of Section 6.
+Any executables containing that work also fall under Section 6, whether or not they are linked directly with the Library itself.
 
-derivative work of the Library even though the source code is not.
+6\. As an exception to the Sections above, you may also combine or link a "work that uses the Library" with the Library to produce a work containing portions of the Library, and distribute that work under terms of your choice, provided that the terms permit modification of the work for the customer's own use and reverse engineering for debugging such modifications.
 
-Whether this is true is especially significant if the work can be
+You must give prominent notice with each copy of the work that the Library is used in it and that the Library and its use are covered by this License. You must supply a copy of this License. If the work during execution displays copyright notices, you must include the copyright notice for the Library among them, as well as a reference directing the user to the copy of this License. Also, you must do one of these things:
 
-linked without the Library, or if the work is itself a library. The
-
-threshold for this to be true is not precisely defined by law.
-
-If such an object file uses only numerical parameters, data
-
-structure layouts and accessors, and small macros and small inline
-
-functions (ten lines or less in length), then the use of the object
-
-file is unrestricted, regardless of whether it is legally a derivative
-
-work. (Executables containing this object code plus portions of the
-
-Library will still fall under Section 6.)
-
-Otherwise, if the work is a derivative of the Library, you may
-
-distribute the object code for the work under the terms of Section 6.
-
-Any executables containing that work also fall under Section 6,
-
-whether or not they are linked directly with the Library itself.
-
-6\. As an exception to the Sections above, you may also combine or
-
-link a &quot;work that uses the Library&quot; with the Library to produce a
-
-work containing portions of the Library, and distribute that work
-
-under terms of your choice, provided that the terms permit
-
-modification of the work for the customer&#039;s own use and reverse
-
-engineering for debugging such modifications.
-
-You must give prominent notice with each copy of the work that the
-
-Library is used in it and that the Library and its use are covered by
-
-this License. You must supply a copy of this License. If the work
-
-during execution displays copyright notices, you must include the
-
-copyright notice for the Library among them, as well as a reference
-
-directing the user to the copy of this License. Also, you must do one
-
-of these things:
-
-a) Accompany the work with the complete corresponding
-
-machine-readable source code for the Library including whatever
-
-changes were used in the work (which must be distributed under
-
-Sections 1 and 2 above); and, if the work is an executable linked
-
-with the Library, with the complete machine-readable &quot;work that
-
-uses the Library&quot;, as object code and/or source code, so that the
-
-user can modify the Library and then relink to produce a modified
-
-executable containing the modified Library. (It is understood
-
-that the user who changes the contents of definitions files in the
-
-Library will not necessarily be able to recompile the application
-
-to use the modified definitions.)
+a) Accompany the work with the complete corresponding machine-readable source code for the Library including whatever changes were used in the work (which must be distributed under  Sections 1 and 2 above); and, if the work is an executable linked with the Library, with the complete machine-readable "work that uses the Library", as object code and/or source code, so that the user can modify the Library and then relink to produce a modified executable containing the modified Library. (It is understood that the user who changes the contents of definitions files in the Library will not necessarily be able to recompile the application to use the modified definitions.)
 
 b) Use a suitable shared library mechanism for linking with the
 
