@@ -1,6 +1,13 @@
 ### Mathematical background {#mathematical-background}
 
-Edge- and coherence-enhancing anisotropic diffusion filtering (ECED) performs structure-adaptive smoothing. Let denote a three-dimensional image domain and be a scalar-valued image. Then a filtered version of is computed by regarding as initial state of a diffusion equation
+Edge- and coherence-enhancing anisotropic diffusion filtering (ECED) performs structure-adaptive smoothing. Let $$\Omega\subset R^3$$  denote a three-dimensional image domain and $$f:\Omega\rightarrow R$$ be a scalar-valued image. Then a filtered version $$u(x,y,z,z)$$ of $$f(x,y,z)$$  is computed by regarding $$f$$ as initial state of a diffusion equation
+
+
+$$
+\partial_tu = \nabla ^T(D(J_\rho(\nabla u_\sigma ))\nabla u)
+$$
+
+
 
 with homogeneous Neumann boundary conditions. Here denotes the spatial nabla operator, and is the diffusion time.
 
