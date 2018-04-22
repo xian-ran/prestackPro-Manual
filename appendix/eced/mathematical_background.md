@@ -20,9 +20,9 @@ $$
 
 
 
-where denotes convolution, is a Gaussian with standard deviation , and . The parameter is called noise scale, and is the integration scale.
+where  $$*$$ denotes convolution, $$K_p$$  is a Gaussian with standard deviation $$\rho$$ , and $$u_\sigma := K_\sigma*u$$ . The parameter $$\sigma$$ is called noise scale, and  $$\rho$$ is the integration scale.
 
-The structure tensor is a well-established tool for describing local image structure: Let denote the eigenvalues of this positive semidefinite 3x3 matrix, and be the corresponding eigenvalues. Then the orthogonal eigenvectors specify the preferred local orientations, and the eigenvalues characterise the contrast in these directions.
+The structure tensor is a well-established tool for describing local image structure: Let $$\mu_1\geq\mu_2\geq\mu_3$$ denote the eigenvalues of this positive semidefinite 3x3 matrix, and   be the corresponding eigenvalues. Then the orthogonal eigenvectors   specify the preferred local orientations, and the eigenvalues   characterise the contrast in these directions.
 
 In order to adapt the diffusion process to the local image structure, the diffusion tensor uses the same eigenvectors as the structure tensor , and its eigenvalues are given by
 
