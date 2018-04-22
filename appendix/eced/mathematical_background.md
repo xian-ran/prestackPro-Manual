@@ -45,7 +45,4 @@ $$
 
 
 
-
-
-
-with a so-called contrast parameter . This strategy allows to reduce diffusion across the dominant structure (in the direction of ), while diffusing with full strength along these structures (the local plane spanned by and ). The contrast parameter is automatically determined, given the amplitude scale of the seismic data, in order to obtain very low values for for relevant seismic amplitudes.
+with a so-called contrast parameter $$\lambda> 0$$ . This strategy allows to reduce diffusion across the dominant structure (in the direction of $$\nu_1$$), while diffusing with full strength along these structures (the local plane spanned by $$\nu_2$$  and $$\nu_3$$ ). The contrast parameter $$\lambda$$ is automatically determined, given the amplitude scale of the seismic data, in order to obtain very low values for $$\lambda_1$$  for relevant seismic amplitudes.
