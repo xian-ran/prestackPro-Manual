@@ -25,12 +25,12 @@ Where $$V_i$$ is the time interval velocity of the $$i^{th}$$ layer.
 
 
 $$
-z = \lmoustache_0^tV(t)dt
+z = \int_0^tV(t)dt
 $$
 
 
 
 $$
-t = \lmoustache_0^z\frac{dz}{V(z)}
+t = \int_0^z\frac{dz}{V(z)}
 $$
 
