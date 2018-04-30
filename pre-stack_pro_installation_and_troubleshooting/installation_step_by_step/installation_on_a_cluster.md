@@ -8,7 +8,11 @@ As default, that file is stored in /var/spool/torque/aux \(your batch system may
 
 The file /etc/gpi.conf:
 
-# NODE\_FILE\_DIR points to a directory containing one \#nodelist file \(fallback filename: machinefile\) \#e.g.
+NODE_FILE_DIR points to a directory containing one #nodelist file (fallback filename: machinefile) e.g.
+
+
+
+
 
 ![](/assets/017_Pre-Stack Pro Installation.png)
 
