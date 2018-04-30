@@ -27,9 +27,20 @@ The structure tensor is a well-established tool for describing local image struc
 In order to adapt the diffusion process to the local image structure, the diffusion tensor $$D$$ uses the same eigenvectors $$\nu_1,\nu_2,\nu_3$$  as the structure tensor $$J_\rho(\nabla u_\sigma)$$ , and its eigenvalues are given by
 
 
+
+
+
+
 $$
-\lambda_1 = \{1-exp\lgroup \frac{-3.31488}{\mu_1^4/\lambda^8} \rgroup  ( \mu_1> 0)
+\lambda_1 =
+\begin{cases}
+1 & ( \mu_1= 0) \\
+1-exp\bigg\lgroup \frac{-3.31488}{\mu_1^4/\lambda^8} \bigg\rgroup & ( \mu_1> 0)
+\end{cases} 
 $$
+
+
+
 
 
 $$
