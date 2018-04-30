@@ -206,6 +206,8 @@
     * [Angle to offset](algorithm_documentation\interpretation-processing\angle_to_offset.md)
     * [PCube Background Model Builder](algorithm_documentation\interpretation-processing\pcube_background_model_builder.md)
     * [Feasibility Modelling](algorithm_documentation\interpretation-processing\feasibility_modelling.md)
+    * [Well Tie](algorithm_documentation/interpretation-processing/well-tie.md)
+    * [Getting Started](algorithm_documentation/interpretation-processing/getting-started.md)
     * [3D Parametric Synthetic Model Builder](algorithm_documentation\interpretation-processing\3d_parametric_synthetic_model_builder.md)
     * [Generate Synthetic Gather](algorithm_documentation\interpretation-processing\generate_synthetic_gather.md)
     * [PCube Inversion](algorithm_documentation\interpretation-processing\pcube_inversion.md)
