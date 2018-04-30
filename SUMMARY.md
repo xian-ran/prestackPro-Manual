@@ -209,6 +209,8 @@
     * [Well Tie](algorithm_documentation/interpretation-processing/well-tie.md)
       * [Getting Started](algorithm_documentation/interpretation-processing/getting-started.md)
       * [Launching Well Tie](algorithm_documentation/interpretation-processing/launching-well-tie.md)
+        * [Data Selection](algorithm_documentation/interpretation-processing/launching-well-tie/data-selection.md)
+        * [Seismic Tab](algorithm_documentation/interpretation-processing/launching-well-tie/seismic-tab.md)
     * [3D Parametric Synthetic Model Builder](algorithm_documentation\interpretation-processing\3d_parametric_synthetic_model_builder.md)
     * [Generate Synthetic Gather](algorithm_documentation\interpretation-processing\generate_synthetic_gather.md)
     * [PCube Inversion](algorithm_documentation\interpretation-processing\pcube_inversion.md)
