@@ -13,6 +13,6 @@ The main Well Tie window displays:
 
 **Zooming **can be controlled using the mouse wheel on the TWT/TVDSS track – or right-mouse click on the TWT/TVDSS track to manually change the range displayed.
 
-**Correlogram:**
-The correlogram is a sliding window cross-correlation for a single angle plane. For pre-stack seismic the angle is defined in the bottom left-hand side of the main window and can be changed by the user.
+
+
 

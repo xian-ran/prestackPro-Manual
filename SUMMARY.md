@@ -215,6 +215,7 @@
         * [Synthetic Tab](algorithm_documentation/interpretation-processing/launching-well-tie/synthetic-tab.md)
         * [Correlogram Tab](algorithm_documentation/interpretation-processing/launching-well-tie/correlogram-tab.md)
       * [The Well Tie Window](algorithm_documentation/interpretation-processing/the-well-tie-window.md)
+        * [Correlogram](algorithm_documentation/interpretation-processing/the-well-tie-window/correlogram.md)
     * [3D Parametric Synthetic Model Builder](algorithm_documentation\interpretation-processing\3d_parametric_synthetic_model_builder.md)
     * [Generate Synthetic Gather](algorithm_documentation\interpretation-processing\generate_synthetic_gather.md)
     * [PCube Inversion](algorithm_documentation\interpretation-processing\pcube_inversion.md)
