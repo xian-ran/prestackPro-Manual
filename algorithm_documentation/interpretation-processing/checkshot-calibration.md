@@ -53,8 +53,47 @@ Edit the checkshot rows using right-mouse click on a row in the table. **Rows ca
 
 You can **Decimate **the checkshots, here by 2:
 
-
-
 ![](/assets/217_Interpretation.png)
 
 Press **Reset **to revert all changes to the checkshots.
+
+**Bulk Shifts**
+
+To apply a **Bulk Shift**, click on the pen icon next to either the Total TWT or TVD Correction options. Multiple iterative time and/or depth shifts will be summed up to give a total value, e.g. +10ms and an additional 4ms will be displayed as 0.014s. This includes updates from the **Cross-Correlation** window.
+
+![](/assets/218_Interpretation.png)
+
+Press **Reset **to revert all changes to the checkshots, including bulk shifts.
+
+**Drift Curve Fit**
+
+No fit mode applies the T/D table as is with no resampling.
+
+You can **Enable Fit** to the Drift Curve with these options:
+
+* **Piecewise Linear** fits the drift curve points exactly but produces a blocky result.
+* **Global Polynomial** produces a smooth result that does not fit the drift curve points exactly.
+
+![](/assets/219_Interpretation.png)
+
+**Applying and Saving Changes**
+
+**Interactive Mode** is off by default. To update the synthetic display in the main Well Tie window press **Apply**.
+
+With **Interactive Mode** toggled on, the synthetic is updated continuously.
+
+Note that updating the synthetic does not save the new T/D table. To save any changes please use **Save Session** or **Save** in the main Well Tie window. You can save the T/D table as an individual file or as part of a group. A saved T/D table is separate to the input checkshot set; the original checkshot set is never overwritten.
+
+![](/assets/220_Interpretation.png)
+
+**Display Settings**
+
+The user can change the display in the **Control **tab. Right-mouse click on a header or depth track to bring up the display menu options.
+
+
+
+![](/assets/221_Interpretation.png)
+
+Display Tops and Horizons in the same fashion as the main Well Tie window. 
+
+Zoom in with the mouse wheel on the TWT/TVDSS track – or right-button click to manually change the Z range to be displayed.
