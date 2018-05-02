@@ -13,5 +13,17 @@ Edit the file /etc/hosts and add all hosts and their respective IP addresses lik
 
 If you are using an internal DNS server this step might not be needed, if the DNS server is properly configured and reachable from all nodes.
 
-![](/assets/008_Pre-Stack Pro Installation.png)
+```bash
+127.0.0.1  localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1             localhost localhost.localdomain localhost6 localhost6.localdomain6
+127.0.0.1  localhost.localdomain localhost
+::1             localhost6.localdomain6 localhost6
+192.168.10.10   node1
+192.168.10.20   node2
+192.168.80.10  node1-ib
+192.168.80.20  node2-ib
+```
+
+
+
 
