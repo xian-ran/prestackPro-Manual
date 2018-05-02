@@ -213,6 +213,7 @@
       * [Checkshot Calibration](algorithm_documentation/interpretation-processing/checkshot-calibration.md)
       * [Wavelet Extraction & Editing](algorithm_documentation/interpretation-processing/wavelet-extraction-and-editing.md)
       * [Cross Correlation](algorithm_documentation/interpretation-processing/cross-correlation.md)
+      * [Spatial Scanning](algorithm_documentation/interpretation-processing/spatial-scanning.md)
     * [3D Parametric Synthetic Model Builder](algorithm_documentation\interpretation-processing\3d_parametric_synthetic_model_builder.md)
     * [Generate Synthetic Gather](algorithm_documentation\interpretation-processing\generate_synthetic_gather.md)
     * [PCube Inversion](algorithm_documentation\interpretation-processing\pcube_inversion.md)
