@@ -211,6 +211,7 @@
       * [Launching Well Tie](algorithm_documentation/interpretation-processing/launching-well-tie.md)
       * [The Well Tie Window](algorithm_documentation/interpretation-processing/the-well-tie-window.md)
       * [Checkshot Calibration](algorithm_documentation/interpretation-processing/checkshot-calibration.md)
+      * [Wavelet Extraction & Editing](algorithm_documentation/interpretation-processing/wavelet-extraction-and-editing.md)
     * [3D Parametric Synthetic Model Builder](algorithm_documentation\interpretation-processing\3d_parametric_synthetic_model_builder.md)
     * [Generate Synthetic Gather](algorithm_documentation\interpretation-processing\generate_synthetic_gather.md)
     * [PCube Inversion](algorithm_documentation\interpretation-processing\pcube_inversion.md)
