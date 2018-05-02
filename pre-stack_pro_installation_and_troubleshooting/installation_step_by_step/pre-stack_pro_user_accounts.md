@@ -13,11 +13,24 @@ If this is a multiuser system you would want to add them to the same group and g
 
 **Adding a group**
 
-![](/assets/031_Pre-Stack Pro Installation.png)
+```bash
+groupadd psprousers
+```
+
 
 Adding users to the newly created group and setting password:
 
-![](/assets/032_Pre-Stack Pro Installation.png)
+```bash
+useradd psprouser1 –g psprousers
+passwd psprouser1
+```
+
+Edit: /opt/PreStackPro/etc/PreStackProBackendrc (on all nodes)
+Change the line: #Umask = 027 to
+```bash
+Umask = 007
+```
+
 
 This will make Pre-Stack Pro give the group psprousers full read/write access to newly created files and projects within the specified data folder given on startup of Pre-Stack Pro (/data_parallel/)
 

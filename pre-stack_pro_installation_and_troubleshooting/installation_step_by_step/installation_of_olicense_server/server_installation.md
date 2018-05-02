@@ -6,11 +6,17 @@ Download the installation package and start the setup executable, depending on y
 
 **Note:** If you are running a remote ssh session on Linux, please ensure that you have X forwarding enabled. The server may not resolve the localhost name correctly, causing the startup of the server control tool to fail with the message "cannot connect to X server localhost:XX.X". In this case, please adjust the DISPLAY system variable manually. To do so, check your current setting with
 
-![](/assets/027_Pre-Stack Pro Installation.png)
+```bash
+echo $DISPLAY
+```
+
 
 which should return something like 'localhost:XX.X'. Now, please modify the setting by using
 
-![](/assets/028_Pre-Stack Pro Installation.png)
+```bash
+export DISPLAY=127.0.0.1:XX.X
+```
+
 
 replacing localhost with 127.0.0.1.
 

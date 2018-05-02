@@ -1,8 +1,7 @@
 #### Requesting your license file {#requesting-your-license-file}
 
 After you successfully installed the OLicense server, we will require the server's unique identifier to link your issued license to it. To generate the server's UUID, you can use the server web interface. Either start a browser from the server control tool via the "Open Browser Frontend" button, or open a web browser and manually enter the server's address and port number in the form
-
-![](/assets/029_Pre-Stack Pro Installation.png)
+http://serveraddress:serverport
 
 
 For a complete description of the web interface, also consult the server manual.

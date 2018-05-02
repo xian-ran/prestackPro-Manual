@@ -7,7 +7,10 @@ TIP: If the parallel file system is already running, you might save time placing
 
 To upgrade
 
-![](/assets/040_Pre-Stack Pro Installation.png)
+```bash
+rpm –U PreStackPRO-X.X.X.x86_64.rpm
+```
+
 
 Please verify that the filename and path is correct, if you download via Firefox the downloaded file will normally be stored in /home/USERNAME/Downloads/
 

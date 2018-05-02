@@ -6,9 +6,26 @@ When using infiniband all storage nodes should display: RDMA when run on a Infin
 
 Example output of beegfs-net:
 
-![](/assets/043_Pre-Stack Pro Installation.png)
+```bash
+storage_nodes
+=============
+dell1 [ID: 1]
+Connections: RDMA: 1 (192.168.80.10:8003);
+```
 
 Example output of beegfs-df:
 
-![](/assets/044_Pre-Stack Pro Installation.png)
+```bash
+METADATA SERVERS:
+TargetID        	Pool       Total        Free      ITotal       IFree
+========        ====       =====        ====      ======       =====
+       1    [normal]    5587.1GB    3052.2GB     1117.8M     1117.7M
+
+STORAGE TARGETS:
+TargetID        Pool       Total        Free      ITotal       IFree
+========        ====       =====        ====      ======       =====
+       1    [normal]    5587.1GB    3052.2GB     1117.8M     1117.7M
+       2    [normal]    5587.1GB    3082.9GB     1117.8M     1117.8M
+```
+
 
