@@ -56,7 +56,7 @@ _( TVDss = 2000m = 2.0secs )_
 
 For 1D model synthetics, Don’t use the Time-Depth table option as the ‘Fit Accuracy’ algorithm is designed to work with $$V_p$$ logs which have 100’s of T/D points and not with a model log of < 10. Also make sure the Log Preconditioning is not used as model logs are noise free and blocked correctly already.
 
-A simple overburden model can be typed in to define what happens above the start of the logs. ( TVDss/Vint or TWT/Vint or TWT/$$V_{rms}$$ pairs ).  This is important when creating offset synthetics, as it affects the angle-to-offset ( AVO ) relationship considerably.
+A simple overburden model can be typed in to define what happens above the start of the logs. ( TVDss/Vint or TWT/Vint or TWT/Vrms pairs ).  This is important when creating offset synthetics, as it affects the angle-to-offset ( AVO ) relationship considerably.
 
 
 #### Log Preconditioning
