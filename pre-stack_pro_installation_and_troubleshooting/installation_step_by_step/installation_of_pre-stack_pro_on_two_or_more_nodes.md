@@ -2,7 +2,11 @@
 
 Now you can install the actual Pre-Stack Pro binaries using the tool yum. Type the command
 
-![](/assets/016_Pre-Stack Pro Installation.png)
+```bash
+yum install PreStackPRO<xx>.x86_64.rpm
+```
+
+
 
 on each of the two nodes. You can now exit the superuser mode.
 

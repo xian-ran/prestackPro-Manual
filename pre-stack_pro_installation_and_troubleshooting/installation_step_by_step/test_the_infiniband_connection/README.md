@@ -13,6 +13,8 @@ Edit the file /etc/hosts and add all hosts and their respective IP addresses lik
 
 If you are using an internal DNS server this step might not be needed, if the DNS server is properly configured and reachable from all nodes.
 
+File: /etc/hosts
+
 ```bash
 127.0.0.1  localhost localhost.localdomain localhost4 localhost4.localdomain4
 ::1             localhost localhost.localdomain localhost6 localhost6.localdomain6

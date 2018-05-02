@@ -4,7 +4,12 @@ If you did not choose BeeGFS, but already have a parallel filesystem you can ski
 
 Please note that the BeeGFS client requires development tools and header files to be able to build the required module, if not already done you can do this by executing the following commands as root user:
 
-![](/assets/014_Pre-Stack Pro Installation.png)
+```bash
+yum groupinstall "Development Tools"
+yum install kernel-devel kernel-headers
+```
+
+
 
 BeeGFS is a separate product from Fraunhofer and you should install it according to the official installation manual available on:
 
@@ -20,5 +25,9 @@ Depending on your expertise you can choose between a graphical or manual install
 
 **Remember to give the users and group read/write access to the parallel file system – we recommend using /data\_parallel as a mount point for the beegfs-client.**
 
-![](/assets/015_Pre-Stack Pro Installation.png)
+```bash
+chown pspro.psprousers –R /data_parallel/
+chmod 770 –R /data_parallel
+```
+
 

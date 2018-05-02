@@ -10,11 +10,11 @@ The file /etc/gpi.conf:
 
 NODE_FILE_DIR points to a directory containing one #nodelist file (fallback filename: machinefile) e.g.
 
+```bash
+NODE_FILE_DIR=/var/spool/torque/aux/
+```
 
 
-
-
-![](/assets/017_Pre-Stack Pro Installation.png)
 
 If your cluster is installed using an imaging mechanism or some kind of cluster management software, then the installation is strongly depending on the used cluster management software.
 
