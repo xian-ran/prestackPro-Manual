@@ -162,7 +162,7 @@ This line comes from the Castagna et al 1998 AVO paper and assumes the geology h
 
 **Caprock V Reservoir Vp/Vs, constant density :**
 
-**Line slope = $$1 – 8*\frac{(Vs_1+Vs_2)*\Delta Vs}{(Vp_1+Vp_2)*\Delta Vp} $$**
+**Line slope = $$1-8*\frac{(Vs_1+Vs_2)*\Delta Vs}{(Vp_1+Vp_2)*\Delta Vp} $$**
 
 Where $$Vs_1, Vs_2$$ are the shear velocities in the Caprock and Reservoir respectively and $$Vp_1, Vp_2$$ the compressional velocities. $$\Delta Vs, \Delta Vp$$ the differences between these velocities.
 
