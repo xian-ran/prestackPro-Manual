@@ -18,8 +18,8 @@ The **Post Processing** options are common to all wavelet types:
 ![](/assets/224_Interpretation.png)
 
 * **Phase Correction:** Phase rotation of the wavelet \(-180 to 180\). Corrections from the Cross-Correlation window will be input here.
-* **RollOn Frequency:** The low frequency part of the phase is modified according to $$φ(f)=φ(θ) + (φ(f_{rollOn}) – φ(θ)) * (f/ f_{rollOn})^{rollOnExp}$$ 
-* **RollOn Exponent:** The low frequency part of the phase is modified according to $$φ(f)=φ(θ) + (φ(f_{rollOn}) – φ(θ)) * (f/ f_{rollOn})^{rollOnExp}$$
+* **RollOn Frequency:** The low frequency part of the phase is modified according to $$\phi(f)=\phi(\theta) + (\phi(f_{rollOn})-\varphi(\theta)) * (f/ f_{rollOn})^{rollOnExp}$$ 
+* **RollOn Exponent:** The low frequency part of the phase is modified according to $$\phi(f)=\phi(\theta) + (\phi(f_{rollOn})-\varphi(\theta)) * (f/ f_{rollOn})^{rollOnExp}$$
 * **Scaling Factor:** Scales the amplitude of the wavelet.
 * **Frequency Smoothing Half-Length:** Standard deviation of Gaussian smoothing applied to the amplitude spectrum.
 * **Output Wavelet Width:** Width in seconds of the processed wavelet.
