@@ -217,8 +217,11 @@
       * [Stretch & Squeeze](algorithm_documentation/interpretation-processing/stretch-and-squeeze.md)
       * [References](algorithm_documentation/interpretation-processing/references.md)
     * [3D Parametric Synthetic Model Builder](algorithm_documentation\interpretation-processing\3d_parametric_synthetic_model_builder.md)
-    * [Generate Synthetic Gather](algorithm_documentation\interpretation-processing\generate_synthetic_gather.md)
-    * [PCube Inversion](algorithm_documentation\interpretation-processing\pcube_inversion.md)
+      * [Model examples](algorithm_documentation/interpretation-processing/model-examples.md)
+      * [Initial 1D Model](algorithm_documentation/interpretation-processing/initial-1d-model.md)
+      * [3D Model/Gather definition](3d-modelgather-definition.md)
+      * [3D Model/Gather analysis](algorithm_documentation/interpretation-processing/3d-modelgather-analysis.md)
+    * [Generate Synthetic Gather](algorithm_documentation\interpretation-processing\generate_synthetic_gather.md
     * [Pcube+](algorithm_documentation\interpretation-processing\pcube+\README.md)
       * [Input Setup](algorithm_documentation\interpretation-processing\pcube+\input_setup.md)
       * [Background Model](algorithm_documentation\interpretation-processing\pcube+\background_model.md)
