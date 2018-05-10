@@ -156,7 +156,7 @@ If the angle gathers used for the I and G calculations had angles from 4 to 40 d
 
 This is a Random Noise line prediction from AVO papers (“Stacked” paper by Hendrickson, Geophysics 1999 and AVO course, chapter 11 by Rob Simms.)
 
-**Constant Vp/Vs, Gardner density : line slope = $$0.8 * (1 – 9*(Vs/Vp)^2)$$**
+**Constant Vp/Vs, Gardner density : line slope = $$0.8 * (1-9*(Vs/Vp)^2)$$**
 
 This line comes from the Castagna et al 1998 AVO paper and assumes the geology has constant Vp/Vs ratio and Gardner equation densities.
 
