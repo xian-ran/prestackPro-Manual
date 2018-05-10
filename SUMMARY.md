@@ -221,7 +221,7 @@
       * [Initial 1D Model](algorithm_documentation/interpretation-processing/initial-1d-model.md)
       * [3D Model/Gather definition](3d-modelgather-definition.md)
       * [3D Model/Gather analysis](algorithm_documentation/interpretation-processing/3d-modelgather-analysis.md)
-    * [Generate Synthetic Gather](algorithm_documentation\interpretation-processing\generate_synthetic_gather.md
+    * [Generate Synthetic Gather](algorithm_documentation/interpretation-processing/generate-synthetic-gather.md)
     * [Pcube+](algorithm_documentation\interpretation-processing\pcube+\README.md)
       * [Input Setup](algorithm_documentation\interpretation-processing\pcube+\input_setup.md)
       * [Background Model](algorithm_documentation\interpretation-processing\pcube+\background_model.md)
@@ -331,3 +331,4 @@
     * [CP License](appendix\open_source_licenses\cp_license.md)
     * [Apache License](appendix\open_source_licenses\apache_license.md)
 
+)
