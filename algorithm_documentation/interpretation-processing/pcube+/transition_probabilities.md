@@ -36,5 +36,9 @@ To the right the probability is shown for the case where only legal realizations
 
 ![](/assets/086_Interpretation.png)
 
-_Probability distribution of three litho-facies; upper shale (grey), sandstone (green), lower shale (blue). No illegal combinations defined (left); illegal combinations defined (right). Vertical axis defines time-depth direction, horizontal axis defines litho-facies probabilities._
+_Probability distribution of three litho-facies; upper shale \(grey\), sandstone \(green\), lower shale \(blue\). No illegal combinations defined \(left\); illegal combinations defined \(right\). Vertical axis defines time-depth direction, horizontal axis defines litho-facies probabilities._
+
+
+
+The _window length_ parameter is the number of layers ahead used in the Markov chain analysis to set up the transition matrices controlling the layer transitions. It can make quite a big difference to the results, especially if your mean layer thicknesses are small,, but as you say it also affects the run time. If you put N for this parameter, and you have K distinct LFCs, and no illegal transitions, then the number of combinations is $$K^N$$.
 

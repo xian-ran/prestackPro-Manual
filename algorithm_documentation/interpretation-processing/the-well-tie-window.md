@@ -13,7 +13,7 @@ The main Well Tie window displays:
 
 **Zooming **can be controlled using the mouse wheel on the TWT/TVDSS track – or right-mouse click on the TWT/TVDSS track to manually change the range displayed.
 
-**Correlogram**
+**Correlogram**  
 The correlogram is a sliding window cross-correlation for a single angle plane. For pre-stack seismic the angle is defined in the bottom left-hand side of the main window and can be changed by the user.  
 The vertical axis is the centre of the rolling time window, and the horizontal axis is the correlation lag.
 
@@ -34,14 +34,15 @@ The icons at the top of Well Tie contain the main functionalities for performing
 
 ![](/assets/209_Interpretation.png)
 
-**Configuration **enables you to change the data selected \(e.g. choose a different $$V_p$$ log or seismic volume\).   
-**Saving a session** will save the current display and the data selection. Multiple sessions may be saved with different names.  
+**Configuration **enables you to change the data selected \(e.g. choose a different $$V_p$$ log or seismic volume\).  
+**Saving a session** will save the current display and the data selection. Multiple sessions may be saved with different names.7  
 **Save** gives the user the option to save specific groups of data or individual items \(including T/D tables and wavelets\) into the project.
-
-
 
 ![](/assets/210_Interpretation.png)
 
+**Bookmark current state **will save the current display and state of all modules and of the main window. By restoring it allows you to get back to a state you were previously happy with. All saved states contain a history. The saved state are deleted when Well Tie is closed. The initial state is saved just after the initialization and can be restored at any time.
+
+**Configure Default display **allows you to set the visibility and width of tracks as default for the user. The current tracks visibility and width can also be set as the user default with the ad hoc icon. 
 
 **Well Tie Functions**
 
@@ -49,8 +50,8 @@ The icons at the top of Well Tie contain the main functionalities for performing
 
 **Checkshot Calibration**
 
-The first stage in performing a well tie is to generate a robust time to depth transformation that integrates the checkshot with the well log data.
-The Checkshot Calibration window allows the user to edit the checkshots, calibrate the sonic log, and generate a drift curve. The result is a Time-Depth table that is applied to the synthetic. The goodness-of-fit between the synthetic and the seismic is quantified in Cross-Correlation, where bulk shift changes to the TD table can be made. 
+The first stage in performing a well tie is to generate a robust time to depth transformation that integrates the checkshot with the well log data.  
+The Checkshot Calibration window allows the user to edit the checkshots, calibrate the sonic log, and generate a drift curve. The result is a Time-Depth table that is applied to the synthetic. The goodness-of-fit between the synthetic and the seismic is quantified in Cross-Correlation, where bulk shift changes to the TD table can be made.
 
 **Wavelet Extraction & Editing**
 
@@ -58,7 +59,7 @@ A wavelet is required to generate a synthetic. In a virgin project, with no prev
 
 **Cross-Correlation**
 
-How good is your well tie? The user can visually assess the well tie in the main window. However, it is useful to be able to quantify the fit and this is the purpose of the Cross-Correlation window. For stack or pre-stack seismic data the peak of the cross correlation and envelope are displayed in plots. An average bulk time shift is displayed and can be applied to the TD table. 
+How good is your well tie? The user can visually assess the well tie in the main window. However, it is useful to be able to quantify the fit and this is the purpose of the Cross-Correlation window. For stack or pre-stack seismic data the peak of the cross correlation and envelope are displayed in plots. An average bulk time shift is displayed and can be applied to the TD table.  
 The average phase rotation required to improve the correlation is also displayed. This phase rotation can then be applied to the current wavelet.
 
 **Spatial Scanning**
@@ -67,6 +68,6 @@ In addition to the Cross-Correlation window, Spatial Scanning offers a map view 
 
 **Stretch & Squeeze**
 
-Not all checkshot sets are of good quality. Old checkshots, or those of dubious provenance, may need considerable editing before a decent well tie can be produced. Therefore, a Stretch & Squeeze function has been included, which provides the user with full control over their checkshots. Bulk shifts can be applied by visually moving the synthetic vs. the seismic, and the T/D table can be stretched and squeezed to force the synthetic to tie the seismic. The user can also use this window to model significant velocity changes without updating the main synthetic and its TD table.
+Not all checkshot sets are of good quality. Old checkshots, or those of dubious provenance, may need considerable editing before a decent well tie can be produced. Therefore, a Stretch & Squeeze function has been included, which provides the user with full control over their checkshots. Bulk shifts can be applied by visually moving the synthetic vs. the seismic, and the T/D table can be stretched and squeezed to force the synthetic to tie the seismic. The user can also use this window to model significant velocity changes without updating the main synthetic and its TD table.  
 When certain of the changes made, the user presses Apply to update the main Well Tie synthetic and TD table.
 

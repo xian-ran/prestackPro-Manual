@@ -1,15 +1,27 @@
 ### Basic scene controls {#basic-scene-controls}
 
-The mouse controls for rotation, pan and zoom have been kept the same as for the first Pre-Stack Pro 3D viewer.
+Scrolling through panels \(inlines, crosslines, time slices\) is done using the slider bars – inline location , time min/max range, angle/offset plane and any viewed gather properties if &lt;view gather&gt; is ticked on.
 
-![](/assets/008_3dviewer.png)
+The mouse controls for rotation, pan and zoom.
 
-A click on the help ‘?’ from the top of the viewer \(or pressing the ‘H’ key\) pops up the list of basic controls shown in the blue box. The left mouse button rotates, the middle \(wheel\) zooms and the right pans. Selected panels – inline, crossline, timeslice and box sides, can be moved using control and left mouse button.  
- A left mouse double click turns the GUI on/off enabling the largest possible 3D scene to be viewed and captured for reports and documentation.. A click on the ‘cursor readout’ icon from the top of the viewer, and then on an object using control left mouse button, will display a colour 3D crosshair and another blue box with location information in it. In this case the seismic value \(-2350.6\) at inline 27534, crossline 16419 and time 1.94817.
+![](/assets/3dviewer_scroll.JPG)  
+_Viewer slider bars_
 
-The camera control, projection mode and scene stretching options are also kept from the earlier 3D viewer. However, there are 2 rotation centre setting camera options now in the middle – the left hand camera is a «centre on current object» and the right hand camera is a «centre on entire scene».  The default sets rotation on the user selected object.
+Another way of scrolling is through the volume directly from the display using the mouse button. You can use the mouse to select a plane \(C+LMB\), then scroll through the plane with \(SHIFT+LMB\). Rotation axes can also be fixed by holding the X/Y and Z keys.
 
-![](/assets/009_3dviewer.png)
+![](/assets/3dviewer_shortcuts.JPG)  
+_Keyboard shortcuts list_
 
-_Camera options GUI_
+A left mouse double click turns the GUI on/off enabling the largest possible 3D scene to be viewed and captured for reports and documentation. A click on the ‘cursor readout’ icon from the top of the viewer, and then on an object using control left mouse button, will display a colour 3D crosshair and another blue box with location information in it.
+
+The camera control, projection mode and scene stretching options are available on a tab at the bottom of the 3D viewer, either by using camera icons or icons to see specifically \(inline, crossline, timeslice\).
+
+![](/assets/3dviewer_camera.JPG)_Camera options GUI_
+
+
+
+Users can define and saved user defined cameras view, which can be retrieved during the session or in new session \(within the same project\). This option allows the user to do the same screen grab for instance.
+
+![](/assets/3dviewer_usercamera.JPG)  
+_User defined camera_
 

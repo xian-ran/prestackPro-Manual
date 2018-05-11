@@ -8,5 +8,7 @@ _File Manager for Shared Projects_
 
 To transfer data from one to another project, select the volumes by checking their tick-boxes and click on the blue arrow in the central part of the window that corresponds to the correct direction _from..to_.
 
+Ticking _Symbolic link" _means the volume will not be copied to the shared project, but instead a symbolic link to it will be created, thus saving disk space. The symbolic link information is into the history of the volume in the shared project. Once the volume is modified in any way and overwritten to disk, a copy is made into the shared project and the link is discarded. 
+
 By design it is possible to transfer data between projects that do not have the same geometry. However, the user should be aware that the correspondence between World coordinates and project grid coordinates might not be correct anymore.
 

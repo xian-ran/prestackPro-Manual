@@ -53,7 +53,5 @@ _Pre-stack Seismic Max PEP Map_
 
 Moving the Blue X scan location, either using the mouse or selecting specific inline/crossline, updates the **Seismic At Well Location** panel in the main Well Tie Window:
 
-
-
 ![](/assets/257_Interpretation.png)
 

@@ -49,7 +49,13 @@ To locate a specific checkshot via the velocity track, hold the CTRL key down an
 
 Edit the checkshot rows using right-mouse click on a row in the table. **Rows can be added, unchecked/checked or deleted**. Any TWT or TVDSS cell can be manually typed over.
 
-![](/assets/216_Interpretation.png)
+There is a mode to **lock deeper velocities**. This mode freezes velocities below the changed checkshot and propagate the changes down the checkshot depths and times.
+
+![](/assets/02_WellTie.png)
+
+The unchecked rows can be **hidden automatically** either by a click in the context menu or by clicking the relevant icon. The same applies to the mode **Lock deeper velocities**.
+
+![](/assets/03_WellTie.png)
 
 You can **Decimate **the checkshots, here by 2:
 
@@ -90,10 +96,9 @@ Note that updating the synthetic does not save the new T/D table. To save any ch
 
 The user can change the display in the **Control **tab. Right-mouse click on a header or depth track to bring up the display menu options.
 
-
-
 ![](/assets/221_Interpretation.png)
 
-Display Tops and Horizons in the same fashion as the main Well Tie window. 
+Display Tops and Horizons in the same fashion as the main Well Tie window.
 
 Zoom in with the mouse wheel on the TWT/TVDSS track – or right-button click to manually change the Z range to be displayed.
+

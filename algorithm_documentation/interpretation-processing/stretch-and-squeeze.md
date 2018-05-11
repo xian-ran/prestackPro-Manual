@@ -21,6 +21,8 @@ To remove all stretch & squeeze modifications press **Delete All**
 
 The main Well Tie window and the synthetic displayed there will not be updated until the user presses **Apply **in the **Stretch & Squeeze** window.
 
+![](/assets/267_Interpretation.png)
+
 ![](/assets/259_Interpretation.png)
 
 ![](/assets/260_Interpretation.png)
