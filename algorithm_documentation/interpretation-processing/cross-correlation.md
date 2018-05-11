@@ -54,7 +54,7 @@ Now you can **Apply **the time shift and update the synthetic.
 
 ![](/assets/244_Interpretation.png)
 
-In the same example, the average phase rotation of $$21.0908^o$$ \(highlighted in blue\) is calculated from across the pre-stack angle range of $$5 – 37^o$$.
+In the same example, the average phase rotation of $$21.0908^o$$ \(highlighted in blue\) is calculated from across the pre-stack angle range of 5–37$$^o$$.
 
 Now **Apply phase to wavelet**. The **Wavelet Extraction & Editing** window will open automatically. Here a $$21^o$$ phase rotation is used:
 
