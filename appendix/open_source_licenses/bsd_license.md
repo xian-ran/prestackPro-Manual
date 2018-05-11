@@ -1,10 +1,10 @@
 ### BSD License {#bsd-license}
 
-Copyright $$\copyright$$ 2009 CNRS
-Copyright $$\copyright$$ 2009 inria.  All rights reserved.
-Copyright $$\copyright$$ 2009 Université Bordeaux 1
-Copyright $$\copyright$$ 2009 Cisco Systems, Inc.  All rights reserved.
-Copyright $$\copyright$$ 2012 Blue Brain Project, EPFL. All rights reserved.
+Copyright 2009 CNRS
+Copyright 2009 inria.  All rights reserved.
+Copyright 2009 Université Bordeaux 1
+Copyright 2009 Cisco Systems, Inc.  All rights reserved.
+Copyright 2012 Blue Brain Project, EPFL. All rights reserved.
 See COPYING in top-level directory.
 
 
