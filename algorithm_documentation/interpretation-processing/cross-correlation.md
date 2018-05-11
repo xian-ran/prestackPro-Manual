@@ -38,7 +38,7 @@ The red, vertical lines on the plots display the angle limits set by the slider 
 
 ![](/assets/241_Interpretation.png)
 
-In the figure above, the average time shift of $$-0.00395397 s$$ \(highlighted in red\) is calculated from across the pre-stack angle range of $$5-37^o$$.
+In the figure above, the average time shift of $$-0.00395397 s$$ \(highlighted in red\) is calculated from across the pre-stack angle range of 5-37$$^o$$.
 
 Pressing **Apply to T/D table** will apply the time shift to the current T/D table. In this example, -0.004s will be added:
 
