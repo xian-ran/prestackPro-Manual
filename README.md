@@ -2,7 +2,7 @@
 
 
 
-User Manual for Pre-Stack Pro version 5.0
+User Manual for Pre-Stack Pro version 5.2
 
 
 
