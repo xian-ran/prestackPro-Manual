@@ -180,7 +180,6 @@
     * [Adaptive Subtraction](algorithm_documentation\processing\adaptive_subtraction.md)
     * [RMO](algorithm_documentation\processing\rmo.md)
     * [RMO \(Time Shift\)](algorithm_documentation\processing\rmo_time_shift.md)
-    * [Semblance Optimization](algorithm_documentation\processing\semblance_optimization.md)
     * [Align 2](algorithm_documentation\processing\align_2.md)
     * [Continuous Velocity Analysis](algorithm_documentation\processing\continuous_velocity_analysis.md)
     * [Velocity Editor](algorithm_documentation\processing\velocity_editor\README.24.md)
