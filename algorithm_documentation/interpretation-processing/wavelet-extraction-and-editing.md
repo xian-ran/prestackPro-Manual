@@ -46,7 +46,7 @@ Create new Wavelet &gt; Statistical Wavelet.
 
 A statistical wavelet is extracted from the seismic data without using well logs.
 
-The user controls the window within which the wavelet is extracted. By default, the lateral extent \(from the well\) is 5 inlines/crosslines. This can be extended. The vertical window can be a fixed time window \(e.g. 1 to 2s\), the full trace or a window around a horizon. Low frequency roll-off tapering options are available.
+The user controls the window within which the wavelet is extracted. By default, the lateral extent \(from the well\) is 5 inlines/crosslines. This can be extended. The angle range to used for the extraction can be limited to a subset of the data range. The vertical window can be a fixed time window \(e.g. 1 to 2s\), the full trace or a window around a horizon. Low frequency roll-off tapering options are available.
 
 Now **Apply **the wavelets to the main Well Tie window synthetic.
 
@@ -70,7 +70,7 @@ The Roy White extraction method uses seismic data and well logs to extract a wav
 
 ![](/assets/230_Interpretation.png)
 
-The user controls the window over which the extraction takes place. Inline and crossline half-length defines the distance from the well, and the time window controls the vertical limits. The vertical window can be either fixed \(e.g. 1.75s to 2.15s\), contain the full trace, or consist of a window around a horizon.
+The user controls the window over which the extraction takes place. Inline and crossline half-length defines the distance from the well, and the time window controls the vertical limits. The vertical window can be either fixed \(e.g. 1.75s to 2.15s\), contain the full trace, or consist of a window around a horizon. The angle range to used for the extraction can be limited to a subset of the data range. 
 
 For pre-stack seismic, the user has two options: the default is an extracted wavelet averaged over the angle range. The alternate option is to generate a pre-stack wavelet, i.e. a different wavelet for each angle.
 
