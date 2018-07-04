@@ -8,9 +8,12 @@ Well Tie starts with the **Configuration **window:
 ![](/assets/199_Interpretation.png)
 
 * Select the reference well to tie
-* Select a checkshot set or a T/D table
+* Select a checkshot set or a T/D table or create a new one
 * Saved sessions can be resumed
-* Click on next tab…
+
+If there is no checkshot or T/D table available, the user can copy one from another well or create a new one by entering a T/D pair. Alternatively the pair can be setup from a marker depth and/or a horizon time.
+
+![](/assets/266_Interpretation.png)
 
 The tabs in the **Configuration **window allow selection of seismic data, logs and an initial wavelet. Once data has been selected, press **OK **to start Well Tie. Data selection can be altered from the main Well Tie window at any time by clicking on the **Configuration **icon.
 
