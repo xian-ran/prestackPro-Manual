@@ -42,6 +42,8 @@ The icons at the top of Well Tie contain the main functionalities for performing
 
 **Bookmark current state **will save the current display and state of all modules and of the main window. By restoring it allows you to get back to a state you were previously happy with. All saved states contain a history. The saved state are deleted when Well Tie is closed. The initial state is saved just after the initialization and can be restored at any time.
 
+**Configure Default display **allows you to set the visibility and width of tracks as default for the user. The current tracks visibility and width can also be set as the user default with the ad hoc icon. 
+
 **Well Tie Functions**
 
 ![](/assets/211_Interpretation.png)
