@@ -2,6 +2,12 @@
 
 The mouse controls for rotation, pan and zoom have been kept the same as for the first Pre-Stack Pro 3D viewer.
 
+On the main window of the 3D viewer, a set of icons are accessible ![](/assets/3dviewer_icons.JPG)  
+The first two ![](/assets/3dviewer_icons1.JPG) are show/hide the side and bottom panels, the third one ![](/assets/3dviewer_icons2.JPG) to set the background colour.  
+The fourth one ![](/assets/3dviewer_icons3.JPG) is to show/hide the bounding box. The next one ![](/assets/3dviewer_icons4.JPG) enables the cursor readout mode.  
+The following one ![](/assets/3dviewer_icons5.JPG) hides/shows the North arrow.  
+The final one ![](/assets/3dviewer_icons6.JPG) show the keyboard shortcut menu: ![](/assets/3dviewer_shortcuts.JPG)
+
 ![](/assets/008_3dviewer.png)
 
 A click on the help ‘?’ from the top of the viewer \(or pressing the ‘H’ key\) pops up the list of basic controls shown in the blue box. The left mouse button rotates, the middle \(wheel\) zooms and the right pans. Selected panels – inline, crossline, timeslice and box sides, can be moved using control and left mouse button.  

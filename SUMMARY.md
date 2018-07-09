@@ -93,6 +93,8 @@
     * [Basic Scene Controls](viewers/3d_viewers/basic-scene-controls.md)
     * [Horizon display](viewers/3d_viewers/horizon-display.md)
     * [Multi volumes display examples](viewers/3d_viewers/multi-volumes-display-examples.md)
+    * Load and Display Data
+    * Horizons
   * [Old 3D Viewer](viewers/functionalities_common_to_all_viewers/old-3d-viewer.md)
     * [Load and display data](viewers\3d_viewers\load_and_display_data.md)
     * [Histogram \(Color bar\) and Transfer Function](viewers\3d_viewers\histogram_color_bar_and_transfer_function.md)

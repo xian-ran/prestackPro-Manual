@@ -12,16 +12,10 @@ The 3D viewer duplicates the volumes you want to display. Therefore you need to 
 
 When any seismic volume is dragged and dropped into 3D viewer icon \(![](/assets/icon.JPG)\), three panels will be opened. The rotation centre is set to the middle of the volume, where the inline, crossline and timeslice all meet.
 
-On the main window of the 3D viewer, a set of icons are accessible ![](/assets/3dviewer_icons.JPG)  
-The first two ![](/assets/3dviewer_icons1.JPG) are show/hide the side and bottom panels, the third one ![](/assets/3dviewer_icons2.JPG) to set the background colour.  
-The fourth one ![](/assets/3dviewer_icons3.JPG) is to show/hide the bounding box. The next one ![](/assets/3dviewer_icons4.JPG) enables the cursor readout mode.  
-The following one ![](/assets/3dviewer_icons5.JPG) hides/shows the North arrow.  
-The final one ![](/assets/3dviewer_icons6.JPG) show the keyboard shortcut menu: ![](/assets/3dviewer_shortcuts.JPG)
-
 ![](/assets/3dviewer_init.JPG)_Initial display of seismic volume._
 
 Three tabs are available on the bottom panel: one for the histogram, for for the stretching displays and one for the angle view of the seismic volumes.  
-Horizons and wells 
+Horizons and wells
 
 ![](/assets/004_3dviewer.png)  
 The inline plane is the selected scene object by default and therefore the object properties tab will display the inline properties, which the user can change using slider bars – inline location , time min/max range, angle/offset plane and any viewed gather properties if &lt;view gather&gt; is ticked on.Gathers can be viewed at right angles to any inline or crossline panel, but not coming out from the sides of box displays.
