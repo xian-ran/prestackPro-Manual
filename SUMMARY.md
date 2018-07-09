@@ -89,7 +89,7 @@
     * [Histograms](viewers\functionalities_common_to_all_viewers\histograms.md)
     * [Overlays](viewers\functionalities_common_to_all_viewers\overlays.md)
     * [Synchronization](viewers\functionalities_common_to_all_viewers\synchronization.md)
-  * [3D Viewers ](viewers\3d_viewers\README.2.md)
+  * [3D Viewer](viewers\3d_viewers\README.2.md)
     * [Basic Scene Controls](viewers/3d_viewers/basic-scene-controls.md)
     * [Horizon display](viewers/3d_viewers/horizon-display.md)
     * [Multi volumes display examples](viewers/3d_viewers/multi-volumes-display-examples.md)
