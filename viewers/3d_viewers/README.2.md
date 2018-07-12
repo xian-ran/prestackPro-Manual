@@ -22,17 +22,3 @@ The inline plane is the selected scene object by default and therefore the objec
 
 ![](/assets/3dviewer_gather.JPG)_Pre-stack seismic volume, single gather display, at inline 27300, crossline 16266, with a stretch of x2 applied to make it easier to see._
 
-If a second volume is dropped into the viewer, it won’t be seen on any of the panels, but will now appear as a volume option, along with the original volume, in all object properties.
-
-![](/assets/3dviewer_volumelist.JPG)  
-_3 volumes loaded, offset gathers and two angle stacks \(see 3D viewer, multi volume examples below\)_
-
-This allows the user to have any object display the 2nd volume, instead of the first. Even single stack trace or gather data volumes can be shown as a single, vertical trace; so for example a well synthetic will display as a vertical line, at it’s well location in the 3D scene. You can select the volume to display by highlighting the plane you want to modify, then by clicking on the desired volume in the display properties window.
-
-You can add or remove a plane by using the RMB &lt;crew new I Plane&gt; or &lt;Remove object&gt;.
-
-![](/assets/3dviewer_addplane.JPG)  
-_GUI to add a new plane in the 3D viewer._
-
-Each volume can have its own unique histogram, opacity and colour table, set by using the histogram tab located at the base of the viewer.
-

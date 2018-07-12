@@ -19,9 +19,21 @@ In the Data items field, seismic volumes, horizons and well can be managed. Clic
 
 ![](/assets/3dviewer_window.JPG)_Adjust window size and activate data_
 
-If you have loaded several volumes into the viewer, they will appear in the "Display Properties" tab. You can access on information of the selected volume by clicking on the "Data Info" tab. You will see inlines, crosslines, time, ..., ranges and stretch display factors.
+If a second volume is dropped into the viewer, it won’t be seen on any of the panels, but will now appear as a volume option, along with the original volume, in all object properties.
 
-If you want to display a different volume in a plane or a box, you select the plane and the volume you want to display. The change will be done only for the selected plane/box. That means you can display different seismic in each planes \(inline, crosslines or timeslices\).
+![](/assets/3dviewer_volumelist.JPG)  
+_3 volumes loaded, offset gathers and two angle stacks \(see 3D viewer, multi volume examples below\)_
+
+If you have loaded several volumes into the viewer, they will appear in the "Display Properties" tab. You can access information of the selected volume by clicking on the "Data Info" tab. You will see inlines, crosslines, time, ..., ranges and stretch display factors.
 
 ![](/assets/3dviewer_volumes.JPG)_Loaded volume list and properties_
+
+You can select the volume to display by highlighting the plane you want to modify, then by clicking on the desired volume in the display properties window.  The change will be done only for the selected plane/box. That means you can display different seismic in each planes \(inline, crosslines or timeslices\).
+
+You can add or remove a plane by using the RMB &lt;crew new I Plane&gt; or &lt;Remove object&gt;.
+
+![](/assets/3dviewer_addplane2.JPG)  
+_GUI to add a new plane in the 3D viewer._
+
+Each volume can have its own unique histogram, opacity and colour table, set by using the histogram tab located at the base of the viewer.
 
