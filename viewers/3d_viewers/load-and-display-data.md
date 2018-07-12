@@ -19,7 +19,9 @@ In the Data items field, seismic volumes, horizons and well can be managed. Clic
 
 ![](/assets/3dviewer_window.JPG)_Adjust window size and activate data_
 
-If you have loaded several volumes into the viewer, the one on the top of the list will be visible, in front. To make a volume visible, in front, right click and select ‘Move to top’ from the pop-up menu. You can also use the short cuts noted in the pop-up. In this way, you can quickly flip the view between volumes.
+If you have loaded several volumes into the viewer, they will appear in the "Display Properties" tab. You can access on information of the selected volume by clicking on the "Data Info" tab. You will see inlines, crosslines, time, ..., ranges and stretch display factors.
 
-From the same menu, you can also set rotation center and remove the object. Set rotation center means that that the mid-point of your selected object will be the rotation center.
+If you want to display a different volume in a plane or a box, you select the plane and the volume you want to display. The change will be done only for the selected plane/box. That means you can display different seismic in each planes \(inline, crosslines or timeslices\).
+
+![](/assets/3dviewer_volumes.JPG)_Loaded volume list and properties_
 
