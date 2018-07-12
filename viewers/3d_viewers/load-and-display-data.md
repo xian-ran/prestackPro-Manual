@@ -37,3 +37,5 @@ _GUI to add a new plane in the 3D viewer._
 
 Each volume can have its own unique histogram, opacity and colour table, set by using the histogram tab located at the base of the viewer.
 
+
+
