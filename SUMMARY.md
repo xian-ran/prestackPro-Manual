@@ -90,11 +90,11 @@
     * [Overlays](viewers\functionalities_common_to_all_viewers\overlays.md)
     * [Synchronization](viewers\functionalities_common_to_all_viewers\synchronization.md)
   * [3D Viewer](viewers\3d_viewers\README.2.md)
-    * Load and Display Data
+    * [Load and Display Data](viewers/3d_viewers/load-and-display-data.md)
     * [Basic Scene Controls](viewers/3d_viewers/basic-scene-controls.md)
     * Histogram
     * [Horizons display](viewers/3d_viewers/horizon-display.md)
-    * [Multi volumes displa](viewers/3d_viewers/multi-volumes-display-examples.md)y
+    * [Multi volumes display](viewers/3d_viewers/multi-volumes-display-examples.md)
   * [Old 3D Viewer](viewers/functionalities_common_to_all_viewers/old-3d-viewer.md)
     * [Load and display data](viewers\3d_viewers\load_and_display_data.md)
     * [Histogram \(Color bar\) and Transfer Function](viewers\3d_viewers\histogram_color_bar_and_transfer_function.md)
@@ -340,6 +340,4 @@
     * [Poly2tree License](appendix/open_source_licenses/poly2tree-license.md)
     * [Protobuf License](appendix/open_source_licenses/protobuf-license.md)
     * [QT LGP License](appendix/open_source_licenses/qt-lgp-license.md)
-
-
 
