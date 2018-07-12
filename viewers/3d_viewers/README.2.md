@@ -14,6 +14,13 @@ When any seismic volume is dragged and dropped into 3D viewer icon \(![](/assets
 
 ![](/assets/3dviewer_init.JPG)_Initial display of seismic volume._
 
+Different panels are available on the left and bottom of the viewer. They allow to know what is selected and displayed, but also to hide/show some attributes and seismics.
+
+![](/assets/3dviewer_init2.JPG)  
+_3D viewer panels _
+
+
+
 Three tabs are available on the bottom panel: one for the histogram, for for the stretching displays and one for the angle view of the seismic volumes.  
 Horizons and wells
 
