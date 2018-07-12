@@ -1,4 +1,4 @@
-### Histogram \(Color bar\) and Transfer Function {#histogram-color-bar-and-transfer-function}
+### Histogram \(Colour bar\) and Transfer Function {#histogram-color-bar-and-transfer-function}
 
 The 3D viewer has the same histogram as you find in the 2D viewers.
 
