@@ -2,7 +2,7 @@
 
 Scrolling through panels \(inlines, crosslines, time slices\) is done using the slider bars – inline location , time min/max range, angle/offset plane and any viewed gather properties if &lt;view gather&gt; is ticked on.
 
-The mouse controls for rotation, pan and zoom. 
+The mouse controls for rotation, pan and zoom.
 
 ![](/assets/3dviewer_scroll.JPG)  
 _Viewer slider bars_
@@ -12,12 +12,11 @@ Another way of scrolling is through the volume directly from the display using t
 ![](/assets/3dviewer_shortcuts.JPG)  
 _Keyboard shortcuts list_
 
-  
- A left mouse double click turns the GUI on/off enabling the largest possible 3D scene to be viewed and captured for reports and documentation. A click on the ‘cursor readout’ icon from the top of the viewer, and then on an object using control left mouse button, will display a colour 3D crosshair and another blue box with location information in it. In this case the seismic value \(-2350.6\) at inline 27534, crossline 16419 and time 1.94817.
+A left mouse double click turns the GUI on/off enabling the largest possible 3D scene to be viewed and captured for reports and documentation. A click on the ‘cursor readout’ icon from the top of the viewer, and then on an object using control left mouse button, will display a colour 3D crosshair and another blue box with location information in it.
 
-The camera control, projection mode and scene stretching options are also kept from the earlier 3D viewer. However, there are 2 rotation centre setting camera options now in the middle – the left hand camera is a «centre on current object» and the right hand camera is a «centre on entire scene».  The default sets rotation on the user selected object.
 
-![](/assets/009_3dviewer.png)
 
-_Camera options GUI_
+The camera control, projection mode and scene stretching options are available on a tab at the bottom of the 3D viewer, either by using camera icons or icons to see specifically \(inline, crossline, timeslice\).
+
+![](/assets/3dviewer_camera.JPG)_Camera options GUI_
 

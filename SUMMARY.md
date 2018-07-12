@@ -92,7 +92,7 @@
   * [3D Viewer](viewers\3d_viewers\README.2.md)
     * [Load and Display Data](viewers/3d_viewers/load-and-display-data.md)
     * [Basic Scene Controls](viewers/3d_viewers/basic-scene-controls.md)
-    * Histogram
+    * [Histogram](viewers/3d_viewers/histogram.md)
     * [Horizons display](viewers/3d_viewers/horizon-display.md)
     * [Multi volumes display](viewers/3d_viewers/multi-volumes-display-examples.md)
   * [Old 3D Viewer](viewers/functionalities_common_to_all_viewers/old-3d-viewer.md)
