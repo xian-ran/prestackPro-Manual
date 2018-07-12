@@ -1,12 +1,23 @@
 ### Horizon display {#horizon-display}
 
-Horizons can be selected from the list on the bottom left. If the horizons have a lot of points, they may take a while to load, please be a little patient. Horizons are displayed with their own colour and headlight shading only.
+Horizons can be selected from the list on the bottom left. Horizons are displayed with their own colour and headlight shading only.  
+If horizons have a lot of points, they may take a while to load, and check the top right corner for the loading . It is currently not possible to know how long the process will last.
 
-![](/assets/010_3dviewer.png)
+In the current version, pre-stack horizons can NOT be displayed in the 3D viewer. This is work in progress.
 
-Any selected horizon, can be snapped or cropped, to display only on the sides of any vertical seismic objects; one at a time, or all at once, using the ‘All Scene Objects’ option.
+![](/assets/3dviewer_loading.JPG)  
+_Loading sign in the 3D viewer_
 
-This Snap to allows users to Q.C. tracked horizons on the seismic data directly.
+
+
+
+
+![](/assets/3dviewer_horizon.JPG)  
+_Horizon loading_
+
+Any selected horizon, can be snapped or cropped, to display only on the sides of any vertical seismic objects; one at a time, or all at once, ~~using the ‘All Scene Objects’ option.~~
+
+This Snap to allows users to QC tracked horizons on the seismic data directly.
 
 However, only horizons given a name and saved into the project are available in the list for display. So  Q.C. of tracking is not fully interactive with this first version of the new 3D viewer.
 
@@ -17,7 +28,7 @@ _Green horizon displayed and selected so that slider bars can be used to restric
 ![](/assets/012_3dviewer.png)
 
 _Three horizons loaded and restricted/snapped to All Scene Objects  
-. Two inlines and one crossline are displayed  
+. Two inlines and one crossline are displayed    
 _
 
 You can add horizons by drag and drop from the Data Pool.
