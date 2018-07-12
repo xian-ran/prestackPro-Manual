@@ -93,7 +93,7 @@
     * [Load and Display Data](viewers/3d_viewers/load-and-display-data.md)
     * [Histogram](viewers/3d_viewers/histogram.md)
     * [Scene Controls](viewers/3d_viewers/basic-scene-controls.md)
-    * [Boxes](viewers/3d_viewers/boxes.md)
+    * [Planes and Boxes](viewers/3d_viewers/boxes.md)
     * [Horizons display](viewers/3d_viewers/horizon-display.md)
     * Wells display
     * [Multi volumes display](viewers/3d_viewers/multi-volumes-display-examples.md)
@@ -342,6 +342,4 @@
     * [Poly2tree License](appendix/open_source_licenses/poly2tree-license.md)
     * [Protobuf License](appendix/open_source_licenses/protobuf-license.md)
     * [QT LGP License](appendix/open_source_licenses/qt-lgp-license.md)
-
-
 
