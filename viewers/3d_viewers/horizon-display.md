@@ -11,20 +11,18 @@ _Loading sign in the 3D viewer_
 ![](/assets/3dviewer_horizon.JPG)  
 _Horizon loading_
 
-Any selected horizon, can be snapped or cropped, to display only on the sides of any vertical seismic objects; one at a time, or all at once, ~~using the ‘All Scene Objects’ option.~~
+Any selected horizon, can be snapped or cropped, to display only on the sides of any vertical seismic objects.
 
 This Snap to allows users to QC tracked horizons on the seismic data directly.
 
-However, only horizons given a name and saved into the project are available in the list for display. So  Q.C. of tracking is not fully interactive with this first version of the new 3D viewer.
+However, only horizons given a name and saved into the project are available in the list for display. So  QC of tracking is not fully interactive with this first version of the 3D viewer.
 
 ![](/assets/3dviewer_hz1.JPG)_Green horizon displayed and selected so that slider bars can be used to restrict inline/crossline range_
-
-
 
 ![](/assets/012_3dviewer.png)
 
 _Three horizons loaded and restricted/snapped to All Scene Objects  
-. Two inlines and one crossline are displayed      
+. Two inlines and one crossline are displayed        
 _
 
 You can add horizons by drag and drop from the Data Pool.
