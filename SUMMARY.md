@@ -95,7 +95,7 @@
     * [Scene Controls](viewers/3d_viewers/basic-scene-controls.md)
     * [Planes and Boxes](viewers/3d_viewers/boxes.md)
     * [Horizons display](viewers/3d_viewers/horizon-display.md)
-    * Wells display
+    * [Wells display](viewers/3d_viewers/wells-display.md)
     * [Multi volumes display](viewers/3d_viewers/multi-volumes-display-examples.md)
   * [Old 3D Viewer](viewers/functionalities_common_to_all_viewers/old-3d-viewer.md)
     * [Load and display data](viewers\3d_viewers\load_and_display_data.md)
