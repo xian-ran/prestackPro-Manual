@@ -75,21 +75,22 @@ _Values of the crosshair position for both axis are highlighted_
 
 ![](/assets/005_common_viewer.png)
 
-1. Show/hide windows
-2. Rename the window
-3. Flip stack/pre-stack mode
-4. Selection of section type \(inline/crossline/arbitrary path\)
-5. Set up orientation based on project geometry
-6. Flip X-axis
+1. Show/hide object lists
+2. Show/hide histogram
+3. Rename the window
+4. Flip stack/pre-stack mode
+5. Selection of section type \(inline/crossline/arbitrary path\)
+6. Set up the X-axis orientation \(smart based on project geometry/increasing/decreasing\)
 7. Crosshairs for position read out
 8. Interpolation of seismic samples on/off
 9. Interpolation of overlay samples on/off
 10. Interpolation of mask on/off
 11. Box filter/No antialiasing
-12. Synchronise this viewer with another
-13. Screen capture
-14. Pre defined zoom level
-15. Create Arbitrary Volume from this view
+12. Pre-defined zoom level
+13. Synchronise this viewer with another
+14. Synchronization success indicator
+15. Screen capture
+16. Create Arbitrary Volume from this view
 
 Several of these settings are saved in the project and will be kept for any new viewer opened \(during the same session and after closing/opening the project\). These settings are:
 

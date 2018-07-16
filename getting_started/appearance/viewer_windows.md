@@ -1,4 +1,4 @@
-\#\#\# Viewer windows {\#viewer-windows}
+### Viewer windows {#viewer-windows}
 
 Pre-Stack Pro has different data viewers for displaying data loaded into the software:
 
