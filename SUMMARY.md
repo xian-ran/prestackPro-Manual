@@ -342,4 +342,5 @@
     * [Poly2tree License](appendix/open_source_licenses/poly2tree-license.md)
     * [Protobuf License](appendix/open_source_licenses/protobuf-license.md)
     * [QT LGP License](appendix/open_source_licenses/qt-lgp-license.md)
+* [Spectral Decomposition](spectral-decomposition.md)
 
