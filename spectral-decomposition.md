@@ -18,5 +18,23 @@ _Map of a Spectral Decomposition Blend_
 
 ## Opening Spectral Decomposition
 
-Spectral Decomposition is launched from the Map window by clicking on the Icon:
+Spectral Decomposition is launched from the Map window by clicking on the Icon: ![](/assets/sp_icon2.png)
+
+![](/assets/sp_01_launch.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
