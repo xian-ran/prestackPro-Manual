@@ -67,9 +67,7 @@ Load a saved map into the Data Pool. Drag and drop the saved map into the Map wi
 
 
 
-
-
-
+## Blending Non-Frequency Volumes
 
 
 
