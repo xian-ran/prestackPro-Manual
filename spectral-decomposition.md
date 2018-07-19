@@ -85,5 +85,5 @@ Select the 3 volumes to blend \(these should be pre-loaded into the Data Pool\) 
 
 ![](/assets/sp_10_avovols.png)
 
-_Near, Mid and Far volumes blended as a time slice. Where the near, mid and far amplitudes have equal values the blend will be white. _
+_Near, Mid and Far volumes blended as a time slice. Where the near, mid and far peak amplitudes have equal values the blend will be white. _
 
