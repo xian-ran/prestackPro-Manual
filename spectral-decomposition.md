@@ -6,9 +6,7 @@ Pre-Stack Pro allows the user to perform Spectral Decomposition on:
 * Partial Stacked Volumes
 * Pre-stack Data, i.e. gathers
 
-Spectral Decomposition is performed on the fly, with the user controlling the frequencies and blending.
-
-Spectral Decomposition maps can be saved and reopened to reproduce the same RGB blend at a later date. Full volume export of the frequencies is also available.
+Spectral Decomposition is performed on the fly, with the user controlling the frequencies and blending. Spectral Decomposition maps can be saved and reopened to reproduce the same RGB blend at a later date. Full volume export of the frequencies is also available. The method used is the Gabor-Morlet transform, with default settings set for Octave spacing.
 
 Any volumes can be used as input to the RGB blend display, e.g. Near, Mid and Far offset volumes.
 
@@ -21,6 +19,8 @@ _Map of a Spectral Decomposition Blend_
 Spectral Decomposition is launched from the Map window by clicking on the Icon: ![](/assets/sp_icon2.png)
 
 ![](/assets/sp_01_launch.png)
+
+_Map Window: Spectral Decomposition icon_
 
 Launching Spectral Decomposition turns the Map window into a preview for the RGB Blends produced. The user selects the seismic data by dragging and dropping from the data pool into Spectral Decomposition, or by selecting from the drop-down menu. This can be a stack, pseudo stack, or prestack data, in time or depth. This input volume is displayed in a section panel alongside a corresponding amplitude display of the frequencies found from a selected trace in that input section.
 
@@ -53,11 +53,13 @@ Note that the frequencies of each RGB channel can be controlled from the tree in
 
 ## Display Settings
 
-The Input Volume panel display can be changed by using the pipette icon, OR double clicking on the map, where the location of the panel is shown with a black cross.
+The Input Volume panel display can be changed by using the pipette icon, OR double clicking on the map, with the location of the panel shown as a black cross.
 
-The Control Tab allows the user to toggle on Wells and Horizons in the display panels.
+The **Control Tab** allows the user to toggle on Wells and Horizons in the display panels.
 
 ![](/assets/sp_05_control-tab.png)
+
+_Control Tab: toggle on Wells and Horizons._
 
 ## Saving Blend Maps
 
@@ -65,9 +67,11 @@ Spectral decomposition is run in memory, with blends displayed as a preview in t
 
 ## Restoring a Blend
 
-Load a saved map into the Data Pool. Drag and drop the saved map into the Map window. The initial display if the standard Map window display \(for seismic/horizons etc.\). To switch it to the RGB blend display click on the RGB blend icon beneath the name of the saved map in the data tree. The RGB blend will be restored exactly as it was saved - with the same frequencies and histogram settings.
+Load a saved map into the Data Pool. Drag and drop the saved map into the Map window. The initial display if the standard Map window display \(for seismic/horizons etc.\). To switch it to the RGB blend display click on the **RGB blend icon** beneath the name of the saved map in the data tree. The RGB blend will be restored exactly as it was saved - with the same frequencies and histogram settings.
 
 ![](/assets/sp_07_restoringablend.png)
+
+_Loading a saved spectral decomposition map_
 
 ## Blending Non-Frequency Volumes
 
@@ -79,9 +83,9 @@ Select the 3 volumes to blend \(these should be pre-loaded into the Data Pool\) 
 
 ![](/assets/sp_10_avovols.png)
 
-
-
 _Near, Mid and Far volumes blended as a time slice_
+
+
 
 
 
