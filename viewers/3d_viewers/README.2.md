@@ -11,7 +11,7 @@ In the current version, arbitrary paths can NOT be displayed in the 3D viewer. H
 
 ![](/assets/12_3dviewer.JPG)_A_ _pre-stack seismic gather volume, displaying 3D planes of a near offset volume.An horizon with elevation map as well as a well path are also displayed._
 
-When any seismic volume is dragged and dropped into 3D viewer icon \(![](/assets/icon.JPG)\), three panels will be opened. The rotation centre is set to the middle of the volume, where the inline, crossline and timeslice all meet.
+When any seismic volume is dragged and dropped into 3D viewer icon \(![](/assets/3dviewer_icon.JPG)\), three panels will be opened. The rotation centre is set to the middle of the volume, where the inline, crossline and timeslice all meet.
 
 ![](/assets/3dviewer_init.JPG)_Initial display of seismic volume._
 
