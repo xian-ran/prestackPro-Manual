@@ -8,7 +8,7 @@ Pre-Stack Pro allows the user to perform Spectral Decomposition on:
 
 Spectral Decomposition is performed on the fly, with the user controlling the frequencies and blending. Spectral Decomposition maps can be saved and reopened to reproduce the same RGB blend at a later date. Full volume export of the frequencies is also available. The method used is the Gabor-Morlet transform, with default settings set for Octave spacing.
 
-Any volumes can be used as input to the RGB blend display, e.g. Near, Mid and Far offset volumes.
+Any seismic volumes can be used as input to the RGB blend display, e.g. Near, Mid and Far offset volumes.
 
 ![](/assets/sp_start.png)
 
@@ -86,6 +86,4 @@ Select the 3 volumes to blend \(these should be pre-loaded into the Data Pool\) 
 ![](/assets/sp_10_avovols.png)
 
 _Near, Mid and Far volumes blended as a time slice. Where the near, mid and far amplitudes have equal values the blend will be white. _
-
-
 
