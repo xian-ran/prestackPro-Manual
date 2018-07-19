@@ -55,6 +55,30 @@ The Control Tab allows the user to toggle on Wells and Horizons in the display p
 
 ![](/assets/sp_05_control-tab.png)
 
+## Saving Blend Maps
+
+Spectral decomposition is run in memory, with blends displayed as a preview in the Map window. To save a spectral decomposition blend map to the Data Pool click on **Keep**. To save the spectral decomposition map into the project right-click on the volume in the Data Pool and select "**Save Volume to Project**"
+
+## Restoring a Blend
+
+Load a saved map into the Data Pool. Drag and drop the saved map into the Map window. The initial display if the standard Map window display \(for seismic/horizons etc.\). To switch it to the RGB blend display click on the RGB blend icon beneath the name of the saved map in the data tree. The RGB blend will be restored exactly as it was saved - with the same frequencies and histogram settings.
+
+![](/assets/sp_07_restoringablend.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
