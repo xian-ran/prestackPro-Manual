@@ -26,6 +26,8 @@ Launching Spectral Decomposition turns the Map window into a preview for the RGB
 
 ![](/assets/sp_02_specd-gui.png)_A stack volume is is shown, with a time-slice display at 1900ms, with frequencies of 14Hz, 28Hz and 58Hz blended together in the map window. _
 
+![](/assets/sp_02b_specd-gui_prestack.png)_A prestack \(gathers\) seismic volume is shown, with an extraction on the horizon Top\_Frigg, for an angle of 24 degrees, with frequencies of 14Hz, 28Hz and 58Hz blended together in the map window. _
+
 ## RGB Blending
 
 Three frequencies are assigned to Red, Green and Blue channels, that are blended together in the Map window. Each channel has its own histogram that the user can adjust to enhance the spectral blend image. Where all three frequencies have equal amplitude the blend is white; the absence of the three frequencies produces black.
@@ -75,27 +77,15 @@ _Loading a saved spectral decomposition map_
 
 ## Blending Non-Frequency Volumes
 
-The RGB blending module is not restricted to frequency data: it can be used to blend any seismic volumes. For example, the three channels \(Red, Green, Blue\) can be used to blend angle stacks, 4D volumes, or azimuthal datasets, etc. Care should be taken with the histogram ranges: the RGB channels are amplitudes and not frequency, and so don't start at zero.
+The RGB blending module is not restricted to frequency data: it can be used to blend any seismic volumes. For example, the three channels \(Red, Green, Blue\) can be used to blend angle stacks, 4D volumes, or azimuthal datasets, etc. Care should be taken with the histogram ranges: the RGB channels are amplitudes and not frequency, and therefore don't start at zero. Blends can be used to highlight misalignment of offset stacks, or visualise AVO anomalies.
 
 To  load non-frequency volumes into the RGB Blender, click on the **RGB Blend icon** on the Map window: ![](/assets/sp_icon_RGB.png)
 
-Select the 3 volumes to blend \(these should be pre-loaded into the Data Pool\) and press OK. The Map window will change to a Blend display of a time slice set to 0 by default. Select the time slice for each RGB channel and the Map will update. Change the histogram settings to adjust the blend, setting the markers to skip outliers may improve the display \(settings icon &gt; reset markers &gt; between min and max skip outliers\)
+Select the 3 volumes to blend \(these should be pre-loaded into the Data Pool\) and press OK. The Map window will change to a Blend display of a time-slice set to 0 by default. Select the time slice for each RGB channel and the Map will update. Change the histogram settings to adjust the blend, setting the markers to skip outliers may improve the display \(settings icon &gt; reset markers &gt; between min and max skip outliers\)
 
 ![](/assets/sp_10_avovols.png)
 
-_Near, Mid and Far volumes blended as a time slice_
-
-
-
-
-
-
-
-
-
-
-
-
+_Near, Mid and Far volumes blended as a time slice. Where the near, mid and far amplitudes have equal values the blend will be white. _
 
 
 
