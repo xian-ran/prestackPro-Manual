@@ -39,7 +39,21 @@ There are two options making Spectral Decomposition maps:
 1. **Use Fixed Time**: a frequency-blend time-slice map is generated, that the user can scroll up and down within the volume.
 2. **Use Horizon**: the frequency-blend map extracted on a horizon. The map can be shifted with respect to the horizon, creating horizon-parallel displays.
 
+The RGB blend display is controlled with the histograms in the Map window. Decrease the Max. of the histogram to increase the brightness of that channel. Each channel can be viewed on it's own; to view just the Red channel alone toggle OFF the Green and Blue channels using the small boxes to the left of the histograms. This allows the user to assess the relative components and adjust the histogram scaling in order to optimize the blend. The maximum marker for each histogram can be moved with the mouse by holding down the control button.
 
+The gamma correction is set to 0.8 by default, this can be changed by clicking on the spanner icon next to the histograms.
+
+![](/assets/sp_06_rgb-blend.png)
+
+Note that the frequencies of each RGB channel can be controlled from the tree in the Map window. The time shift for the horizon/slice can also be controlled from the Map window.
+
+## Display Settings
+
+The Input Volume panel display can be changed by using the pipette icon, OR double clicking on the map, where the location of the panel is shown with a black cross.
+
+The Control Tab allows the user to toggle on Wells and Horizons in the display panels.
+
+![](/assets/sp_05_control-tab.png)
 
 
 
