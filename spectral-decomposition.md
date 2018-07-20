@@ -4,7 +4,7 @@ Pre-Stack Pro allows the user to perform Spectral Decomposition on:
 
 * Stacked Volumes
 * Partial Stacked Volumes
-* Pre-stack Data, i.e. gathers
+* Prestack Data, i.e. gathers
 
 Spectral Decomposition is performed on the fly, with the user controlling the frequencies and blending. Spectral Decomposition maps can be saved and reopened to reproduce the same RGB blend at a later date. Full volume export of the frequencies is also available. The method used is the Gabor-Morlet transform, with default settings set for Octave spacing.
 
@@ -77,7 +77,7 @@ _Loading a saved spectral decomposition map_
 
 ## Blending Non-Frequency Volumes
 
-The RGB blending module is not restricted to frequency data: it can be used to blend any seismic volumes. For example, the three channels \(Red, Green, Blue\) can be used to blend angle stacks, 4D volumes, or azimuthal datasets, etc. Care should be taken with the histogram ranges: the RGB channels are amplitudes and not frequency, and therefore don't start at zero. Blends can be used to highlight misalignment of offset stacks, or visualise AVO anomalies.
+The RGB blending module is not restricted to frequency data: it can be used to blend any seismic volumes. For example, the three channels \(Red, Green, Blue\) can be used to blend angle stacks, 4D volumes, or inversion datasets, etc. Care should be taken with the histogram ranges: the RGB channels are amplitudes and not frequency, and therefore don't start at zero. Blends can be used to highlight misalignment of offset stacks, or visualise AVO anomalies.
 
 To  load non-frequency volumes into the RGB Blender, click on the **RGB Blend icon** on the Map window: ![](/assets/sp_icon_RGB.png)
 
