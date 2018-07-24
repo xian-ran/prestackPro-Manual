@@ -9,8 +9,6 @@ yum groupinstall "Development Tools"
 yum install kernel-devel kernel-headers
 ```
 
-
-
 BeeGFS is a separate product from Fraunhofer and you should install it according to the official installation manual available on:
 
 [http://www.beegfs.com/wiki/ManualInstallWalkThrough](http://www.beegfs.com/wiki/ManualInstallWalkThrough)
@@ -26,8 +24,9 @@ Depending on your expertise you can choose between a graphical or manual install
 **Remember to give the users and group read/write access to the parallel file system – we recommend using /data\_parallel as a mount point for the beegfs-client.**
 
 ```bash
-chown pspro.psprousers –R /data_parallel/
+chown pspro:psprousers –R /data_parallel/
 chmod 770 –R /data_parallel
 ```
+
 
 
