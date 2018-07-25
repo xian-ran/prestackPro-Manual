@@ -11,7 +11,7 @@ _Loading sign in the 3D viewer_
 ![](/assets/3dviewer_horizon.JPG)  
 _Horizon loading_
 
-Any selected horizon, can be snapped or cropped, to display only on the sides of any vertical seismic objects. By clicking on &lt;Reset Cutting Planes&gt;, the full extend of the selected horizon is restored.
+Any selected horizon, can be snapped or cropped, to display only on the sides of any vertical seismic objects. By clicking on **Reset Cutting Planes**, the full extend of the selected horizon is restored.
 
 However, only horizons given a name and saved into the project are available in the list for display. So  QC of tracking is not fully interactive with this first version of the 3D viewer.
 
@@ -19,7 +19,7 @@ However, only horizons given a name and saved into the project are available in 
 
 ![](/assets/3dviewer_hz2.JPG)
 
-_Three horizons loaded.. One inline and one crossline are displayed            
+_Three horizons loaded.. One inline and one crossline are displayed              
 _
 
 You can add horizons by drag and drop from the Data Pool or by highlighting them from the horizon list on the bottom left.
@@ -53,7 +53,7 @@ Other attributes can be computed on a window following the selected horizon:
 3. Maximum Sample in the window
 4. Minimum Sample in the window
 
-By default the window length is 500 ms \(250 ms each side of the horizon\) but it can be modified \(but always centered on the horizon, it can not be asymmetric. 
+By default the window length is 50 ms \(25 ms each side of the horizon\) but it can be modified \(but always centered on the horizon, it can not be asymmetric.
 
 The attributes are computed on the fly, which allows horizon based quick analysis of the data on the full area.
 
@@ -64,8 +64,4 @@ For each attribute computation, the histogram is automatically computed and disp
 
 ![](/assets/3dviewer_hz6.JPG)  
 _Example of horizon based attribute computation - Spectral Bandwidth on a window of 500 ms \(250 ms each side of the horizon\)_
-
-
-
-
 
