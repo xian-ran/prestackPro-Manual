@@ -1,6 +1,6 @@
 ### Histogram \(Colour bar\) and Transfer Function {#histogram-color-bar-and-transfer-function}
 
-The 3D viewer has the same histogram as you find in the 2D viewers.
+The 3D viewer has the [same histogram as you find in the 2D viewers](/viewers/functionalities_common_to_all_viewers/histograms.md).
 
 ![](/assets/3dviewer_histogram.JPG)
 
