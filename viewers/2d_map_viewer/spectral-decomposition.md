@@ -1,4 +1,4 @@
-# Spectral Decomposition
+### Spectral Decomposition
 
 Pre-Stack Pro allows the user to perform Spectral Decomposition on:
 
@@ -14,7 +14,7 @@ Any seismic volumes can be used as input to the RGB blend display, e.g. Near, Mi
 
 _Map of a Spectral Decomposition Blend_
 
-## Opening Spectral Decomposition
+#### Opening Spectral Decomposition
 
 Spectral Decomposition is launched from the Map window by clicking on the Icon: ![](/assets/sp_icon2.png)
 
@@ -28,7 +28,7 @@ Launching Spectral Decomposition turns the Map window into a preview for the RGB
 
 ![](/assets/sp_02b_specd-gui_prestack.png)_A prestack \(gathers\) seismic volume is shown, with an extraction on the horizon Top\_Frigg, for an angle of 24 degrees, with frequencies of 14Hz, 28Hz and 58Hz blended together in the map window. _
 
-## RGB Blending
+#### RGB Blending
 
 Three frequencies are assigned to Red, Green and Blue channels, that are blended together in the Map window. Each channel has its own histogram that the user can adjust to enhance the spectral blend image. Where all three frequencies have equal amplitude the blend is white; the absence of the three frequencies produces black.
 
@@ -53,7 +53,7 @@ The settings icon to the left of the histograms has additional options:
 
 Note that the frequencies of each RGB channel can be controlled from the tree in the Map window. The time shift for the horizon/slice can also be controlled from the Map window.
 
-## Display Settings
+#### Display Settings
 
 The Input Volume panel display can be changed by using the pipette icon, OR double clicking on the map, with the location of the panel shown as a black cross.
 
@@ -63,11 +63,11 @@ The **Control Tab** allows the user to toggle on Wells and Horizons in the displ
 
 _Control Tab: toggle on Wells and Horizons._
 
-## Saving Blend Maps
+#### Saving Blend Maps
 
 Spectral decomposition is run in memory, with blends displayed as a preview in the Map window. To save a spectral decomposition blend map to the Data Pool click on **Keep**. To save the spectral decomposition map into the project right-click on the volume in the Data Pool and select "**Save Volume to Project**"
 
-## Restoring a Blend
+#### Restoring a Blend
 
 Load a saved map into the Data Pool. Drag and drop the saved map into the Map window. The initial display if the standard Map window display \(for seismic/horizons etc.\). To switch it to the RGB blend display click on the **RGB blend icon** beneath the name of the saved map in the data tree. The RGB blend will be restored exactly as it was saved - with the same frequencies and histogram settings.
 
@@ -75,7 +75,7 @@ Load a saved map into the Data Pool. Drag and drop the saved map into the Map wi
 
 _Loading a saved spectral decomposition map_
 
-## Blending Non-Frequency Volumes
+#### Blending Non-Frequency Volumes
 
 The RGB blending module is not restricted to frequency data: it can be used to blend any seismic volumes. For example, the three channels \(Red, Green, Blue\) can be used to blend angle stacks, 4D volumes, or inversion datasets, etc. Care should be taken with the histogram ranges: the RGB channels are amplitudes and not frequency, and therefore don't start at zero. Blends can be used to highlight misalignment of offset stacks, or visualise AVO anomalies.
 
