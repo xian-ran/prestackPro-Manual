@@ -60,7 +60,7 @@ The attributes are computed on the fly, which allows horizon based quick analysi
 ![](/assets/3dviewer_hz5.JPG)  
 _Horizon based attribute computation_
 
-For each attribute computation, the histogram is automatically computed and displayed. It can then be modified as explained on the histogram chapter.
+For each attribute computation, the histogram is automatically computed and displayed. It can then be modified as explained on the [histogram chapter](/viewers/3d_viewers/histogram.md).
 
 ![](/assets/3dviewer_hz6.JPG)  
 _Example of horizon based attribute computation - Spectral Bandwidth on a window of 500 ms \(250 ms each side of the horizon\)_
