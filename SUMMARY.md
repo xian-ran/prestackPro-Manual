@@ -117,6 +117,7 @@
     * [Polygons](viewers\2d_map_viewer\polygons.md)
     * [Locations of Interest](viewers\2d_map_viewer\locations_of_interest.md)
     * [Display 2D Lines](viewers\2d_map_viewer\display_2d_lines.md)
+    * [Spectral Decomposition](viewers\2d_map_viewer\spectral-decomposition.md)
   * [2D Gather Viewer ](viewers\2d_gather_viewer\README.7.md)
     * [Horizons](viewers\2d_gather_viewer\horizons.md)
     * [Wells](viewers\2d_gather_viewer\wells.md)
@@ -342,5 +343,4 @@
     * [Poly2tree License](appendix/open_source_licenses/poly2tree-license.md)
     * [Protobuf License](appendix/open_source_licenses/protobuf-license.md)
     * [QT LGP License](appendix/open_source_licenses/qt-lgp-license.md)
-* [Spectral Decomposition](spectral-decomposition.md)
 
