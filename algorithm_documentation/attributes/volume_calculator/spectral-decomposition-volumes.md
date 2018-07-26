@@ -8,13 +8,15 @@ Pre-Stack Pro allows the user to perform Spectral Decomposition on:
 * Partial Stacked Volumes
 * Prestack Data, i.e. gathers
 
-To view Spectral Decomposition as a Map with a preview display that autoupdates, the user should launch Spectral Decomposition from the Map window. The method used is the Gabor-Morlet transform, with default settings set for Octave spacing.
+To view Spectral Decomposition as a Map with a preview display that autoupdates, the user should launch [Spectral Decomposition from the Map window](/viewers/2d_map_viewer/spectral-decomposition.md). The method used is the Gabor-Morlet transform, with default settings set for Octave spacing.
 
 ![](/assets/sp_decompvol_02.png)
 
 _Stack volume example: options selected to generate a volume of 3 frequencies \(14Hz, 28.6Hz, 58.5Hz\)_
 
-To generate a Spectral Decomposition Volume select the seismic volume from the Data Pool. A seismic line from the input volume is displayed in a panel alongside the frequency amplitude of that line. For prestack seismic data the user selects the angle to extract frequencies from. The user can generate a **map **or a **volume **which produces a seismic volume with an "offset" axis of frequency.![](/assets/sp_decompvol_prestack_03.png)
+To generate a Spectral Decomposition Volume select the seismic volume from the Data Pool. A seismic line from the input volume is displayed in a panel alongside the frequency amplitude of that line. For prestack seismic data the user selects the angle to extract frequencies from. The user can generate a **map **or a **volume **which produces a seismic volume with an "offset" axis of frequency.
+
+![](/assets/sp_decompvol_prestack_03.png)
 
 _Prestack volume example: for an angle of 17deg a Map of all frequencies will be produced 12ms below the Top Frigg horizon._
 
