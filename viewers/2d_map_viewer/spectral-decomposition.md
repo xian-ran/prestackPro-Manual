@@ -65,6 +65,10 @@ _Control Tab: toggle on Wells and Horizons._
 
 #### Saving Blend Maps
 
+To save an RGB blend display click on the downwards red-arrow icon, in the data tree. This saves the frequency selection and the histogram settings so that the map can be reproduced at a later date:
+
+![](/assets/sp_11_save_rgb.png)
+
 Spectral decomposition is run in memory, with blends displayed as a preview in the Map window. To save a spectral decomposition blend map to the Data Pool click on **Keep**. To save the spectral decomposition map into the project right-click on the volume in the Data Pool and select "**Save Volume to Project**"
 
 #### Restoring a Blend
@@ -86,4 +90,14 @@ Select the 3 volumes to blend \(these should be pre-loaded into the Data Pool\) 
 ![](/assets/sp_10_avovols.png)
 
 _Near, Mid and Far volumes blended as a time slice. Where the near, mid and far peak amplitudes have equal values the blend will be white. _
+
+
+
+
+
+
+
+
+
+
 

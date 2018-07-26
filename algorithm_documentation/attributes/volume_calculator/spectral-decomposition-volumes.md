@@ -63,9 +63,9 @@ To save an RGB blend display click on the downwards red-arrow icon, in the data 
 
 ![](/assets/sp_decompvol_savingrgb_06.png)
 
+#### Loading a Saved RGB Blend
+
 Once an RGB blend is saved, the volume can be drag and dropped into the Map Window and will now have its own RGB blend icon in the data tree. Click this icon to transform the Map window into an RGB blend display and restore the blended Map:
 
 ![](/assets/sp_decompvol_reload_07.png)
-
-
 
