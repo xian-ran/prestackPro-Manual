@@ -57,5 +57,15 @@ The settings icon to the left of the histograms has additional options:
 * Set gamma correction: by default this is set to 0.8 by default
 * Sync all channels
 
+#### Saving an RGB Display
+
+To save an RGB blend display click on the downwards red-arrow icon, in the data tree. This saves the frequency selection and the histogram settings so that the map can be reproduced at a later date:
+
+![](/assets/sp_decompvol_savingrgb_06.png)
+
+Once an RGB blend is saved, the volume can be drag and dropped into the Map Window and will now have its own RGB blend icon in the data tree. Click this icon to transform the Map window into an RGB blend display and restore the blended Map:
+
+![](/assets/sp_decompvol_reload_07.png)
+
 
 
