@@ -160,6 +160,7 @@
     * [Signal to Noise Ratio](algorithm_documentation\attributes\signal_to_noise_ratio.md)
     * [Geometric Properties](algorithm_documentation\attributes\geometric_properties.md)
     * [Gather attributes](algorithm_documentation\attributes\gather_attributes.md)
+    * [Spectral Decomposition Volumes](algorithm_documentation/attributes/volume_calculator/spectral-decomposition-volumes.md)
   * [Processing](algorithm_documentation\processing\README.3.md)
     * [NMO](algorithm_documentation\processing\nmo.md)
     * [Stack\|Mute](algorithm_documentation\processing\stackmute\README.md)
