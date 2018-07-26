@@ -51,6 +51,8 @@ The RGB blend display is controlled with the histograms in the Map window. Decre
 
 .![](/assets/sp_decompvol_loading-map_05.png)
 
+_Spectral Decomposition volume loaded into the Map Window, with markers set between min and max skip outliers_
+
 The settings icon to the left of the histograms has additional options:
 
 * **Redistribute markers**: includes the useful option to** skip outliers**, enhancing the blend display.
