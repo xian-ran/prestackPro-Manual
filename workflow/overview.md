@@ -35,6 +35,7 @@ If the mouse is held over an algorithm arrow inside a workflow, all other steps 
 ![](/assets/011_Workflow.png)
 
 ![](/assets/012_Workflow.png)
+
 _In this example the mouse was held over the first Offset to Angle arrow_
 
 In **Section four** information about the **workflow memory** can be found. This information is displayed in several different ways:

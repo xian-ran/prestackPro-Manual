@@ -15,5 +15,6 @@ _Result workflow created from a volume in the data pool_
 It is also possible to highlight **several volumes**, right click away from them and create a workflow from the selected datasets.
 
 ![](/assets/015_Workflow.png)
+
 _Create workflow from selected volumes_
 

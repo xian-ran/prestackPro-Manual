@@ -5,5 +5,6 @@ To save any of the volumes inside a workflow, you need to add the algorithm **Sa
 The context menu of any output volume contains an entry **Append “Save this volume” to the workflow**. Choose this and give a name to the output volume, as well as reducing the selected range if necessary. Once the workflow is executed, the chosen volumes are saved.
 
 ![](/assets/017_Workflow.png)
+
 _The context menu of output volumes has an entry to add a save step_
 

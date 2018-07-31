@@ -3,6 +3,7 @@
 Some of the editing steps are not available anymore once the workﬂow has been executed and the volumes have been allocated.
 
 ![](/assets/018_Workflow.png)
+
 _Discard volumes, make workflow editable again_
 
 To make the workﬂow editable again, the "Discard volumes" button in the tool bar of the workﬂow interface can be used. This option is available on the top section of the workflow window. 

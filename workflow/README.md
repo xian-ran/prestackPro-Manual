@@ -14,5 +14,6 @@ The workflow menu:
 * Manage the workflow queue
 
 ![](/assets/001_Workflow.png)
+
 _Workflow menu in Pre-Stack Pro_
 

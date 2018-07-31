@@ -10,5 +10,6 @@ _Creating new File Group, and adding output files to File Group_
 After running a queue of workflows, the user can click on the icon “Show in Grouped Mode” in the File Manager in order to see the saved output files. They are stored in the defined File Groups.
 
 ![](/assets/054_Workflow.png)
+
 _Output files in defined File Groups, in the File Manager. Choose “Show in Grouped Mode”_
 

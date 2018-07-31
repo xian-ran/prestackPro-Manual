@@ -3,6 +3,7 @@
 Once the workflow is loaded in Pre-Stack Pro, it can be executed. Press the **Execute** button in section 4 of the window.
 
 ![](/assets/039_Workflow.PNG)
+
 _Execute button_
 
 If any modification has been done on the data selection, algorithm parameter or processing sequences, it will be used even if the modification has not been saved.
@@ -12,16 +13,19 @@ The progress of the run can be followed in the log window as well as in the work
 In the log window, quantitative information is given on the estimated run time.
 
 ![](/assets/040_Workflow.PNG)
+
 _Log window_
 
 In the workflow window, an animation on the process arrow visually indicates which process is currently running. In the workflow window below, the $$3^{rd}$$ process is active.
 
 ![](/assets/041_Workflow.PNG)
+
 _Visual indication of the current process being run_
 
 Once the workflow has run, a successful completion message will appear:
 
 ![](/assets/042_Workflow.PNG)
+
 _Successful play back message_
 
 The visualization of the data can be done in various ways:

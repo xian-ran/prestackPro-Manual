@@ -33,5 +33,6 @@ The workflow will then be displayed in Pre-Stack Pro. The name of the workflow w
 As described earlier, this workflow can be [edited](/workflow/creation_and_editing_of_a_workflow/editing_of_a_workflow/README.md) and [saved](/workflow/creation_and_editing_of_a_workflow/save_a_workflow.md).
 
 ![](/assets/032_Workflow.png)
+
 _Workflow loaded_
 

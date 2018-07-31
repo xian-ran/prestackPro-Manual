@@ -11,6 +11,7 @@ Go to the location where the workflow \(.wml\) file resides, select it and press
 The Workflow preview is then available in workflow/load workflow with preview. This option shows the processing steps in HTML format.
 
 ![](/assets/038_Workflow.png)
+
 _Workflow preview and user parameters_
 
 The parameters used by each process can be checked by pressing the “user parameters” options. The workflow can then be loaded or closed using the bottom options.
