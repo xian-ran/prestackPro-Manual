@@ -29,7 +29,7 @@ If you add one or more new panels, after doing an attribute extraction on all pa
 
 **Graph window: **Extracted amplitude curves will all appear in the corresponding graph above, of section 5. You can change the color settings or remove a specific plot from the Data panel. It is possible to disable the read-out curve for better readability with a right mouse click in the viewer.
 
-![](/assets/013_d.png)
+![](/assets/013_data_comparator.png)
 
 _Extracted amplitude curves in the Data Comparator_
 

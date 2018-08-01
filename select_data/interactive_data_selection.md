@@ -63,6 +63,7 @@ Neighbors’ gathers are used by all stencil algorithms (ECED3D, Spatial Filteri
 Another way to load arbitrary volume is to use the Arbitrary Path Volume Creation icon in the Gather and Stack Viewer. This icon become active when the viewer shows data selected along an arbitrary path.
 
 ![](/assets/006_Select_Data.png)
+
 _Arbitrary Volume Creation icon_
 
 Once an arbitrary volume is selected, it is in the Data Pool and can be used as any other volumes (display and input to processing algorithms – with the exception of the Create Maps algorithm).

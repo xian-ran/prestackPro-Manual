@@ -42,7 +42,7 @@ When selecting the select file option, the open file window pops up.
 
 ![](/assets/003_Import_SEGY.png)
 
-Data import
+_Data import_
 
 Selected files appear in the **file\(s\)** dialog window.
 

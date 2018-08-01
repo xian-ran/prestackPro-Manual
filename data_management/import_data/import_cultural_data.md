@@ -12,7 +12,7 @@ Cultural data should be imported as **shapefiles**. This database format will co
 
 ![](/assets/002_import_cultural.png)
 
-Cultural Data in the Map Viewer
+_Cultural Data in the Map Viewer_
 
 Once imported, cultural data can be displayed in the viewers by toggling-on the corresponding eye icon in the bottom left corner. They can also be accessed from the File Manager.
 

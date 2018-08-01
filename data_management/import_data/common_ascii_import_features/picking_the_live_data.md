@@ -14,7 +14,8 @@ Having selected the start of the live data, it will be tabulated beneath the fil
 
 For each column, a drop down menu is available. This can be used to assign the data type of each columns. Not all columns have to be set. The required columns are different for each file type and indicated in the GUI.
 
-Once this information is provided, the **Import** button will become available. The setup can also be saved as a template. For the next import, the defined template can be selected from the pull-down menu and executed by selecting **Apply Template**.![](/assets/003_import_ASCII.png)
+Once this information is provided, the **Import** button will become available. The setup can also be saved as a template. For the next import, the defined template can be selected from the pull-down menu and executed by selecting **Apply Template**.
+![](/assets/003_import_ASCII.png)
 
 _Separating the columns_
 
