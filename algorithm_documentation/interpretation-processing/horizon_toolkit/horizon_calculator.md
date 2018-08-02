@@ -12,5 +12,6 @@ Choose the horizon\(s\) that you wish to manipulate for the primary and secondar
 A comprehensive list of variables, constants, operators and functions is shown in the help menu. Left click on the ![](/assets/129_Interpretation.png) icon followed by the custom equations box:
 
 ![](/assets/130_Interpretation.png)
+
 _Horizon Calculator Variables, Constants, Operators and Functions_
 

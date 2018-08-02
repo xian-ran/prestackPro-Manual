@@ -7,6 +7,7 @@ There are several methods of doing this within the Horizon Toolkit. Most of thes
 Select the Extend Horizon to Pre-Stack option.
 
 ![](/assets/127_Interpretation.png)
+
 _Extend Horizon to Pre-Stack_
 
 At this stage it will be necessary to verify whether the horizon is to be picked on a positive or negative event. 

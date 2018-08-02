@@ -9,6 +9,7 @@ Note: The algorithm will not differentiate between signal and noise energy. Ther
 To open up the bandwidth extension dialog go to: **Processing** → **Bandwidth Extension**
 
 ![](/assets/084_Processing.png)
+
 _Bandwidth Extension GUI_
 
 **Parameters:**

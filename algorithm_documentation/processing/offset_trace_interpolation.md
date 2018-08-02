@@ -7,6 +7,7 @@ The input must be a pre-stack volume. The algorithm is used to perform a regular
 The algorithm is supported in workflows.
 
 ![](/assets/092_Processing.png)
+
 _Offset Trace interpolation dialog_
 
 Only the Fx interpolation method is implemented.

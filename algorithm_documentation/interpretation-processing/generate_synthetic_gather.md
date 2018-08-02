@@ -52,6 +52,7 @@ The Tie log depth option is required for the wave equation method if the $$V_p$$
 In the example below, the Tie log depth modelling option is selected, to ensure a synthetic model Target layer top, is at the right TWT.
 
 ![](/assets/062_Interpretation.PNG)
+
 _( TVDss = 2000m = 2.0secs )_
 
 For 1D model synthetics, Don’t use the Time-Depth table option as the ‘Fit Accuracy’ algorithm is designed to work with $$V_p$$ logs which have 100’s of T/D points and not with a model log of < 10. Also make sure the Log Preconditioning is not used as model logs are noise free and blocked correctly already.
@@ -62,6 +63,7 @@ A simple overburden model can be typed in to define what happens above the start
 #### Log Preconditioning
 
 ![](/assets/063_Interpretation.PNG)
+
 _Log Preconditioning GUI -  default parameters_
 
 Logs can be de-spiked and blocked to improve synthetic quality and allow focus on main layer boundaries. Blocking will also significantly reduce the number of log samples input to the synthetic calculation which will make wave equation calculations in particular, much faster.
@@ -78,6 +80,7 @@ The effect of de-spiking becomes larger with decreasing **Min. Spike Amplitude**
 
 ![](/assets/065_Interpretation.PNG)
 ![](/assets/066_Interpretation.PNG)
+
 _3% ,  1m       V    10% & 40m_
 
 **Blocking**, works by replacing values by the average of all values inside a block; a block being defined by a series of log values for which the values do not differ by more than the **Blocking Rel.jump**  (a fraction of 1). 
@@ -102,7 +105,9 @@ Alternatively, if the user opens up the ‘Calculate Synthetic Gather’ GUI aga
 There is a choice of displaying source and processed logs together or all source and all processed together. The different log displays are shown below.
 
 ![](/assets/068_Interpretation.PNG)
+
 _Source & processed logs in same **$$V_p$$**, **$$V_s$$** and **Density** tracks_
 
 ![](/assets/069_Interpretation.PNG)
+
 _All logs together in **source** and **processed** tracks_

@@ -3,6 +3,7 @@
 To open the algorithm, please go to **Processing** → **Bulk Time Shift**
 
 ![](/assets/093_Processing.png)
+
 _Bulk Time Shift dialog_
 
 

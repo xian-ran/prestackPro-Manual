@@ -3,6 +3,7 @@
 In this example, the amplitude changes from a peak to a trough ( yellow to blue ) when brine is replaced with gas.
 
 ![](/assets/026_Interpretation.PNG)
+
 The polarity reversal location, shown by the zero amplitude white band, occurs with less % gas as porosity decreases, and the rock becomes weaker and more unconsolidated.
 Synthetic gathers from the 3D parametric volume are shown in the Data Comparator, below
 ( Points of interest (POI) 1 – 4 )
@@ -15,6 +16,7 @@ Looking at the $$V_p$$, $$V_s$$ and density volumes used for the model, we can s
 _Top View  -   $$V_p$$, $$V_s$$ and density timeslices, for top reservoir_
 
 ![](/assets/029_Interpretation.PNG)
+
 $$V_p$$, $$V_s$$ and Density volumes, were output from the modeling, using the create volumes option above.
 
 **1D initial model setup **
@@ -39,6 +41,7 @@ Target, Top and Bottom layers can’t be deleted but are the same as ordinary la
 First go to the target layer and set its top depth (MD) and corresponding time (TWT). This becomes a fixed depth/time value for the model reference datum. 
 
 ![](/assets/032_Interpretation.PNG)
+
 _Target layer GUI – model reference datum = 1000m/1.0sec
 ( This layer is selected for fluid substitution )_
 

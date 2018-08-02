@@ -56,5 +56,6 @@ Clicking “Calculate” will compute and output to the Data Pool attribute maps
 If the user toggles on “Output Snapped Horizons” and “Output isochrone”, these maps will be generated and put into the Data Pool when clicking “Calculate”.
 
 ![](/assets/197_Interpretation.png)
+
 _Toggling on for outputting horizons and isochrones_ 
 

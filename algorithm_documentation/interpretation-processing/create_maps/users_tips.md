@@ -18,4 +18,5 @@ If gather events are reasonably aligned, and only have “jitter” around the s
 **Distance to snapped horizon** may be viewed in the new 2D Map Viewer or 2D Pre-Stack Map Viewer \(below\). Map displays can often help to identify local areas where unexpected or unwanted results were obtained. Snap “distance” displays combined with instantaneous amplitude displays, can often identify apparent polarity reversals or other indications of inaccurate snapping results.
 
 ![](/assets/189_Interpretation.png)
+
 _“Distance to Horizon” output (calculated at 2075m offset) for "tracked" and "snapped" options. Maximum time shift is larger for the tracked case._

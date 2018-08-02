@@ -29,5 +29,6 @@ The user interface is opened in **Interpretation-Processing** → **Pcube+**
 Currently, Pcube+ does not support using arbitrary lines.
 
 ![](/assets/077_Interpretation.png)
+
 _The graphical user interface at startup of Pcube+_
 

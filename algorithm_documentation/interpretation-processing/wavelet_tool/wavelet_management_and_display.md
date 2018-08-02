@@ -3,6 +3,7 @@
 There are several loading and creation options within the Load/Create wavelets function group:
 
 ![](/assets/133_Interpretation.PNG)
+
 _Function Group - Load/Create Wavelets_
 
 Wavelets can be created in the project from:
@@ -19,6 +20,7 @@ When creating wavelets, it is important to ensure that they have the correct sam
 The default sample interval can be set at the top of the wavelet tool:
 
 ![](/assets/134_Interpretation.PNG)
+
 _Setting the Default Sample Interval_
 
 If this value is changed during the session, it will not affect wavelets that have already been loaded into the tool. Any new wavelets will be given the new default sample interval, unless you change the value within the individual GUIs. The exception to this rule is when loading in wavelets from the project. These will keep their original sample interval.  
@@ -29,6 +31,7 @@ Wavelets are loaded from the project with the “Load from project” button. On
 
 ![](/assets/135_Interpretation.PNG)
 ![](/assets/136_Interpretation.PNG)
+
 _Load/Create Wavelets - Load from Project_
 
 The first step in many workflows is to zero-phase the extracted spectra. Therefore, the option to “Load zero-phased” is switched on by default. If you need the phase information, then it will be necessary to deselect this check box.
@@ -46,6 +49,7 @@ A wavelet can be created directly from a whole seismic volume. The area used for
 A wavelet can be created from the well logs by selecting the relevant log file from the project. This requires that you import, and select the corresponding time-depth table. The start and end (MD) depths used for the spectral analysis can be typed in or defined by the tops.
 
 ![](/assets/138_Interpretation.PNG)
+
 _Load/Create Wavelets - Create Wavelet from Well Log_
 
 **Add Synthetic Wavelet** 
@@ -133,6 +137,7 @@ From the wavelet tool, first save the desired wavelet to the project. Leave it h
 The graphical display areas have the same controls as elsewhere in Pre-Stack Pro. Clicking the right mouse button in the plot area or on a plot axis gives a context menu with various options. In addition, the top menu bar has icons controlling various aspects of the display. Curve colours and visibility are set by icons in the wavelet list. For Pre-Stack Wavelet, the visible angle is set up by a spin box.
 
 ![](/assets/150_Interpretation.PNG)
+
 _Display Options_
 
 The **dB reference value** in each function is used to define the zero-level for the amplitude spectrum when plotted on a dB scale. It is only a display parameter and does not affect any calculations. It is useful when displaying several amplitude spectra where the dynamic range of the curves is very different. 
@@ -142,6 +147,7 @@ For example, suppose one is matching a far seismic stack to a near stack, and ty
 To change the dB reference value, open the curve parameters, type in a new reference value, and press the Set button:
 
 ![](/assets/151_Interpretation.PNG)
+
 _dB Reference_
 
 **The Menu Bar**
@@ -150,6 +156,7 @@ The items in the **Menu Bar** are listed as follows:
 
 
 ![](/assets/152_Interpretation.PNG)
+
 _Menu Bar Icons_
 
 A. Toggles the side bar display off/on, to maximize the area available for graphs
@@ -164,6 +171,7 @@ G. Opens the Setup Plots dialogue
 The **Setup Plots** dialogue has various display options. They can be changed at any time.
 
 ![](/assets/153_Interpretation.PNG)
+
 _Setup Plots_
 
 In the time plots, the **Normalized** option gives all displayed wavelets the same peak value of 1. This is useful when they have very different dynamic range.
@@ -183,6 +191,7 @@ It is possible to display the phase either wrapped or unwrapped using the Wrap P
 The items in the **Management Bar** are listed as follows:
 
 ![](/assets/154_Interpretation.PNG)
+
 _Menu Bar Icons_
 
 A. Edit current wavelet parameters: brings up the parameter box for the selected wavelet.
@@ -200,8 +209,10 @@ Equations can be entered in several places in the wavelet tool. There is a wide 
 They are detailed in the help function:
 
 ![](/assets/155_Interpretation.png)
+
 _Supported Equations_
 
 Just as an example, the figure below shows one way to construct a raised cosine taper. In some circumstances, this may be preferable to using the linear ramp taper supplied in the Taper function.
 ![](/assets/156_Interpretation.PNG)
+
 _Cosine Taper Defined by Time Equation_

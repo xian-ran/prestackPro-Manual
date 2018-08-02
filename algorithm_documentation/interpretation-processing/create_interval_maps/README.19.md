@@ -5,5 +5,6 @@ Create Interval Maps in the “Interpretation-Processing” menu provides an int
 Go to **Interpretation-Processing** → **Create Interval Maps**
 
 ![](/assets/190_Interpretation.png)
+
 _GUI for Create Interval Maps_
 

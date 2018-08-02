@@ -62,6 +62,7 @@ _Select with sibling volumes_
 _Data selection_
 
 ![](/assets/187_Interpretation.png)
+
 _Value extracted after tracking_
 
 Sibling volumes are available in the “displayed volumes” selection individually. In addition, they can be activated/ deactivated as a group in the 2nd section on the left of the window. They are all grouped in the object called in this example “group 137”

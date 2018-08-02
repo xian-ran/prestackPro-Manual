@@ -5,6 +5,7 @@ In addition to the on-the-fly conversion done during velocity selection \(Veloci
 Possible domains are time interval, time RMS and depth interval.
 
 ![](/assets/090_Processing.png)
+
 _Velocity conversion GUI_
 
 Conversion from time interval to time RMS is done via the following formula:
