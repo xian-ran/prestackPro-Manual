@@ -28,6 +28,7 @@ For time dependent gain filters only the **$$3^rd$$ part** of the window shows t
 
 **2-Time-dependent scaling (User Defined):** This option allows the user to define its own time variable gain filter. When the option is ticked on, a table appears for the user to fill in with time and gain in dB units. In-between values are computed with a linear interpolation. 
 ![](/assets/031_Processing.PNG)
+
 _Table for time-gain pairs_
 
 **3-Automatic Gain Control:** The aim of this gain filter is to adjust the gain of the signal to a constant RMS (root mean square) level. 
@@ -38,6 +39,7 @@ It is not recommended to use a short time window length eg: less than 0.5 second
 
 Checking **'Create RMS Output for iAGC'** will output a second volume with the RMS values that were used for scaling to be able to remove the scaling later. Typically, AGC is used before Radon is applied.
 ![](/assets/032_Processing.PNG)
+
 _Individual trace (bottom) and the corresponding RMS value taken over a 0.6 seconds moving window (shaded area)._
 
 When velocity information is available, this option allows for an automatic correction resulting from geometrical spreading.

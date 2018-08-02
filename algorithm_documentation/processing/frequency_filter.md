@@ -11,6 +11,7 @@ The **frequency filter** is used to filter certain frequencies from the given in
 The amplitudes chosen for the selected frequencies allow the user to control the severity of the filter. The **four amplitudes A**$$_0$$** to A**$$_3$$ correspond to the four primarily defined frequencies for this filter. The value chosen here defines how the frequency is applied from zero \(no effect, the frequency is completely blocked\) to 1 \(total effect, the frequency is fully included in the result\).
 
 ![](/assets/017_Processing.png)
+
 _Default settings of the frequency filter algorithm, by default set to a low pass filter_
 
 In **the upper graph**, the red shaded area shows the shape of the filter, specified using the frequencies and amplitudes selection. All data outside will be filtered.

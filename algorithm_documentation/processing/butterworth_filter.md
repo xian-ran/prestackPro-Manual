@@ -6,7 +6,7 @@ Go to: **Processing** → **Butterworth Filter**
 
 ![](/assets/015_Processing.png)
 
-Butterworth filter dialog: low pass with the -**3dB/slope Definition**
+_Butterworth filter dialog: low pass with the -**3dB/slope Definition**_
 
 The Butterworth filter requires a seismic input volume in the time domain as input. The selection automatically shows only the valid input volumes.
 

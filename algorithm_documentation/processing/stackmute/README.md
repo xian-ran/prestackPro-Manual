@@ -8,6 +8,7 @@ The **Stack | Mute** window will open. It is composed of two parts:
 
 
 ![](/assets/004_Processing.PNG)
+
 _Default Stack|Mute dialog_
 
 

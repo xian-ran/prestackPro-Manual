@@ -14,6 +14,7 @@ _Opening **Well Log Editor** from the file manager tree_
 
 
 ![](/assets/004_Well_Log_Viewer.png) 
+ 
  _Logs can be edited by selecting **Create temporary copy for editing**. This creates an editable copy of the log. In the figure below, the upper left section of the Well Log Editor is seen in edit mode._  
  
  ![](/assets/005_Well_Log_Viewer.png) 

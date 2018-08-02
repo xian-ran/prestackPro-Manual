@@ -57,7 +57,8 @@ _Well Log Viewer - Seismic Track header, right mouse button, context menus_
 
 
 
-![](/assets/023_Well_Log_Viewer.png)_  
+![](/assets/023_Well_Log_Viewer.png)
+
 _A defined log set with three member logs_
 
 Defined log sets can be found under the **Log sets** tab.

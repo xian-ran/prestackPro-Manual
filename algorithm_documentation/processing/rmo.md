@@ -3,6 +3,7 @@
 The RMO algorithm allows you to work with time but also with depth gathers. 
 
 ![](/assets/053_Processing.PNG)
+
 _Overview_
 
 The input volume must be an offset PreStack cube and RMS velocities are mandatory. Eta field can also be specified.
@@ -14,6 +15,7 @@ A scan over parameters Vrms and eta are performed to find the best model. Then t
 The model can be QC in the different preview panels on the right part of the process tab.
 
 ![](/assets/054_Processing.PNG)
+
 _Velocity tab: Blue the input. Red the model_
 
 In the parameters selection tab, the scan **range for perturbations of vrms** is selected as a percentage of the current velocity model and the scan range for eta.

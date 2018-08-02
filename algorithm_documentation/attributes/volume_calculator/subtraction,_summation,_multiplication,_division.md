@@ -10,6 +10,7 @@ _Arithmetic tool used to calculate the difference between the input data \(input
 
 
 ![](/assets/003_Attributes.png)
+
 _Results on 3 viewers, histograms synchronized 
 Raw input   -   Result of the subtraction   –   radon filtered data_
 

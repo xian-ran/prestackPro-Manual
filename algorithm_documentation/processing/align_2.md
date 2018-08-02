@@ -102,6 +102,7 @@ This tab indicates the size of the current filter in all direction. The runtime 
 Set of the expert parameters for the algorithm. Only recommended for experienced users.
 
 ![](/assets/065_Processing.png)
+
 _Expert tab_
 
 

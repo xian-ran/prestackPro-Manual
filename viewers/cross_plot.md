@@ -46,6 +46,7 @@ PCube LFC facies classes &amp; volumes shown together in a scatter cross plot, o
 Cross plots will work with every point or sample in the input datasets, unless a polygon is selected when importing, to define a subset.
 
 ![](/assets/005_crossplot.PNG)
+
 _Add plot - Select a polygon_
 
 These can be drawn on a structure map or an attribute in Map Viewer, to restrict the “area of interest” of any cross plot dataset. They can also be drawn on a single gather, in the Gather Viewer, to restrict the time/depth and offset ranges of a prestack gather cross plot dataset.
@@ -72,7 +73,7 @@ Two options are available to control cross plot colour:
 
 ![](/assets/007_crossplot.PNG)
 
-_Gathers before and after AGC scaling and corresponding crossplot
+_Gathers before and after AGC scaling and corresponding crossplot_
 _
 ![](/assets/008_crossplot.PNG)
 _Single colour V Full colour density display_
@@ -88,6 +89,7 @@ If you want to see all the data points, set the X and Y axis ranges to **min/max
 If requested, increase the **bin size** for the density calculation to reduce the number of bins to &lt; 4000.
 
 ![](/assets/010_crossplot.png)
+
 _Edit all with bin size message_
 
 When cross-plotting very small datasets, the display may need larger X and Y **bin sizes**, to enable point density highs and lows to be seen, especially when colouring by histogram.
@@ -100,6 +102,7 @@ _Single colour V Full colour density plot display_
 Alternatively swap to scatter plot display, using the “scatter plot” and recalculate visible data icons, accepting the manual defaults, to redraw the cross plot. 
 
 ![](/assets/012_crossplot.PNG)
+
 _Single colour - scatter plot display_
 
 ### Creation &amp; Display of PCube LFC cross plot datasets :
@@ -107,6 +110,7 @@ _Single colour - scatter plot display_
 Cross plot will allow PCube LFC classes to be cross-plotted; on their own or with PCube output volumes.
 
 ![](/assets/013_crossplot.png)
+
 LFC datasets can be added to the crossplot using the **Add/Edit Facies** option in the Cross Plot window.
 The user has a choice of running simulations to prod uce point clouds for each selected LFC or replacing these simulation with imported real Vp/Vs/Rho values if available.
 
@@ -140,6 +144,7 @@ When you select the option to Create a new polygon a help box pops up to guide t
 ### Cross Plot window - context menus &amp; overlays
 
 ![](/assets/xplots-36-14.png)
+
 _Cross Plot context menu, add overlay functions option_
 
 4 linear functions can be displayed over the top of any cross plot to aid interpretation:
@@ -175,16 +180,19 @@ To adjust the angle of the overlay properly, make sure that the ratio between ea
 Mask volumes can be created from ‘visible points’, using the main Cross Plot window icon ![](/assets/crossplt13a.png) or from polygons created in the cross-plot window.
 
 ![](/assets/xplots-36-15.png)
+
 _Inside a Cross Plot polygon, context menu_
 
 Mask volumes have values of 1.0 where points/samples lie inside the polygon and 0.0 for outside. These can be QC’d using mask display and transparency in Gather, Stack and PreStack Map Viewers. The red overlay shows points outside the polygon in the first example below. ( The range to overlay is defaulted to -0.5 to 0.5 and therefore shows 0.0 mask volume values )
 
 ![](/assets/020_crossplot.png)
+
 _Left: input seismic volume - Right: volume overlaid on top_
 
 The red, yellow and blue colours show the points inside three different polygons in the next example. This option is selected using the inverse range box in the Transparency Tab, under Masks in the Stack Viewer.
 
 ![](/assets/crossplt19a.png)
+
 _Masks – display points inside polygons as colours_
 
 ![](/assets/021_crossplot.PNG)
@@ -195,9 +203,11 @@ _Left: Seismic input to Cross Plot - Right: 3 Mask volumes overlain (inverse)_
 Also **Volume Calculator**, **Custom equation**, can be used to create an AVO class volume, combining several mask volumes. Each Volume is multiplied by a different scalar so that they can have a unique colour from the histogram.
 
 ![](/assets/022_crossplot.png)
+
 _Custom mathematical equation for a 3 class volume_
 
 ![](/assets/023_crossplot.PNG)
+
 _Left: 3 Mask volumes overlain on original stack - Right:combined into a class volume_
 
 ### Masks in Viewers :

@@ -5,6 +5,7 @@ Normal Moveout correction (NMO) is applied to CMP gathers to compensate for the 
 Pre-Stack Pro can apply and remove NMO corrections:  **Processing** → **NMO**
 
 ![](/assets/001_Processing.PNG)
+
 _NMO process tab_
 
 
@@ -57,4 +58,5 @@ _Original data _
 
 
 ![](/assets/003_Processing.PNG)
+
 _Result of the reverse NMO_
