@@ -279,7 +279,7 @@
     * [Queue](workflow\execute_and_queue_workflows\queue.md)
   * [Workflows for multiple files](workflow\workflows_for_multiple_files\README.4.md)
     * [Adding output files from workflows to File Groups](workflow\workflows_for_multiple_files\adding_output_files_from_workflows_to_file_groups.md)
-* [Utilities and Setting](utilities_and_setting\README.md)
+* [Utilities](utilities_and_setting\README.md)
   * [Create Pseudo Pre-Stack](utilities_and_setting\create_pseudo_pre-stack.md)
   * [Merge Volumes](utilities_and_setting\merge_volumes.md)
   * [Manage Wells](utilities_and_setting/manage-wells.md)

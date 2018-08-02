@@ -19,6 +19,7 @@ In **View T/D tables** or **View CS tables**, one can compare several time-depth
 
 
 ![](/assets/014_Utilities and Settings.png)
+
 _Lock curve tick bock for comparison of multiple tables_
 
 By default, all tops are showed in side, top and map viewers when choosing **Display Tops** in the context menu of a well. From **Manage Wells**, one can select which tops will be displayed and create a global list of visible tops.
