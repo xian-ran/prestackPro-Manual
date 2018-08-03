@@ -17,7 +17,11 @@ for higher order moveout the difference $$\delta t$$ due to changes of velocity 
 
 
 $$
-(t+\delta t)^2-t^2 = x^2\lgroup \frac{1}{(V+\delta V)^2}- \frac{1}{V^2} \rgroup - [\frac{2(\eta + \delta \eta)x^4}{(V+\delta V)^2\lgroup ([V+\delta V)]^2t_0^2+(1+2(\eta + \delta \eta))x^2\rgroup}-\frac{2\eta x^2}{V^2(V^2t_0^2+(1+2\eta)x^2)}]
+\begin{aligned}
+(t+\delta t)^2-t^2 = & x^2\lgroup \frac{1}{(V+\delta V)^2}- \frac{1}{V^2} \rgroup \\ 
+& - [\frac{2(\eta + \delta \eta)x^4}{(V+\delta V)^2\lgroup ([V+\delta V)]^2t_0^2+(1+2(\eta + \delta \eta))x^2\rgroup}\\ 
+& -\frac{2\eta x^2}{V^2(V^2t_0^2+(1+2\eta)x^2)}]
+\end{aligned}
 $$
 
 
