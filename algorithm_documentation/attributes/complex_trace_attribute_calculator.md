@@ -4,7 +4,7 @@ The **Complex trace Attribute Calculator** calculates some of the classic trace 
 
 Go to: **Attributes** → **Complex Trace Attribute Calculator**
 
-![](/assets/014_Attributes.PNG)
+![](/assets/014_Atributes.png)
 
 _Complex trace attribute window_
 

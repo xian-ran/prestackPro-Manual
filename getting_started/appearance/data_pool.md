@@ -8,7 +8,7 @@ The **Data Pool** window gives an overview of all loaded data:
 
 * seismic volumes are in blue
 * velocity data in yellow
-* attenuation in data green
+* attenuation in green
 * horizons in purple
 * Eta data in red
 * SRMS data in orange
