@@ -1,4 +1,4 @@
-### Windows hide/show {#windows-hide-show}
+# Windows hide/show
 
 For more flexibility, all the windows can be hidden. This will optimize the working space accordingly to your need. To hide \(or show\) a window, go to **windows**.
 
@@ -6,9 +6,7 @@ The last item of the menu called **Window list** will open a small window listin
 
 If you have closed one window by mistake, you can retrieve it from here.
 
-
-
-![](/assets/Windows.png)
+![](../../.gitbook/assets/windows.png)
 
 _Windows menu_
 

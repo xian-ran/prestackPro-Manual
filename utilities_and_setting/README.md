@@ -1,3 +1,4 @@
-# Utilities {#utilities-and-settings}
+# Utilities
 
-Various tools to manage data and volumes. 
+Various tools to manage data and volumes.
+

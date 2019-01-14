@@ -1,1 +1,0 @@
-### Starting Pre-Stack Pro {#starting-pre-stack-pro}

@@ -1,6 +1,6 @@
-## Appearance {#appearance}
+# Appearance
 
-Take a minute to familiarize yourself with the general appearance of Pre-Stack Pro.![](/assets/001_Getting_Started.png)
+Take a minute to familiarize yourself with the general appearance of Pre-Stack Pro.![](../../.gitbook/assets/001_getting_started.png)
 
 _Common appearance of Pre-Stack Pro_
 

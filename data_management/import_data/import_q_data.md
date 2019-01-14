@@ -1,4 +1,4 @@
-## Import Q data {#import-q-data}
+# Import Q data
 
 Seismic data gets attenuated as the energy is transmitted through the earth. One effect is that high frequencies are lost and the other that the phase is changed. These effects can be corrected independently in the attenuation algorithms. Q data volume is a prerequisite.
 

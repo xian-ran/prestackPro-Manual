@@ -1,6 +1,6 @@
-### Data Pool {#data-pool}
+# Data Pool
 
-![](/assets/002_Getting_Started.png)
+![](../../.gitbook/assets/002_getting_started.png)
 
 _Data Pool overview_
 
@@ -26,7 +26,7 @@ Data volumes can be dragged into one of the six right hand side icons for visual
 
 Using the data pool context menu, volumes can be selected as a group and displayed in an appropriate viewer. They can be input into Volume Calculator or into crossplot. They can also be used to create a workflow and exported to SEGY.
 
-![](/assets/003_Getting_Started.png)
+![](../../.gitbook/assets/003_getting_started.png)
 
 _Action on data volumes from the Data Pool_
 
@@ -36,13 +36,13 @@ Individual data volumes can be QC’d by reading the volume information and hist
 
 In addition, the data can be used to create a new dataset by editing a copy; by cutting a sub volume; or by generating a workflow of the processing sequence applied so far. This workflow can be applied to other volumes.
 
-![](/assets/004_Getting_Started.png)
+![](../../.gitbook/assets/004_getting_started.png)
 
 _Action on a volume from the Data Pool_
 
 The data volumes can be sorted by type by using the filter option on the bottom right part of the tab.
 
-![](/assets/sortOutOptionInTheDataPool.png)
+![](../../.gitbook/assets/sortoutoptioninthedatapool.png)
 
 _Sort out option in the Data Pool_
 

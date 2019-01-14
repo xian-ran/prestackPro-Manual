@@ -1,4 +1,4 @@
-## Start of Pre-Stack Pro {#start-of-pre-stack-pro}
+# Start of Pre-Stack Pro
 
 To start Pre-Stack Pro from any folder, open a terminal window and prompt the following line into your command window:
 
@@ -6,11 +6,11 @@ To start Pre-Stack Pro from any folder, open a terminal window and prompt the fo
 /opt/PreStackPro/bin/PreStackPro
 ```
 
-If Pre-Stack Pro fails to start, please see the [Pre-Stack Pro installation chapter](/pre-stack_pro_installation_and_troubleshooting/README.md).
+If Pre-Stack Pro fails to start, please see the [Pre-Stack Pro installation chapter](../pre-stack_pro_installation_and_troubleshooting/).
 
 Once Pre-Stack Pro is launched, the backend server needs to be started:
 
-![](/assets/startBackEndServer.png)
+![](../.gitbook/assets/startbackendserver.png)
 
 _Start of the backend server_
 

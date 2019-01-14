@@ -1,6 +1,6 @@
-### Log window {#log-window}
+# Log Window
 
-![](/assets/logWindow.png)
+![](../../.gitbook/assets/logwindow.png)
 
 _Log window_
 
