@@ -1,16 +1,16 @@
-## Create Window Screenshots {#create-window-screenshots}
+# Create Window Screenshots
 
 It is possible to take screenshots of all Pre-Stack Pro display windows:
 
 **Windows** → **Create window screenshots**.
 
-![](/assets/011_Utilities and Setting.png)
+![](../.gitbook/assets/011_utilities-and-setting.png)
 
 If no windows are active, then a warning message will be given. Otherwise, all open windows will be selected by default. Deselect any item that you do not wish to copy, and then click OK.
 
 Select the directory for the screenshots, and a prefix to be added to the screenshot file names.
 
-![](/assets/012_Utilities and Setting.png)
+![](../.gitbook/assets/012_utilities-and-setting.png)
 
 **Specifying directory and prefix**
 

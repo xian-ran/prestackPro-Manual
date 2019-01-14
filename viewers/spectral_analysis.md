@@ -1,14 +1,14 @@
-## Spectral Analysis {#spectral-analysis}
+# Spectral Analysis
 
 The **spectral analysis** tool computes amplitude, power and phase spectra for any seismic volume in the Data Pool. Spectra can be smoothed, and the standard deviation displayed. Spectrum values can be exported and imported. The tool is executed via: **QC** → **Spectral Analysis.**
 
-![](/assets/001_spectral_anal.png)
+![](../.gitbook/assets/001_spectral_anal.png)
 
 _Spectral Analysis GUI_
 
 The GUI is divided into several areas. The General options bar manages import and export of spectra. The Selection Panel lets the user choose and select in data ranges to use for the computation. Parameters used in the algorithm can be changed in the Spectrum computation area. Display options can be changed in the Spectrum properties table. The main display window is the Spectrum area, where all spectra chosen are displayed.
 
-![](/assets/002_spectral_anal.png)
+![](../.gitbook/assets/002_spectral_anal.png)
 
 _General Options_
 
@@ -16,18 +16,18 @@ _General Options_
 2. Export Spectrum, including the properties attached to it
 3. Import previously exported spectrum
 
-![](/assets/003_spectral_anal.png)
+![](../.gitbook/assets/003_spectral_anal.png)
 
 _Selection and computation panel_
 
-1. The Selection Panel works in the same way as for the [Select Data dialog](/select_data/README.md). Select the input volume you want to compute the spectrum on and trim in the different domain, as needed. It is also possible to use a Polygon Selection for the input data. When using a Polygon Selection, you can make a sub selection inside the Polygon.
+1. The Selection Panel works in the same way as for the [Select Data dialog](../data_management/select_data/). Select the input volume you want to compute the spectrum on and trim in the different domain, as needed. It is also possible to use a Polygon Selection for the input data. When using a Polygon Selection, you can make a sub selection inside the Polygon.
 2. Tick off **Use Default** for smoothing window and taper if you want to change those parameters and enter custom values.
 3. Tick on if you want to have one spectrum per fold. This is to be used when creating pre-stack wavelet \(i.e. one wavelet per fold\).
 4. Click **Calc. Spectrum**
 
 You can repeat the procedure to add more spectra by changing the selection and/or the input volumes. Additional spectrum will be displayed while keeping previous spectra displayed. The properties of each spectrum can be changed independently.
 
-![](/assets/004_spectral_anal.png)
+![](../.gitbook/assets/004_spectral_anal.png)
 
 _Spectrum properties_
 

@@ -1,1 +1,4 @@
-# 9  	Installation and troubleshooting {#installation-and-troubleshooting}
+# Pre-Stack Pro Installation and troubleshooting
+
+
+

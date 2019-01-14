@@ -1,4 +1,4 @@
-#### Sequence editing {#sequence-editing}
+# Sequence editing
 
 There are several ways to edit the sequence of algorithms:
 
@@ -10,7 +10,7 @@ There are several ways to edit the sequence of algorithms:
 
 **Delete an algorithm:** The following options are available from the context menu of an algorithm in the workflow window:
 
-**-Remove this algorithm:**  this option removes the process from the processing sequence. If the following steps were using the output of the removed algorithm, they will now use its input. Not all the algorithms can be removed e.g. Data selection or any algorithms with multiple input and/or output volumes.  
+**-Remove this algorithm:** this option removes the process from the processing sequence. If the following steps were using the output of the removed algorithm, they will now use its input. Not all the algorithms can be removed e.g. Data selection or any algorithms with multiple input and/or output volumes.  
 **-Cut workﬂow here:** this option removes everything from the workﬂow starting with the respective algorithm and everything which followed it. I.e. doing this on the ﬁrst algorithm in a workﬂow will result in an empty workﬂow.
 
 **Duplicating Algorithms:**
@@ -28,15 +28,15 @@ Those two are used to modify the workflow to create variations of the same algor
 
 The following workflow performs a time alignment of the gathers. As the time alignment process is fairly sensitive to noise, a random noise attenuation process is applied first.
 
-![](/assets/019_Workflow.png)
+![](../../../.gitbook/assets/019_workflow.png)
 
 If the user wants to test the sensitivity of the Align2 process to the strength of the random noise attenuation, he can simply duplicate the 2D ECED filter as well as all derived volumes.
 
-![](/assets/020_Workflow.png)
+![](../../../.gitbook/assets/020_workflow.png)
 
 Once this is done, there are two branches in the workflow. The user has to edit the parameters for one of the 2D ECED filter, for example with a stronger filter. The two Align2 results will show the impact of random noise attenuation strength.
 
-![](/assets/021_Workflow.png)
+![](../../../.gitbook/assets/021_workflow.png)
 
 **Adding new algorithms:**
 
@@ -55,17 +55,17 @@ The workflow below performs
 * EPS 3D, i.e. dip-steered random noise attenuation
 * Spectral balancing
 
-![](/assets/022_Workflow.png)
+![](../../../.gitbook/assets/022_workflow.png)
 
 The user wants to modify the workflow to insert the algorithm 2D ECED before EPS 3D and after the second Gain Filter. To do that, it is necessary to have a volume output of 2D ECED in the Data Pool. The input does not matter. This volume should be drag and dropped from the Data Pool into the workflow window. The user needs to choose **Add Algorithm to Workflow**.
 
-![](/assets/023_Workflow.png)
+![](../../../.gitbook/assets/023_workflow.png)
 
 The algorithm ECED will be added. The input volume and output volume will be independent from the existing flow and needs to be connected.
 
-![](/assets/024_Workflow.png)
+![](../../../.gitbook/assets/024_workflow.png)
 
 By simply dragging the input volume \(output of Gain filter\) over the input of 2D ECED the user will connect the input. Then by dragging the output of 2D ECED on to the input volume of EPS 3D the output is connected. The workflow is now correctly modified and ready to use.
 
-![](/assets/025_Workflow.png)
+![](../../../.gitbook/assets/025_workflow.png)
 

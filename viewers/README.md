@@ -1,4 +1,4 @@
-# Viewers {#viewers}
+# Viewers
 
 This section starts with a section on features common to all viewers, then describes the functions of each viewer:
 
@@ -13,6 +13,4 @@ This section starts with a section on features common to all viewers, then descr
 * 2D Pre-Stack Map Viewer
 * Cross Plot
 * Well Log Viewer
-
-
 

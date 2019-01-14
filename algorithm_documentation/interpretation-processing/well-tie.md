@@ -1,5 +1,0 @@
-## Well Tie {#well-tie}
-
-
-
-

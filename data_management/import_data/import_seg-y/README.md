@@ -1,4 +1,4 @@
-### Import SEG-Y {#import-seg-y}
+# Import SEG-Y
 
 Pre-Stack Pro works on regular grids, it will load and display SEGY file\(s\) that have a rectangular or cuboid shape, with a constant number of inlines, crosslines and offset distances.
 
@@ -8,11 +8,11 @@ Select **Project** → **Import Data** → **Import SEGY** from the main menu ba
 
 The **Import Data from SEGY files** dialog opens.
 
-#### **Backend Host:**
+## **Backend Host:**
 
 The first tab is the **Backend Hosts**.
 
-![](/assets/001_Import_SEGY.png)
+![](../../../.gitbook/assets/001_import_segy.png)
 
 _Import SEG-Y dialog_
 
@@ -22,25 +22,23 @@ If the SEGY files are on a **local file system**, only the backend host can see 
 
 If the files are on a **parallel file system**, we recommend using all the backend hosts for reading at maximum speed. By clicking the **“Use all Hosts”** button, you select all nodes to be reader.
 
-#### **File\(s\):**
+## **File\(s\):**
 
 The second tab is the **file\(s\)** tab.
 
-![](/assets/002_Import_SEGY.png)
+![](../../../.gitbook/assets/002_import_segy.png)
 
 _File\(s\) tab_
 
 In this tab, the import selection can be done for the current project. You can
 
 * select more files by clicking the “select file\(s\)” button
-
 * remove one or more files by clicking the “remove file\(s\)” button
-
 * clear the whole list by clicking the “clear list” button.
 
 When selecting the select file option, the open file window pops up.
 
-![](/assets/003_Import_SEGY.png)
+![](../../../.gitbook/assets/003_import_segy.png)
 
 _Data import_
 
@@ -50,15 +48,15 @@ Press the **Read File Header** button and the grayed out three tabs \(EBCDIC hea
 
 These tabs contain header information from the first file in the selection list.
 
-#### **EBCDIC Header:**
+## **EBCDIC Header:**
 
 A SEGY formatted file usually consists of four parts, the Extended Binary Coded Decimals Interchange Code \(EBCDIC\) header, the Binary header, the trace headers and the trace data.
 
-All three headers are saved in the project during Import. Those headers can be used and copied to a matching dataset during SEG-Y export \(see [ SEG-Y Export](/data_export/seg-y_export/README.md)\).
+All three headers are saved in the project during Import. Those headers can be used and copied to a matching dataset during SEG-Y export \(see [ SEG-Y Export](../../data_export/seg-y_export/)\).
 
 The **EBCDIC Header** tab contains information which may be provided by the creator of the SEGY datafile. It is commonly used to store general information about the origin, coordinates, already applied filters, number of inlines and crosslines in the datafile. For more information about the EBCDIC Header please refer to the documentation of the SEG-Y format at the SEG homepage [www.seg.org](http://www.seg.org) .
 
-![](/assets/004_Import_SEGY.png)
+![](../../../.gitbook/assets/004_import_segy.png)
 
 _EBCDIC tab_
 
@@ -66,7 +64,7 @@ The next tab, **Binary Header**, displays the information stored in the binary h
 
 Additional parameters are also provided in the trace header of every trace in the last part of the SEGY file.
 
-![](/assets/005_Import_SEGY.png)
+![](../../../.gitbook/assets/005_import_segy.png)
 
 _Binary Header tab_
 
@@ -76,11 +74,11 @@ Pre-Stack Pro assumes that all information respect the conventions adopted as SE
 
 If your data does not conform to the standard you must modify header key locations prior to loading. See following section for further information on this procedure.
 
-#### **Set Key:**
+## **Set Key:**
 
 The **Set Keys** tab contains the information about the data, their position in the trace header and a short description for the corresponding fields as recommended by the SEG.
 
-![](/assets/006_Import_SEGY.png)
+![](../../../.gitbook/assets/006_import_segy.png)
 
 _Set key window_
 
@@ -89,7 +87,7 @@ You can scan through the trace headers by using the step buttons \(blue triangle
 The following parameters are required in Pre-Stack Pro:
 
 | Parameter | Default byte location |
-| --- | --- |
+| :--- | :--- |
 | inline number of current trace | 189 – 192 |
 | crossline number of current trace | 193 - 196 |
 | offset distance of current trace | 037 - 040 |
@@ -101,7 +99,7 @@ This information is often stored in a different byte location. The header positi
 * activate field and press “c” for the crossline number, the field will then be highlighted in lightgreen
 * activate field and press “o” for the offset/angle, the field will then be highlighted in blue
 
-![](/assets/007_Import_SEGY.png)
+![](../../../.gitbook/assets/007_import_segy.png)
 
 _Assignment of inline crossline_
 
@@ -111,7 +109,7 @@ As Pre-Stack Pro is working with pre-stack data, it expects a finite number of o
 
 If you do not know the header location for your SEGY file, you can scan the traces using the **play forward, play backward** and the **trace increment** buttons on the lower end of this window.
 
-![](/assets/008_Import_SEGY.png)
+![](../../../.gitbook/assets/008_import_segy.png)
 
 _Data inspection by scanning through trace headers. Use of the play forward, play backward and the Trace Increment field._
 

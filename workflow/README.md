@@ -1,4 +1,4 @@
-# Workflow {#workflow}
+# Workflow
 
 Pre-Stack Pro provides powerful tools to improve data quality prior to stacking. Pre-stack dataset sizes range from 100's to 1000's of GB and exceed the shared memory capacity of all but the largest clusters.
 
@@ -13,7 +13,7 @@ The workflow menu:
 * Open an empty workflow window, to edit it by adding algorithms
 * Manage the workflow queue
 
-![](/assets/001_Workflow.png)
+![](../.gitbook/assets/001_workflow.png)
 
 _Workflow menu in Pre-Stack Pro_
 

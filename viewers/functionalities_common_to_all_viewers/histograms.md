@@ -1,8 +1,8 @@
-### Histograms {#histograms}
+# Histograms
 
 Histograms are displayed for all the main types of viewer. The colors are distributed between the left and right most markers.
 
-![](/assets/001_histogram.png)
+![](../../.gitbook/assets/001_histogram.png)
 
 _Color Histogram_
 
@@ -12,7 +12,7 @@ The histogram has a wide range of editing functionalities. Many of these can be 
 
 **Redistribute markers** has multiple options for setting the display range of the histogram. Any changes take place immediately.
 
-![](/assets/002_histogram.png)
+![](../../.gitbook/assets/002_histogram.png)
 
 _Context menu and Redistribute markers_
 
@@ -30,7 +30,7 @@ Similarly, the horizontal axis view can be repositioned by clicking the left or 
 
 Holding down the control key takes you into **interval adjust** mode rather than marker based editing. A dashed arrow will indicate which interval to adjust. Markers can be repositioned within the interval by clicking control together the left mouse button, and then dragging the cursor.
 
-![](/assets/003_Histogram.png)
+![](../../.gitbook/assets/003_histogram.png)
 
 _Interval selection_
 
@@ -38,7 +38,7 @@ _Interval selection_
 
 The user can insert new markers at arbitrary positions and define colors. This is done by right clicking on the color bar and selecting **Insert marker**. The marker position can be typed in manually.
 
-![](/assets/004_histogram.png)
+![](../../.gitbook/assets/004_histogram.png)
 
 _Insert new marker_
 
@@ -46,7 +46,7 @@ _Insert new marker_
 
 An interval of constant colour can be added to the histogram by using the right hand mouse buttton menu option **Insert interval.** It opens the following tab. The interval below is colored green, centered at 50000, with a width of 4000.
 
-![](/assets/005_histogram.png)
+![](../../.gitbook/assets/005_histogram.png)
 
 _Insert Interval_
 
@@ -66,7 +66,7 @@ It is possible to create a discrete histogram with discrete colors. This might b
 
 Saving is done via the \(right click\) context menu using the entries **Save color table** and **Save histogram**.
 
-![](/assets/006_histogram.png)
+![](../../.gitbook/assets/006_histogram.png)
 
 _Blue, green, white, yellow, red color table_
 
@@ -76,7 +76,7 @@ A global default color table is used, unless otherwise specified using the **Man
 
 In the example below, all the velocity data types will have the same rainbow color table and distribution of markers by default. The color table can of course be edited within the viewers to fit your specific visualization requirements.
 
-![](/assets/007_histogram.png)
+![](../../.gitbook/assets/007_histogram.png)
 
 _Manage histogram tab_
 

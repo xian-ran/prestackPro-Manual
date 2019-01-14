@@ -1,4 +1,4 @@
-## Merge Volumes {#merge-volumes}
+# Merge Volumes
 
 **Utilities** → **Merge volumes**
 
@@ -6,7 +6,7 @@ The algorithm merges two volumes of different sizes together. It will allow cutt
 
 The algorithm can be used in workflows and then the output of the algorithm must be saved to disk in the project. In the workflow manager, it can be invoked via a mouse right button click after selecting two volumes.
 
-![](/assets/002_Utilities and Setting.png)  
+![](../.gitbook/assets/002_utilities-and-setting.png)  
 _Merge Volumes dialog_
 
 **Method:**

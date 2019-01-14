@@ -1,4 +1,4 @@
-#### Set regularization parameters {#set-regularization-parameters}
+# Set regularization parameters
 
 To set regularization parameters:
 
@@ -15,7 +15,7 @@ Press **Select**. As the result only every second live inline will be checked on
 
 To see a **fold map** change the Statistics parameter from **CDP** to **Fold** in the **Statistic** drop-down menu.
 
-![](/assets/003_import_irreg_segy.png)
+![](../../../../.gitbook/assets/003_import_irreg_segy.png)
 
 _Fold map_
 
@@ -33,7 +33,7 @@ The current settings made by the user are displayed in the upper left corner of 
 
 Press **Import** and the regularization routine will begin. The current window will close and the **Log Window** will appear, displaying the progress and the estimated time left to fully import the data.
 
-![](/assets/005_Import_Irreg_SEGY.png)
+![](../../../../.gitbook/assets/005_import_irreg_segy.png)
 
 _The Log Window shows progress of SEGY data import._
 

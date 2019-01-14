@@ -1,10 +1,10 @@
-## Important: Project update to 5.0
+# Important: Project update to version 5.0
 
 Several new features related to the new Well Tie module required extensive changes to the project description and data file of Pre-Stack Pro. This means that existing project will have to be converted to the 5.0 project format upon opening.
 
 **Please be aware that converted projects can no longer be opened with earlier release of Pre-Stack Pro.**
 
-![](/assets/001_Introduction.png)
+![](../.gitbook/assets/001_introduction.png)
 
 _Message appearing when opening a project for the first time with Pre-Stack Pro 5.0_
 
