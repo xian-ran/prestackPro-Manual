@@ -38,6 +38,8 @@ Attributes to compute are
 * Max. Sample Between Horizons
 * Min. Sample Between Horizons
 * Max. Abs. Sample Between Horizons
+* Sum of positive amplitudes
+* Sum of negative amplitudes
 * Mean
 * Number of zero-crossings
 * Median

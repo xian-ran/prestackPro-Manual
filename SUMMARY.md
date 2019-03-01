@@ -284,6 +284,7 @@
   * [Create Pseudo Pre-Stack](utilities_and_setting/create_pseudo_pre-stack.md)
   * [Merge Volumes](utilities_and_setting/merge_volumes.md)
   * [Manage Wells](utilities_and_setting/manage-wells.md)
+  * [Manage Tops](utilities_and_setting/manage-tops.md)
   * [Manage Facies](utilities_and_setting/manage_facies.md)
   * [Manage Wavelets](utilities_and_setting/manage_wavelets.md)
   * [View/Compare Probabilities](utilities_and_setting/viewcompare_probabilities.md)
