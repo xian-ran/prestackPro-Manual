@@ -132,7 +132,6 @@
   * [Cross Plot](viewers/cross_plot.md)
   * [Well log viewer](viewers/readme.12/README.md)
     * [Log data Q.C. &  management](viewers/readme.12/log_data_qc_and_management/README.md)
-      * [Manage Log Sets](viewers/readme.12/log_data_qc_and_management/manage-log-sets.md)
       * [Linked log viewer](viewers/readme.12/log_data_qc_and_management/linked_log_viewer.md)
     * [Well Log Viewer GUI](viewers/readme.12/well_log_viewer_gui.md)
     * [Well Log Viewer icons](viewers/readme.12/well_log_viewer_icons.md)
