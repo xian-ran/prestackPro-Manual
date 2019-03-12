@@ -54,29 +54,54 @@ There are a number of ways to move the two seismic lines, the intersection of wh
 
 ### Manual Horizon Picking
 
-There are three methods of manually picking a horizon, and they are listed under the Picking Modes icon on each Seismic Section. They can also be accessed from hotkeys \(see Hotkeys\).
+There are three methods of manually picking a horizon, and they are listed under the Picking Modes icon on each Seismic Section. They can also be accessed from hotkeys \(see Hotkeys\). The snap and autotrack settings \(eg peak or trough\) are defined in **Settings**, on the main menu.
 
 ![](../../.gitbook/assets/usermanual_pickingmodes.png)
 
 **Picking Modes:**
 
-* Flat Line - straight connectors between control picks
-* Spline - curved connectors between control picks
+* Flat Line - straight connectors between control picks that snap to seismic after apply
+* Spline - curved connectors between control picks that snap to seismic after apply
 * Autotracking - 2D autotracking along the seismic line
 
-add picks by clicking with left-mouse button. To accept the picks double click OR right-mouse click and Apply. Holding SHIFT will stop snapping
+**Flat Line and Spline:** add picks by clicking with left-mouse button. To accept the picks **double click** OR right-mouse click and Apply. For both modes, holding **SHIFT will stop snapping**
 
-Flat Line , snapping to the seismic after Apply
-
-Spline Curved line connectors between control picks, snapping to the seismic after Apply.
-
-Autotracking 2D autotracking along the seismic line. Place a seed point and double click/Apply.
+**Autotracking**: Place a seed point on the seismic, and **double click** / right-mouse click and Apply.
 
 To move a seismic line whilst picking press ESC, double click to move the intersecting line, then ESC again to return to picking mode.
+
+![Picking Modes for manual interpretation](../../.gitbook/assets/usermanual_pickingmodes2.png)
+
+Control Picks can be toggled ON/OFF using the icon in the main menu:
+
+![Hiding the control picks for display purposes](../../.gitbook/assets/usermanual_hidecontrolpicks.png)
 
 ### Hotkeys
 
 ![List of hotkeys](../../.gitbook/assets/usermanual_hotleys.png)
 
+### Editing Manual Horizon Picks
 
+There are various ways to edit the original input horizon and the manual picks. For extended horizons, the original horizon and the new manual-picks are treated as separate entities until they are saved as one combined horizon. Whilst picking, the manual picked horizon can be overwritten by new picks. 
+
+After applying manual picks, they can be changed by selecting to **edit** or **remove**:
+
+![Editing control picks, or removing the pick line](../../.gitbook/assets/usermanual_edit-removepicks.png)
+
+Alternatively there are editing options:
+
+**Seismic Section**, from the picking options menu:
+
+* Remove from picked line: Draw a horizontal range, highlighted in red, to remove a section of manual picks
+* Delete picks on this line: Deletes all the manual horizon picks from that seismic line
+* Remove from input horizon: Draw a horizontal range, highlighted in red, to remove a section of the input \(original\) horizon
+
+![Deleting horizons on Seismic Sections \(input horizon and manual picks\)](../../.gitbook/assets/usermanual_deletingseismic.png)
+
+**Map**, polygon delete: Right-mouse click in the Map window to remove with a polygon.  Draw the polygon by holding **CTRL** and adding points with the mouse. The polygon can be dragged around the Map window.
+
+* Remove the original \(input\) horizon
+* Remover manual picks. 
+
+![Polygon deleting in the Map window](../../.gitbook/assets/usermanual_deletingma.png)
 
