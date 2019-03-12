@@ -6,7 +6,7 @@ Manual Horizon Picking is launched from the **Interpretation Menu**. Once launch
 
 ![Starting up Manual Horizon Picking](../../.gitbook/assets/usermanual_start.png)
 
-### Initialisation
+## Initialisation and Display Setup
 
 1. Select the seismic volume, this can be time or depth, stack, pseudo stack, or pre-stack gathers
 2. Select an existing horizon to update OR create a new horizon
@@ -27,13 +27,17 @@ There are three main panels in the canvas: the **Data Tree**, two **Seismic Sect
 
 The **Data Tree** controls the display of wells, horizons, seed-sets on the Seismic Sections and the Map. The cursor readout is displayed at the top of the Data Tree, showing the amplitude etc. of the cursor on the seismic. It is also where the user can select the seismic lines to display, and access the history of their manual interpretation locations.
 
-The **Seismic Sections** show two, orthogonal seismic lines and the intersection lines between them. On start up and inline and cross-line are displayed. These can be rotated to form Pivot Lines \(see below\). The scale of the seismic can be changed by scrolling the mouse-wheel on a an axis. Notes the Z axis zoom is linked between the two sections.
+The **Seismic Sections** show two, orthogonal seismic lines and the intersection lines between them. On start up and inline and cross-line are displayed. These can be rotated to form Pivot Lines \(see below\). The scale of the seismic can be changed by scrolling the mouse-wheel on a an axis. Note the Z axis zoom is linked between the two sections. 
+
+The icons in the Seismic Sections control the picking mode, moving the seismic lines in addition to expanding the Seismic Section to full screen, and lastly to reverse the display.
+
+![Seismic Section icons](../../.gitbook/assets/usermanual_seismicicons.png)
 
 The **Map** window displays the current horizon selected for interpretation. The colour bar can be changed and the range altered as required, \(mouse click on the colour bar\). The intersection of the two Seismic Sections is called the Pivot Centre. The visible extent of each Seismic Section is highlighted in red on the Map. The location of the cursor is linked between the two Seismic Sections and the Map, with a cursor readout shown in the Data Tree
 
 ![Links between Seismic Sections and the Map](../../.gitbook/assets/usermanual_seismic_range.png)
 
-### Moving Seismic Lines
+## Moving Seismic Lines
 
 There are a number of ways to move the two seismic lines, the intersection of which is called the Pivot Centre.
 
@@ -60,7 +64,7 @@ The seismic displays can be changed to **Wiggle displays**:
 
 ![](../../.gitbook/assets/usermanual_wiggledisplay.png)
 
-### Manual Horizon Picking
+## Manual Horizon Picking
 
 There are three methods of manually picking a horizon, and they are listed under the Picking Modes icon on each Seismic Section. They can also be accessed from hotkeys \(see Hotkeys\). The snap and autotrack settings \(eg peak or trough\) are defined in **Settings**, on the main menu.
 
@@ -76,19 +80,19 @@ There are three methods of manually picking a horizon, and they are listed under
 
 **Autotracking**: Place a seed point on the seismic, and **double click** / right-mouse click and Apply.
 
-To move a seismic line whilst picking press ESC, double click to move the intersecting line, then ESC again to return to picking mode.
+To move a seismic line whilst picking press **ESC**, double click to move the intersecting line, then ESC again to return to picking mode.
 
 ![Picking Modes for manual interpretation](../../.gitbook/assets/usermanual_pickingmodes2.png)
 
-Control Picks can be toggled ON/OFF using the icon in the main menu:
+**Control Picks** can be toggled ON/OFF using the icon in the main menu:
 
 ![Hiding the control picks for display purposes](../../.gitbook/assets/usermanual_hidecontrolpicks.png)
 
-### Hotkeys
+## Hotkeys
 
 ![List of hotkeys](../../.gitbook/assets/usermanual_hotleys.png)
 
-### Editing Manual Horizon Picks
+## Editing Manual Horizon Picks
 
 There are various ways to edit the original input horizon and the manual picks. For extended horizons, the original horizon and the new manual-picks are treated as separate entities until they are saved as one combined horizon. Whilst picking, the manual picked horizon can be overwritten by new picks. 
 
@@ -113,7 +117,7 @@ Alternatively there are editing options in the Seismic Section picking options a
 
 ![Polygon deleting in the Map window](../../.gitbook/assets/usermanual_deletingma.png)
 
-### History
+## History
 
 The history of all the manual pick locations is saved and can be accessed to return to the exact location for all pick, be it a pivot line or inline/xline. There are two ways of accessing the location history:
 
@@ -127,13 +131,29 @@ In addition to the locations of the picks, **Sessions** can be used to store a s
 
 ![History of manual pick locations from the Map](../../.gitbook/assets/usermanual_history2.png)
 
+## Well Synthetic Displays
+
+To display a well synthetic, ensure Wells are toggled ON in the Data Tree, then go to the Overlays icon in the main menu. Select a well, and a Time/Depth Table, then choose the synthetic.
+
+The **synthetic must be in the Data Pool** for the Manual Horizon Picker to see it.
+
+The wiggle display can be changed as required. Multiple overlays can be added to the same well, or different wells.
+
+![Adding a well synthetic overlay](../../.gitbook/assets/usermanual_synthetics.png)
+
+## Well log display
+
+To display a well log, ensure Wells are toggled ON in the Data Tree, then go to the **Overlays** icon in the main menu. Select a well, and a Time/Depth Table, then choose the log to display. The Wiggle Setup controls the display settings for the log.
+
+![Displaying a well log overlay](../../.gitbook/assets/usermanual_welllogs.png)
+
 ## Sessions
 
 Sessions can be saved, and when reloaded will reproduce the display including seismic line locations, and the picked horizon EXACTLY AS IT WAS AT THE TIME OF SESSION SAVE. This is a method of saving the history of the manual picks, and restoring an older session will restore the state of the manual picks exactly as the were when the Session was saved.
 
 Multiple Sessions can be saved when picking a horizon. Sessions are not the same as Saving the horizon to the project, and Sessions can be saved without Saving the horizon into the project.
 
-### Saving
+## Saving
 
 Click on the Save icon in the menu bar. Saving the horizon into the project makes it accessible by other modules in Pre-Stack Pro. The user has the option to rename the horizon, saving it as a new horizon into the project.
 
@@ -145,21 +165,13 @@ Toggling ON **Send to Horizon Tools for gridding** will save, and automatically 
 
 ![Gridding a manually picked horizon ](../../.gitbook/assets/usermanual_griddiung.png)
 
-### Well Synthetic Displays
+## Exporting Seed Points
 
-To display a well synthetic, ensure Wells are toggled ON in the Data Tree, then go to the Overlays icon in the main menu. Select a well, and a Time/Depth Table, then choose the synthetic.
+If the user decides the horizon being picked could be autotracked more efficiently in 3D, the manual picks can be converted into Seed Points for input into the 3D Autotracker in Horizon Tools.
 
-The **synthetic must be in the Data Pool** for the Manual Horizon Picker to see it.
+![Exporting the manual picks as a Seed Point set](../../.gitbook/assets/usermanual_saveseeds.png)
 
-The wiggle display can be changed as required. Multiple overlays can be added to the same well, or different wells.
+Open **Horizon Tools** to run the 3D Autotracker:
 
-![Adding a well synthetic overlay](../../.gitbook/assets/usermanual_synthetics.png)
-
-### Well log display
-
-To display a well log, ensure Wells are toggled ON in the Data Tree, then go to the **Overlays** icon in the main menu. Select a well, and a Time/Depth Table, then choose the log to display. The Wiggle Setup controls the display settings for the log.
-
-![Displaying a well log overlay](../../.gitbook/assets/usermanual_welllogs.png)
-
-
+![](../../.gitbook/assets/usermanual_3dautotrack.png)
 
