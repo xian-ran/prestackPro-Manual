@@ -17,6 +17,10 @@ You may return to these settings at any time during interpretation and change th
 
 ![Initialisation and Settings](../../.gitbook/assets/usermanual_settings.png)
 
+The main menu has a number of icons for interpretation:
+
+![Main menu list of icons](../../.gitbook/assets/usermanual_seismicmenu2.png)
+
 There are three main panels in the canvas: the **Data Tree**, two **Seismic Sections**, and a **Map**. 
 
 ![The main canvas for Manual Horizon Picking](../../.gitbook/assets/usermanual_maindisplay%20%281%29.png)
@@ -51,6 +55,10 @@ There are a number of ways to move the two seismic lines, the intersection of wh
 * **Map Window**: Hover the cursor on the pivot centre and scroll the mouse-wheel
 
 ![Pivot Lines](../../.gitbook/assets/usermanual_pivot-lines.png)
+
+The seismic displays can be changed to **Wiggle displays**:
+
+![](../../.gitbook/assets/usermanual_wiggledisplay.png)
 
 ### Manual Horizon Picking
 
@@ -88,7 +96,7 @@ After applying manual picks, they can be changed by selecting to **edit** or **r
 
 ![Editing control picks, or removing the pick line](../../.gitbook/assets/usermanual_edit-removepicks.png)
 
-Alternatively there are editing options:
+Alternatively there are editing options in the Seismic Section picking options and in the Map panel:
 
 **Seismic Section**, from the picking options menu:
 
@@ -98,10 +106,60 @@ Alternatively there are editing options:
 
 ![Deleting horizons on Seismic Sections \(input horizon and manual picks\)](../../.gitbook/assets/usermanual_deletingseismic.png)
 
-**Map**, polygon delete: Right-mouse click in the Map window to remove with a polygon.  Draw the polygon by holding **CTRL** and adding points with the mouse. The polygon can be dragged around the Map window.
+**Map Panel:** polygon delete. Right-mouse click in the Map window to remove with a polygon.  Draw the polygon by holding **CTRL** and adding points with the mouse. The polygon can be dragged around the Map window.
 
 * Remove the original \(input\) horizon
 * Remover manual picks. 
 
 ![Polygon deleting in the Map window](../../.gitbook/assets/usermanual_deletingma.png)
+
+### History
+
+The history of all the manual pick locations is saved and can be accessed to return to the exact location for all pick, be it a pivot line or inline/xline. There are two ways of accessing the location history:
+
+**Data Tree**: Use the pull-down menu to access the list of all the locations for manual picks made for this horizon. To jump to one select it from the list.
+
+**Map Window**: On the horizon map, place the cursor on a previously picked location, right-mouse click to get the menu. Select Jump to this picking location.
+
+In addition to the locations of the picks, **Sessions** can be used to store a state of the horizon picking. Restoring an older Session will restore the manual picks EXACTLY as they were at the point of Session Save. See Session Save.
+
+![History of manual pick locations from the Data Tree](../../.gitbook/assets/usermanual_history1.png)
+
+![History of manual pick locations from the Map](../../.gitbook/assets/usermanual_history2.png)
+
+## Sessions
+
+Sessions can be saved, and when reloaded will reproduce the display including seismic line locations, and the picked horizon EXACTLY AS IT WAS AT THE TIME OF SESSION SAVE. This is a method of saving the history of the manual picks, and restoring an older session will restore the state of the manual picks exactly as the were when the Session was saved.
+
+Multiple Sessions can be saved when picking a horizon. Sessions are not the same as Saving the horizon to the project, and Sessions can be saved without Saving the horizon into the project.
+
+### Saving
+
+Click on the Save icon in the menu bar. Saving the horizon into the project makes it accessible by other modules in Pre-Stack Pro. The user has the option to rename the horizon, saving it as a new horizon into the project.
+
+If the user extended an existing horizon, at the point of saving if there are conflicting points between the input horizon and manual picks the user can select the prioritisation between them.
+
+Toggling ON **Send to Horizon Tools for gridding** will save, and automatically open Horizon Tools to grid the horizon.
+
+![Save the horizon](../../.gitbook/assets/usermanual_save.png)
+
+![Gridding a manually picked horizon ](../../.gitbook/assets/usermanual_griddiung.png)
+
+### Well Synthetic Displays
+
+To display a well synthetic, ensure Wells are toggled ON in the Data Tree, then go to the Overlays icon in the main menu. Select a well, and a Time/Depth Table, then choose the synthetic.
+
+The **synthetic must be in the Data Pool** for the Manual Horizon Picker to see it.
+
+The wiggle display can be changed as required. Multiple overlays can be added to the same well, or different wells.
+
+![Adding a well synthetic overlay](../../.gitbook/assets/usermanual_synthetics.png)
+
+### Well log display
+
+To display a well log, ensure Wells are toggled ON in the Data Tree, then go to the **Overlays** icon in the main menu. Select a well, and a Time/Depth Table, then choose the log to display. The Wiggle Setup controls the display settings for the log.
+
+![Displaying a well log overlay](../../.gitbook/assets/usermanual_welllogs.png)
+
+
 
