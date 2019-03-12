@@ -37,6 +37,12 @@ The **Map** window displays the current horizon selected for interpretation. The
 
 ![Links between Seismic Sections and the Map](../../.gitbook/assets/usermanual_seismic_range.png)
 
+## Pre-Stack Seismic
+
+For pre-stack seismic there is an additional panel: the **Gather Panel**. Pre-stack seismic \(pseudo or gather\) are stacked on the fly, with the user controlling the stack angle in the Data Tree. The number of gathers shown is set in Settings. As the user picks a horizon it is projected across the gathers. To create a pre-stack horizon \(that is picked on all angles\) the user must open Horizon Tools and select "Extend horizon to pre-stack"
+
+![Pre-stack seismic data](../../.gitbook/assets/usermanual_gathers.png)
+
 ## Moving Seismic Lines
 
 There are a number of ways to move the two seismic lines, the intersection of which is called the Pivot Centre.
