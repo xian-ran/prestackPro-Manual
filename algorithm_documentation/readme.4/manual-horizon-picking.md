@@ -139,19 +139,19 @@ In addition to the locations of the picks, **Sessions** can be used to store a s
 
 ## Well Synthetic Displays
 
-To display a well synthetic, ensure Wells are toggled ON in the Data Tree, then go to the Overlays icon in the main menu. Select a well, and a Time/Depth Table, then choose the synthetic.
+To display a well synthetic, ensure Wells are toggled ON in the Data Tree, then go to the Overlays icon in the main menu. Select a well,  then choose the synthetic. The **synthetic must be in the Data Pool** for the Manual Horizon Picker to see it. The wiggle display can be changed as required. Multiple overlays can be added to the same well, or different wells.
 
-The **synthetic must be in the Data Pool** for the Manual Horizon Picker to see it.
+Note the default Time/Depth Table for that well is used. This is defined in _**Utilities &gt; Manage Wells**_
 
-The wiggle display can be changed as required. Multiple overlays can be added to the same well, or different wells.
-
-![Adding a well synthetic overlay](../../.gitbook/assets/usermanual_synthetics.png)
+![Displaying well synthetics](../../.gitbook/assets/usermanual_synthetics2.png)
 
 ## Well log display
 
-To display a well log, ensure Wells are toggled ON in the Data Tree, then go to the **Overlays** icon in the main menu. Select a well, and a Time/Depth Table, then choose the log to display. The Wiggle Setup controls the display settings for the log.
+To display a well log, ensure Wells are toggled ON in the Data Tree, then go to the **Overlays** icon in the main menu. Select a well, then choose the log to display from the Input WellLog tab \(the logs do not have to be in the Data Pool\). The Wiggle Setup controls the display settings for the log.
 
-![Displaying a well log overlay](../../.gitbook/assets/usermanual_welllogs.png)
+Note the default Time/Depth Table for that well is used. This is defined in _**Utilities &gt; Manage Wells**_
+
+![Displaying well logs](../../.gitbook/assets/usermanual_logs2.png)
 
 ## Sessions
 
