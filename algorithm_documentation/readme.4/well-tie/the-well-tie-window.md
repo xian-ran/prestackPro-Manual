@@ -36,7 +36,7 @@ The icons at the top of Well Tie contain the main functionalities for performing
 
 **Configuration** enables you to change the data selected \(e.g. choose a different $$V_p$$ log or seismic volume\).  
 **Saving a session** will save the current display and the data selection. Multiple sessions may be saved with different names.7  
-**Save** gives the user the option to save specific groups of data or individual items \(including T/D tables and wavelets\) into the project.
+**Save** gives the user the option to save specific groups of data or individual items \(including T/D tables and wavelets\) into the project. There is an option to set the saved T/D table as active, thus making it the default choice when a T/D is needed by a viewer, a module or an algorithm.
 
 ![](../../../.gitbook/assets/210_interpretation.png)
 

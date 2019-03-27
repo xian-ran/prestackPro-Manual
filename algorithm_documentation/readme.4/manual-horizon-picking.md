@@ -143,15 +143,15 @@ To display a well synthetic, ensure Wells are toggled ON in the Data Tree, then 
 
 Note the default Time/Depth Table for that well is used. This is defined in _**Utilities &gt; Manage Wells**_
 
-![Displaying well synthetics](../../.gitbook/assets/usermanual_synthetics2.png)
+![Displaying a well synthetic](../../.gitbook/assets/usermanual_synthetics_rc3.png)
 
 ## Well log display
 
-To display a well log, ensure Wells are toggled ON in the Data Tree, then go to the **Overlays** icon in the main menu. Select a well, then choose the log to display from the Input WellLog tab \(the logs do not have to be in the Data Pool\). The Wiggle Setup controls the display settings for the log.
+To display a well log, ensure Wells are toggled ON in the Data Tree, then go to the **Overlays** icon in the main menu. Select a well, then choose the log to display from the Input WellLog tab \(the logs do not have to be in the Data Pool\). Width \(traces\) is the width of the log track, and the log fill is coloured by Fill Positive.
 
 Note the default Time/Depth Table for that well is used. This is defined in _**Utilities &gt; Manage Wells**_
 
-![Displaying well logs](../../.gitbook/assets/usermanual_logs2.png)
+![](../../.gitbook/assets/usermanual_logs_rc3.png)
 
 ## Sessions
 

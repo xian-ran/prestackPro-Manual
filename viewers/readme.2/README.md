@@ -13,7 +13,7 @@ In the current version, arbitrary paths can NOT be displayed in the 3D viewer. H
 
 When any seismic volume is dragged and dropped into 3D viewer icon \(![](../../.gitbook/assets/3dviewer_icon.JPG)\), three panels will be opened. The rotation centre is set to the middle of the volume, where the inline, crossline and timeslice all meet.
 
-![](../../.gitbook/assets/3dviewer_init.JPG)_Initial display of seismic volume._
+![](../../.gitbook/assets/3dviewer_initialstate.JPG)_Initial display of seismic volume._
 
 Different panels are available on the left and bottom of the viewer. They allow to know what is selected and displayed, but also to hide/show some attributes and seismics.
 
@@ -22,7 +22,7 @@ _3D viewer panels_
 
 Three tabs are available on the bottom panel: one for the histogram, for for the stretching displays and one for the angle view of the seismic volumes.
 
-![](../../.gitbook/assets/004_3dviewer.png)  
+![](../../.gitbook/assets/3dviewer_side54.JPG)  
 The inline plane is the selected scene object by default and therefore the object properties tab will display the inline properties, which the user can change using slider bars – inline location , time min/max range, angle/offset plane and any viewed gather properties if &lt;view gather&gt; is ticked on.Gathers can be viewed at right angles to any inline or crossline panel, but not coming out from the sides of box displays.
 
 ![](../../.gitbook/assets/3dviewer_gather.JPG)_Pre-stack seismic volume, single gather display, at inline 27300, crossline 16266, with a stretch of x2 applied to make it easier to see._

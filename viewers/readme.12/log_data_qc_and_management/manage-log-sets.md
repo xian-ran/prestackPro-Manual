@@ -20,9 +20,9 @@ The "Active" tick-box indicate which Log Set is used as default by Pre-Stack Pro
 All changes are saved when pressing Apply.   
 Log Sets are stored under each well in the File Manager and logs associated to this LogSet will show under that logset. If same log is used in different Log Sets it will appear multiple times.  
 
-![](../../../.gitbook/assets/image%20%281%29.png)
+![](../../../.gitbook/assets/image%20%282%29.png)
 
-![](../../../.gitbook/assets/image%20%285%29.png)
+![](../../../.gitbook/assets/image%20%287%29.png)
 
 ![](../../../.gitbook/assets/image.png)
 
@@ -33,7 +33,7 @@ Logs are saved under the current Log Set in the File Manager.
 
 NB. Calculate Missing Log will return an error if logs are not equally sampled and user will be asked to re-sample logs - see "Resample logs to common depth sampling"
 
-![](../../../.gitbook/assets/image%20%289%29.png)
+![](../../../.gitbook/assets/image%20%2812%29.png)
 
 ### Resample logs to common depth sampling
 
@@ -41,7 +41,7 @@ The statistics \(bottom window of the Log Set Manager\) might show some sampling
 Sampling distance can be set \(default is 1/2foot sampling\)   
 A threshold value for any gaps in log \(i.e. no recorded data in log\) can be set, so that actually gaps in log are not re-sampled with interpolated values.
 
-![](../../../.gitbook/assets/image%20%283%29.png)
+![](../../../.gitbook/assets/image%20%285%29.png)
 
 ### Other Functionality
 

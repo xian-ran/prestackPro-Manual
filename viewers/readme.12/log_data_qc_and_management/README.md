@@ -26,13 +26,11 @@ To modify samples, select one or more values in the table \( **Modify samples** 
 
 ![](../../../.gitbook/assets/007_well_log_viewer.png)
 
-Select **Combine Logs** to merge and mask other logs with the current log. For **Mask with 2nd log** and **Simple merge** select a second log.
+Select **Combine Logs** to merge and mask other logs with the current log
 
-![](../../../.gitbook/assets/008_well_log_viewer.png)
+When using **Combine Logs** it is possible to specify output log range, the method for populating empty regions in one of the logs, and to specify a custom equation.
 
-When using **Custom merge** it is possible to specify output log range, the method for populating empty regions in one of the logs, and to specify a custom equation. In the example to the right a Vp/Vs ratio log is created.
-
-![](../../../.gitbook/assets/009_well_log_viewer.png)
+![Combine logs](../../../.gitbook/assets/011_editlogs.png.png)
 
 ![](../../../.gitbook/assets/010_well_log_viewer.png)
 
