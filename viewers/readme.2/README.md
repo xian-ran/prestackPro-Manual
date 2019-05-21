@@ -4,10 +4,10 @@ PreStack-PRO 3D Viewer allows to display and compare simultaneously stack and pr
 
 This enables the viewing of seismic data in context with complex geological structures, like horizons and faults, as well as with other objects such as well paths. It provides a great way to present seismic data and the associated interpretation to management and other team members.
 
-This 3D viewer provides a comprehensive set of seismic display options for 3D stack and 4D pre-stack seismic volumes. It is possible to choose any combination of inline / xline / timeslice panels and/or boxes to display inside the 3D scene. Pre-stack gathers can be displayed at right angles to and tied to any selected inline / crossline, offset or angle plane. Horizons can be displayed with their own colour and snapped or clipped to any or all seismic objects in the scene. This provides a real world, 3D Q.C. of any project horizon.
+This 3D viewer provides a comprehensive set of seismic display options for 3D stack and 5D pre-stack seismic volumes. It is possible to choose any combination of inline / xline / timeslice panels and/or boxes to display inside the 3D scene. Pre-stack gathers can be displayed at right angles to and tied to any selected inline / crossline, offset or angle plane. Horizons can be displayed with their own colour and snapped or clipped to any or all seismic objects in the scene. This provides a real world, 3D QC of any project horizon.
 
 The 3D viewer duplicates the volumes you want to display. Therefore you need to save enough memory on the nodes when you launch Pre-Stack PRO.  
-In the current version, arbitrary paths can NOT be displayed in the 3D viewer. How developers are working on that functionality.
+In the current version, arbitrary paths can NOT be displayed in the 3D viewer. How developers are working on that functionality. PIvot planes can be displayed in order to see through volumes at different angles.
 
 ![](../../.gitbook/assets/12_3dviewer.JPG)_A_ _pre-stack seismic gather volume, displaying 3D planes of a near offset volume.An horizon with elevation map as well as a well path are also displayed._
 
