@@ -16,7 +16,7 @@ Amplitude versus offset \(AVO\) inversion can be used to extract information abo
 
 The seismic response of an isotropic, elastic medium is completely described by the three material parameters $${V_p(\mathbf{x},t), V_s(\mathbf{x},t), \rho(\mathbf{x},t)}$$, where the vector $$\mathbf{x}$$ gives the lateral position \(x,y\), and $$t$$ is the vertical seismic travel time.
 
-The weak contrast approximation by Aki and Richards \(1980\), relates the seismic reflection coefficients $c\(\vect{x},t,\theta\)$ to the elastic medium, and is a linearization of the Zoeppritz equations. A continuous version of this approximation is given by Stolt and Weglein \(1985\):
+The weak contrast approximation by Aki and Richards \(1980\), relates the seismic reflection coefficients $$c(\mathbf{x},t,\theta)$$ to the elastic medium, and is a linearization of the Zoeppritz equations. A continuous version of this approximation is given by Stolt and Weglein \(1985\):
 
 $$
 c(\mathbf{x},t,\theta) = a_{V\!p} (\theta) \frac{\partial}{\partial t}\ln V_p (\mathbf{x},t) + a_{V\!s} (\mathbf{x},t,\theta) \frac{\partial}{\partial t}\ln V_s (\mathbf{x},t) + a_\rho(\mathbf{x},t,\theta) \frac{\partial}{\partial t}\ln\rho(\mathbf{x},t)
@@ -64,7 +64,7 @@ $$
 
 where $$w$$ is the wavelet, and $$e$$ is an angle and location dependent error term. The integral is the synthetic seismic. The wavelet can be angle dependent, and can vary laterally according to scale and shift maps. The wavelet is assumed to be stationary within a limited target window.
 
-The signal-to-noise ratio is defined as the ratio of the energy of the data to the energy of the noise as given in \autoref{timeconv}, that is, \index{signal-to-noise ratio} 
+The signal-to-noise ratio is defined as the ratio of the energy of the data to the energy of the noise as given in the equation above, that is, 
 
 $$
 S/N = \left(| w*c|^2+| e|^2\right) / | e|^2
@@ -172,7 +172,7 @@ $$
 
 where all vectors and matrices are time-discretized.
 
-This means that the simultaneous distribution for $$\mathbf{m}$$ and $$\mathbf{d}_{obs}$$ __is Gaussian, and that the distribution for $\mathbf{m}$ given $\mathbf{d_}\__{obs}$ can be obtained analytically using standard theory for Gaussian distributions:
+This means that the simultaneous distribution for $$\mathbf{m}$$ and $$\mathbf{d}_{obs}$$ __is Gaussian, and that the distribution for $$\mathbf{m}$$ given $$\mathbf{d}_{obs}$$ can be obtained analytically using standard theory for Gaussian distributions:
 
 $$
 \mu_{m|d_{obs}}  =\mu_{m} +\Sigma_{m}\mathbf{G}^T \Sigma_{d}^{-1}

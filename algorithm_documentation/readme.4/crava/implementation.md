@@ -1,6 +1,6 @@
 # Implementation
 
-Whereas the general model was explained in [Theory](theory.md) we explain a bit more of the actual implementation details here. The estimation routines implemented in CRAVA are based on straightforward and commonly used techniques. This gives fast and robust estimation, although we may run into problems if the number of data points is too small, or the data quality is too low. The quality of an estimation result is never better than the quality of the data it is based on.
+Whereas the general model was explained in Theory, details of the actual implementation will be described in more detail. here. The estimation routines implemented in CRAVA are based on straightforward and commonly used techniques. This gives fast and robust estimation, although we may run into problems if the number of data points is too small, or the data quality is too low. The quality of an estimation result is never better than the quality of the data it is based on.
 
 ## Estimating optimal well location
 

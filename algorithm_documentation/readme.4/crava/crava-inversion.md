@@ -16,7 +16,7 @@ If many versions of the well log exist a drop down menu is activated  when "clic
 
 ## Zone definition
 
-The  well log values are interpolated/extrapolated using surfaces. The twt interval between two surfaces defines a zone. The model will be generated from the Top surface/fixed time down to the base surface/fixed time It is recommended to use "match to volumen"  using the inversion seismic volumen to get the right inline/xline range.
+The  well log values are interpolated/extrapolated using surfaces. The twt interval between two surfaces defines a zone. The model will be generated from the Top surface/fixed time down to the base surface/fixed time It is recommended to use "match to volume"  using the inversion seismic volume to get the right inline/xline range.
 
 ![](../../../.gitbook/assets/image%20%288%29.png)
 
