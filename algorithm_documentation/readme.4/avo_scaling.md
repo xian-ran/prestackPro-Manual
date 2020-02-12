@@ -20,7 +20,7 @@ The top of the parameter section in the middle of the dialog window holds the **
 
 The scalars are given as a Seismic RMS volume with the same dimensions as the input seismic. This volume can be loaded in the correct size, using the special loading button. This scalar cube can be created in the [MultiWell Scalar process](multi-well_scalar.md).
 
-In the **additional parameters**, there is two ways to scale the given input volume:
+In the **additional parameters**, there are two ways to scale the given input volume:
 
 * **-RMS Scalar** will calculate the RMS of the input seismic within the given window and scale the seismic using the given RMS and the calculated RMS.
 * **-Multiplication** is used to multiply given scalars \(created using the Multi-Well Scalar tool\) with the input seismic for scaling.

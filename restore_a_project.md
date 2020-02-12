@@ -1,9 +1,9 @@
 # Restore a project
 
-Unfortunately, it might happen that a project get corrupted. The good news is that it is a rare events usually links to sudden loss of power on the hardware. If this happens there are two possibilities to restore completely or partially the project:
+Unfortunately, sometimes a project gets corrupted. The good news is that it is a rare events usually linked to sudden loss of power on the hardware. If this happens there are two possible ways to restore the project either completely or partially:
 
 * Use the utility provided within the software
-* Restore manually the project file using one of the backup
+* Restore manually the project file using a backup copy
 
 ## Utility Restore Project Data
 
@@ -11,7 +11,7 @@ Unfortunately, it might happen that a project get corrupted. The good news is th
 
 This will scan the project for datasets that exist on disk, but are not present in the project configuration file. The data must have been created \(or loaded\) with Pre-Stack Pro version 4.6.0 or higher.
 
-There are the options to restore or to remove selected items:
+There are options to restore or to remove selected items:
 
 **Restore**: This will add the missing data back into the configuration file.
 

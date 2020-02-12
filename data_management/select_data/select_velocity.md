@@ -12,7 +12,7 @@ In the input section the velocity file must be selected as well as an associated
 
 The dimensions of the velocities must match the dimensions of the seismic volume that the user wants to use for an algorithm. This is always true for inline and crossline dimension and most of the time for the time/depth dimension.
 
-This new way to deal with velocities is a significant improvement in terms of speed of processing, as not every trace has to be interpolated on the fly. By having the velocities data distributed the same way as the data allows to just access the needed trace instantly.
+This new way to deal with velocities is a significant improvement in terms of speed of processing, as not every trace has to be interpolated on the fly. By having the velocities data distributed the same way as the data this allows to access the needed trace instantly.
 
 To select a volume-matching velocity, there is a special option available named "**Create Volume-matching Velocity**".
 

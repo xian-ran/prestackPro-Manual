@@ -1,16 +1,8 @@
-# Despike and Gridding
+# DeSpike
 
-Despike and Gridding can “clean up” holes left by the AutoTrack application.
+Despike can be used on horizons OR grids to smooth the surface. Running despike will create a new horizon in the Data Tree \(without overwriting input surface\). Despike can be applied within a polygon.
 
-![](../../../.gitbook/assets/124_interpretation.png)
+Select the surface for despiking, options are to change the inline/xline window range and the maximum Z deviation.
 
-Despike run to remove any picks that deviate &gt; 8 msec, after a 7x7x7 filtering
-
-![](../../../.gitbook/assets/125_interpretation.png)
-
-Gridding run to “fill in” holes left unpicked.
-
-![](../../../.gitbook/assets/126_interpretation.png)
-
-_Despike and ABOS gridding, within an inclusive polygon._
+![](../../../.gitbook/assets/fig11_despike.png)
 

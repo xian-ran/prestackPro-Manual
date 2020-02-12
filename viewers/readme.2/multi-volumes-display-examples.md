@@ -1,6 +1,6 @@
 # Multi volumes display
 
-Pre-Stack Pro 3D viewer allows multi volume displays. Each displayed volumes can have different ranges, can be different types and can be displayed with a specific histogram.
+Pre-Stack Pro 3D viewer allows multi volume displays. Each displayed volume can have different ranges, can be of a different type and can be displayed with a specific histogram.
 
 The first example has two pre-stack gather volumes, with different inline/crossline dimensions, each in their own box, being compared by sliding one across the other. The raw data is covered by the conditioned data which is showing on the left of the display. The data for angle 25 is being compared.
 

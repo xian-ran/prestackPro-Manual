@@ -17,7 +17,7 @@ The additional parameter tab allows the user to define the Null value as well as
 
 **Horizon Import QC:**
 
-Once the horizons have been loaded into Pre-Stack Pro, a box will appear to QC the import. This will state the number of files successfully imported. It will specific the inline, crossline and z range for those read in.
+Once the horizons have been loaded into Pre-Stack Pro, a box will appear to QC the import. This will state the number of files successfully imported. It will specify the inline, crossline and z range for those read in.
 
 ![](../../.gitbook/assets/001_import_horizon.png)
 

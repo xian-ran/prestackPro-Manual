@@ -36,9 +36,9 @@ The icons at the top of Well Tie contain the main functionalities for performing
 
 **Configuration** enables you to change the data selected \(e.g. choose a different $$V_p$$ log or seismic volume\).  
 **Saving a session** will save the current display and the data selection. Multiple sessions may be saved with different names.7  
-**Save** gives the user the option to save specific groups of data or individual items \(including T/D tables and wavelets\) into the project.
+**Save** gives the user the option to save a well tie object \(includes T/D table, wavelet and elastic logs\) or individual items into the project. There is an option to set the saved T/D table as active, thus making it the default choice when a T/D is needed by a viewer, a module or an algorithm.
 
-![](../../../.gitbook/assets/210_interpretation.png)
+![](../../../.gitbook/assets/capture%20%281%29.PNG)
 
 **Bookmark current state** will save the current display and state of all modules and of the main window. By restoring it allows you to get back to a state you were previously happy with. All saved states contain a history. The saved state are deleted when Well Tie is closed. The initial state is saved just after the initialization and can be restored at any time.
 

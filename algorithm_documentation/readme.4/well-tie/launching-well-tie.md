@@ -11,7 +11,7 @@ Well Tie starts with the **Configuration** window:
 * Select a checkshot set or a T/D table or create a new one
 * Saved sessions can be resumed
 
-If there is no checkshot or T/D table available, the user can copy one from another well or create a new one by entering a T/D pair. Alternatively the pair can be setup from a marker depth and/or a horizon time.
+If there is no checkshot or T/D table available, the user can copy one from another well or create a new one by entering a T/D pair. The depth point is in TVDss. Alternatively the pair can be setup from a marker depth and/or a horizon time.
 
 ![](../../../.gitbook/assets/266_interpretation.png)
 

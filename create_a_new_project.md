@@ -6,7 +6,7 @@ The first step towards using Pre-Stack Pro is to create a new project. Go to:
 
 Another option is to use the shortcut option available on the top of the window.
 
-To create a project, the window requires information about the seismic grid geometry. This information can be extracted from the SEG-Y file.
+To create a project, the window requires information about the seismic grid geometry. There are two ways to do this. First, this information can be extracted from the SEG-Y file.
 
 ![](.gitbook/assets/015_create_new_project.png)
 
@@ -32,7 +32,7 @@ The project geometry parameters are described as:
 
 This parameter sets the orientation of the survey’s grid by defining the angle of the inline direction \(clockwise from the north\) and the orientation of the grid \(left/right hand side\).
 
-**Define orientation via corner points**
+**The second method is to define orientation via corner points**
 
 The parameters set the orientation of the survey’s grid by 2 additional points P1 and P2. Those three coordinates have to form a rectangular coordinate system to be valid.
 
@@ -60,7 +60,7 @@ A Coordinate Reference System \(CRS\) or Spatial Reference System is necessary t
 
 _Project CRS_
 
-Information about the CRS is usually found in the SEGY EBCDIC header. Users can use the\_ filter field to search for specific keywords and narrow down the list of existing CRSs. The current project CRS is displayed in green in the list and can be set by double clicking on the chosen one, the blue shows the cursor marked one.
+Information about the CRS is usually found in the SEGY EBCDIC header. Users can use the\_ filter field to search for specific keywords and narrow down the list of existing CRSs. The current project CRS is displayed in green in the list and can be set by double clicking on the chosen entry. This is then displayed in blue.
 
 * EPSG Number: Geodetic parameter dataset from the European Petroleum Survey Group.
 * Description: Official name of the CRS.

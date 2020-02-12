@@ -1,35 +1,16 @@
 # Well Log Viewer icons
 
-![](../../.gitbook/assets/024_well_log_viewer.png)
+\*\*\*\*
 
-_Cursor readout = scale_
+![Well Log Viewer Top Menu](../../.gitbook/assets/image%20%281%29.png)
 
-![](../../.gitbook/assets/025_well_log_viewer.png)
 
-_Cursor readout = nearest sample_
 
-![](../../.gitbook/assets/026_well_log_viewer.png)
+![Cursor Read Out](../../.gitbook/assets/024_well_log_viewer.png)
 
-_Zones displayed only in overlay track_
+![Cursor readout = nearest sample](../../.gitbook/assets/025_well_log_viewer.png)
 
-![](../../.gitbook/assets/027_well_log_viewer.png)
-
-**Show all readouts Icon**  
-All on or off & between  
-• vertical line gives scale  
-• value or  
-• horizontal line gives  
-• nearest sample values.
-
-![](../../.gitbook/assets/028_well_log_viewer.png)
-
-_Zones displayed in all log tracks_
-
-![](../../.gitbook/assets/029_well_log_viewer.png)
-
-**Zone overlay display Icon:**  swaps between all log tracks and overlay track only, displays
-
-![](../../.gitbook/assets/030_well_log_viewer.png)
+![Zones displayed only in info track \(Tops/Zones\)](../../.gitbook/assets/026_well_log_viewer.png)
 
 It is possible to invoke the **Create Synthetic Gather** algorithm from the Well Log viewer via the relevant icon ![](../../.gitbook/assets/031_well_log_viewer.png)
 

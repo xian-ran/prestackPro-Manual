@@ -14,18 +14,16 @@ For the calculation of the Fluid Factor, an interval velocity with the same dime
 
 For some attributes, additional parameters are required. The corresponding GUI elements will be displayed. All attributes require a minimum and a maximum angle.
 
-![](../../.gitbook/assets/011_attributes.PNG)  
-_AVA Attribute Calculator_
+![AVA Attribute Calculator](../../.gitbook/assets/image%20%2846%29.png)
 
-**Intercept and Gradient:**
+**Intercept, Gradient and Curvature:**
 
 $$
-R(\theta) = R_P+GSin^2\theta
+R(\theta) = R_P+GSin^2\theta + C (Tan^2\theta-Sin^2\theta)
 $$
 
-The intercept $$R_P$$ and gradient $$G$$ are the two coefficients from the 2-term Shuey AVA equation above, with $$\theta$$ incidence angle, on the horizontal axis.  
-The intercept or P-wave reflectivity includes both, the relative change of  
-P-wave velocity and the relative change of density.
+The intercept $$R_P$$, gradient $$G$$ and curvature $$C$$are the three coefficients from the 3-term Shuey AVA equation above, with $$\theta$$ incidence angle, on the horizontal axis. For $$\theta$$inferior to 30 degrees, the third term can be ignored.   
+The intercept or P-wave reflectivity includes both, the relative change of P-wave velocity and the relative change of density. 
 
 $$
 R_P = 1/2(\Delta V_P / V_P+\Delta \rho/\rho)
@@ -35,7 +33,7 @@ Having calculated $$R_P$$ and gradient $$G$$ from the angle gathers we can now d
 
 \( Oz Yilmaz, Seismic Data Analysis, Vol 2, SEG investigations in geophysics No 10, pages 1816 – 1839 \)
 
-Difference and sum of and will be available through the volume calculator. [Volume calculator](volume_calculator/)
+When choosing to output one or more of the 3-term attributes, several more QC are available to output such as the attributes correlation coefficient and the weights if the robust method is chosen.,
 
 **Poisson’s ratio change:**
 

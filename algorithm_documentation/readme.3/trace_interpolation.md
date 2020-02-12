@@ -2,7 +2,7 @@
 
 Go to **Processing** → **Trace Interpolation**
 
-The input must be a stack volume. The algorithm is used to perform a regular interpolation of traces in inline and/or crossline direction. Typically gathers data have an inline spacing of 25 meters while stack data have inline spacing of 12.5 meters. Trace Interpolation will interpolate one trace out of two to half the inline spacing. The numbering of the axe to interpolate must be greater than 1.
+The input must be a stack volume. The algorithm is used to perform a regular interpolation of traces in inline and/or crossline direction. Typically gathers in Europe have an inline spacing of 25 meters while stack data have inline spacing of 12.5 meters. Trace Interpolation will interpolate one trace out of two to half the inline spacing. The incremental numbering of the axis to interpolate must be greater than 1.
 
 The algorithm is supported in workflows.
 

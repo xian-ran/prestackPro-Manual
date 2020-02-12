@@ -1,9 +1,8 @@
-# Time Depth Conversion, Seismic and Horizon
+# Seismic Time Depth Conversion
 
-Time-depth conversion is possible within Pre-Stack Pro for Seismic and Horizon. Go to **Processing** → **Seismic/Horizon Time Depth Conversion**
+Time-depth conversion is possible within Pre-Stack Pro for Seismic. Go to **Processing** → **Seismic Time Depth Conversion**
 
-![](../../.gitbook/assets/087_processing.PNG)  
-_Horizon Time depth conversion window_
+**Note**: for horizon time/depth conversion please go to the [Horizon tool](../readme.4/readme.16/time__depth_conversion.md).
 
 The selection and if needed the conversion of the velocity data can be done by selecting the yellow icon on the right part of Input Interval velocity
 
@@ -33,7 +32,7 @@ The GUI automatically detects the domain of the input data and provides fields f
 
 Velocity input must be for both directions, time to depth and depth to time, interval velocities in time domain starting from zero seconds.
 
-The velocity conversion utility may be used to convert any other velocity field to interval velocity. Velocity
+The velocity conversion utility may be used to convert any other velocity field to interval velocity. 
 
 **Tips:** If the geometry is created using the “create user-defined velocity”, the Seismic Volume Info tab is very useful since it contains all the seismic geometry information
 
@@ -41,5 +40,5 @@ The velocity conversion utility may be used to convert any other velocity field 
 
 _Velocity selection and conversion_
 
-The result of the depth conversion will be available in the data pool. No specific color coding is available but a filtering option is possible at the bottom right part of the data Pool. Please refer in the [Data Pool](../../getting_started/appearance/data_pool.md) part of this manual
+The result of the depth conversion will be available in the data pool. No specific color coding is available but a filtering option is possible at the bottom right part of the data Pool. Please refer in the [Data Pool](../../getting_started/appearance/data_pool.md) part of this manual.
 

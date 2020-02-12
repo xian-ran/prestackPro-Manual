@@ -115,7 +115,7 @@ _Data inspection by scanning through trace headers. Use of the play forward, pla
 
 _On this example, Trace 1 contains data with a 265m source receiver distance. Offset increases progressively for each step until trace 42, where data from the next gather CDP 12014101 begins \(again with 265m source-offset distance\)._
 
-Once the three byte locations of the parameters are correctly set press **Import button** to start the process of importing your data.
+Once the byte locations of the parameters are correctly set press **Import button** to start the process of importing your data.
 
-Pre-Stack Pro will check for **regularity**. Seismic data is often sampled on irregular grids and will attempt to regularize the data so it can be stored in an efficient way and data access time will be minimized.
+Pre-Stack Pro will check for **regularity**. Seismic data is often sampled on irregular grids and Pre-Stack PRo will attempt to regularize the data so it can be stored in an efficient way and data access time will be minimized.
 

@@ -7,9 +7,10 @@ The mouse controls for rotation, pan and zoom.
 ![](../../.gitbook/assets/3dviewer_scroll.JPG)  
 _Viewer slider bars_
 
-Another way of scrolling is through the volume directly from the display using the mouse button. You can use the mouse to select a plane \(C+LMB\), then scroll through the plane with \(SHIFT+LMB\). Rotation axes can also be fixed by holding the X/Y and Z keys.
+Another way of scrolling is through the volume directly from the display using the mouse button. You can use the mouse to select a plane \(S+LMB\), then scroll through the plane with \(SHIFT+LMB\). Rotation axes can also be fixed by holding the X/Y and Z keys.  
+You can also select the different panels with the keyboard shortcuts: I to highlight inlines, C for cross-lines and T for timeslices.
 
-![](../../.gitbook/assets/3dviewer_shortcuts.JPG)  
+![](../../.gitbook/assets/help54.JPG)  
 _Keyboard shortcuts list_
 
 A left mouse double click turns the GUI on/off enabling the largest possible 3D scene to be viewed and captured for reports and documentation. A click on the ‘cursor readout’ icon from the top of the viewer, and then on an object using control left mouse button, will display a colour 3D crosshair and another blue box with location information in it.

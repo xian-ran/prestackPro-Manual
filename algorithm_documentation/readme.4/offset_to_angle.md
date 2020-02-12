@@ -5,7 +5,9 @@ Pre-Stack Pro allows to change the gather offset sorting from distance bins to a
 Go to: **Interpretation Processing** → **Offset to Angle**
 
 The dialog window is divided into two parts:  
-![](../../.gitbook/assets/001_interpretation.PNG)
+
+
+![](../../.gitbook/assets/image%20%288%29.png)
 
 _Offset to angle module dialog_
 
@@ -26,7 +28,7 @@ _Velocity selection_
 ![](../../.gitbook/assets/004_interpretation.png)  
 _Conversion_
 
-Pre-Stack Pro supports conversion from RMS to interval velocity and vice versa. These options are available from the **"Conversion" Tab** in the parameter selection. If the selected velocity does not fit the selected algorithm, the algorithm will complain and give feedback, what kind of velocity is needed \(e.g. Offset to Angle needs an interval velocity with sampling starting at zero\). For more information, please refer to the velocity section of this manual
+Pre-Stack Pro supports conversion from RMS to interval velocity and vice versa. These options are available from the **"Conversion" Tab** in the parameter selection. If the selected velocity does not fit the selected algorithm, the algorithm will complain and give feedback on what kind of velocity is needed \(e.g. Offset to Angle needs an interval velocity with sampling starting at zero\). For more information, please refer to the velocity section of this manual
 
 All information concerning the size, the range of the velocity and seismic data are available in the tabs in the central part of this window. In addition, the velocity processing history can be found in the last tab.
 
@@ -37,6 +39,7 @@ The possible **Output** volumes are:
 * **Angle Muted Gather:** offset gather muted with the given min/max angles.
 * **Angle Gather:** angle gather in the defined range from min to max angle.
 * **Angle map:** offset gather, where every sample shows the corresponding angle it was will transform into.
+* **Angle stacks**: the data are transformed to angle gather and then stacks according to the definition in the stacking range table
 
 **The method** defines the mapping method between recorded offset at the surface and incidence angle on the target reflector. This can be done either with **plane layer ray tracing** or by applying a closed form expression \(**Walden's equation**\).
 
@@ -80,5 +83,5 @@ An option to **taper** velocity changes is also present. The preferred value for
 
 The **Input Gather** displaying the gather corresponding to the inline- crossline pair noted in the **Data Selection** at the top-center of the dialog.
 
-The **Angle Gather** displays the selected gather in the angle domain, while the **Angle Muted Gather** display is in the offset domain, with the data muted along respectively the minimum angle and the maximum angle of incidence. The **Angle Map Gather** shows the relationship between angles and offsets. It is color coded by angle values.
+The **Angle Gather** displays the selected gather in the angle domain, while the **Angle Muted Gather** display is in the offset domain, with the data muted along respectively the minimum angle and the maximum angle of incidence. The **Angle Map Gather** shows the relationship between angles and offsets. It is color coded by angle values. The **Partial Stacks** shows the stacks, as a gather, defined by the stacking range.
 

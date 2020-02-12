@@ -4,9 +4,9 @@ Q filter takes a single Q value and applies a correction to the entire dataset. 
 
 To open the Q Filter dialog go to: **Processing** → **Q Filter**
 
-![](../../../.gitbook/assets/033_processing.png)
+![Q-Filter interface](../../../.gitbook/assets/image%20%282%29.png)
 
-_Q- Filter phase compensation only_
+A v**elocity model** is an optional input. If selected then it will be used to account for the water layer where attenuation does not occur. The TWT of the water botom can be input as an **horizon** or a **fixed value**. 
 
 In the **Modelling Parameter** section algorithm definitions are made. The **Reference Frequency** value is only relevant when using this algorithm with phase changes included. We recommend setting the value in the middle of the seismic frequency band.
 

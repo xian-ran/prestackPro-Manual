@@ -2,7 +2,7 @@
 
 In the Parameter Tuning tab quality checks can be run in order to tune the parameters for the inversion. The input selection for the QC can either be specified at a well position, a CDP location, or for a box with a user defined inline and crossline range.
 
-The following figure shows how the Parameter Tuning panel looks like after running a QC test.
+The following figure shows what  the Parameter Tuning panel looks like after running a QC test.
 
 ![](../../../.gitbook/assets/087_interpretation.png)
 
