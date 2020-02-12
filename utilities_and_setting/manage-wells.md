@@ -9,7 +9,7 @@ Manage Wells is the central toolbox to create, import, modify and QC well data. 
 * Content
 * Plugged or not
 
-Path, Tops, TD tables, Checkshots and Logs can be imported from there. For details about import I refer to 4.1.6
+Path, Tops, TD tables, Checkshots and Logs can be [imported ](../data_management/import_data/readme.4/)from there. 
 
 ![](../.gitbook/assets/013_utilities-and-settings.png)  
 _Features to create and edit wells in Manage Wells_

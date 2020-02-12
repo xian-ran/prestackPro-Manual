@@ -19,7 +19,7 @@ You have the choice between several **Tracking Methods**.
 
 The extraction will be performed on the fly without the user needing to click on any calculate button.
 
-If the gathers are in the angle domain, you can perform a Shuey model fit, which will be computed using a user defined angle range.
+If the gathers are in the angle domain, you can perform a Shuey model fit, either two terms or three terms, which will be computed using a user defined angle range.
 
 ## **Extract attributes on all panels:**
 

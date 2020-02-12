@@ -21,7 +21,7 @@ The overall number of inlines, crosslines, offset/angles, size of the time windo
 
 The limit of data to work with interactively is limited to the size of available memory.
 
-To work with a subset of the data, users can reduce the entire dataset by selecting an area of interest, cut the time, offset range or decimate the inline, crossline density. This can be done in a similar way than in the data selection step of the loading of regular data.
+To work with a subset of the data, users can reduce the entire dataset by selecting an area of interest, cut the time, offset range or decimate the inline, crossline density. This can be done in a similar way as in the data selection step of importing of regular data.
 
 **Select inlines/crosslines**
 

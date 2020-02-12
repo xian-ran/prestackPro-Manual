@@ -1,4 +1,4 @@
-# Loading 'irregular' data
+# Import 'irregular' data
 
 Pre-Stack Pro stores seismic data in regular grids, with a fixed file size dimension in the inline, crossline, time, and offset direction.
 

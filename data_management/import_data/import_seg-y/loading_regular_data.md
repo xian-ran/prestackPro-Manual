@@ -1,4 +1,4 @@
-# Loading regular data
+# Import regular data
 
 Once file scanning is complete, the **Import Data from SEGY files** dialog shows the content of your regular \(constant number of inlines, crosslines, bins and time range - “cuboid” shape\) SEGY file\(s\) and you must select the desired area out of the whole dataset.
 
@@ -36,13 +36,13 @@ Similarly, to the time & depth cut, you can also decide which angle/offset to im
 
 ## The properties tab:
 
-This tab allows to set the properties of their imported volume correctly. Please keep in mind that there is no automatic property extraction from the Imported SEGY file. Therefore, it is vital to make sure these properties are set correctly before proceeding, especially the type of SEGY data in the content property.
+This tab is used to set the data properties. Please keep in mind that there is no automatic property extraction from the Imported SEGY file. Therefore, it is vital to make sure these properties are set correctly before proceeding, especially the type of SEGY data in the content property.
 
 ![](../../../.gitbook/assets/004_load_regular_data.png)
 
 _Properties tab_
 
-In the Domains part, the sampling domain, the fold and the content must be specified.
+The sampling domain, the fold and the content must be specified.
 
 The sampling can be tagged as time, depth or frequency.
 

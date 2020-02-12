@@ -2,7 +2,7 @@
 
 A queue of workflows for multiple files can easily be set up. This is particularly useful for 2D surveys, when the user must run similar workflows on many 2D lines. This section will refer to 2D lines, but this feature can also be applied to multiple 3D volumes.
 
-An existing workflow can be used, or a new a workflow can be created, as described in section 7.2 . This workflow must be loaded for one of the 2D lines. Then the button “Run on multiple files” is selected.
+An existing workflow can be used, or a new a workflow can be created. This workflow must be loaded for one of the 2D lines. Then the button “Run on multiple files” is selected.
 
 ![](../../.gitbook/assets/048_workflow.png)  
 _Selecting «Run on multiple files»_

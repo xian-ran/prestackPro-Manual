@@ -21,15 +21,7 @@ To remove all stretch & squeeze modifications press **Delete All**
 
 The main Well Tie window and the synthetic displayed there will not be updated until the user presses **Apply** in the **Stretch & Squeeze** window.
 
-![](../../../.gitbook/assets/267_interpretation.png)
-
-![](../../../.gitbook/assets/259_interpretation.png)
-
-![](../../../.gitbook/assets/260_interpretation.png)
-
-![](../../../.gitbook/assets/261_interpretation.png)
-
-![](../../../.gitbook/assets/262_interpretation.png)
+![](../../../.gitbook/assets/012_stretchsqueeze.png)
 
 **Applying and Saving Stretch & Squeeze**
 

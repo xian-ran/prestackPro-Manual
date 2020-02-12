@@ -6,7 +6,7 @@ The figure below shows the Output Setup interface. The default parameters for th
 
 The inversion is started by clicking on the **Start PCube** button.
 
-![](../../../.gitbook/assets/091_interpretation.png)
+![](../../../.gitbook/assets/image%20%287%29.png)
 
 _The Output Setup user interface_
 

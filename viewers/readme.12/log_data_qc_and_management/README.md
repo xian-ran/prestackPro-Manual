@@ -26,23 +26,21 @@ To modify samples, select one or more values in the table \( **Modify samples** 
 
 ![](../../../.gitbook/assets/007_well_log_viewer.png)
 
-Select **Combine Logs** to merge and mask other logs with the current log. For **Mask with 2nd log** and **Simple merge** select a second log.
+Select **Full Log --&gt; Simple Log Filter** to apply a Butterworth filter on a log. 
 
-![](../../../.gitbook/assets/008_well_log_viewer.png)
+![Simple Log Filter](../../../.gitbook/assets/image%20%286%29.png)
 
-When using **Custom merge** it is possible to specify output log range, the method for populating empty regions in one of the logs, and to specify a custom equation. In the example to the right a Vp/Vs ratio log is created.
+The log will be resampled, using a sample interval copied from a volume. Both low and high pass filters are also available. 
 
-![](../../../.gitbook/assets/009_well_log_viewer.png)
+Select **Combine Logs** to merge and mask other logs with the current log
+
+When using **Combine Logs** it is possible to specify output log range, the method for populating empty regions in one of the logs, and to specify a custom equation.
+
+![Combine logs](../../../.gitbook/assets/011_editlogs.png.png)
 
 ![](../../../.gitbook/assets/010_well_log_viewer.png)
 
 _Logs can be crossplotted for Q.C in **Interpretation-processing → Cross Plot**._
 
-Logs can be grouped in sets using **Utility → Manage Logsets**, which can also be opened from the Well Log Viewer.
 
-![](../../../.gitbook/assets/011_well_log_viewer.png)
-
-Clicking on the yellow star icon will create a new well log set. Selected logs from wells can then be added to the set using the uppermost blue arrow icon. Select logs in the log set and use the lowermost blue arrow icon to remove logs from the set.
-
-This log set can then be manipulated as a group of objects. For example, a set of Vp,Vs and Rho logs for can be used as input to create a synthetic gather. Logs sets cans also be drag-and-dropped as a group, into the Well Log Viewer.
 

@@ -6,9 +6,9 @@ To apply gaining go to: **Processing** → **Gaining**
 
 This window is made of 3 parts: ![](../../.gitbook/assets/030_processing.PNG)
 
-In the **first part** of the window, the input selection can be done. The volume must be a **seismic in time** domain.
+In the **first part** of the window, the input selection can be done. The volume must be **seismic in the time** domain.
 
-In **the second part** of the window, **the gain filter** can be selected on the left part. Under the **parameters** of this filter can be selected.
+In **the second part** of the window, **the gain filter** can be selected. Under the **parameters** the filter can be selected.
 
 **1-Time dependent gaining** can be applied, either with a $$T^x$$ \(time as basis and $$x$$ as exponent\), or a $$e^{Tx}$$ \(basis Euler's number and $$Tx$$ as exponent\) scaling factor.
 

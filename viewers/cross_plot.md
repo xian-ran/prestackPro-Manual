@@ -2,7 +2,7 @@
 
 This module creates scatter **cross plots** if the number of points is below a certain threshold \(default: 5000\).
 
-For performance reasons, if there too many data points in a point cloud, Pre-Stack Pro will create a density plot instead. Pre-Stack Pro will The threshold, scatter point size and a default swap to scatter plots, can be set using the Settings Menu. 10000 points is the maximum number allowed.
+For performance reasons, if there too many data points in a point cloud, Pre-Stack Pro will create a density plot instead. Scatter point size and max number of scatter plots, can be set using the Settings Menu. 10000 points is the maximum number allowed.
 
 ![](../.gitbook/assets/xplots-36-6.png)
 
@@ -24,7 +24,7 @@ However, the number of points in the cross plot must be &lt; threshold \(see abo
 
 This can be achieved by creating subset or sculpted volumes for input or by zooming the display to restrict the number of points being viewed.
 
-Cross plot will allow PCube LFC classes to be cross-plotted; on their own or with PCube output volumes. They may also be cross-plotted with seismic amplitude datasets, if AVA attributes such as reflection coefficients or Intercept and Gradient are chosen.
+Cross plot will allow PCube LFC \(Litho Facies Classes\) to be cross-plotted; on their own or with PCube output volumes. They may also be cross-plotted with seismic amplitude datasets, if AVA attributes such as reflection coefficients or Intercept and Gradient are chosen.
 
 The user has a choice of running simulations to produce point clouds for each selected LFC or replacing these simulations with imported real Vp/Vs/Rho values if available.
 
@@ -34,7 +34,7 @@ Attribute values for individual points may be displayed by hovering the mouse ov
 
 ![](../.gitbook/assets/jk36manual_-v3.png)
 
-_LFC, density plot : cursor readout LFC, scatter plot : cursor readout_  ![](../.gitbook/assets/004_crossplot.png)  _PCube LFC facies classes & volumes shown together in a scatter cross plot, of Vp v Vp/Vs with point colours from the 3rd density attribute. \(Imported ASCII file LFC values are shown instead of simulated clouds\)._
+_LFC, density plot : cursor readout LFC, scatter plot : cursor readout_  ![](../.gitbook/assets/004_crossplot.png)  _PCube LFC facies classes & volumes shown together in a scatter cross plot, of Vp v Vp/Vs with point colors from the 3rd density attribute. \(Imported ASCII file LFC values are shown instead of simulated clouds\)._
 
 ## Creation & Display of cross plot datasets :
 

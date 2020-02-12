@@ -2,10 +2,10 @@
 
 The configuration options for the Pre-Stack Pro backend are located in the file PreStackProBackendrc, in the etc/ directory of your Pre-Stack Pro installation.
 
-Port used by the TCP connections between all backend nodes. Also, the 12 ports following this port are used. With enabled NUMA there are additional 12 ports needed starting from this port +100 \(default 50100\)
+Port used by the TCP connections between all backend nodes. Also, the 12 ports following this port are used. With enabled NUMA there are additional 12 ports needed starting from this port +100 \(default 30100\)
 
 ```bash
-BackendStartingPort = 50000
+BackendStartingPort = 30000
 ```
 
 Umask used for files saved within the application. We recommend to set it up to 007, see section 9.3.8

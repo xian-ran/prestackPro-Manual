@@ -20,7 +20,7 @@ A linear ramp is applied to the ends of the wavelet. Different lengths may be ap
 
 **Modify wavelet**
 
-The wavelet can be modified using the equation editor. The input wavelet is called $Vol1, and the time axis is called $t. See section 2.7 for details of the equation editor.
+The wavelet can be modified using the [equation editor](../../readme.2/volume_calculator/custom_equation.md). The input wavelet is called $Vol1, and the time axis is called $t. 
 
 **Frequency Domain**
 

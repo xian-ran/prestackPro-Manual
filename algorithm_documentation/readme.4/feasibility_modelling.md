@@ -16,7 +16,7 @@ The table can then be filled in with the necessary information, just as it is wh
 
 As an alternative, if the information has already been supplied in the “Seismic data and wavelets” tab, click on the “Get from seismic tab” button to copy it into this table.
 
-The “Sampling distance” should be set to the seismic sample interval. The “Angle correlation” is described in the PCube description \(section 6.6.8\)
+The “Sampling distance” should be set to the seismic sample interval. The “Angle correlation” is described in the [PCube](pcube+/) description.
 
 ![](../../.gitbook/assets/013_interpretation.png)
 
@@ -28,7 +28,7 @@ The prior probabilities table is then populated.
 
 ![](../../.gitbook/assets/015_interpretation.png)
 
-Prior probabilities are set for each facies. The “Model time correlation” is described in the Pcube description \(see section 6.6.8\)
+Prior probabilities are set for each facies. The “Model time correlation” is described in the [Pcube](pcube+/) section.
 
 If the litho-facies have already been loaded in the “Facies prior probabilities” tab, instead of creating the table manually it can simply be copied from the other tab using the “Get from facies tab” button. In this case, the prior model is displayed in the right hand panel.
 

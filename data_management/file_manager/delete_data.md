@@ -6,7 +6,7 @@ To delete a volume from the project, go to the file manager. On the data tree, t
 
 _Delete data_
 
-If the data you want to delete have been imported from SEG-Y and the Headers associated with it are stored, the File Manager will warn you that those Headers will be deleted together with the seismic data.
+If the data you want to delete has been imported from SEG-Y and the Headers associated with it are stored, the File Manager will warn you that those Headers will be deleted together with the seismic data.
 
 Deleting Arbitrary Paths: If you choose to delete a locked Arbitrary Path, the File Manager will also propose to delete any existing children.
 

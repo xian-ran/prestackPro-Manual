@@ -36,7 +36,7 @@ _Sculpt data: Window around horizon is selected_
 
 _Sculpted result: horizon in green_
 
-**Time shift:** This parameter refers to a global shift of the sculpted data compare to the original horizon. If time shift value is positive, the shift is done downward if the value is negative, the shift is down upward.
+**Time shift:** This parameter refers to a global shift of the sculpted data compare to the original horizon. If time shift value is positive, the shift is done downward if the value is negative, the shift is upward.
 
 ![](../../.gitbook/assets/102_interpretation.png)  
 _Positive Time shift_

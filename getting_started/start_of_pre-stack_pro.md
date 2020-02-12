@@ -1,6 +1,6 @@
 # Start of Pre-Stack Pro
 
-To start Pre-Stack Pro from any folder, open a terminal window and prompt the following line into your command window:
+To start Pre-Stack Pro from any folder, open a terminal window and type the following line into your command window:
 
 ```bash
 /opt/PreStackPro/bin/PreStackPro
@@ -10,9 +10,7 @@ If Pre-Stack Pro fails to start, please see the [Pre-Stack Pro installation chap
 
 Once Pre-Stack Pro is launched, the backend server needs to be started:
 
-![](../.gitbook/assets/startbackendserver.png)
-
-_Start of the backend server_
+![Start of the backend server](../.gitbook/assets/009_startup.png)
 
 If this window doesn’t get displayed automatically, go to **Startup** → **Start Backend** **server**.
 
@@ -21,6 +19,8 @@ The **Host name** is the name or IP address of the machine you want to use for t
 The **project path** is the absolute path to the Pre-Stack Pro project. It has to be on a parallel files system.
 
 The **backend binary path** is the absolute path to the binary of the server application. It must include the name of the binary \(e.g. PreStackProBackend\).
+
+The **License Type** let you choose the modules/tokens you want to get with your Pre-Stack Pro session. Ticked on modules will check-out one seat/token of the licence key.
 
 In the **global memory size** window, you can set the size of the global memory per node. As a rule of thumb, 50% of the local memory is a good value.
 

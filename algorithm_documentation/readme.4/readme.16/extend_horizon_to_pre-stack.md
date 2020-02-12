@@ -1,24 +1,30 @@
-# Extend Horizon to Pre-Stack
+# Snap / Extend to Pre-Stack
+
+Horizons and/or Grids can be snapped to stack OR pre-stack seismic data using the Snap/Extend to Pre-Stack function.
+
+## Snapping to Stacked seismic data: 
+
+![](../../../.gitbook/assets/fig18_snapping.png)
+
+Select the horizon/grid you wish to snap to the seismic volume
+
+Select the snapping options as listed above in the figure. The snapping window is defined in the window, and can be used to shift the surface.
+
+The resulting surface will not overwrite the input surface, it will be added to the Data Tree.
+
+## Extend to Pre-Stack
 
 In general, pre-stack data will contain structural information and lateral variations that cannot not described by homogeneous post-stack horizons. Therefore, it can be invaluable to create pre-stack horizons for AVO analysis.
 
-There are several methods of doing this within the Horizon Toolkit. Most of these are replicated in the Create Maps feature. \(See 0\)
+Select a pre-stack seismic volume to extend the surface to, select the Tracking Method and press Calculate.
 
-Select the Extend Horizon to Pre-Stack option.
-
-![](../../../.gitbook/assets/127_interpretation.png)
-
-_Extend Horizon to Pre-Stack_
-
-At this stage it will be necessary to verify whether the horizon is to be picked on a positive or negative event.
+![](../../../.gitbook/assets/fig18_snapping2.png)
 
 For more advanced tracking, there is the option to track using multiple horizons based on the binning.
 
 It is possible to create several QC outputs.
 
-Each of the following methods allows a time shift. This may be useful if you wish to track a slightly different event pre-stack compared to post-stack.
-
-**The available tracking methods**
+## **The available tracking methods**
 
 The **Snap to** method will take the post-stack horizon as input and carry out a scan of each gather-trace for the defined input volume. It will the snap the horizon to the largest positive, negative or absolute value within the user defined window.
 
@@ -26,5 +32,5 @@ The **Track** method will follow the peak or trough across the gather. Here, the
 
 The **Waveform Track** method consolidates the snap and track methods. It will follow the local minima or maxima across the gather for the user defined windows. Some snapping is permitted with the max Z Jump parameter. The restrictively constraint limits the tracking based on quality of the picks. Large values are restrictive, and may curtail the tracking. Small values are more open, but less reliable.
 
-Irrespective of the algorithm used, it may be necessary to apply some smoothing on the derived pre-stack horizons. This can be carried out by using the **DeSpike** option described above.
+Irrespective of the algorithm used, it may be necessary to apply some smoothing on the derived pre-stack horizons. This can be carried out by using the **DeSpike** function.
 

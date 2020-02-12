@@ -8,6 +8,7 @@ To synchronize a viewer to another one, click the synchronize icon ![](../../.gi
 
 * **Slice selection:** selection of the current displayed section \(inline/crossline numbers, time selection for time-slices\)
 * **Subclass selection:** for viewers with two selections, this synchronizes the second class \(constant offset or angles for example\)
+* **Primary axis mode**: stack or pre-stack mode 
 * **Decimation:** the decimation factor used for the display \(gather data\)
 * **XAxis Configuration:** direction of increasing index for the XAxis
 * **YAxis Configuration:** direction of increasing index for the YAxis

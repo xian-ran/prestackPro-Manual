@@ -8,5 +8,5 @@ _Workflow editing_
 
 All algorithms can be edited, even if these changes impact the workflow memory requirements.
 
-When executing the workflow, it will restart from the first modified algorithm, not from the beginning of the workflow.
+When re-executing a workflow which has been modified since the last execution, it will start at the first modified algorithm, not from the beginning of the workflow.
 

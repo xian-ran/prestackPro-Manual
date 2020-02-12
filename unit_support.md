@@ -1,6 +1,6 @@
 # Unit Support
 
-Pre-Stack Pro supports both SI and imperial display units for all viewers, algorithm parameters and previews. Internal calculations will be carried out in SI units.
+Pre-Stack Pro supports both SI and imperial display units for all viewers, algorithm parameters and previews. _**Internal calculations will be carried out in SI units.**_
 
 The user can select the default length and velocity display units when creating a new project or editing the project geometry.
 

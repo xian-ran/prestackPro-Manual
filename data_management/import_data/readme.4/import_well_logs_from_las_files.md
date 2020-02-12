@@ -1,6 +1,6 @@
 # Import Well logs from LAS files
 
-Logs can be imported using **Project** → **Import Data** → **Import Well logs** from ASCII \( .las \) files; with a user definable number of wrapped lines between 1 and 50. Any combination of MD and log data values is allowed.
+Logs can be imported using **Project** → **Import Data** → **Import Well logs** from ASCII \( .las \) files; with a user definable number of wrapped lines between 1 and 50. Any combination of MD and log data values are allowed.
 
 ![](../../../.gitbook/assets/016_import_well.png)
 

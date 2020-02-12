@@ -10,7 +10,7 @@ The first step in creating a prior model is defining the geometry. Typically, th
 
 ![](../../.gitbook/assets/005_interpretation.png)
 
-The facies and horizons must be loaded into the GUI to create the model. To load facies into the project, click the Manage Facies button. This brings up the Facies Manager. See section 13.1 for details.
+The facies and horizons must be loaded into the GUI to create the model. To load facies into the project, click the Manage Facies button. This brings up the [Facies Manager](../../utilities_and_setting/manage_facies.md).
 
 ![](../../.gitbook/assets/006_interpretation.png)
 

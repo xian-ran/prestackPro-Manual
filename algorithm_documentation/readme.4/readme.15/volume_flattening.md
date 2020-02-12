@@ -18,7 +18,7 @@ The input can be stack or pre-stack, angles or offset data.
 
 **Time greater:** refer to the time/depth shift down from the horizon. Data within this interval are kept.
 
-**Time shift:** This parameter refers to a global shift of the sculpted data compare to the original horizon. If time shift value is positive, the shift is done downward if the value is negative, the shift is down upward.
+**Time shift:** This parameter refers to a global shift of the sculpted data compare to the original horizon. If time shift value is positive, the shift is done downward if the value is negative, the shift is upward.
 
 **“Interpolate” mode:** This option produces more accurate flattening results by moving each trace to the exact time location specified in the horizon file, rather than to the nearest sample.
 

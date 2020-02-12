@@ -14,7 +14,7 @@ In the **global memory size** window, you can set the size of the global memory 
 
 The **I/O Buffer size** is a tuning parameter for the I/O in Pre-Stack Pro. This parameter is an expert one and should only be changed if you are very familiar with file systems. 2MB is a good value.
 
-The **TCP Port** is the one used to communicate between the client and the backend. It must be unused by the system.
+The **TCP Port** is the one used to communicate between the client and the backend. It must be unused by the system. Default is 22227.
 
 The **SSH Port** is the SSH port of the system.
 

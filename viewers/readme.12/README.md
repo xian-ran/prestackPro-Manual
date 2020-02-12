@@ -4,9 +4,9 @@ This application displays well logs, seismic gathers and stacks, and synthetic g
 
 Seismic and synthetic data are displayed as wiggle traces only. All gather traces are shown. However, for stacks, only 21 inline/xline traces will be displayed, centered around the selected X/Y location.
 
-A reference well, gives MD / TVD / TWT scales, and tops, zones and facies for the Well Log Viewer – usually set automatically as the well from the first log displayed.
+A reference well, gives MD / TVD / TWT scales, and tops, zones and facies for the Well Log Viewer – usually set automatically at the well from the first log displayed.
 
-Multi-well log displays are possible within one viewer or by syncing several well log viewers. The TWT vertical scale of a Well Log Viewer and Seismic viewer can also be synced. To add a TWT scale alongside the MD/TVD scale bars use the scale-bar MB3 context menu &gt; insert TWT scale. Make it a linear scale by dragging it to be the first scale bar from the left.
+Multi-well log displays are possible within one viewer or by syncing several well log viewers. The TWT vertical scale of a Well Log Viewer and Seismic viewer can also be synced. To add a TWT scale alongside the MD/TVD scale bars use the scale-bar MB3 context menu &gt; insert TWT scale. _**Make it a linear scale by dragging it to be the first scale bar from the left.**_
 
 Well Log Viewer allows the Q.C. and analysis of gather synthetics
 
