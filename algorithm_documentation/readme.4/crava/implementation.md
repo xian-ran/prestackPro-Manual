@@ -55,7 +55,7 @@ Since we model the covariance structure as separable, we have collapsed the full
 We estimate the correlations by first blocking the wells into the grid, and then do standard correlation estimation using
 
 $$
-\text{Cov}(X,Y) = \frac{\sum(x_i - \bar{x})(y_j - \bar{y})}{\sqrt{n - 1}},\
+\text{Cov}(X,Y) = \frac{\sum(x_i - \bar{x})(y_j - \bar{y})}{\sqrt{n - 1}},
   \text{with}\ X,Y\in\{\ln V_p, \ln V_s, \ln\rho\}
 $$
 
