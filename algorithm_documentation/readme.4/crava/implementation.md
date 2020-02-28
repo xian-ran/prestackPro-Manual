@@ -40,9 +40,9 @@ Ideally, the background model should be as smooth as possible, and a Gaussian va
 
 ![Well log values plotted against grid layer number for Vp \(top\) and rho \(bottom\). The blue circles show log values, the green curve is a piecewise linear regression of the these values, and the red curve is the regression values filtered to 6Hz.](../../../.gitbook/assets/image%20%2832%29.png)
 
-![](../../../.gitbook/assets/image%20%2863%29.png)
+![](../../../.gitbook/assets/image%20%2864%29.png)
 
-![Vp depth trend \(top\) and final background model \(bottom\). ](../../../.gitbook/assets/image%20%2852%29.png)
+![Vp depth trend \(top\) and final background model \(bottom\). ](../../../.gitbook/assets/image%20%2853%29.png)
 
 #### Multi-zone background model
 
