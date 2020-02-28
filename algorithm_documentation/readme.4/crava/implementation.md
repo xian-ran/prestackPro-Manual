@@ -16,23 +16,23 @@ The expectation $$\mu_m$$ is usually referred to as the background model. As the
 
 ![](../../../.gitbook/assets/image%20%2831%29.png)
 
-![The frequency content of the seismic traces in two different well. ](../../../.gitbook/assets/image%20%2841%29.png)
+![The frequency content of the seismic traces in two different well. ](../../../.gitbook/assets/image%20%2842%29.png)
 
-When identifying the depth trend, it is important that the wells are appropriately aligned. The alignment is defined by the time interval surfaces specified as input, or alternatively, the correlation direction surface. It is important that the alignment reflects the correlation structure \(deposition/compaction\), and if the time surfaces are either eroding or on-lapped, one should consider specifying the correlation direction separately using the **correlation structure** parameter. 
+When identifying the depth trend, it is important that the wells are appropriately aligned. The alignment is defined by the time interval surfaces specified as input, or alternatively, the correlation direction surface. It is important that the alignment reflects the correlation structure \(deposition/compaction\), and if the time surfaces are either eroding or on-lapped, one should consider specifying the correlation direction separately using the **correlation structure** parameter.
 
-In the figure below, we show two well logs aligned according to deposition and according to the true time scale. Evidently, an incorrect trend will be identified if the true vertical depth is used. The size of the error will depend on the stratigraphy. 
+In the figure below, we show two well logs aligned according to deposition and according to the true time scale. Evidently, an incorrect trend will be identified if the true vertical depth is used. The size of the error will depend on the stratigraphy.
 
-Assuming properly aligned wells, the trend extraction starts by calculating an average log value for each layer. This average is calculated for the $$V_p$$, $$V_s$$, and $$\rho$$ well logs and is based on all available wells. The estimation uses a piecewise linear regression, rather than the more straightforward arithmetic mean or moving average, as these measures are sensitive to the amount of data available. The piecewise regression has the additional advantage that it can give trend estimates also outside the interval for which we have data available. 
+Assuming properly aligned wells, the trend extraction starts by calculating an average log value for each layer. This average is calculated for the $$V_p$$, $$V_s$$, and $$\rho$$ well logs and is based on all available wells. The estimation uses a piecewise linear regression, rather than the more straightforward arithmetic mean or moving average, as these measures are sensitive to the amount of data available. The piecewise regression has the additional advantage that it can give trend estimates also outside the interval for which we have data available.
 
 For the linear regression we require a minimum of 10 data points behind each estimate. In addition, we require that the minimum number of data points must also be at least $$5*N_{wells}$$ . This way we ensure that data points from different time samples are always included. Alternatively, the regression would reduce to an arithmetic mean whenever there are 10 or more wells available. If we enter a region with no data points available at all, the minimum requirements are doubled.
 
 ![Well logs aligned according to true time scale \(left\) and according to stratigraphic depth \(right\).](../../../.gitbook/assets/image%20%289%29.png)
 
-To get the right frequency content in the depth trends, the regression values are eventually frequency filtered to 6Hz. 
+To get the right frequency content in the depth trends, the regression values are eventually frequency filtered to 6Hz.
 
-The trend extraction process is illustrated in the figure above for the $$V_p$$ and $$\rho$$ logs of a field with six wells. Note that the plots are oriented with layers as abscissa and log values as ordinate. The blue circles represent log values from any wells, the green curve is the piecewise linear regression of these values, and the red curve is the frequency filtered log that will be used as a depth trend. Note that the green curve is slightly erratic, especially, as we enter the region \(below reservoir\) where there are no data points available. This shift, which is clearly observed for the density, arises as we stabilise the estimate by requiring twice as many data points behind each estimate. 
+The trend extraction process is illustrated in the figure above for the $$V_p$$ and $$\rho$$ logs of a field with six wells. Note that the plots are oriented with layers as abscissa and log values as ordinate. The blue circles represent log values from any wells, the green curve is the piecewise linear regression of these values, and the red curve is the frequency filtered log that will be used as a depth trend. Note that the green curve is slightly erratic, especially, as we enter the region \(below reservoir\) where there are no data points available. This shift, which is clearly observed for the density, arises as we stabilise the estimate by requiring twice as many data points behind each estimate.
 
-When the inversion volume has been filled with the depth trend, we interpolate it with 6Hz filtered well logs, to ensure that the background model will match in wells. A cross section of the resulting background model for $$V_p$$ is illustrated in the right part of the figure above. To the left is the corresponding depth trend. For comparison the well logs of $$V_p$$ has plotted in both illustrations. Note how the wells influence the volume in a region around the well. 
+When the inversion volume has been filled with the depth trend, we interpolate it with 6Hz filtered well logs, to ensure that the background model will match in wells. A cross section of the resulting background model for $$V_p$$ is illustrated in the right part of the figure above. To the left is the corresponding depth trend. For comparison the well logs of $$V_p$$ has plotted in both illustrations. Note how the wells influence the volume in a region around the well.
 
 Ideally, the background model should be as smooth as possible, and a Gaussian variogram model with relatively long ranges may seem an obvious choice. This model is too smooth, however, and should be omitted as it often give parameter over- and undershooting away from wells.
 
@@ -40,13 +40,13 @@ Ideally, the background model should be as smooth as possible, and a Gaussian va
 
 ![Well log values plotted against grid layer number for Vp \(top\) and rho \(bottom\). The blue circles show log values, the green curve is a piecewise linear regression of the these values, and the red curve is the regression values filtered to 6Hz.](../../../.gitbook/assets/image%20%2832%29.png)
 
-![](../../../.gitbook/assets/image%20%2862%29.png)
+![](../../../.gitbook/assets/image%20%2863%29.png)
 
-![Vp depth trend \(top\) and final background model \(bottom\). ](../../../.gitbook/assets/image%20%2851%29.png)
+![Vp depth trend \(top\) and final background model \(bottom\). ](../../../.gitbook/assets/image%20%2852%29.png)
 
 #### Multi-zone background model
 
-In the multi-zone model, the reservoir is divided into several horizontal zones defined by surfaces in the inversion volume. In each zone, a local backround model is made by estimating a depth trend for the zone volume, then kriging well logs to the depth trend. The full multizone background model is made from the zone background models by using Beta distributions with $$\alpha =  \beta = 2$$ for the transitions between the zones. The limits of the Beta distribution may be different for each surface, and they are given as input to the model. The background model in each zone contains frequencies up to 6Hz, but the frequency content is higher in the transitions between the zones. These higher frequencies will, however, contain information about the locations of the zones; hence they contain important prior information. Higher uncertainty gives smoother background models with lower frequency.
+In the multi-zone model, the reservoir is divided into several horizontal zones defined by surfaces in the inversion volume. In each zone, a local backround model is made by estimating a depth trend for the zone volume, then kriging well logs to the depth trend. The full multizone background model is made from the zone background models by using Beta distributions with $$\alpha = \beta = 2$$ for the transitions between the zones. The limits of the Beta distribution may be different for each surface, and they are given as input to the model. The background model in each zone contains frequencies up to 6Hz, but the frequency content is higher in the transitions between the zones. These higher frequencies will, however, contain information about the locations of the zones; hence they contain important prior information. Higher uncertainty gives smoother background models with lower frequency.
 
 ### Covariance
 
@@ -59,9 +59,9 @@ $$
   \text{with}\ X,Y\in\{\ln V_p, \ln V_s, \ln\rho\}
 $$
 
-The parameter covariance matrix is simply estimated by using the covariances at time lag 0. When rock physics models are used, the parameter covariance matrix is calculated from the expectation vector and parameter covariance matrix for each rock model weighted with the corresponding prior facies probability using standard statistical models. If trends are included in the rock physics models, the parameter covariance matrix is calculated in each reservoir position. The resulting parameter covariance matrix is then calculated as the average over these coveraince matrices. 
+The parameter covariance matrix is simply estimated by using the covariances at time lag 0. When rock physics models are used, the parameter covariance matrix is calculated from the expectation vector and parameter covariance matrix for each rock model weighted with the corresponding prior facies probability using standard statistical models. If trends are included in the rock physics models, the parameter covariance matrix is calculated in each reservoir position. The resulting parameter covariance matrix is then calculated as the average over these coveraince matrices.
 
-In the figure below, we show cross plots of the parameter residuals \($$x_i - \bar{x}$$\) for a sample field. The depicted distributions look similar to bivariate normal distributions, which supports the normal distribution assumptions made in [Theory](theory.md#statistical-model). If there are no $$V_s$$ logs available, the prior Vs variance will be set equal to twice the $$V_p$$ variance, and their covariance will be set equal to zero. The temporal correlation is estimated from the remaining lags in the well logs as depicted in the figure below. The temporal correlation will be a weighted average of the estimates made for all three elastic parameters. 
+In the figure below, we show cross plots of the parameter residuals \($$x_i - \bar{x}$$\) for a sample field. The depicted distributions look similar to bivariate normal distributions, which supports the normal distribution assumptions made in [Theory](theory.md#statistical-model). If there are no $$V_s$$ logs available, the prior Vs variance will be set equal to twice the $$V_p$$ variance, and their covariance will be set equal to zero. The temporal correlation is estimated from the remaining lags in the well logs as depicted in the figure below. The temporal correlation will be a weighted average of the estimates made for all three elastic parameters.
 
 While the covariance matrix and the temporal correlation can be readily estimated from well data, this is not the case for the lateral correlation, unless there are a large number of wells available. The lateral correlation is therefore normally chosen parametric. There is an option in CRAVA to estimate the lateral correlation from seismic data, but these estimates are not made relative to stratigraphy and tend to grossly underestimate the correlation. Using a parametric correlation function is therefore encouraged. In the figure below, we have depicted an exponential correlation function and the lateral correlation structure this kind of function gives rise to.
 
@@ -97,13 +97,13 @@ $$
 d(\omega)\bar{c}(\omega) = w(\omega)|c(\omega)|^2
 $$
 
-Note that the convolution has disappeared, and the equation can be solved for each frequency $$\omega$$. We recognise the left hand side as the spectre of the cross-correlation between data and reflection coefficients. And the left hand side as the wavelet multiplied with spectre of the auto-correlation of the reflection coefficients. This can be obtained by dividing the spectre of the cross-correlation with the spectre of the auto-correlation. 
+Note that the convolution has disappeared, and the equation can be solved for each frequency $$\omega$$. We recognise the left hand side as the spectre of the cross-correlation between data and reflection coefficients. And the left hand side as the wavelet multiplied with spectre of the auto-correlation of the reflection coefficients. This can be obtained by dividing the spectre of the cross-correlation with the spectre of the auto-correlation.
 
 Tapering of the estimated cross-correlation and auto-correlation is required in order to stabilise the estimate. In Crava a Papoulis taper is used. Tapering is equivalent to a local smoothing in the frequency domain, thus the resulting wavelet estimate will behave smoothly in Fourier domain. We find the optimal vertical shift for each well. The global wavelet is then found by taking the arithmetic average of the zero-phase wavelets, weighted by the number of samples used from each well.
 
 When using local wavelets, we find the optimal shift and/or scale of the global wavelet at each well location. Optimal here means minimising the noise energy.We then use kriging to interpolate this between wells, with a shift of 0 and a scale of 1 as the mean level outside the well control area. This is illustrated in the figure below. Local noise is estimated using the local noise energies from above.We always use local shift when estimating the noise, but only use local scale if it is used in the inversion. If local scale is used, the noise is divided by this. A noise scaling factor is then computed in each well, and kriged as above.
 
-![The local scale and shift maps involved when using local wavelets](../../../.gitbook/assets/image%20%2837%29.png)
+![The local scale and shift maps involved when using local wavelets](../../../.gitbook/assets/image%20%2838%29.png)
 
 ## Estimating 3D Wavelets
 
@@ -125,7 +125,7 @@ As shown, even though the use of FFT-transform requires stationarity, we are abl
 
 ### Local wavelet - dividing out the wavelet
 
-A simple division of data by wavelet can easily be done in the Fourier domain, where the convolution reduces to a multiplication, and the division can be done one frequency at a time. However, this is very unstable for frequencies where the wavelet is very weak or not present, and some sort of stabilisation is needed. 
+A simple division of data by wavelet can easily be done in the Fourier domain, where the convolution reduces to a multiplication, and the division can be done one frequency at a time. However, this is very unstable for frequencies where the wavelet is very weak or not present, and some sort of stabilisation is needed.
 
 In CRAVA this is done in two ways. First, we set an upper and lower cutoff frequency for the wavelet, default set to 5 and 55 Hz. Furthermore, for frequencies that fall below 10% of the average amplitude, we set the amplitude to 10% of average before doing the division.
 
@@ -133,27 +133,27 @@ In CRAVA this is done in two ways. First, we set an upper and lower cutoff frequ
 
 Local noise is implemented by first finding the solution using the minimum noise level, to fulfill the stationarity requirements of the FFT algorithm. We then interpolate the values for each locations between the prior and this minimum noise posterior. When doing this interpolation, we ignore correlation between locations. This is not a problem as long as the noise varies slowly and smoothly.
 
-For each location $$\mathbf{x}$$ the adjusted estimate $$\tilde{\mu}_{m|d_{obs}}(\mathbf{x})$$, is found from the inversion result $$\mu_{m|d_{obs}}(\mathbf{x})$$ by a linear relation, 
+For each location $$\mathbf{x}$$ the adjusted estimate $$\tilde{\mu}_{m|d_{obs}}(\mathbf{x})$$, is found from the inversion result $$\mu_{m|d_{obs}}(\mathbf{x})$$ by a linear relation,
 
 $$
 \tilde{\mu}_{m|d_{obs}}(\mathbf{x}) = \mu_{m}(\mathbf{x}) +\mathbf{H_x}\left(\mu_{m|d_{obs}}(\mathbf{x})-\mu_{m}(\mathbf{x})\right)
 $$
 
-The matrix $$\mathbf{Hx}$$ __is a shrinkage matrix, i.e. the adjusted estimate is always closer to the prior mean than the inversion result. The matrix __$$\mathbf{H_x}$$ __depends on the local error variance $$\sum_{e}^x$$ and error variance used in the inversion $$\sum_{e}^0$$
+The matrix $$\mathbf{Hx}$$ **is a shrinkage matrix, i.e. the adjusted estimate is always closer to the prior mean than the inversion result. The matrix** $$\mathbf{H_x}$$ _\_depends on the local error variance $$\sum_{e}^x$$and error variance used in the inversion$$\sum\_{e}^0$$
 
-To find the shrinkage matrix we first identify a matrix $$\mathbf{G}0$$ __which maps the local prior distribution to the local posterior distribution when it is observed with the noise $$\sum_{e}^0$$, that is, 
+To find the shrinkage matrix we first identify a matrix $$\mathbf{G}0$$ _\_which maps the local prior distribution to the local posterior distribution when it is observed with the noise $$\sum_{e}^0$$, that is,
 
 $$\mathbf{d}(\mathbf{x}) = \mathbf{G}_0\mathbf{m}(\mathbf{x})+\mathbf{e}_0,$$
 
- where $$\mathbf{e}0\sim N\left( \mathbf{0},\sum_{e}^0\right)$$. The inversion of this expression is a linear relation 
+where $$\mathbf{e}0\sim N\left( \mathbf{0},\sum_{e}^0\right)$$. The inversion of this expression is a linear relation
 
 $$
 \mu_{m|d_{obs}} =\mu_{m} +\mathbf{P}(\sum_{e}^0)\left(\mathbf{d}_{obs}-\mu_{d}\right)
 $$
 
- where $$\mathbf{P}(\sum_{e}^0)=\sum_{m}\mathbf{G}0^T \left( \mathbf{G}_0\sum_{m}\mathbf{G0}^T+\sum_{e}^0\right)^{-1}$$.
+where $$\mathbf{P}(\sum_{e}^0)=\sum_{m}\mathbf{G}0^T \left( \mathbf{G}_0\sum_{m}\mathbf{G0}^T+\sum_{e}^0\right)^{-1}$$.
 
-We then define the shrinkage matrix to be: 
+We then define the shrinkage matrix to be:
 
 $$
 \mathbf{H_x}(\sum_{e}^\mathbf{x},\sum_{e}^0) = \mathbf{P}(\sum_{e}^\mathbf{x})\mathbf{P}(\sum_{e}^0)^{-1}.
@@ -163,5 +163,5 @@ This removes the effect of the standard inversion and add the effect of the loca
 
 ## Local memory management
 
-Both the model building and the inversion are consuming a significant amount of local memory. An estimation of the amount needed is displayed on the user interface of each. If the amount is too big compared to available local memory then you need to restart Pre-Stack Pro and to decrease the amount of global memory allocated or grab more nodes. 
+Both the model building and the inversion are consuming a significant amount of local memory. An estimation of the amount needed is displayed on the user interface of each. If the amount is too big compared to available local memory then you need to restart Pre-Stack Pro and to decrease the amount of global memory allocated or grab more nodes.
 

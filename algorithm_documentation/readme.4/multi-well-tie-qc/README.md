@@ -14,7 +14,7 @@ There are three different ways of building the «Data Table» with Well Ties
 Creating Well Tie for one well will add one row to the table, while user can choose to add multiple wells. When multiple wells are added log set will be used if present.  
 Well Tie Objects can be saved from the [Well Tie Window](../well-tie/the-well-tie-window.md) and will be stored as a group under the well in file manager.  
 
-![Setting up Multi Well Tie QC \(three different ways to populate Multi Well Tie data table \)](../../../.gitbook/assets/image%20%2859%29.png)
+![Setting up Multi Well Tie QC \(three different ways to populate Multi Well Tie data table \)](../../../.gitbook/assets/image%20%2860%29.png)
 
 The seismic **Input Volume** can be either a pre-stack or stack volume.
 
@@ -48,7 +48,7 @@ An "Average Wavelet" using principal component analysis \(PCA\) can be estimated
 
 Well ties can be opened through the **table context menu** \(MB3\), and rows can be duplicated or removed
 
-![Well Tie Data Table](../../../.gitbook/assets/image%20%2866%29.png)
+![Well Tie Data Table](../../../.gitbook/assets/image%20%2867%29.png)
 
-![Table: Row context menu. Can select multiple rows \(CTRL+MB1\) and remove from table](../../../.gitbook/assets/image%20%2855%29.png)
+![Table: Row context menu. Can select multiple rows \(CTRL+MB1\) and remove from table](../../../.gitbook/assets/image%20%2856%29.png)
 
