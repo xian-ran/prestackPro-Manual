@@ -16,7 +16,7 @@ The expectation $$\mu_m$$ is usually referred to as the background model. As the
 
 ![](../../../.gitbook/assets/image%20%2831%29.png)
 
-![The frequency content of the seismic traces in two different well. ](../../../.gitbook/assets/image%20%2841%29.png)
+![The frequency content of the seismic traces in two different well. ](../../../.gitbook/assets/image%20%2842%29.png)
 
 When identifying the depth trend, it is important that the wells are appropriately aligned. The alignment is defined by the time interval surfaces specified as input, or alternatively, the correlation direction surface. It is important that the alignment reflects the correlation structure \(deposition/compaction\), and if the time surfaces are either eroding or on-lapped, one should consider specifying the correlation direction separately using the **correlation structure** parameter. 
 
@@ -40,9 +40,9 @@ Ideally, the background model should be as smooth as possible, and a Gaussian va
 
 ![Well log values plotted against grid layer number for Vp \(top\) and rho \(bottom\). The blue circles show log values, the green curve is a piecewise linear regression of the these values, and the red curve is the regression values filtered to 6Hz.](../../../.gitbook/assets/image%20%2832%29.png)
 
-![](../../../.gitbook/assets/image%20%2862%29.png)
+![](../../../.gitbook/assets/image%20%2863%29.png)
 
-![Vp depth trend \(top\) and final background model \(bottom\). ](../../../.gitbook/assets/image%20%2851%29.png)
+![Vp depth trend \(top\) and final background model \(bottom\). ](../../../.gitbook/assets/image%20%2852%29.png)
 
 #### Multi-zone background model
 
@@ -103,7 +103,7 @@ Tapering of the estimated cross-correlation and auto-correlation is required in 
 
 When using local wavelets, we find the optimal shift and/or scale of the global wavelet at each well location. Optimal here means minimising the noise energy.We then use kriging to interpolate this between wells, with a shift of 0 and a scale of 1 as the mean level outside the well control area. This is illustrated in the figure below. Local noise is estimated using the local noise energies from above.We always use local shift when estimating the noise, but only use local scale if it is used in the inversion. If local scale is used, the noise is divided by this. A noise scaling factor is then computed in each well, and kriged as above.
 
-![The local scale and shift maps involved when using local wavelets](../../../.gitbook/assets/image%20%2837%29.png)
+![The local scale and shift maps involved when using local wavelets](../../../.gitbook/assets/image%20%2838%29.png)
 
 ## Estimating 3D Wavelets
 
