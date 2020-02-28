@@ -4,7 +4,7 @@ Facies or Lithology Fluid Classes \(LFC\) can be created from [Well Log Viewer](
 
 Litho-facies can be defined from a series of $$V_p$$ \($$m/s$$\), $$V_s$$ \($$m/s$$\) and $$\rho$$ \($$g /cm^3$$\) data points that can be generated from well logs and Well Zones. After data points are defined, the Manage Facies tool fits a 3D Gaussian distribution to the points.
 
-![](../.gitbook/assets/image%20%2849%29.png)
+![](../.gitbook/assets/image%20%2850%29.png)
 
 **Creating LFC from Zone:** To create a new litho-facies, click on the “Create New” button and select Gaussian LFC. Give the class a name and color, then click the “Load from File” button. This brings up a well selection box where all wells where current well zone is defined are listed. On clicking OK, a Gaussian fit is calculated and statistical values describing the Gaussian are updated left in the main Manage Facies window. Number of samples from the zone in the different wells are given in table  
 Clicking the **Apply** button saves the information into the project.

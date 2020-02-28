@@ -10,7 +10,7 @@ In the parametric specification, the mean thicknesses are still defined by the u
 
 ![](../../../.gitbook/assets/image%20%2825%29.png)
 
-![](../../../.gitbook/assets/image%20%2859%29.png)
+![](../../../.gitbook/assets/image%20%2860%29.png)
 
 In the **Transition Probabilities** tab, there is a choice between using the parametric matrix method and the explicit.
 

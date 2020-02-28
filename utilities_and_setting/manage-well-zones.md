@@ -2,7 +2,7 @@
 
 Well Zones would typically be generated when inspecting well logs in the [Well Log Viewer](../viewers/readme.12/well_log_viewer_gui.md). After a zone has been defined the zone filters can be distributed across multiple wells in the Well Zone Manager.
 
-![Well Zones Manager - Functionality and Table context menu \(MB3\). Infor. on zone displayed in box below](../.gitbook/assets/image%20%2866%29.png)
+![Well Zones Manager - Functionality and Table context menu \(MB3\). Infor. on zone displayed in box below](../.gitbook/assets/image%20%2867%29.png)
 
 The Well Zones Manager is organized as a table per Zone where filters are displayed as sets of columns and wells as rows. Zone name and color can be edited and filters can be added and/or edited.   
 A new zone can be added directly from Well Zones Manager in addition to adding zones from  [Well Log Viewer](../viewers/readme.12/well_log_viewer_gui.md). 
@@ -23,7 +23,7 @@ Some inconsistencies in data can be corrected or wells can be removed from zone 
 Note that an "Empty" Zone Length will not give a red warning in well column. User can go through table and observe zone length in each well   
 
 
-![Adding Zone definition in multiple wells. ](../.gitbook/assets/image%20%2867%29.png)
+![Adding Zone definition in multiple wells. ](../.gitbook/assets/image%20%2868%29.png)
 
 
 

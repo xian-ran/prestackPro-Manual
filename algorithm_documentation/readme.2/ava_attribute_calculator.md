@@ -14,7 +14,7 @@ For the calculation of the Fluid Factor, an interval velocity with the same dime
 
 For some attributes, additional parameters are required. The corresponding GUI elements will be displayed. All attributes require a minimum and a maximum angle.
 
-![AVA Attribute Calculator](../../.gitbook/assets/image%20%2847%29.png)
+![AVA Attribute Calculator](../../.gitbook/assets/image%20%2848%29.png)
 
 **Intercept, Gradient and Curvature:**
 
