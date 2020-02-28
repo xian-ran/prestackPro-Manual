@@ -48,7 +48,7 @@ An "Average Wavelet" using principal component analysis \(PCA\) can be estimated
 
 Well ties can be opened through the **table context menu** \(MB3\), and rows can be duplicated or removed
 
-![Well Tie Data Table](../../../.gitbook/assets/image%20%2867%29.png)
+![Well Tie Data Table](../../../.gitbook/assets/image%20%2868%29.png)
 
 ![Table: Row context menu. Can select multiple rows \(CTRL+MB1\) and remove from table](../../../.gitbook/assets/image%20%2856%29.png)
 

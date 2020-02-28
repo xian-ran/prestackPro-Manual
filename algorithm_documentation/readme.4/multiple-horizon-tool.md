@@ -12,11 +12,21 @@ Multiple Horizon Tool is in the Interpretation-Processing menu and when launched
 
 Once loaded, horizons are listed in a table, with the highlighted horizon displayed in the Map window. To change the map display, click on a different horizon in the table. 
 
-![Multiple Horizon Tool: display overview of Map window](../../.gitbook/assets/mhtool_01.jpg)
+![](../../.gitbook/assets/mhtool_01.jpg)
 
-The input horizons are automatically analysed for holes and if they cross each other. The results are listed in the table. The thickness ratio \(min isochron thickness / max isochron thickness\) is automatically calculated and is also listed in the table.
+The input horizons are automatically analysed for holes and if they cross each other. The results are listed in the table. The thickness ratio \(min isochron thickness / max isochron thickness\) is automatically calculated and is listed in the table.
 
-The colours of the horizons may be changed by clicking on their colour boxes in the table. The can also be toggled off/on.
+![Menu icons for the Multi Horizon Tool](../../.gitbook/assets/mhtool_menu_02.jpg)
+
+Additional horizons can be added to the table. Horizons can also be removed from the table.
+
+The **checking area** defines the lateral extent of the gridding process and can be manually set using inline and crossline ranges or set to match a volume in the project \(e.g. a seismic volume to be used in CRAVA\).
+
+![Checking Area for the Multi Horizon Tool](../../.gitbook/assets/image%20%2865%29.png)
+
+The section view displays the horizons in a vertical display as either an inline, crossline or arbitrary path. Horizons can be togged on/off in the table, they can also be removed and additional horizons loaded from the project. To change the colour of a horizon click on the colour icon in the table.
+
+![](../../.gitbook/assets/mhtool_section_03.jpg)
 
 
 
