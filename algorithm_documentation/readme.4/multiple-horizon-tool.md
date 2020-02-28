@@ -30,7 +30,7 @@ The input horizons are automatically analysed for holes and if they cross each o
 
 The **checking area** defines the lateral extent of the gridding process and can be manually set using inline and crossline ranges or set to match a volume in the project \(e.g. a seismic volume to be used in CRAVA\).
 
-![Checking Area for the Multi Horizon Tool](../../.gitbook/assets/image%20%2865%29.png)
+![Checking Area for the Multi Horizon Tool](../../.gitbook/assets/image%20%2866%29.png)
 
 The **section view** displays the horizons in a vertical display as either an inline, crossline or arbitrary path. Horizons can be togged on/off in the table, they can also be removed and additional horizons loaded from the project. To change the colour of a horizon click on the colour icon in the table.
 
@@ -56,7 +56,11 @@ Stratigraphic order and Hierarchy achieve different results as follows:
 
 ![Using Stratigraphic order and Hierarchy to change the Fixed Crossing results ](../../.gitbook/assets/mhtool_fc_model1_09.jpg)
 
-Grids and Fixed-Crossing horizons should be checked both in the Section panel and the Map panel. Select the display horizon version from the drop-down menu in the table:
+Grids and Fixed-Crossing horizons should be **quality controlled** both in the Section panel and the Map panel. Select the display horizon version from the drop-down menu in the table:
 
-![](../../.gitbook/assets/mhtoolqc_maps_10.jpg)
+![QC grids and fixed-crossing horizons in the Map window](../../.gitbook/assets/mhtoolqc_maps_10.jpg)
+
+Save grids and/or fixed-crossing horizons to the project. By default grids are given the suffix **\_G** and the fixed-crossing horizons have the suffix **\_FC**
+
+![Saving grids and fixed-crossing horizons](../../.gitbook/assets/image%20%2844%29.png)
 

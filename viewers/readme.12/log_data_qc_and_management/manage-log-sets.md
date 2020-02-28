@@ -33,7 +33,7 @@ Logs are saved under the current Log Set in the File Manager.
 
 NB. Calculate Missing Log will return an error if logs are not equally sampled and user will be asked to re-sample logs - see "Resample logs to common depth sampling"
 
-![Calculate Missing Elastic Logs from Utilities-&amp;gt;Log Set Manager](../../../.gitbook/assets/image%20%2864%29.png)
+![Calculate Missing Elastic Logs from Utilities-&amp;gt;Log Set Manager](../../../.gitbook/assets/image%20%2865%29.png)
 
 ### Resample logs to common depth sampling
 

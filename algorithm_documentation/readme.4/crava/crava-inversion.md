@@ -28,7 +28,7 @@ The full multizone background model is then made by joining the local background
 
 **Correlation structure** is used to guide the well log values between the horizons. Five different Correlation structures exist: " _Top conform, Base Conform, Top and Base Conform, Guide by one horizon, Guide by two horizons_".  Choose the one most similar to the geological structure in the zone.
 
-![](../../../.gitbook/assets/image%20%2845%29.png)
+![](../../../.gitbook/assets/image%20%2846%29.png)
 
 ## Parameter and Trends
 
@@ -50,5 +50,5 @@ The small icon down to the left corner are used to save or load the Background M
 
 Choose the elastic background models to generate and save. It is also possible to save the _background trend_ and make a _copy of the log file_.
 
-![](../../../.gitbook/assets/image%20%2853%29.png)
+![](../../../.gitbook/assets/image%20%2854%29.png)
 
