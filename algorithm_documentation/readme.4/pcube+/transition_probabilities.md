@@ -10,7 +10,7 @@ In the parametric specification, the mean thicknesses are still defined by the u
 
 ![](../../../.gitbook/assets/image%20%2825%29.png)
 
-![](../../../.gitbook/assets/image%20%2858%29.png)
+![](../../../.gitbook/assets/image%20%2859%29.png)
 
 In the **Transition Probabilities** tab, there is a choice between using the parametric matrix method and the explicit.
 
@@ -34,5 +34,5 @@ The _window length_ parameter is the number of samples used in the exhaustive se
 
 The user interface for the explicit transition matrix option is shown below.
 
-![User interface for defining the explicit transition matrices.](../../../.gitbook/assets/image%20%2839%29.png)
+![User interface for defining the explicit transition matrices.](../../../.gitbook/assets/image%20%2840%29.png)
 

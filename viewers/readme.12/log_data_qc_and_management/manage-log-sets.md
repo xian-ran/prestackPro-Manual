@@ -22,7 +22,7 @@ Log Sets are stored under each well in the File Manager and logs associated to t
 
 ![Create and manage Log Sets. Utility-&amp;gt;Manage LogSets](../../../.gitbook/assets/image%20%2821%29.png)
 
-![Create Log Sets from Well Log Viewer](../../../.gitbook/assets/image%20%2836%29.png)
+![Create Log Sets from Well Log Viewer](../../../.gitbook/assets/image%20%2837%29.png)
 
 ![Create Log Set from &quot;Generate Synthetic Gather&quot;](../../../.gitbook/assets/image%20%2812%29.png)
 
@@ -33,7 +33,7 @@ Logs are saved under the current Log Set in the File Manager.
 
 NB. Calculate Missing Log will return an error if logs are not equally sampled and user will be asked to re-sample logs - see "Resample logs to common depth sampling"
 
-![Calculate Missing Elastic Logs from Utilities-&amp;gt;Log Set Manager](../../../.gitbook/assets/image%20%2863%29.png)
+![Calculate Missing Elastic Logs from Utilities-&amp;gt;Log Set Manager](../../../.gitbook/assets/image%20%2864%29.png)
 
 ### Resample logs to common depth sampling
 

@@ -32,7 +32,7 @@ The concept and smoothed models, seen to the right, are automatically updated as
 
 It is also possible to change the inline and crossline values when pre-viewing the concept and smoothed models.
 
-![](../../../.gitbook/assets/image%20%2840%29.png)
+![](../../../.gitbook/assets/image%20%2841%29.png)
 
 _Graphical user interface of the Background model_
 

@@ -4,7 +4,7 @@
 
 This module computes statistics for any volume or horizon and show the data distribution. 
 
-![User interface of Extended volume statistics](../.gitbook/assets/image%20%2847%29.png)
+![User interface of Extended volume statistics](../.gitbook/assets/image%20%2848%29.png)
 
 The primary output is the histogram showing the density \(number of occurences\) for a bin of the content values, in red. The blue curve is the cumulative density. The axes context menu contains an option to normalize both the density and the cumulative density. Under there are readout, information and statistics. 
 
