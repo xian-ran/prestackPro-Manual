@@ -71,25 +71,29 @@ The **section view** displays the horizons in a vertical section, as either an i
 
 ![Change the vertical Section by clicking on the Map OR selecting from the pull down menu on the left](../../.gitbook/assets/mhtool_01_section_choose.jpg)
 
-![](../../.gitbook/assets/mhtool_section_03.jpg)
+![Section Panel showing input horizons](../../.gitbook/assets/mhtool_section_03.jpg)
 
-The different versions of each Horizon can be toggled on/off in the table, with each version of the horizon being automatically assigned a contrasting colour. Next to each column for Input, Grid and FC is an "**eye**". Toggle the eye ON to show that version in the Section panel.
+The different versions of each Horizon can be toggled on/off in the table, with each version of the horizon being automatically assigned a contrasting colour. Next to each column for Input, Grid and FC is an "**eye**". Toggle the eye ON to show that version in the Section panel. All three versions of the same horizon can be displayed simultaneously. As _Gridding_ or _Fixed-Crossings_ is performed the Section panel auto-updates the display.
 
  To change the colour of a horizon click on the colour icon in the table and select a new one.
 
 ## **The Data Table**
 
-\*\*\*\*
+The Data Table lists all of the horizons and their different versions: input, grid and fixed-crossing. The names of the gridded and fixed-crossing versions can be changed by double-clicking in the cell.
+
+Each row equates to one horizon, with columns filling in as G_ridding_ and _Fixed-Crossings_ is run. The "eye" next to each horizon version controls the display of it in the Section Panel. In the Map Panel only one version of a horizon can be shown at any one time, and the control for this is the last column: "Show in Map"
 
 ![](../../.gitbook/assets/mhtool_01_data.jpg)
 
-\*\*\*\*
+The input horizons are automatically analysed for holes and if they cross each other. The results are listed in the table. The **thickness ratio** \(min isochron thickness / max isochron thickness\) is automatically calculated. The order of the horizons is important; the user must ensure the horizons are in stratigraphic order in order to apply Fix Crossings correctly. To change the order, select a horizon, right click and select move up/down or to top/bottom. Hierarchy must also be set for each horizon, and is not the same as stratigraphy.
 
-The input horizons are automatically analysed for holes and if they cross each other. The results are listed in the table. The thickness ratio \(min isochron thickness / max isochron thickness\) is automatically calculated. The order of the horizons is important, ensure the horizons are in stratigraphic order in order to apply Fix Crossings correctly. To change the order, select a horizon, right click and select move up/down or to top/bottom.
+## **Gridding**
 
 **Gridding** fills holes in the horizons and extends them to match the **checking area**. This is done in a batch mode with all horizons being gridded using the **ABOS** gridding method. The grids are added to the table \(with the suffix \_G\) and by default are displayed in the Section panel. Crossings are re-calculated, as are thickness ratios.
 
 ![Gridding horizons in the Multi Horizon Tool](../../.gitbook/assets/mhtool_gridding_04.jpg)
+
+## Fixed Crossings
 
 Once gridding as been performed, **Fixed Crossings** can be run. The hierarchy and stratigraphic order defines how the crossings are terminated. These can be changed and Fixed Crossings rerun multiple times to produce the correct result.
 
@@ -98,6 +102,8 @@ Once gridding as been performed, **Fixed Crossings** can be run. The hierarchy a
 Click on the horizon name to shift its stratigraphic position in the table. Click in Hierarchy and select from the drop-down menu to change the number, with 1 being the top priority.
 
 ![Stratigraphic order and Hierarchy in Multi Horizon Tools](../../.gitbook/assets/mhtool_fctable_06.jpg)
+
+## Stratigraphic Oder versus Hierarchy
 
 Stratigraphic order and Hierarchy achieve different results as follows:
 
@@ -110,6 +116,8 @@ Stratigraphic order and Hierarchy achieve different results as follows:
 Grids and Fixed-Crossing horizons should be **quality controlled** both in the Section panel and the Map panel. Select the display horizon version from the drop-down menu in the table:
 
 ![QC grids and fixed-crossing horizons in the Map window](../../.gitbook/assets/mhtoolqc_maps_10.jpg)
+
+## Saving
 
 Save grids and/or fixed-crossing horizons to the project. By default grids are given the suffix **\_G** and the fixed-crossing horizons have the suffix **\_FC**
 
