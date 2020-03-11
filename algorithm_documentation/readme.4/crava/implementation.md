@@ -14,9 +14,9 @@ The prior model for the Bayesian inversion is defined in [Theory](theory.md#stat
 
 The expectation $$\mu_m$$ is usually referred to as the background model. As the seismic data do not contain information about low frequencies, a background model is built to set the appropriate levels for the elastic parameters in the inversion volume. To identify this level, we can plot the frequency content of the seismic traces in the available wells, and identify lowest frequency for which seismic data contains enough energy to carry information. In the figure below, we have plotted the frequency content in the seismic data in two different wells. The green curve gives the frequency content in the near stack and the blue curve gives the frequency content in the far stack. These plots show that the seismic data contain little energy below 5–6Hz, and the purpose of the background model is to fill this void. The estimation of the background model is made in two steps. First, we estimate a depth trend for the entire volume, and then we interpolate well logs into this volume using kriging. The estimation will by default contain information up to 6Hz, but this high-cut limit can be adjusted using the relvant parameter.
 
-![](../../../.gitbook/assets/image%20%2831%29.png)
+![](../../../.gitbook/assets/image%20%2832%29.png)
 
-![The frequency content of the seismic traces in two different well. ](../../../.gitbook/assets/image%20%2842%29.png)
+![The frequency content of the seismic traces in two different well. ](../../../.gitbook/assets/image%20%2843%29.png)
 
 When identifying the depth trend, it is important that the wells are appropriately aligned. The alignment is defined by the time interval surfaces specified as input, or alternatively, the correlation direction surface. It is important that the alignment reflects the correlation structure \(deposition/compaction\), and if the time surfaces are either eroding or on-lapped, one should consider specifying the correlation direction separately using the **correlation structure** parameter.
 
@@ -26,7 +26,7 @@ Assuming properly aligned wells, the trend extraction starts by calculating an a
 
 For the linear regression we require a minimum of 10 data points behind each estimate. In addition, we require that the minimum number of data points must also be at least $$5*N_{wells}$$ . This way we ensure that data points from different time samples are always included. Alternatively, the regression would reduce to an arithmetic mean whenever there are 10 or more wells available. If we enter a region with no data points available at all, the minimum requirements are doubled.
 
-![Well logs aligned according to true time scale \(left\) and according to stratigraphic depth \(right\).](../../../.gitbook/assets/image%20%289%29.png)
+![Well logs aligned according to true time scale \(left\) and according to stratigraphic depth \(right\).](../../../.gitbook/assets/image%20%2810%29.png)
 
 To get the right frequency content in the depth trends, the regression values are eventually frequency filtered to 6Hz.
 
@@ -36,13 +36,13 @@ When the inversion volume has been filled with the depth trend, we interpolate i
 
 Ideally, the background model should be as smooth as possible, and a Gaussian variogram model with relatively long ranges may seem an obvious choice. This model is too smooth, however, and should be omitted as it often give parameter over- and undershooting away from wells.
 
-![](../../../.gitbook/assets/image%20%2828%29.png)
+![](../../../.gitbook/assets/image%20%2829%29.png)
 
-![Well log values plotted against grid layer number for Vp \(top\) and rho \(bottom\). The blue circles show log values, the green curve is a piecewise linear regression of the these values, and the red curve is the regression values filtered to 6Hz.](../../../.gitbook/assets/image%20%2832%29.png)
+![Well log values plotted against grid layer number for Vp \(top\) and rho \(bottom\). The blue circles show log values, the green curve is a piecewise linear regression of the these values, and the red curve is the regression values filtered to 6Hz.](../../../.gitbook/assets/image%20%2833%29.png)
 
-![](../../../.gitbook/assets/image%20%2864%29.png)
+![](../../../.gitbook/assets/image%20%2865%29.png)
 
-![Vp depth trend \(top\) and final background model \(bottom\). ](../../../.gitbook/assets/image%20%2853%29.png)
+![Vp depth trend \(top\) and final background model \(bottom\). ](../../../.gitbook/assets/image%20%2854%29.png)
 
 #### Multi-zone background model
 
@@ -103,7 +103,7 @@ Tapering of the estimated cross-correlation and auto-correlation is required in 
 
 When using local wavelets, we find the optimal shift and/or scale of the global wavelet at each well location. Optimal here means minimising the noise energy.We then use kriging to interpolate this between wells, with a shift of 0 and a scale of 1 as the mean level outside the well control area. This is illustrated in the figure below. Local noise is estimated using the local noise energies from above.We always use local shift when estimating the noise, but only use local scale if it is used in the inversion. If local scale is used, the noise is divided by this. A noise scaling factor is then computed in each well, and kriged as above.
 
-![The local scale and shift maps involved when using local wavelets](../../../.gitbook/assets/image%20%2838%29.png)
+![The local scale and shift maps involved when using local wavelets](../../../.gitbook/assets/image%20%2839%29.png)
 
 ## Estimating 3D Wavelets
 

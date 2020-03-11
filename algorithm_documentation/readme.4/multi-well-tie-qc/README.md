@@ -14,7 +14,7 @@ There are three different ways of building the «Data Table» with Well Ties
 Creating Well Tie for one well will add one row to the table, while user can choose to add multiple wells. When multiple wells are added log set will be used if present.  
 Well Tie Objects can be saved from the [Well Tie Window](../well-tie/the-well-tie-window.md) and will be stored as a group under the well in file manager.  
 
-![Setting up Multi Well Tie QC \(three different ways to populate Multi Well Tie data table \)](../../../.gitbook/assets/image%20%2861%29.png)
+![Setting up Multi Well Tie QC \(three different ways to populate Multi Well Tie data table \)](../../../.gitbook/assets/image%20%2862%29.png)
 
 The seismic **Input Volume** can be either a pre-stack or stack volume.
 
@@ -24,7 +24,7 @@ The cross-correlation **Time Window** can either be a fixed window or be a windo
 
 **Wavelets** can be individual wavelets as defined in data table or could be a selected wavelet from project for all entries in table \(i.e well ties\). User can also average wavelets and use this for all entries.
 
-![Input Volume, setting Time Window and selecting wavelets for cross-correlation analysis](../../../.gitbook/assets/image%20%2827%29.png)
+![Input Volume, setting Time Window and selecting wavelets for cross-correlation analysis](../../../.gitbook/assets/image%20%2828%29.png)
 
 Based on the input parameters \(seismic, time-window, wavelet, elastic logs and T-D\) statistics are calculated for each well tie and presented in graphs.
 
@@ -32,7 +32,7 @@ Wavelet plot \(left\) show time-amplitude, amplitude spectrum and phase spectrum
 
 The QC plots included statistics based on cross-correlation and PEP \(proportion of trace energy predicted\) and are all plotted as a function of angle, if input volume is containing angle information.
 
-![Multi Well Tie QC - Graphs \(individual graphs can be hidden by eye-icon in Data Table\)](../../../.gitbook/assets/image%20%2822%29.png)
+![Multi Well Tie QC - Graphs \(individual graphs can be hidden by eye-icon in Data Table\)](../../../.gitbook/assets/image%20%2823%29.png)
 
 The **Well Tie Data Table** will give an overview of the used input data for the analysis as well as some information on the cross-correlation window \(minimum time, maximum time, window length, window center time\). If logs are not covering the full time window a warning is given in yellow
 
@@ -48,7 +48,7 @@ An "Average Wavelet" using principal component analysis \(PCA\) can be estimated
 
 Well ties can be opened through the **table context menu** \(MB3\), and rows can be duplicated or removed
 
-![Well Tie Data Table](../../../.gitbook/assets/image%20%2869%29.png)
+![Well Tie Data Table](../../../.gitbook/assets/image%20%2870%29.png)
 
-![Table: Row context menu. Can select multiple rows \(CTRL+MB1\) and remove from table](../../../.gitbook/assets/image%20%2857%29.png)
+![Table: Row context menu. Can select multiple rows \(CTRL+MB1\) and remove from table](../../../.gitbook/assets/image%20%2858%29.png)
 

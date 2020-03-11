@@ -7,7 +7,7 @@ Go to: **Interpretation Processing** → **Offset to Angle**
 The dialog window is divided into two parts:  
 
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%289%29.png)
 
 _Offset to angle module dialog_
 

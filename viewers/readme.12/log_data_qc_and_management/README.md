@@ -28,7 +28,7 @@ To modify samples, select one or more values in the table \( **Modify samples** 
 
 Select **Full Log --&gt; Simple Log Filter** to apply a Butterworth filter on a log. 
 
-![Simple Log Filter](../../../.gitbook/assets/image%20%286%29.png)
+![Simple Log Filter](../../../.gitbook/assets/image%20%287%29.png)
 
 The log will be resampled, using a sample interval copied from a volume. Both low and high pass filters are also available. 
 
