@@ -8,5 +8,5 @@ This procedure calculates the local correlation coefficient \(aka Pearson correl
 
 NB: Close to the edge of the data, the correlation will be calculated using the part of the aperture which is inside the window. This means that the statistics is no longer strictly comparable between the output at the edge and in the interior of the data. The data closer to the edge than the **inline** and **crossline half lengths** \(for IL and XL edge respectively\) will be affected by this.
 
-![Map Cross correlation parameters](../../.gitbook/assets/image%20%2824%29.png)
+![Map Cross correlation parameters](../../.gitbook/assets/image%20%2825%29.png)
 

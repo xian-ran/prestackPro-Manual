@@ -8,7 +8,7 @@
 * Save Well Tie 
 * Track improvement in well tie QC graphs
 
-![Example: Overview and Initial quality Control](../../../.gitbook/assets/image%20%284%29.png)
+![Example: Overview and Initial quality Control](../../../.gitbook/assets/image%20%285%29.png)
 
 **Well Tie QC for different conditioned seismic:**   
 Change input seismic to observe if well ties improve after a conditioning step has been applied

@@ -188,7 +188,7 @@ where $$\mu_{d}$$ __is the expected observation, that is, the seismic response o
 
 The computations given in the equations above involves the inverse of $$\Sigma_{d}$$. Given an inversion volume with $$n$$ cells, this matrix has $$n_\theta^2n^2$$ elements, and for any reasonably sized volumes, inverting this matrix is forbiddingly time consuming. However, the covariance function for a homogeneously correlated spatial variable is diagonalised by a 3D Fourier transform \(Christakos \(1992\)\), and in this domain the inversion problem can be solved independently for each frequency component. This reduces the complexity of the computations dramatically, and the calculation time becomes $$\mathcal{O}(n\log n)$$. This is illustrated in the figure below. Details can be found in Buland et al. \(2003\).
 
-![The problem is transformed to the Fourier domain, solved in this domain, and back-transformed to time domain.](../../../.gitbook/assets/image%20%2829%29.png)
+![The problem is transformed to the Fourier domain, solved in this domain, and back-transformed to time domain.](../../../.gitbook/assets/image%20%2830%29.png)
 
 This seems to require that d is stationary, which would imply that the wavelet must be the same everywhere. However, we can divide out the wavelet from the equation above to obtain
 

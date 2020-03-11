@@ -57,15 +57,15 @@ In the Tops tab, under the list of tops there are two icons respectively to save
 5. Bounded by Cross-Plot polygon \(polygon defined from two logs\)
 6. Window around a Well Top
 
-![Define zone from Well Log Viewer - Zones Tab: MB3 &amp;gt;&amp;gt; Add Well Zone](../../.gitbook/assets/image%20%2813%29.png)
+![Define zone from Well Log Viewer - Zones Tab: MB3 &amp;gt;&amp;gt; Add Well Zone](../../.gitbook/assets/image%20%2814%29.png)
 
 The **Cross plot polygon**, allows the use of a cross plot polygon to define log zones. This can be used to include/exclude points for Facies \(LFC\) estimation. It can also be used to dynamically see where log points in cross plot are in well log viewer
 
-![Define a zone by two filters \(Top Filter and Xplot-polygon filter\)](../../.gitbook/assets/image%20%2859%29.png)
+![Define a zone by two filters \(Top Filter and Xplot-polygon filter\)](../../.gitbook/assets/image%20%2860%29.png)
 
 **Create Facies \(LFC\):** MB3 context menu on a zone name, allows **Create facies from zone...** and appropriate log sets can be selected or logs selected individually. If zone is defined in multiple wells a list of availbale wells will show and more well data can be added to the facies defintion
 
-![Create LFC from Well Log Viewer &amp;gt;&amp;gt; Zones &amp;gt;&amp;gt; Context menu. ](../../.gitbook/assets/image%20%2847%29.png)
+![Create LFC from Well Log Viewer &amp;gt;&amp;gt; Zones &amp;gt;&amp;gt; Context menu. ](../../.gitbook/assets/image%20%2848%29.png)
 
 **Seismic** volumes from the data Pool, can be displayed in their own track, by the same drag and drop action. The default location is the wellhead inline/xline location. The seismic track header context menu allows the user to change this to any map location, using the usual pipette, manual input methods or at defined well top.
 

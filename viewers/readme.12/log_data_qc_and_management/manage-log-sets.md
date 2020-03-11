@@ -20,11 +20,11 @@ The "Active" tick-box indicate which Log Set is used as default by Pre-Stack Pro
 All changes are saved when pressing Apply.   
 Log Sets are stored under each well in the File Manager and logs associated to this LogSet will show under that logset. If same log is used in different Log Sets it will appear multiple times.  
 
-![Create and manage Log Sets. Utility-&amp;gt;Manage LogSets](../../../.gitbook/assets/image%20%2821%29.png)
+![Create and manage Log Sets. Utility-&amp;gt;Manage LogSets](../../../.gitbook/assets/image%20%2822%29.png)
 
-![Create Log Sets from Well Log Viewer](../../../.gitbook/assets/image%20%2837%29.png)
+![Create Log Sets from Well Log Viewer](../../../.gitbook/assets/image%20%2838%29.png)
 
-![Create Log Set from &quot;Generate Synthetic Gather&quot;](../../../.gitbook/assets/image%20%2812%29.png)
+![Create Log Set from &quot;Generate Synthetic Gather&quot;](../../../.gitbook/assets/image%20%2813%29.png)
 
 ### Calculate Missing Log
 
@@ -33,7 +33,7 @@ Logs are saved under the current Log Set in the File Manager.
 
 NB. Calculate Missing Log will return an error if logs are not equally sampled and user will be asked to re-sample logs - see "Resample logs to common depth sampling"
 
-![Calculate Missing Elastic Logs from Utilities-&amp;gt;Log Set Manager](../../../.gitbook/assets/image%20%2865%29.png)
+![Calculate Missing Elastic Logs from Utilities-&amp;gt;Log Set Manager](../../../.gitbook/assets/image%20%2866%29.png)
 
 ### Resample logs to common depth sampling
 
@@ -41,7 +41,7 @@ The statistics \(bottom window of the Log Set Manager\) might show some sampling
 Sampling distance can be set \(default is 1/2foot sampling\)   
 A threshold value for any gaps in log \(i.e. no recorded data in log\) can be set, so that actually gaps in log are not re-sampled with interpolated values.
 
-![Resampling Well Logs in Log Set Manager](../../../.gitbook/assets/image%20%2833%29.png)
+![Resampling Well Logs in Log Set Manager](../../../.gitbook/assets/image%20%2834%29.png)
 
 ### Other Functionality
 

@@ -2,7 +2,7 @@
 
 In the **Input Setup** tab, the seismic data and litho-fluid classes to be used in the inversion are specified.
 
-![](../../../.gitbook/assets/image%20%2836%29.png)
+![](../../../.gitbook/assets/image%20%2837%29.png)
 
 _Graphical user interface for the Input Data tab_
 

@@ -8,15 +8,15 @@ Transition probabilities can be specified in two ways, and the choice affects th
 
 In the parametric specification, the mean thicknesses are still defined by the user per LFC, and they still determine the diagonal elements of the transition matrix. However, the prior marginal probabilities are now set for all samples by the user-defined prior model, and PCube+ internally determines transition matrices that would give rise to them.
 
-![](../../../.gitbook/assets/image%20%2825%29.png)
+![](../../../.gitbook/assets/image%20%2826%29.png)
 
-![](../../../.gitbook/assets/image%20%2860%29.png)
+![](../../../.gitbook/assets/image%20%2861%29.png)
 
 In the **Transition Probabilities** tab, there is a choice between using the parametric matrix method and the explicit.
 
 The user interface for the parametric method is seen in the figure below.
 
-![](../../../.gitbook/assets/image%20%2810%29.png)
+![](../../../.gitbook/assets/image%20%2811%29.png)
 
 _The Transition Probabilities window for the parametric transition matrix_
 
@@ -34,5 +34,5 @@ The _window length_ parameter is the number of samples used in the exhaustive se
 
 The user interface for the explicit transition matrix option is shown below.
 
-![User interface for defining the explicit transition matrices.](../../../.gitbook/assets/image%20%2840%29.png)
+![User interface for defining the explicit transition matrices.](../../../.gitbook/assets/image%20%2841%29.png)
 

@@ -32,13 +32,13 @@ The concept and smoothed models, seen to the right, are automatically updated as
 
 It is also possible to change the inline and crossline values when pre-viewing the concept and smoothed models.
 
-![](../../../.gitbook/assets/image%20%2841%29.png)
+![](../../../.gitbook/assets/image%20%2842%29.png)
 
 _Graphical user interface of the Background model_
 
 The next figure includes more details about the setup of the properties of the defined layers. Notice that the interpreted Top Frigg horizon is used as the input horizon for several layers. For each of these layers an offset value is also defined. All these horizons are therefore equal to the interpreted Top Frigg horizon + offset.
 
-![](../../../.gitbook/assets/image%20%283%29.png)
+![](../../../.gitbook/assets/image%20%284%29.png)
 
 _Layer data properties:_
 

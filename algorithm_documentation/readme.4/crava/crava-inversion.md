@@ -8,17 +8,17 @@ Since seismic data only contain information about relative elastic parameters, t
 
 Well data are selected by the user. Pre-defined logset or individual well logs can be used. 
 
-![](../../../.gitbook/assets/image%20%2811%29.png)
+![](../../../.gitbook/assets/image%20%2812%29.png)
 
 If many versions of the well log exist a drop down menu is activated  when "clicking" on the box
 
-![](../../../.gitbook/assets/image%20%2819%29.png)
+![](../../../.gitbook/assets/image%20%2820%29.png)
 
 ## Zone definition
 
 The  well log values are interpolated/extrapolated using surfaces. The twt interval between two surfaces defines a zone. The model will be generated from the Top surface/fixed time down to the base surface/fixed time It is recommended to use "match to volume"  using the inversion seismic volume to get the right inline/xline range.
 
-![](../../../.gitbook/assets/image%20%2818%29.png)
+![](../../../.gitbook/assets/image%20%2819%29.png)
 
 The **Hierarchy** defines which horizon to use if they intersect.  All the surfaces need to be given a unique Hierarchy number. The surface with highest number is given erosion priority one, while the surface with lowest priority is given priority n, where n is equal to the number of surfaces.
 
@@ -28,7 +28,7 @@ The full multizone background model is then made by joining the local background
 
 **Correlation structure** is used to guide the well log values between the horizons. Five different Correlation structures exist: " _Top conform, Base Conform, Top and Base Conform, Guide by one horizon, Guide by two horizons_".  Choose the one most similar to the geological structure in the zone.
 
-![](../../../.gitbook/assets/image%20%2846%29.png)
+![](../../../.gitbook/assets/image%20%2847%29.png)
 
 ## Parameter and Trends
 
@@ -40,15 +40,15 @@ The **filter type** used to create the low-frequency background model can be set
 
 The **Background trends** \(or depth trends\) from the elastic well logs  can be calculated and used in the background model. They are calculated for each zone and can be visualized for each zone or for the entire model. The trend is calculated using a pseudo time reference and can not be compared with the real time in the time calibrated well logs. If the user wants to compare the well logs and background trend in real twt then Save the Background trend in _Output setup tab._
 
-![](../../../.gitbook/assets/image%20%2816%29.png)
+![](../../../.gitbook/assets/image%20%2817%29.png)
 
 The small icon down to the left corner are used to save or load the Background Model Builder session.
 
-![](../../../.gitbook/assets/image%20%2815%29.png)
+![](../../../.gitbook/assets/image%20%2816%29.png)
 
 ## Output setup
 
 Choose the elastic background models to generate and save. It is also possible to save the _background trend_ and make a _copy of the log file_.
 
-![](../../../.gitbook/assets/image%20%2854%29.png)
+![](../../../.gitbook/assets/image%20%2855%29.png)
 
