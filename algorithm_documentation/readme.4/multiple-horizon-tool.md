@@ -67,13 +67,17 @@ After Gridding and Fix Crossings has been applied, the user can select which ver
 
 ## **The Section Panel**
 
-The **section view** displays the horizons in a vertical section, as either an inline, crossline or arbitrary path. Select the vertical section location by double clicking on the Map Panel OR selecting from the tree on the left.
+The **section view** displays the horizons in a vertical section, as either an inline, crossline or arbitrary path. Select the vertical section location by **double clicking on the Map Panel** OR **selecting from the tree** on the left.
 
-Horizons can be togged on/off in the table, they can also be removed and additional horizons loaded from the project. To change the colour of a horizon click on the colour icon in the table.
+![Change the vertical Section by clicking on the Map OR selecting from the pull down menu on the left](../../.gitbook/assets/mhtool_01_section_choose.jpg)
 
 ![](../../.gitbook/assets/mhtool_section_03.jpg)
 
-**The Data Table**
+The different versions of each Horizon can be toggled on/off in the table, with each version of the horizon being automatically assigned a contrasting colour. Next to each column for Input, Grid and FC is an "**eye**". Toggle the eye ON to show that version in the Section panel.
+
+ To change the colour of a horizon click on the colour icon in the table and select a new one.
+
+## **The Data Table**
 
 \*\*\*\*
 
