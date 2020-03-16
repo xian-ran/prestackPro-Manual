@@ -103,7 +103,7 @@ Click on the horizon name to shift its stratigraphic position in the table. Clic
 
 ![Stratigraphic order and Hierarchy in Multi Horizon Tools](../../.gitbook/assets/mhtool_fctable_06.jpg)
 
-## Stratigraphic Oder versus Hierarchy
+## Stratigraphic Order versus Hierarchy
 
 Stratigraphic order and Hierarchy achieve different results as follows:
 
@@ -113,13 +113,11 @@ Stratigraphic order and Hierarchy achieve different results as follows:
 
 ![Using Stratigraphic order and Hierarchy to change the Fixed Crossing results ](../../.gitbook/assets/mhtool_fc_model1_09.jpg)
 
-Grids and Fixed-Crossing horizons should be **quality controlled** both in the Section panel and the Map panel. Select the display horizon version from the drop-down menu in the table:
-
-![QC grids and fixed-crossing horizons in the Map window](../../.gitbook/assets/mhtoolqc_maps_10.jpg)
-
 ## Saving
 
-Save grids and/or fixed-crossing horizons to the project. By default grids are given the suffix **\_G** and the fixed-crossing horizons have the suffix **\_FC**
+Save grids and/or fixed-crossing horizons to the project. By default grids are given the suffix **\_G** and the fixed-crossing horizons have the suffix **\_FC.**
+
+**The names can be changed in the Data Table or when saving by clicking on the name.**
 
 ![Saving grids and fixed-crossing horizons](../../.gitbook/assets/image%20%2845%29.png)
 
