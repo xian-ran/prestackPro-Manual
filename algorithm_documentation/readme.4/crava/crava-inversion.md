@@ -14,6 +14,10 @@ If many versions of the well log exist a drop down menu is activated  when "clic
 
 ![](../../../.gitbook/assets/image%20%2820%29.png)
 
+It can be that the log is shorter than the [Zone definition](crava-inversion.md#zone-definition). The well path of each well is extended downwards, following the slope defined by the last two points of the path. This extension stops at the bottom boundary of the zone where the well path stops. Then the $$V_p$$log is extended down this new path using the last log value. The $$V_s$$ and $$\rho$$logs are extended with values computed from the Gardner and Castagna equations. Coefficients for both equations can be set in the **Output** tab. 
+
+![Setup of Castagna and Gardner equations for downward log extention](../../../.gitbook/assets/01_crava_output.JPG)
+
 ## Zone definition
 
 The  well log values are interpolated/extrapolated using surfaces. The twt interval between two surfaces defines a zone. The model will be generated from the Top surface/fixed time down to the base surface/fixed time It is recommended to use "match to volume"  using the inversion seismic volume to get the right inline/xline range.
