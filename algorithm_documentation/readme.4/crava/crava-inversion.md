@@ -14,7 +14,7 @@ If many versions of the well log exist a drop down menu is activated  when "clic
 
 ![](../../../.gitbook/assets/image%20%2820%29.png)
 
-It can be that the log is shorter than the [Zone definition](crava-inversion.md#zone-definition). The well path of each well is extended downwards, following the slope defined by the last two points of the path. This extension stops at the bottom boundary of the zone where the well path stops. Then the $$V_p$$log is extended down this new path using the last log value. The $$V_s$$ and $$\rho$$logs are extended with values computed from the Gardner and Castagna equations. Coefficients for both equations can be set in the **Output** tab. 
+It can be that the well path and/or log are shorter than the [Zone definition](crava-inversion.md#zone-definition). The well path of each well is extended downwards, following the slope defined by the last two points of the path. This extension stops at the bottom boundary of the zone where the well path ends. If the **Extend missing well logs** option is enabled, then the $$V_p$$log is extended down this new path using the last log value. The $$V_s$$ and $$\rho$$logs are extended with values computed from the Gardner and Castagna equations. Coefficients for both equations can be set in the **Output** tab. 
 
 ![Setup of Castagna and Gardner equations for downward log extention](../../../.gitbook/assets/01_crava_output.JPG)
 
