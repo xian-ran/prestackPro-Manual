@@ -78,7 +78,7 @@ This field displays the input gather with the Radon transform applied and is use
 
 Make a left mouse button click into the field to set a mute. Toggle between left and right mute by clicking the right mouse button and select from the menu. You can add mute knee points by clicking the left mouse button again. It is also possible to save or load mute tables \(right mouse button menu\).
 
-Adjustments to the color palette settings or the zoom function are similar to the **Input Gather** or **Viewer Window** settings. [Histogram ](../../viewers/old-3d-viewer/histogram_color_bar_and_transfer_function.md)
+Adjustments to the color palette settings or the zoom function are similar to the **Input Gather** or **Viewer Window** settings. [Histogram ]()
 
 **Part 4: Output Gather**
 
