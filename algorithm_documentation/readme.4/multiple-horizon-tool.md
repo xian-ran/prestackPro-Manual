@@ -1,10 +1,10 @@
 ---
-description: Gridding and fixing crossings for multiple horizons
+description: 'Gridding and fixing erroneous horizon cross-overs, in batch mode.'
 ---
 
-# Multiple Horizon Tool
+# Horizon Repair Tool
 
-Multiple Horizon Tools is designed to fill holes in horizons and fix crossing errors to generate complete grids acceptable for input to CRAVA and PCube+, in addition to general interpretation use. Multiple Horizon Tool is in the **Interpretation-Processing** menu and starts with an Add Horizons menu. 
+The Horizon Repair Tool is designed to fill holes in horizons and fix crossing errors to generate complete grids acceptable for input to CRAVA and PCube+, in addition to general interpretation use. The tool is in the **Interpretation-Processing** menu. 
 
 The workflow is as follows:
 
@@ -21,7 +21,7 @@ The two functions are:
 
 The user has the option to load a **CRAVA background model**, or select the horizons from the project. These can be in time OR depth, but cannot be pre-stack surfaces.  The  horizon selection can be changed by the user when using the tool, they are not fixed. Input horizons can be: manually picks, 3Dautotracked horizons, a combination of both, or a gridded horizon. 
 
-![Data selection, choose a CRAVA background model or select individual horizons.](../../.gitbook/assets/mhtool_00.jpg)
+![Horizon selection](../../.gitbook/assets/startup.png)
 
 The tool contains three parts:
 
@@ -29,11 +29,11 @@ The tool contains three parts:
 * **Data Table**: lists the horizons which must be in stratigraphic order. The table is filled in as _Gridding_ and _Fixed-Crossings_ is applied. 
 * **Section Panel**: displays all the horizons in a vertical section which updates automatically as _Gridding_ and _Fixed-Crossings_ is applied.
 
-**The menu at the top of the Tool contains data selection, saving,defining the checking area, running gridding and fixed-crossings:**
+**The menu at the top of the Tool** contains data selection, saving horizons, defining the checking area, running gridding and fixed-crossings, settings to change suffixes, help, and Map and Section layout options.
 
-![Main Menu](../../.gitbook/assets/mhtool_menu_02.jpg)
+![Menu icons](../../.gitbook/assets/menu.png)
 
-**Add Horizons:** Horizons can be added to the table at any point. The Data Table then updates automatically, recalculating whether holes are present, if the horizons cross each other, and the thickness-ratio.
+**Add Horizons:** Horizons can be added to the table at any point. The Data Table then updates automatically, recalculating whether holes are present, if the horizons cross each other, and their thickness-ratios.
 
 **Save**: The user has the option to save the gridded horizons and/or the fixed-crossing horizons.
 
@@ -42,6 +42,12 @@ The tool contains three parts:
 **Gridding**: The function which grids all the horizons in the table using ABOS.
 
 **Fixed-Crossings**: All horizons are analysed for whether or not they cross each other. According to the priority defined by the stratigraphic order and hierarchy the horizons are edited so they do not cross each other.
+
+**Edit Settings:** change the auto-suffix applied in the table. This can also be edited when saving. Horizon names can be individually changed inside the table and at the point of saving.
+
+Help: shows the information pop-up
+
+**Tabbed Layout:** options to change the layout of the Map and Section tabs. By default the section is in a separate tab. Other options are to display them in the same tab horizontally or vertically.
 
 ## Checking Area
 
@@ -59,11 +65,11 @@ The checking area is shown in the Map Panel as a red box.
 
 The Map panel display the horizon highlighted in the Data Table, with the _Checking Area_ shown as a red box. To change the horizon click on a different row in the table. 
 
-To **remove** a horizon right-click on it in the table and select remove. To **add** a horizon, click on the icon in the menu and select horizons from the project, these will be added to the table.
+To **remove** a horizon right-click on it in the table and select remove. To **add** a horizon, click on the icon in the menu and select horizons from the project, these will be added to the table. To **shift** a horizon use the icons on the left of the table, or right-click and move.
 
 After Gridding and Fix Crossings has been applied, the user can select which version of a horizon to display in the Map panel. The table contains a column "**Show in Map**", choose from a pull-down menu the version of that horizon to be displayed in the Map panel.
 
-![](../../.gitbook/assets/mhtool_01_map.jpg)
+![Horizon display controls for the Map panel](../../.gitbook/assets/horizons.png)
 
 ## **The Section Panel**
 

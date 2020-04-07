@@ -260,7 +260,7 @@
       * [Snap / Extend to Pre-Stack](algorithm_documentation/readme.4/readme.16/extend_horizon_to_pre-stack.md)
       * [Horizon Calculator](algorithm_documentation/readme.4/readme.16/horizon_calculator.md)
       * [Time / Depth Conversion](algorithm_documentation/readme.4/readme.16/time__depth_conversion.md)
-    * [Multiple Horizon Tool](algorithm_documentation/readme.4/multiple-horizon-tool.md)
+    * [Horizon Repair Tool](algorithm_documentation/readme.4/multiple-horizon-tool.md)
     * [Manual Horizon Picking](algorithm_documentation/readme.4/manual-horizon-picking.md)
     * [Wavelet tool](algorithm_documentation/readme.4/readme.17/README.md)
       * [Introduction and working with the tool](algorithm_documentation/readme.4/readme.17/introduction_and_working_with_the_tool.md)
