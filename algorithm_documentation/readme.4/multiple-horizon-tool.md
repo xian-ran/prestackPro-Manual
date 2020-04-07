@@ -1,5 +1,5 @@
 ---
-description: 'Gridding and fixing erroneous horizon cross-overs, in batch mode.'
+description: 'Gridding and fixing erroneous, horizon cross-overs, in batch mode.'
 ---
 
 # Horizon Repair Tool
