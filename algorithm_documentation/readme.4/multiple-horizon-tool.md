@@ -83,6 +83,14 @@ The different versions of each Horizon can be toggled on/off in the table, with 
 
  To change the colour of a horizon click on the colour icon in the table and select a new one.
 
+To display seismic in the Section Panel toggle ON **show seismic**
+
+![Show seismic in the Section Panel](../../.gitbook/assets/seismic_in_section.png)
+
+Change the _tabed layout_  to display the Map and Section Panels side-by-side.
+
+![Layout options to show the Map and Section panel side-to-side](../../.gitbook/assets/section-layouts.png)
+
 ## **The Data Table**
 
 The Data Table lists all of the horizons and their different versions: input, grid and fixed-crossing. The names of the gridded and fixed-crossing versions can be changed by double-clicking in the cell.
